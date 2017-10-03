@@ -1,0 +1,499 @@
+	.rate-holder {
+		min-width: 225px;
+		padding: 0;
+		margin-top: 2.5rem;
+		@include media-breakpoint-up (md) {
+			margin-top: 0;
+			position: absolute;
+			bottom: 3.750rem;
+			left: -11.250rem;
+		}
+		@include media-breakpoint-up (xl) {
+			left: -8.250rem;
+		}
+		@media (min-width: 1360px){
+			left: -11.250rem;
+		}
+		&:before {
+			content: normal;
+		}
+		&:after {
+			@include decoration(117px, 4px, $white, 3px, 0, auto, auto);
+			@include media-breakpoint-down (sm) {
+				content: normal;
+			}
+		}
+		a {
+			text-decoration: none;
+		}
+		h4 {
+			color: $white;
+			text-transform: uppercase;
+			font-weight: 700;
+			line-height: 1rem;
+		}
+		.tonight-rate {
+			font-family: $oggroman;
+			font-size: $type-size-3;
+			color: $secondary-color;
+		}
+		.tonight-rate-checkavail {
+			font-family: $oggroman;
+			font-size: 1.8rem;
+			color: $secondary-color;
+		}
+		&.bottom-line {
+		h4 {
+			position: relative;
+			padding: 0 0 1.375rem 0;
+			color: $white;
+			&:after {
+				@include decoration(52px, 3px, $white, auto, auto, 0, 0);
+			}
+		}
+		}
+	}
+/* Room details */
+.sub-nav {
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	@include media-breakpoint-up(xl) {
+		margin: 0 9rem;
+	}
+		li {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			font-family: $caption-font-family;
+			font-size: $type-size-7;
+			color: $heading-color;
+			text-transform: uppercase;
+			letter-spacing: 0.150rem;
+			display: inline-block;
+			font-weight: 700;
+				a {
+					color: $white;
+					padding: 1.8rem 0.813rem 1.4rem 0.813rem;
+					display: block;
+					position: relative;
+					transition: $global-transition; 
+						&:hover {
+							text-decoration: none;
+							&:before {
+								opacity: 1;
+								top: 0;
+								bottom: auto;	
+							}
+						}
+						&:before {
+							@include decoration(3px, 16px, $white, 1rem, 0, 0, 0);
+							opacity: 0;
+							transition: $global-transition;
+						}
+						&.active {
+							&:before {
+								top: 0;
+								opacity: 1;
+							}
+						}
+				}
+		}
+}
+.empty-banner {
+	.empty-banner-container {
+		@extend .container-fluid;
+		@extend .no-padding;
+		@include media-breakpoint-up(md) {
+			margin-left: 9rem;
+		}
+		.empty-banner-row {
+			@extend .row;
+			@extend .no-margin;
+			height: 350px;
+			position: relative;
+			@include media-breakpoint-up(lg) {
+				height: 630px;
+			}
+		}
+	}
+	#photosSlider{
+		.carousel-item{
+			height:630px;
+			@include media-breakpoint-down(xs) {
+				height: 300px;
+			}
+		}
+	}
+} 
+.room-info {
+	padding: 3rem 0 3rem 0;
+	@include media-breakpoint-up(md) {
+	padding: 5.313rem 0 5.313rem 0;		
+	}
+	.container-fluid {
+		@extend .no-padding;
+	}
+	.rd-row {
+		@extend .row;
+		margin-left: 15px;
+		margin-right: 15px;
+		@include media-breakpoint-up(md) {
+			margin-left: 3.750rem;
+		margin-right: 14.375rem;
+	}
+	}
+	.rd-left {
+		@extend .col-md-2;
+		@extend .no-padding;
+	}
+	.rd-right {
+		@extend .col-md-10;
+		@extend .no-padding;
+	}
+	.rate-holder {
+		position: static;
+		@include media-breakpoint-down(sm) {
+			margin-top: 0;
+		}
+		&:after {
+			content: normal;
+		}
+	}
+	.tonight-rate-checkavail {
+		max-width: 125px;
+	}
+	.room-des {
+		padding-top: 2rem;
+		@include media-breakpoint-up(md) {
+			padding-top: 0;
+		}
+		h2 {
+			padding: 0 0 1.8rem 0;
+			max-width: 225px;
+			color: $white;
+		}
+		.discount {
+				font-family: $header-font-family;
+				font-size: $type-size-3;
+				color: $secondary-color;
+			}
+	}
+}
+
+.room-features-container {
+	@extend .container-fluid;
+	@extend .no-padding;
+	.room-features-row {
+		@extend .row;
+		@extend .no-margin;
+		min-height: 326px;
+	}
+	.left-coloumn {
+		@extend .col-md-5;
+		@extend .no-padding;
+		@include media-breakpoint-down(sm) {
+			height: 300px;
+		}
+	}
+	.center-coloumn {
+		@extend .col-md-3;
+		@extend .no-padding;
+		@include media-breakpoint-up(md) {
+		border-left: solid 2rem $body-color;
+		}
+		@include media-breakpoint-down(sm) {
+			height: 300px;
+		}
+	}
+	.right-coloumn {
+		@extend .col-md-4;
+		@extend .no-padding;
+		padding: 3rem 15px 0 15px;
+			@include media-breakpoint-up(md) {
+				padding: 0;
+			}
+	}
+	.rate-holder {
+		position: static;
+		min-width: auto;
+		margin: 0 auto;
+		@include media-breakpoint-up(md) {
+			max-width: 190px;
+		}
+		&:after {
+			content: normal;
+		}
+		h4 {
+			width: 120px;
+				&:after {
+					background-color: $white;
+				}
+		}
+	}
+}
+
+.more-rooms {
+	background-color: $grey-color;
+	padding: 3.125rem 0 3.750rem 0;
+	margin: 2rem 0 0 0;
+	@extend .rooms-suites;
+	background-image: none;
+		h2 {
+			text-align: center;
+			@extend .col-sm-12;
+		}
+		.more-rooms-control {
+			@extend .col-sm-12;
+		}
+		.more-rooms-list {
+			@extend .col-sm-12;
+		}
+		.wrapper {
+			.rooms-suites-nav {
+				margin-top: 1.4rem;
+				margin-bottom: 2rem;
+				text-align: center;
+			}
+			#more-assets {
+				@extend #rooms-suites-carousel;
+				max-width: 870px;
+				margin: 0 auto;
+				.caption {
+					background-color: transparent;
+				}
+			}
+		}
+		.btn-holder {
+			text-align: center;
+			.btn-outline-black {
+				min-width: 170px;
+			}
+		}
+}
+
+/* Offer Details */
+.offer-details {
+	@extend .exclusive-offers;
+	background-color: $grey-color;
+	padding: 3.125rem 0 3.750rem 0;
+	margin: 2rem 0 0 0;
+	h2 {
+			text-align: center;
+			@extend .col-sm-12;
+		}
+	.exclusive-offers-nav {
+		margin-top: 1rem;
+		text-align: center;
+		padding-right: 0;
+	}
+	.other-offers {
+		.btn-holder {
+			text-align: center;
+			padding: 5.625rem 0 4.375rem 0;
+			.btn-outline-black {
+				min-width: 170px;
+			}
+		}
+	}
+}
+.inner-bokking-widget {
+	position: absolute;
+	bottom: 0;
+	right: 9rem;
+	width: 457px;
+	height: 307px;
+	background-color: $white-transparent;
+	padding: 2.100rem 3.125rem;
+	.inputbox-row {
+		padding: 0 0 8px 0;
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}
+	.inputbox-holder {
+		width: 50%;
+		float: left;
+		label {
+			font-family: $caption-font-family;
+			font-size: 12px;
+			color: $bw-label;
+			letter-spacing: 1px;
+			height: 18px;
+		}
+		&.right-space {
+			padding-right: 11px;
+		}
+		&.left-space {
+			padding-left: 11px;
+		}
+		.input-wrap {
+			position: relative;
+		}
+		.inputbox {
+			border: solid 1px $black;
+			box-shadow: none;
+			height: 43px;
+			font-family: $caption-font-family;
+			font-size: 18px;
+			display: block;
+			background-color: transparent;
+			width: 100%; 
+			padding: 0 1rem;
+			border-radius: 0;
+			color: $black;
+				&:focus {
+					outline: none;
+					box-shadow: none;
+				}
+		}
+			.toggler {
+					position: absolute;
+					bottom: 0;
+					top: 0;
+					cursor: pointer;
+					width: 40px;
+					color: $black;
+					text-align: center;
+					line-height: 43px;
+					border: none;
+					background-color: transparent;
+					box-shadow: none;
+					border-radius: 0;
+						&.toggler-left {
+							left: 0;
+						}
+						&.toggler-right {
+							right: 0;
+						}
+					&:focus {
+						outline: none;
+						box-shadow: none;
+					}
+				}
+					.center-text {
+						text-align: center;
+					}
+			.check-rate-btn {
+				background-color: $secondary-color;
+				border-radius: none;
+				color: $white;
+				font-family: $caption-font-family;
+				font-size: 13px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				border: none;
+				height: 43px;
+				width: 100%;
+				cursor: pointer;
+				margin-top: -3px;
+				transition: $global-transition;
+				position: relative;
+					&:hover {
+						background-color: $black;
+					}
+			}
+	}
+}
+
+/* New styles for room listing */
+
+.rooms-wrapper {
+	padding: 5rem 0 0 0;
+	.assets-item {
+		padding: 0 0 5rem 0;
+			&.even {
+				.assets-image {
+					margin-right: 0;
+					@include media-breakpoint-up(md) {
+						margin-left: 4rem;
+					}	
+				}
+				.assets-content {
+					@include media-breakpoint-up(md) {
+						float: right;
+						text-align: right;
+					}
+						h4 {
+							&:before {
+								@include decoration(117px, 3px, $white, 3px, -140px, auto, auto);
+								@include media-breakpoint-down(sm) {
+									content: normal;
+								} 
+							}
+						}
+				}
+			}
+	}
+	.assets-container {
+		@extend .container-fluid;
+	}
+	.assets-row {
+		@extend .row;
+		max-width: 1170px;
+		margin: 0 auto;
+	} 
+	.assets-left {
+		@extend .col-md-7;
+		@extend .no-padding;
+	}
+	.assets-right {
+		@extend .col-md-5;
+		@extend .no-padding;
+	}
+	.assets-image {
+		margin-bottom: 3rem;
+		@include media-breakpoint-up(md) {
+			margin-right: 4rem;
+			margin-bottom: 0rem;
+		}
+		position: relative;
+		 img {
+			 width: 100%;
+		 }
+		.btn-holder {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+	}
+		.assets-content {
+			max-width: 300px;
+			h2 {
+				padding: 0 0 1rem 0;
+			}
+			p {
+				padding: 0 0 1rem 0;
+			}
+			a {
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			h4 {
+				color: $white;
+				position: relative;
+				&:before {
+					@include decoration(117px, 3px, $white, 3px, auto, auto, -140px) 
+				}
+				span {
+					    font-family: $oggroman;
+						color: $heading-color;
+						display: inline-block;
+						padding: 10px 0 0 0;
+					&.tonight-rate{
+						font-size: $type-size-3;
+					}
+					&.tonight-rate-checkavail{
+						font-size: 1.8rem;
+					}
+				}
+				
+			}
+			.link-holder {
+				margin: 2rem 0 0 0;
+			}
+		}
+}

@@ -1,0 +1,120 @@
+---
+layout: default
+title: Offers
+description:
+permalink: /offer/
+---
+
+<div class="loading" style="display:block">Loading&#8230;</div>
+
+<section rt3-special-rates="offers" ng-controller="offerDetail">
+
+  <section class="sub-header">
+    <div class="sub-header-row">
+      <div class="sub-header-left">
+        <h1>Special<br>Offers</h1>
+      </div>
+      <!-- <div class="sub-header-right">
+      <ul class="sub-header-nav">
+        <li class="">
+          <a href="#">
+           <h4 class="sr-no">01</h4>
+           <h4 class="text-uppercase">Newsletter<br>Signup</h4>
+         </a>
+        </li>
+      </ul>
+    </div> -->
+    </div>
+  </section>
+
+  <div class="sub-header-decoration"></div>
+
+  <ul class="sub-nav">
+    <li ng-repeat="offer in offers.navOffers"><a ng-href="/offer/#[[ offer.rate_plan_name | formatNameForLink ]]" ng-class="{'active': $index ==0}" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></a></li>
+  </ul>
+
+  <section class="empty-banner border-left">
+    <div class="empty-banner-container">
+      <div class="empty-banner-row bg-cover" ng-style="{'background-image': 'url('+offers.sRdetail.lead_photo_url.large+' )'}"></div>
+    </div>
+  </section>
+
+  <div class="room-info">
+    <div class="container-fluid">
+      <div class="rd-row">
+
+        <div class="rd-left">
+          <div class="rate-holder bottom-line">
+            <h4>About This<br>Offer</h4>
+          </div>
+        </div>
+
+        <div class="rd-right">
+          <div class="room-des">
+            <h2 ng-bind-html="offers.sRdetail.rate_plan_name | renderHTMLCorrectly"></h2>
+            <p ng-bind-html="offers.sRdetail.long_description | renderHTMLCorrectly"></p>
+            <div class="btn-holder">
+              <a ng-href="[[ offers.sRdetail.promo_url ]]" target="_blank" class="btn-outline-black">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <section class="room-features-container border-right">
+    <div class="room-features-row">
+      <div class="left-coloumn bg-cover" style="background-image:url(/assets/images/rooms/room-feature-1.jpg);"></div>
+      <div class="center-coloumn bg-cover" style="background-image:url(/assets/images/rooms/room-feature-2.jpg);"></div>
+      <div class="right-coloumn align-self-center">
+        <div class="rate-holder bottom-line">
+          <!--<h4>Amenities</h4>-->
+          <p ng-repeat="addon in offers.sRdetail.addons">[[ addon ]]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer-details top-padding">
+
+    <h2>More Exclusive Offers</h2>
+
+    <div class="wrapper">
+      <div class="exclusive-offers-nav">
+        <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span>
+        <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span>
+      </div>
+    </div>
+
+    <div class="wrapper other-offers">
+      <div class="container">
+        <div id="exclusive-offers-carousel" class="owl-carousel owl-theme">
+          <div class="item" ng-style="{'background-image': 'url([[ offer.lead_photo_url.yankee_large || '/assets/images/dummy.jpg' ]] )'}" ng-repeat="offer in offers.special_rates | filter : {'rate_plan_code': '!'+offers.sRdetail.rate_plan_code} ">
+            <div class="grey-overlay">
+              <a ng-href="[[ offer.promo_url ]]" class="link-text" title="Check Offer Rate">Check Rate</a>
+              <div class="offer-cta">
+                <div class="btn-holder"><a ng-href="/offer/#[[ offer.rate_plan_name | formatNameForLink ]]" class="btn-outline" title="[[ offer.rate_plan_name | renderHTMLCorrectly ]]" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></a></div>
+              </div>
+              <a ng-href="/offer/#[[ offer.rate_plan_name | formatNameForLink ]]" class="link-text" title="View This Offer">View This Offer</a>
+              <!-- <div class="offer-text">
+	                   	    		<p>UP TO 35% OFF</p>
+	                   	    	</div> -->
+            </div>
+          </div>
+
+        </div>
+        <div class="btn-holder"><a href="{{ site.pagelink.offers }}" class="btn-outline-black">View All</a></div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="cta bg-cover" style="background-image:url(/assets/images/offers/offer-details-cta.jpg); background-attachment:fixed;">
+    <div class="bg-overlay"></div>
+    <div class="logo-holder"><a href="/"><img src="/assets/images/royalton-logo-white.png" alt="Royalton NYC"></a></div>
+    <div class="btn-holder"><a href="{{ site.reztripUrl }}" class="btn-outline">Be a part of it</a></div>
+    <div class="cta-text"><a href="https://royaltonhotel.reztrip.com">Book Now</a></div>
+  </section>
+
+</section>

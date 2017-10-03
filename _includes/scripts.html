@@ -1,0 +1,39 @@
+<script>
+    function getIp(data){
+    sessionStorage.ip_add =  data.ip;
+    }
+</script>
+<script src="https://api.ipify.org?format=jsonp&callback=getIp"></script>
+<script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
+
+<!--New Booking Widget-->
+
+<script src="https://plugins.traveltripper.io/v2/rt3api.js"></script> 
+<script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script> 
+<script>
+   
+    TTWeb.Config.configure({
+      hotelId: 'NYCROY', //'orwhatever your values are',
+      portalId: 'royaltonhotel',
+      defaultTimezone: 'America/New_York', // timezone of site
+      ipAddress: sessionStorage.ip_add,
+      defaultCurrency: 'USD'
+    });
+    
+
+    $("[show-booking-widget]").bookingWidget({
+         //showRateCalendar: true,
+         showOfferCode: true          
+    });
+</script>
+
+{% if site.data.api-keys.maps.google.enabled != false %}
+    <script type="text/javascript" src="//maps.google.com/maps/api/js?key={{ site.data.api-keys.maps.google.api-key }}"></script>
+{% endif %}
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="{{ '/assets/js/ie10-viewport-bug-workaround.js' | absolute_url }}"></script>
+ 

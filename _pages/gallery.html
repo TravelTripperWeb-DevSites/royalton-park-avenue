@@ -1,0 +1,75 @@
+---
+title_localized:
+  en: Boutique NYC Hotel Photos | Royalton Hotel Gallery
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/gallery/"
+meta_description_localized:
+  en: Enjoy a virtual tour of the stunning Royalton Hotel in midtown Manhattan. View
+    the boutique rooms and suites or take a look at some of NYC's many attractions!
+meta_keywords_localized:
+  en: 
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+<section class="sub-header">
+  <div class="sub-header-row">
+    <div class="sub-header-left">
+      <h1>Image<br>Gallery</h1>
+    </div>
+    <!--div class="sub-header-right">
+      <ul class="sub-header-nav">
+        <li class="active">
+          <a href="#">
+           <h4 class="sr-no">01</h4>
+           <h4 class="text-uppercase">Follow<br>Instagram</h4>
+         </a>
+        </li>
+      </ul>
+    </div-->
+  </div>
+</section>
+<div class="sub-header-decoration"></div>
+<section class="gallery-wrapper"> 
+ <div class="gallery-listing">
+      <div class="container">
+        <ul class="sub-nav">
+          <li><a href="javascript:;" class="filter active"  data-filter="all" data-rel="all" >All</a></li>
+          <li><a href="javascript:;"  class="filter" data-rel="rooms">Rooms & Suites</a></li>
+          <li><a href="javascript:;"  class="filter" data-rel="hotel">Hotel</a></li>
+          <li><a href="javascript:;"  class="filter" data-rel="dining">Eat & Drink</a></li>
+          <li><a href="javascript:;"  class="filter" data-rel="location">location</a></li>
+        </ul>
+      </div>
+      <div class="container no-padding gallery-wrap" id="lightgallery">
+        <div class="card-columns">
+          {% assign galleries = site.data._models.gallery %}
+          {% for gallery in galleries %} 
+			<div class="card item fancybox" data-filter="{{ gallery.category }}"  data-src="{{ gallery.gallery_image.url }}" data-sub-html="{{ gallery.image_caption }}">
+				<img src="{{ gallery.gallery_image.url }}" alt="{{gallery.image_caption}}" class="img-responsive"/>
+				<div class="overlay">
+					<!-- <ul class="social-share">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul> -->
+					<div class="zoom-in"><img src="../assets/images/plus.png" alt="Zoom In"/></div>
+					<div class="img-title">
+						<hr>
+						<h4>{{ gallery.category }}</h4>
+						<h2>{{gallery.image_caption}}</h2>
+					</div>
+				</div>
+			</div>
+          {% endfor %}        
+       </div>
+      </div>
+    </div>
+</section>

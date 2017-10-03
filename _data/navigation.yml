@@ -1,0 +1,16 @@
+main:
+  - title: About
+    url: /about/ 
+  - title: Offers
+    url: /offers/    
+  - title: Rooms & Suites
+    url: /rooms-and-suites/ 
+  - title: Eat & Drink
+    url: /eat-and-drink/ 
+  - title: Location
+    url: /location/ 
+  - title: Gallery
+    url: /gallery/
+  - title: Contact
+    url: /contact/
+    

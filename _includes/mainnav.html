@@ -1,0 +1,28 @@
+{% assign menuitems = site.data.navigation.main %}
+
+<nav class="navbar navbar-expand-md {%if page.parent =="home" %}home-nav{%endif%} navbar-inverse" role="navigaton" aria-label="Primary">
+    <button class="navbar-toggler navbar-toggler-left collapsed" type="button" title="Hamburger Menu" name="Hamburger Menu" aria-label="Hamburger Menu" data-toggle="collapse" data-target="#collapsingNavbar">
+           <span class="close-toggle"> </span>
+           <span class="navbar-toggler-icon"></span> 
+    </button>
+    
+    <a class="navbar-brand" href="/" title="Back to home">
+     {%if page.parent =="home" %}
+     <img src="/assets/images/logo.png" alt="{{ site.title }}" class="img-fluid">
+     {%else%}
+     <img src="/assets/images/logo.png" alt="{{ site.title }}" class="img-fluid">
+     {%endif%}
+     </a>
+
+    <div class="collapse navbar-collapse" id="collapsingNavbar">
+	<ul class="navbar-nav mr-auto">
+	    {% for item in menuitems %}
+	    <li class="nav-item {% if page.url == item.url %}active{% endif%}">
+		<a class="nav-link" href="{{item.url | absolute_url}}">{{ item.title }} {% if page.url==item.url %}<span class="sr-only">(current)</span>{% endif%}</a>
+	    </li>
+	    {% endfor %}
+	</ul>
+    </div>
+    <a class="btn-black" role="button" href="javascript:void(0)" title="Book Now" show-booking-widget> Book Now</a>
+</nav>
+ 

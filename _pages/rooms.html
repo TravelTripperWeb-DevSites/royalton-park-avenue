@@ -1,0 +1,97 @@
+---
+title_localized:
+  en: Boutique Manhattan Hotel Accommodation | Royalton Hotel
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/rooms-and-suites/"
+meta_description_localized:
+  en: Take a look at the stylish boutique accommodations available when you stay at
+    the Royalton Hotel in New York, from our Standard rooms to Penthouse Suites.
+meta_keywords_localized:
+  en: 
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+<div class="page-banner" style="background-image: url('https://cdn.traveltripper.io/site-assets/32_701_5687/media/2017-07-29-095045/Royalton-Guestroom-Fireplace-web.jpg');">
+  <h1>Rooms &<br>
+    Suites</h1>
+</div>
+
+<section>
+
+  <!--<section class="sub-header">
+  <div class="sub-header-row">
+    <div class="sub-header-left">
+      <h1>Rooms &<br>Suites</h1>
+    </div>
+     <div class="sub-header-right">
+      <ul class="sub-header-nav">
+        <li ng-repeat="cat in browser.roomCategories" ng-class="{'active': cat == selectedCat}" >
+          <a href="" ng-click="setCategory(cat)" >
+           <h4 class="sr-no">[[$index +1 ]]</h4>
+           <h4 class="text-uppercase">[[cat]]</h4>
+         </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>-->
+
+  <!--<div class="sub-header-decoration"></div>-->
+
+  <!-- <section class="rooms">
+  <div class="room-item" ng-class="{'border-left' : $even, 'border-right even': $odd}" ng-repeat="room in browser.roomsList">
+      <div class="room-row">
+        <div class="room-holder" ng-class="{'push-lg-6' : $odd}">
+          <div class="room-img">
+             <a href="" class="org-overlay"></a>
+            <div class="title-holder">
+              <h2 ng-bind-html="room.name | renderHTMLCorrectly"></h2>
+              <div class="btn-holder"><a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank" class="btn-outline-black">Book [[room.name | roomOrSuite]]</a></div>
+            </div>
+            <img ng-src="[[room.photos[0].yankee_large]]" alt="[[room.name]]">
+            <div class="rate-holder">
+          <a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">
+            <h4>Tonight’s<br>Rate</h4>
+            <div class="tonight-rate">[[room.todayRate]]</div>
+          </a>
+        </div>
+          </div>
+        <div class="link-holder"><a ng-href="/room/#[[room.name | formatNameForLink]]" class="link-text">View This [[room.name | roomOrSuite]]</a></div>
+        </div>
+      </div>
+  </div>
+</section> -->
+
+  <section class="rooms-wrapper">
+    <div class="assets-item" ng-class="{'border-left' : $even, 'border-right even': $odd}" ng-repeat="room in browser.roomsList">
+      <div class="assets-container">
+        <div class="assets-row">
+          <div class="assets-left" ng-class="{'push-md-5' : $odd}">
+            <div class="assets-image"><img ng-src="[[room.photos[0].large]]" alt="[[room.name]]">
+              <div class="btn-holder"><a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" class="btn-fill">Book [[room.name | roomOrSuite]]</a></div>
+            </div>
+          </div>
+          <div class="assets-right align-self-center" ng-class="{'pull-md-7' : $odd}">
+            <div class="assets-content">
+              <h2 ng-bind-html="room.name | renderHTMLCorrectly"></h2>
+              <p ng-bind-html="room.short_description | renderHTMLCorrectly"></p>
+              <h4><a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">Tonight's Rate<br>
+        <span ng-class="{'tonight-rate-checkavail': room.todayRate == 'Check Availability','tonight-rate': room.todayRate != 'Check Availability'}">[[room.todayRate]]</span></a></h4>
+              <div class="link-holder"><a ng-href="/room/#[[room.name | formatNameForLink]]" class="link-text">View This [[room.name | roomOrSuite]]</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</section>

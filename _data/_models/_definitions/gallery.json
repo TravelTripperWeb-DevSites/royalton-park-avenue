@@ -1,0 +1,22 @@
+{
+  "gallery_image": {
+    "type": "image",
+    "label": "Image",
+    "required": true
+  },
+  "image_caption": {
+    "type": "text",
+    "label": "Image Caption",
+    "required": true
+  },
+  "alt_tag": {
+    "type": "text",
+    "label": "Image Alt Tag",
+    "required": true
+  },
+  "category": {
+    "type": "text",
+    "label": "Image Category",
+    "required": true
+  }
+}

@@ -1,0 +1,10 @@
+# Advertising Providers
+ads:
+  voyat:
+    enabled              : false # false (default), true to enable
+  stay-wonderful:
+    enabled              : false
+    hotel-id             : 
+  facebook:
+    enabled              : false
+    pixel-id             : 

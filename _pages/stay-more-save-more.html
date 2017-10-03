@@ -1,0 +1,92 @@
+---
+title_localized:
+  en: Stay More Save More
+label_localized:
+  en:
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/stay-more-save-more/"
+meta_description_localized:
+  en:
+meta_keywords_localized:
+  en:
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+---
+
+<section class="landing">
+
+  <section class="sub-header">
+    <div class="sub-header-row">
+      <div class="sub-header-left">
+        {% regionblock title_page, type: header %}
+          <h1>Special<br>Offers</h1>
+        {% endregionblock %}
+      </div>
+    </div>
+  </section>
+
+  <section class="empty-banner border-left">
+    <div class="empty-banner-container">
+      <div class="empty-banner-row bg-cover" style="background-image:url('https://cdn.traveltripper.io/site-assets/32_701_6607/media/2017-08-24-134657/Royalton-Guestroom-Deluxe-King-1202-1-web.jpg');"></div>
+    </div>
+  </section>
+
+  <div class="room-info">
+    <div class="container-fluid">
+      <div class="rd-row">
+
+        <div class="rd-left">
+          <div class="rate-holder bottom-line">
+            {% regionblock title_about_left, type: header %}
+              <h4>About This<br>Offer</h4>
+            {% endregionblock %}
+          </div>
+        </div>
+
+        <div class="rd-right">
+          <div class="room-des">
+            {% regionblock title_about_right, type: header %}
+              <h2>About Title</h2>
+            {% endregionblock %}
+            {% regionblock content_about, type: text %}
+              <p>About body text.</p>
+            {% endregionblock %}
+            <div class="btn-holder">
+              <a href="https://royaltonhotel.reztrip.com/ext/promoRate?property=1444&mode=b&pm=true&sr=262023&vr=3" target="_blank" class="btn-outline-black">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <section class="room-features-container border-right">
+    <div class="room-features-row">
+      <div class="left-coloumn bg-cover" style="background-image:url('/assets/images/rooms/room-feature-1.jpg');"></div>
+      <div class="center-coloumn bg-cover" style="background-image:url('/assets/images/rooms/room-feature-2.jpg');"></div>
+      <div class="right-coloumn align-self-center">
+        <div class="rate-holder bottom-line">
+          {% regionblock title_features, type: header %}
+            <h4>Features Title</h4>
+          {% endregionblock %}
+          {% regionblock content_features, type: text %}
+            <p>Features body text.</p>
+          {% endregionblock %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta bg-cover" style="background-image:url(/assets/images/offers/offer-details-cta.jpg); background-attachment:fixed;">
+    <div class="bg-overlay"></div>
+    <div class="logo-holder"><a href="/"><img src="/assets/images/royalton-logo-white.png" alt="Royalton NYC"></a></div>
+    <div class="btn-holder"><a href="{{ site.reztripUrl }}" class="btn-outline">Be a part of it</a></div>
+    <div class="cta-text"><a href="https://royaltonhotel.reztrip.com">Book Now</a></div>
+  </section>
+
+</section>

@@ -1,0 +1,191 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  page                       : "Page"
+  pagination_previous        : "Previous"
+  pagination_next            : "Next"
+  menu_label                 : "Toggle Menu"
+  toc_label                  : "On This Page"
+  ext_link_label             : "Direct Link"
+  share_on_label             : "Share on"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categories:"
+  date_label                 : "Updated:"
+  more_label                 : "Learn More"
+  related_label              : "You May Also Enjoy"
+  follow_label               : "Follow:"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recent Posts"
+  loading_label              : "Loading..."
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# --------------
+es: &DEFAULT_ES
+  page                       : "Página"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Siguiente"
+  menu_label                 :
+  toc_label                  : "Contenidos"
+  ext_link_label             : "Enlace"
+  share_on_label             : "Compartir"
+  meta_label                 :
+  tags_label                 : "Etiquetas:"
+  categories_label           : "Categorías:"
+  date_label                 : "Actualizado:"
+  more_label                 : "Ver más"
+  related_label              : "Podrías ver también"
+  follow_label               : "Seguir:"
+  website_label              : "Sitio web"
+  email_label                : "Email"
+  recent_posts               : "Entradas recientes"
+  loading_label              :
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
+
+# French
+# -----------------
+fr: &DEFAULT_FR
+  page                       : "Page"
+  pagination_previous        : "Précédent"
+  pagination_next            : "Suivant"
+  menu_label                 :
+  toc_label                  : "Sur cette page"
+  ext_link_label             : "Lien direct"
+  share_on_label             : "Partager sur"
+  meta_label                 :
+  tags_label                 : "Tags :"
+  categories_label           : "Catégories :"
+  date_label                 : "Mis à jour :"
+  more_label                 : "Lire plus"
+  related_label              : "Vous pourriez aimer aussi"
+  follow_label               : "Contact"
+  website_label              : "Site"
+  email_label                : "Email"
+  recent_posts               : "Posts récents"
+  loading_label              : "Chargement..."
+fr-FR:
+  <<: *DEFAULT_FR
+fr-BE:
+  <<: *DEFAULT_FR
+fr-CH:
+  <<: *DEFAULT_FR
+
+# Portuguese
+# -----------------
+pt: &DEFAULT_PT
+  page                       : "Página"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Seguinte"
+  menu_label                 :
+  toc_label                  : "Nesta Página"
+  ext_link_label             : "Link Direto"
+  share_on_label             : "Partilhar no"
+  meta_label                 :
+  tags_label                 : "Etiquetas:"
+  categories_label           : "Categorias:"
+  date_label                 : "Atualizado:"
+  more_label                 : "Saber mais"
+  related_label              : "Também pode gostar de"
+  follow_label               : "Siga:"
+  website_label              : "Site"
+  email_label                : "Email"
+  recent_posts               : "Artigos Recentes"
+  loading_label              : "A carregar..."
+# Brazilian Portuguese
+pt-BR:
+  page                       : "Página"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Próxima"
+  menu_label                 :
+  toc_label                  : "Nesta página"
+  ext_link_label             : "Link direto"
+  share_on_label             : "Compartilhe em"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categorias:"
+  date_label                 : "Atualizado em:"
+  more_label                 : "Aprenda Mais"
+  related_label              : "Você Talvez Goste Também"
+  follow_label               : "Acompanhe em"
+  website_label              : "Site"
+  email_label                : "Email"
+  recent_posts               : "Postagens recentes"
+  loading_label              :
+pt-PT:
+  <<: *DEFAULT_PT
+
+# Italian
+# -----------------
+it: &DEFAULT_IT
+  page                       : "Pagina"
+  pagination_previous        : "Precedente"
+  pagination_next            : "Prossima"
+  menu_label                 :
+  toc_label                  : "Indice della pagina"
+  ext_link_label             : "Link"
+  share_on_label             : "Condividi"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categorie:"
+  date_label                 : "Aggiornato:"
+  more_label                 : "Scopri di più"
+  related_label              : "Potrebbe Piacerti Anche"
+  follow_label               : "Segui:"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Articoli Recenti"
+  loading_label              : "Caricamento..."
+it-IT:
+  <<: *DEFAULT_IT
+
+# German / Deutsch
+# -----------------
+de: &DEFAULT_DE
+  page                       : "Seite"
+  pagination_previous        : "Vorherige"
+  pagination_next            : "Nächste"
+  menu_label                 :
+  toc_label                  : "Auf dieser Seite"
+  ext_link_label             : "Direkter Link"
+  share_on_label             : "Teilen auf"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Kategorien:"
+  date_label                 : "Aktualisiert:"
+  more_label                 : "Mehr anzeigen"
+  related_label              : "Ihnen gefällt vielleicht auch"
+  follow_label               : "Folgen:"
+  website_label              : "Webseite"
+  email_label                : "E-Mail"
+  recent_posts               : "Aktuelle Beiträge"
+  loading_label              : "Lade..."
+de-DE:
+  <<: *DEFAULT_DE
+de-AT:
+  <<: *DEFAULT_DE
+de-CH:
+  <<: *DEFAULT_DE
+de-BE:
+  <<: *DEFAULT_DE
+de-LI:
+  <<: *DEFAULT_DE
+de-LU:
+  <<: *DEFAULT_DE
+  
+# Another locale
+# --------------
+#

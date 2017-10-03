@@ -1,0 +1,127 @@
+---
+layout: default
+title: "Rooms"
+description: ""
+permalink: /room/
+---
+
+<div class="loading" style="display:block">Loading&#8230;</div>
+
+<!-- <input type="hidden" id="roomList" value="[[ browser.roomsList ]]"   /> -->
+<section rt3-room-details="selectedRoom" ng-controller="roomDetail">
+  <section class="sub-header">
+    <div class="sub-header-row">
+      <div class="sub-header-left">
+        <h1>Rooms &<br>Suites</h1>
+      </div>
+      <!-- <div class="sub-header-right">
+      <ul class="sub-header-nav">
+        <li class="active">
+          <a href="#">
+           <h4 class="sr-no">01</h4>
+           <h4 class="text-uppercase">Our<br>Rooms</h4>
+         </a>
+        </li>
+        <li>
+          <a href="#">
+           <h4 class="sr-no">02</h4>
+           <h4 class="text-uppercase">Our<br>Suites</h4>
+         </a>
+        </li>
+      </ul>
+    </div> -->
+    </div>
+  </section>
+
+  <div class="sub-header-decoration"></div>
+
+  <ul class="sub-nav">
+    <li ng-repeat="r in browser.roomsList"><a ng-href="/room/#[[r.name | formatNameForLink]]" ng-class="{'active': r.code == selectedRoom.code}" ng-bind-html="r.name | renderHTMLCorrectly"></a></li>
+  </ul>
+
+  <section class="empty-banner border-left">
+    <div class="empty-banner-container">
+      <!--<div class="empty-banner-row bg-cover" ng-style="{'background-image':'url('+selectedRoom.photos[0].large+')'}"></div>-->
+      <!--<img ng-src="[[selectedRoom.photos[0].large]]" alt="[[selectedRoom.name | renderHTMLCorrectly]]" class="w-100"/>-->
+      <div id="photosSlider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item bg-cover" ng-class="{'active': $index ==0}" ng-repeat="pic in selectedRoom.image_info" ng-style="{'background-image':'url('+pic.urls.large+')'}">
+            <!--<img ng-src="[[pic.urls.large]]" alt="[[pic.caption | renderHTMLCorrectly]]" />-->
+          </div>
+        </div>
+        <a ng-if="selectedRoom.image_info.length > 0" class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a>
+        <a ng-if="selectedRoom.image_info.length > 0" class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="room-info">
+    <div class="container-fluid">
+      <div class="rd-row">
+        <div class="rd-left">
+          <div class="rate-holder bottom-line">
+            <a ng-href="{{ site.reztripUrl }}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">
+              <h4>Tonight’s<br>
+              Rate</h4>
+              <div ng-class="{'tonight-rate-checkavail': selectedRoom.todayRate == 'Check Availability','tonight-rate': selectedRoom.todayRate != 'Check Availability'}">[[selectedRoom.todayRate]]</div>
+            </a>
+          </div>
+        </div>
+        <div class="rd-right">
+          <div class="room-des">
+            <h2><span class="discount" ng-bind-html="selectedRoom.name | renderHTMLCorrectly"></span></h2>
+            <p ng-bind-html="selectedRoom.description | renderHTMLCorrectly"></p>
+            <div class="btn-holder"><a ng-href="{{ site.reztripUrl }}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank" class="btn-outline-black">Book Now</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="room-features-container border-right">
+    <div class="room-features-row">
+      <div class="left-coloumn bg-cover" style="background-image:url(/assets/images/rooms/room-feature-1.jpg);"></div>
+      <div class="center-coloumn bg-cover" style="background-image:url(/assets/images/rooms/room-feature-2.jpg);"></div>
+      <div class="right-coloumn align-self-center">
+        <div class="rate-holder bottom-line">
+          <h4>Room Features</h4>
+          <p ng-repeat="amenity in selectedRoom.amenities">[[amenity]]</p>
+          <p ng-repeat="amenity in hotelInfo.common_room_amenities">[[amenity]]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="more-rooms top-space">
+    <div class="border-right"></div>
+    <div class="container">
+      <div class="wrapper">
+        <h2>More Rooms & Suites</h2>
+        <div class="more-rooms-control">
+          <div class="rooms-suites-nav"> <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span> <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> </div>
+        </div>
+        <div class="more-rooms-list">
+          <div id="more-assets" class="owl-carousel owl-theme">
+            <div class="item" ng-repeat="room in browser.roomsList | filter: {'code': '!'+selectedRoom.code}">
+              <div class="img-holder" ng-style="{'background-image':'url([[room.photos[0].large]])'}">
+                <a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank" class="book-link">Book  [[room.name | roomOrSuite]]</a>
+              </div>
+              <div class="caption">
+                <h4 ng-bind-html="room.name | renderHTMLCorrectly"></h4>
+                <a ng-href="/room/#[[room.name | formatNameForLink]]" class="link-text">View This [[room.name | roomOrSuite]]</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="btn-holder"><a href="{{ site.pagelink.rooms }}" class="btn-outline-black">View All</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta bg-cover" style="background-image:url(/assets/images/rooms/room-details-cta.jpg); background-attachment:fixed;">
+    <div class="bg-overlay"></div>
+    <div class="logo-holder"><a href="/"><img src="/assets/images/royalton-logo-white.png" alt="Royalton NYC"></a></div>
+    <div class="btn-holder"><a href="{{ site.reztripUrl }}" class="btn-outline">Be a part of it</a></div>
+    <div class="cta-text"><a href="https://royaltonhotel.reztrip.com">Book Now</a></div>
+  </section>
+
+</section>
