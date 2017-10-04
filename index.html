@@ -4,23 +4,25 @@ parent: home
 title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
 ---
 
+<!--Main Carousel here-->
+
 <section class="homepageSlider  d-flex justify-content-between">
   <div id="heroSlider" class="homeSlide carousel slide" data-ride="carousel" data-interval="6000" data-pause>
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active" style="background-image: url('/assets/images/home/room.jpg');">
+      <div class="carousel-item active" style="background-image: url('/assets/images/home/heroSlider/terrace-pool.jpg');"> 
         <!-- <div class="bg-overlay"></div> -->
         <div class="carousel-caption text-left  d-md-block">
           <h4>high style, luxury and comfort all in one</h4>
-          <!-- <a href="/" class="link-text">Discover</a> <br> -->
+          <!-- <a href="/" class="link-text">Discover</a> <br> --> 
           <a href="{{site.pagelink.rooms}}" class="link-text">Rooms &amp; Suites</a> </div>
       </div>
-      <div class="carousel-item" style="background-image: url('/assets/images/home/heroSlider/city.jpg');">
+      <div class="carousel-item" style="background-image: url('/assets/images/home/heroSlider/city.jpg');"> 
         <!-- <div class="bg-overlay"></div> -->
         <div class="carousel-caption text-left  d-md-block">
           <h4>In the heart of Midtown</h4>
           <a href="{{site.pagelink.location}}" class="link-text">Location</a> </div>
       </div>
-      <div class="carousel-item" style="background-image: url('/assets/images/home/heroSlider/restaurant.jpg');">
+      <div class="carousel-item" style="background-image: url('/assets/images/home/heroSlider/bar.jpg');"> 
         <!-- <div class="bg-overlay"></div> -->
         <div class="carousel-caption text-left d-md-block">
           <h4>Eat &amp; Drink</h4>
@@ -30,24 +32,21 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
     <a class="carousel-control-prev" href="#" data-target="#heroSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#" data-target="#heroSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a> </div>
 </section>
 
-<div class="social-icons top-space">
-  {% if site.data.social.facebook.username %}
-    <a href="https://facebook.com/{{ site.data.social.facebook.username }}" aria-label="Like us on Facebook" target="_blank" title="Facebook"><i class="fa fa-facebook px-2" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.data.social.twitter.username %}
-    <a href="https://twitter.com/{{ site.data.social.twitter.username }}" aria-label="Follow us on Twitter" target="_blank" title="Twitter"><i class="fa fa-twitter px-2" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.data.social.instagram.username %}
-    <a href="https://instagram.com/{{ site.data.social.instagram.username }}" aria-label="See Instagram photos" target="_blank" title="Instagram"><i class="fa fa-instagram px-2" aria-hidden="true"></i></a>
-  {% endif %}
+<!--Social Share icons here-->
+
+<div class="social-icons top-space"> {% if site.data.social.facebook.username %} <a href="https://facebook.com/{{ site.data.social.facebook.username }}" aria-label="Like us on Facebook" target="_blank" title="Facebook"><i class="fa fa-facebook px-2" aria-hidden="true"></i></a> {% endif %}
+  {% if site.data.social.twitter.username %} <a href="https://twitter.com/{{ site.data.social.twitter.username }}" aria-label="Follow us on Twitter" target="_blank" title="Twitter"><i class="fa fa-twitter px-2" aria-hidden="true"></i></a> {% endif %}
+  {% if site.data.social.instagram.username %} <a href="https://instagram.com/{{ site.data.social.instagram.username }}" aria-label="See Instagram photos" target="_blank" title="Instagram"><i class="fa fa-instagram px-2" aria-hidden="true"></i></a> {% endif %} 
 </div>
+
+<!--Welcome section here-->
 
 <section class="welcome-royalton top-space">
   <div class="wrapper border-left">
     <div class="hero-images">
       <div class="image-box">
         <div class="img-caption">
-          <p class="caption-90">The Royalton Lobby &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p class="caption-90">Sed ut perspiciatis unde</p>
         </div>
         <div class="img-6 pl-md-0 pr-xs-0">
           <figure> <img src="/assets/images/about/resting.jpg" alt="lobby in royalton" class="img-fluid"> </figure>
@@ -69,15 +68,14 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
     </div>
   </div>
   <div class="wrapper top-space">
-    <div class="left-caption pb-xs-2">
+    <div class="left-caption pb-xs-2"> 
       <!--h4 class="sr-no">01</h4-->
-      <h4 class="text-uppercase">Welcome to <br>
-        Royalton Hotel</h4>
+      <h4 class="text-uppercase">Welcome to<br>Royalton PArk<br>Avenue Hotel</h4>
       <a href="{{site.pagelink.contact}}" class="link-text">Contact us</a> </div>
     <div class="details-5">
       <h2>La Crème de la <br>
         Crème </h2>
-      <p>With interiors designed by Roman & Williams, the Royalton oozes cool with a touch of the mysterious and debonair, while offering its guests exclusive apartment-style rooms, luxurious suites and penthouse accommodations, each furnished with the finest amenities. Think of it as your New York City penthouse away from home.</p>
+      <p>The Royalton Park Avenue Hotel offers downtown edge with an uptown sensibility. Boasting 249 luxury rooms and remarkable suites, most with lofty ceilings, Juliet balconies, and five fixture bathrooms – the property perched on the corner of 29th Street and Park Avenue couldn’t be more centrally located.</p>
     </div>
     <div class="btn-col-3 bottom-padding align-self-center"> <a href="{{site.pagelink.about}}" class="align-middle btn-outline-black ml-md-5 ml-lg-0" title="Discover More">Discover More</a> </div>
   </div>
@@ -85,25 +83,28 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
     <div class="photos-slider d-flex justify-content-between">
       <div id="photosSlider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active" style="background-image: url('/assets/images/home/penthouse.jpg');"> </div>
+          <div class="carousel-item active" style="background-image: url('/assets/images/home/presidential-suite.jpg');"> </div>
           <div class="carousel-item" style="background-image: url('/assets/images/home/fireplace.jpg');"> </div>
           <div class="carousel-item" style="background-image: url('/assets/images/home/bar.jpg');"> </div>
-          <div class="carousel-item" style="background-image: url('/assets/images/home/south-terrace.jpg');"> </div>
+          <div class="carousel-item" style="background-image: url('/assets/images/home/sundeck.jpg');"> </div>
         </div>
         <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a> </div>
-
-      <!-- <div class="photo-r-caption">
-                         <p class="caption-90">Excepteur sint occaecat cupidatat</p>
-          	  </div> -->
+      
+       <div class="photo-r-caption">
+		 <p class="caption-90">Excepteur sint occaecat cupidatat</p>
+	   </div>  
     </div>
   </div>
 </section>
+
+<!--Rooms & Suites section here-->
+
 <section class="rooms-suites top-space">
   <div class="border-right"></div>
   <div class="container">
     <div class="wrapper">
       <div class="cta-rooms align-self-center text-center"> <a href="{{site.pagelink.rooms}}" class="align-middle btn-outline-black mb-3" title="Discover More">Discover More</a> </div>
-      <div class="sub-heading">
+      <div class="sub-heading"> 
         <!--h4 class="sr-no">02</h4-->
         <h4 class="text-uppercase">high style, luxury <br>
           and comfort all in <br>
@@ -116,49 +117,87 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
       </div>
       <div class="rooms-list">
         <div id="rooms-suites-carousel" class="owl-carousel owl-theme">
-          <div class="item" ng-repeat ="room in browser.roomsList">
+          <!--Reztrip integrated data below-->
+          <!--<div class="item" ng-repeat ="room in browser.roomsList">
             <div class="img-holder"  ng-style="{'background-image': 'url([[room.photos[0].yankee_large]])'}"> <a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank" class="book-link">[[room.todayRate]]</a> </div>
             <div class="caption">
               <h4 ng-bind-html="room.name | renderHTMLCorrectly"></h4>
               <a ng-href="/room/#[[room.name | formatNameForLink]]">View This [[room.name | roomOrSuite]]</a> </div>
+          </div>-->
+          
+          <!--Static data below-->
+          <div class="item">
+            <div class="img-holder" style="background-image: url(assets/images/rooms/static/deluxe.jpg)"> <a href="#" target="_blank" class="book-link">$365</a> </div>
+            <div class="caption">
+              <h4>Deluxe Room</h4>
+              <a href="#">View This Room</a> 
+            </div>
+          </div>
+          <div class="item">
+            <div class="img-holder" style="background-image: url(assets/images/rooms/static/grand-deluxe.jpg)"> <a href="#" target="_blank" class="book-link">$465</a> </div>
+            <div class="caption">
+              <h4>Grand Deluxe Room</h4>
+              <a href="#">View This Room</a> 
+            </div>
+          </div>
+          <div class="item">
+            <div class="img-holder" style="background-image: url(assets/images/rooms/static/grand-suite.jpg)"> <a href="#" target="_blank" class="book-link">$600</a> </div>
+            <div class="caption">
+              <h4>Grand Suite</h4>
+              <a href="#">View This Room</a> 
+            </div>
+          </div>
+          <div class="item">
+            <div class="img-holder" style="background-image: url(assets/images/rooms/static/superior.jpg)"> <a href="#" target="_blank" class="book-link">$365</a> </div>
+            <div class="caption">
+              <h4>Superior Room</h4>
+              <a href="#">View This Room</a> 
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="wrapper">
       <div class="rooms-intro-h">
-        <p>Intimate fireplaces, divine baths, spacious rooms, stunning views, and regal penthouse balconies await you at our prestigious boutique hotel.</p>
+        <p>Our design-oriented, luxury accommodations boast an average size of 475 square feet, lofty ceilings, Juliet balconies, and magnificent Park Avenue South views.</p>
       </div>
     </div>
   </div>
 </section>
+
+<!--Testimonials here-->
+
 <div id="testimonialSlider" class="testimonialSlider top-space carousel slide" data-ride="carousel">
-<div class="carousel-inner" role="listbox">
-  <div class="carousel-item active" style="background-image: url('/assets/images/home/trip-advisor-room.jpg');">
-    <div class="carousel-caption text-right d-none d-md-block">
-      <!--<h3>01</h3>-->
-      <h4>high style, luxury and comfort all in one</h4>
-    </div>
-    <div class="org-overlay">
-      <h4>
-      What our guests say
-      </h3>
-      <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <p><i class="fa fa-tripadvisor" aria-hidden="true"></i></p>
-    </div>
-  </div>
-  <!-- <a class="carousel-control-prev" href="#" data-target="#testimonialSlider" role="button" data-slide="prev">
-	    <span class="eligant-icons control-arrow" aria-hidden="true">#</span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#" data-target="#testimonialSlider" role="button" data-slide="next">
-	    <span class="eligant-icons control-arrow" aria-hidden="true">$</span>
-	    <span class="sr-only">Next</span>
-	  </a> -->
+	<div class="carousel-inner" role="listbox">
+	  <div class="carousel-item active" style="background-image: url('/assets/images/home/trip-advisor-room.jpg');">
+		<div class="carousel-caption text-right d-none d-md-block"> 
+		  <!--<h3>01</h3>-->
+		  <h4>Excepteur sint occaecat cupidatat</h4>
+		</div>
+		<div class="org-overlay">
+		  <h3>
+		  What our guests say
+		  </h3>
+		  <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		  <p><i class="fa fa-tripadvisor" aria-hidden="true"></i></p>
+		</div>
+	  </div>
+	  <!-- <a class="carousel-control-prev" href="#" data-target="#testimonialSlider" role="button" data-slide="prev">
+			<span class="eligant-icons control-arrow" aria-hidden="true">#</span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#" data-target="#testimonialSlider" role="button" data-slide="next">
+			<span class="eligant-icons control-arrow" aria-hidden="true">$</span>
+			<span class="sr-only">Next</span>
+		  </a> --> 
+	</div>
 </div>
+
+<!--Offers section here-->
+
 <section class="exclusive-offers  top-padding">
   <div class="wrapper">
-    <div class="left-caption">
+    <div class="left-caption"> 
       <!--h4 class="sr-no">03</h4-->
       <h4 class="text-uppercase">Exclusive <br>
         Offers</h4>
@@ -179,10 +218,10 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
             <div class="offer-cta">
               <div class="btn-holder"><a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]" class="btn-outline" title="[[offer.rate_plan_name | renderHTMLCorrectly]]" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></a></div>
             </div>
-            <a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]"  class="link-text" title="View This Offer">View This Offer</a>
+            <a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]"  class="link-text" title="View This Offer">View This Offer</a> 
             <!-- <div class="offer-text">
 	                   	    		<p>UP TO 35% OFF</p>
-	                   	    	</div> -->
+	                   	    	</div> --> 
           </div>
         </div>
       </div>
@@ -200,13 +239,15 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
     </div>
   </div>
 </section>
+
+<!--Dining Section here-->
+
 <section class="restaurant">
   <div class="wrapper">
     <div class="eat-drink  top-space">
-      <div class="r-caption">
+      <div class="r-caption"> 
         <!--h4 class="sr-no">04</h4-->
-        <h4 class="text-uppercase">Forty Four &amp; <br>
-          Bar 44 </h4>
+        <h4 class="text-uppercase">PLUNGE ROOFTOP BAR + LOUNGE<br>SUNDECK<br>RISTORANTE ASELLINA</h4>
       </div>
       <div class="rotate-title">
         <p class="title"> Eat Drink <br>
@@ -218,33 +259,39 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
     </div>
     <div class="about-restaurant">
       <figure> <img src="/assets/images/home/offers/restaurant.jpg" alt="restaurant" class="img-fluid"> </figure>
-      <p>Reminiscent of martini lunches and jet-setting rendezvous, both Forty Four and Bar 44 offer intimate experiences coupled with world-class cocktails and cuisine in a sleek environment that’s as vibrant as its 20-foot fireplace.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="btn-holder"><a href="{{site.pagelink.dining}}" class="btn-outline-black">Discover More</a></div>
     </div>
   </div>
 </section>
+
+<!--CTA here-->
+
 <section class="cta bg-cover top-space" style="background-image:url(/assets/images/city-ariel-view.jpg); background-attachment:fixed;">
   <div class="bg-overlay"></div>
-  <div class="logo-holder"><a href="/"><img src="/assets/images/royalton-logo-white.png" alt="Royalton NYC"></a></div>
-  <div class="btn-holder"><a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a></div>
-  <div class="cta-text"><a href="https://royaltonhotel.reztrip.com/">Book Now</a></div>
+  <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Flatiron"></a></div>
+  <div class="btn-holder"><!--<a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>--><a href="#" class="btn-outline">Be a part of it</a></div>
+  <div class="cta-text"><a href="#">Book Now</a></div>
 </section>
+
+<!--Location Section here-->
+
 <section class="home-location-container">
   <div class="container-inner">
     <div class="row no-gutters">
       <h2>Location</h2>
       <div class="col-md-6 no-padding">
         <div class="content-left">
-          <h4>The Heart of Manhattan</h4>
-          <p>Located in the heart of midtown, Royalton is just steps from great shopping, Broadway, the Theater District, Grand Central Station, Empire State Building, Times Square, Bryant Park and Rockefeller Center.</p>
-          <div class="btn-holder"><a href="{{site.pagelink.location}}" class="btn-outline-black">Explore New York</a></div>
+          <h4>in the heart of NOMAD</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="btn-holder"><a href="{{site.pagelink.location}}" class="btn-outline-black">Discover More</a></div>
         </div>
       </div>
       <div class="col-md-6 no-padding">
         <div class="content-right">
-          <h4>royalton New York</h4>
-          <p><i class="fa fa-map-marker"></i> West 44th Street, New York, NY 10036<br>
-            <i class="fa fa-phone"></i>+1 212 869 4400</p>
+          <h4>royalton Flatiron</h4>
+          <p><i class="fa fa-map-marker"></i> 420 Park Avenue South (at 29th Street),<br>New York, NY 10016<br>
+            <i class="fa fa-phone"></i>+1 212 317 2900</p>
         </div>
       </div>
     </div>
@@ -256,13 +303,13 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
     </div>
     <div class="col-md-7 no-padding">
       <div id="home-attractions" class="owl-carousel owl-theme">
-        <div class="item"><img src="/assets/images/home-location-1.png" alt="Royalton NYC"></div>
-        <div class="item"><img src="/assets/images/home-location-2.jpg" alt="Royalton NYC"></div>
-        <div class="item"><img src="/assets/images/home-location-3.jpg" alt="Royalton NYC"></div>
-        <div class="item"><img src="/assets/images/home-location-4.jpg" alt="Royalton NYC"></div>
-        <div class="item"><img src="/assets/images/home-location-5.jpg" alt="Royalton NYC"></div>
-        <div class="item"><img src="/assets/images/home-location-6.jpg" alt="Royalton NYC"></div>
-        <div class="item"><img src="/assets/images/home-location-7.jpg" alt="Royalton NYC"></div>
+        <div class="item"><img src="/assets/images/home-location-1.png" alt="Royalton Flatiron"></div>
+        <div class="item"><img src="/assets/images/home-location-2.jpg" alt="Royalton Flatiron"></div>
+        <div class="item"><img src="/assets/images/home-location-3.jpg" alt="Royalton Flatiron"></div>
+        <div class="item"><img src="/assets/images/home-location-4.jpg" alt="Royalton Flatiron"></div>
+        <div class="item"><img src="/assets/images/home-location-5.jpg" alt="Royalton Flatiron"></div>
+        <div class="item"><img src="/assets/images/home-location-6.jpg" alt="Royalton Flatiron"></div>
+        <div class="item"><img src="/assets/images/home-location-7.jpg" alt="Royalton Flatiron"></div>
       </div>
     </div>
   </div>
@@ -275,9 +322,12 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Hotel NYC
         </div>
       </div>
       <div class="col-md-5 no-padding">
-        <div class="script-wrap"> <img src="/assets/images/script.png" alt="Royalton NYC"> </div>
+        <div class="script-wrap"> <img src="/assets/images/script.png" alt="Royalton Flatiron"> </div>
       </div>
     </div>
   </div>
 </section>
+
+<!--Footer with map here-->
+
 {% include footer-map.html%}
