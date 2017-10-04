@@ -570,11 +570,11 @@
          }
          .rooms-intro-h{
          	@extend .col-md-6;
-         	//@extend .offset-md-6;
+			@extend .ml-md-auto;
          	p{
          		border-top: 1px solid $lighter-gray;
          		border-bottom: 1px solid $lighter-gray;
-         		max-width: 480px;
+         		//max-width: 480px;
          		padding: 1rem 0;
          	}
          }
