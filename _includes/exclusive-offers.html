@@ -1,4 +1,4 @@
-<section class="exclusive-offers bottom-padding top-padding">
+<!-- <section class="exclusive-offers bottom-padding top-padding">
 		<div class="wrapper"> 
 			             <h2 class="text-center m-auto">Exclusive Offers</h2> 
 		</div>
@@ -18,9 +18,9 @@
 	                   	    		 <div class="btn-holder"><a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]" class="btn-outline" title="[[offer.rate_plan_name | renderHTMLCorrectly]]" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></a></div>
 	                   	    	</div>
 	                   	    	<a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]"  class="link-text" title="View This Offer">View This Offer</a>
-	                   	    	<!-- <div class="offer-text">
+	                   	    	<div class="offer-text">
 	                   	    		<p>UP TO 35% OFF</p>
-	                   	    	</div> -->
+	                   	    	</div>
 	                   	    </div>
 	                    </div>
 	                   
@@ -33,4 +33,53 @@
 		            <div class="btn-holder m-auto"><a href="{{site.pagelink.offers}}" title="Check All Offers" class="btn-outline-black">View All</a></div>
 		 
 	</div>
+</section> -->
+
+<section class="exclusive-offers bottom-padding top-padding">
+	<div class="wrapper"> 
+					 <h2 class="text-center m-auto">Browse Exclusive Offers</h2> 
+	</div>
+	<div class="wrapper">
+					<div class="exclusive-offers-nav text-center mt-0 pt-3 pr-0">
+						<span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span>
+						<span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> 
+					</div>
+	</div>
+	<div class="wrapper">
+		<div class="container" rt3-special-rates= "offers"> 
+			 <div id="exclusive-offers-carousel" class="owl-carousel owl-theme"> 
+					   <div class="item" style="background-image: url(/assets/images/offers/get-it-all.jpg)">
+						   <div class="grey-overlay">
+							  <a href="" class="link-text" title="Check Offer Rate">Check Rate</a>
+							   <div class="offer-cta">
+									<div class="btn-holder"><a href="" class="btn-outline" title="Get it all">Get it all</a></div>
+							   </div>
+							   <a ng-href="" class="link-text" title="View This Offer">View This Offer</a>
+							   <!-- <div class="offer-text">
+								   <p>UP TO 35% OFF</p>
+							   </div> -->
+						   </div>
+					</div>
+					<div class="item" style="background-image: url(/assets/images/offers/night-owl.jpg)">
+						<div class="grey-overlay">
+						   <a href="" class="link-text" title="Check Offer Rate">Check Rate</a>
+							<div class="offer-cta">
+								 <div class="btn-holder"><a href="" class="btn-outline" title="Night Owl">Night Owl</a></div>
+							</div>
+							<a ng-href="" class="link-text" title="View This Offer">View This Offer</a>
+							<!-- <div class="offer-text">
+								<p>UP TO 35% OFF</p>
+							</div> -->
+						</div>
+				 </div>
+				   
+			   </div>                   
+			  
+			   </div> 
+		</div>
+	</div> 
+<div class="wrapper mt-4 ">   
+				<div class="btn-holder m-auto"><a href="{{site.pagelink.offers}}" title="Check All Offers" class="btn-outline-black">View All</a></div>
+	 
+</div>
 </section>
