@@ -415,7 +415,7 @@ $(document).ready(function () {
 	}];
 
 	function initialize() {
-		var myLatlng = new google.maps.LatLng(40.755882, -73.982224);
+		var myLatlng = new google.maps.LatLng(40.744175, -73.983969);
 		var mapOptions = {
 			zoom: 16,
 			center: myLatlng,
@@ -428,7 +428,7 @@ $(document).ready(function () {
 		if (document.getElementById('map')) {
 			var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 			//Callout Content
-			var contentString = '44 West 44th Street, New York, NY 10036';
+			var contentString = '420 Park Avenue South (at 29th Street), New York, NY 10016';
 			//Set window width + content
 			var infowindow = new google.maps.InfoWindow({
 				content: contentString,
