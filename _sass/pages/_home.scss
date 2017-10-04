@@ -63,20 +63,26 @@
         }
         .cta-text {
             font-family: $header-font-family;
-            font-size: 4.5rem;
+            font-size: 3.2rem;
             color: $white;
             position: absolute;
             left: 0;
             right: 0;
 			bottom: 0.300rem; 
-			@include media-breakpoint-up (md) {
-				font-size: 10.5rem;
-				bottom: 0rem;
+			@include media-breakpoint-up(lg) { 
+				font-size: 6.5rem;
+				bottom: 0;
 			}
-			@include media-breakpoint-up (lg) {
+			@include media-breakpoint-up(xl) { 
+				font-size: 9.5rem;
+				bottom: 0;
+			}
+			
+			@media (min-width: 1680px) {
 				font-size: $type-size-1;
 				bottom: -4rem;
 			}
+
 			a {
 				color: $white;
 				text-decoration: none;
