@@ -27,7 +27,7 @@
 		background-color: $heading-color;
 		position: relative;
         .title{
-        	@include rotate(90);
+        	@include rotate(90deg);
         	@include transform-origin(left top);
         	font-family: $header-font-family;
         	font-size: $type-size-1 ;
