@@ -26,16 +26,23 @@
     		}
     	.contact-info{
     		@extend .row;
-    		@extend .no-gutters;
+			@extend .no-gutters;
+			@include media-breakpoint-down(md) {
+				padding: 0 0 0 1.6rem;
+			}
     		.btn-cta{
-    			@extend .col-md-5;
+    			@extend .col-lg-5;
     			.btn-holder{
-    				padding-top: 0;
-    				padding-left: 2rem;
+					padding: 0 0 3rem 0;
+					@include media-breakpoint-up(lg) {
+						padding-left: 2rem;
+						padding-bottom: 0;
+						padding: 0 0 0 2rem;
+					}
     			}
     		}
     		.detail-7{
-    			@extend .col-md-7;
+    			@extend .col-lg-7;
     			p{
     				padding-left: 0 !important;
     				font-weight: bold;
