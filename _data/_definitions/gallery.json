@@ -15,8 +15,8 @@
     "required": true
   },
   "category": {
-    "type": "text",
-    "label": "Image Category",
-    "required": true
+      "type":"select",
+      "options":["rooms","hotel","dining","location"],
+      "label": "Select Category"
   }
 }
