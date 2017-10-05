@@ -142,23 +142,32 @@
 	@extend .container-fluid;
 	.wrapper{
 		@extend .row;
+		h2 {
+			span {
+				border-bottom: solid 3px $heading-color;
+			}
+		}
 		.venue{
 			@extend .col-md-6;
 			@extend .p-0;
 			.detail{
 				@extend .rotate-left-banner;
 				.banner-detail{
+					background-color: rgba($white, 0.90);
 					text-align: left;
-					h2{
+					.link-text {
+						color: $dark-primary;
+					}
+					h2{	
 						padding-bottom: 0;
 						padding-top: 2rem;
 						&:after{
 							display: none;
 						}
+						
 					}
 				}
 			}
 		}
 	}
 }
- 
