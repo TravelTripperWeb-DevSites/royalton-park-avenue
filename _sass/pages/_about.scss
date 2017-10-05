@@ -8,7 +8,11 @@
     @include media-breakpoint-up (md) {
         height:  33.25rem;
     }
-
+	&.page-banner-type-two{
+		@include media-breakpoint-up (md) {
+			height:  30rem;
+		}
+	}
 	h1{
 		font-size: $type-size-inner;
 		color: $white;
