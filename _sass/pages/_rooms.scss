@@ -101,6 +101,7 @@
 		}
 }
 .empty-banner {
+	overflow: hidden;
 	.empty-banner-container {
 		@extend .container-fluid;
 		@extend .no-padding;
@@ -170,8 +171,14 @@
 		}
 		h2 {
 			padding: 0 0 1.8rem 0;
-			max-width: 225px;
+			max-width: 400px;
 			color: $white;
+			span{
+			color:$heading-color;	
+			}
+		}
+		p{
+			max-width: 900px;
 		}
 		.discount {
 				font-family: $header-font-family;

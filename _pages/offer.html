@@ -16,7 +16,7 @@ permalink: /offer/
       </div>
       <!-- <div class="sub-header-right">
       <ul class="sub-header-nav">
-        <li class="">
+        <li class="">z
           <a href="#">
            <h4 class="sr-no">01</h4>
            <h4 class="text-uppercase">Newsletter<br>Signup</h4>
@@ -30,15 +30,67 @@ permalink: /offer/
   <div class="sub-header-decoration"></div>
 
   <ul class="sub-nav">
-    <li ng-repeat="offer in offers.navOffers"><a ng-href="/offer/#[[ offer.rate_plan_name | formatNameForLink ]]" ng-class="{'active': $index ==0}" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></a></li>
+        <li><a href="#" class="active">Offer 01</a></li>
+        <li><a href="#">Offer 02</a></li>
+        <li><a href="#">Offer 03</a></li>
+        <li><a href="#">Offer 04</a></li>
+        <li><a href="#">Offer 05</a></li>
+        <li><a href="#">Offer 06</a></li>
+        <li><a href="#">Offer 07</a></li>
+        <li><a href="#">Offer 08</a></li>
   </ul>
 
+ <!--<ul class="sub-nav">
+    <li ng-repeat="offer in offers.navOffers"><a ng-href="/offer/#[[ offer.rate_plan_name | formatNameForLink ]]" ng-class="{'active': $index ==0}" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></a></li>
+    </ul>
+-->
   <section class="empty-banner border-left">
     <div class="empty-banner-container">
-      <div class="empty-banner-row bg-cover" ng-style="{'background-image': 'url('+offers.sRdetail.lead_photo_url.large+' )'}"></div>
+       <div class="empty-banner-row bg-cover" style="background-image: url(/assets/images/offers/offer-details-hero.jpg);"></div>
+     <!--  <div class="empty-banner-row bg-cover" ng-style="{'background-image': 'url('+offers.sRdetail.lead_photo_url.large+' )'}"></div> -->
     </div>
   </section>
 
+  <div class="room-info">
+    <div class="container-fluid">
+      <div class="rd-row">
+
+        <div class="rd-left">
+          <div class="rate-holder bottom-line">
+         <!--    <h4>About This<br>Offer</h4> -->
+          </div>
+        </div>
+
+        <div class="rd-right">
+          <div class="room-des">
+            <h2>Get Suite Summer<br>
+            <span>20% Off Suites This Summer Until Labor Day</span>
+            </h2>
+            <p>Forget the traffic, headaches and long hours spent driving to your vacation – stay at Gansevoort Meatpacking or Gansevoort Park Avenue this summer for 20% off suites. We have the rooftop pools, sun, drinks and relaxation to allow for more you time and less travel time.</p>
+            <div class="btn-holder">
+              <a href="#" target="_blank" class="link-text">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+   <section class="room-features-container border-right">
+    <div class="room-features-row">
+      <div class="left-coloumn bg-cover" style="background-image:url(/assets/images/offers/offer-feature-1.jpg);"></div>
+      <div class="center-coloumn bg-cover" style="background-image:url(/assets/images/offers/offer-feature-2.jpg);"></div>
+      <div class="right-coloumn align-self-center">
+        <div class="rate-holder bottom-line">
+         <h4>Offer<br>Features</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  
   <div class="room-info">
     <div class="container-fluid">
       <div class="rd-row">
@@ -62,20 +114,20 @@ permalink: /offer/
       </div>
     </div>
   </div>
-
-  <section class="room-features-container border-right">
+  -->
+ <!-- <section class="room-features-container border-right">
     <div class="room-features-row">
       <div class="left-coloumn bg-cover" style="background-image:url(/assets/images/rooms/room-feature-1.jpg);"></div>
       <div class="center-coloumn bg-cover" style="background-image:url(/assets/images/rooms/room-feature-2.jpg);"></div>
       <div class="right-coloumn align-self-center">
-        <div class="rate-holder bottom-line">
+        <div class="rate-holder bottom-line">-->
           <!--<h4>Amenities</h4>-->
-          <p ng-repeat="addon in offers.sRdetail.addons">[[ addon ]]</p>
+          <!--<p ng-repeat="addon in offers.sRdetail.addons">[[ addon ]]</p>
         </div>
       </div>
     </div>
   </section>
-
+ -->
   <section class="offer-details top-padding">
 
     <h2>More Exclusive Offers</h2>
@@ -113,8 +165,8 @@ permalink: /offer/
   <section class="cta bg-cover" style="background-image:url(/assets/images/offers/offer-details-cta.jpg); background-attachment:fixed;">
     <div class="bg-overlay"></div>
     <div class="logo-holder"><a href="/"><img src="/assets/images/royalton-logo-white.png" alt="Royalton Flatiron"></a></div>
-    <div class="btn-holder"><a href="{{ site.reztripUrl }}" class="btn-outline">Be a part of it</a></div>
-    <div class="cta-text"><a href="https://royaltonhotel.reztrip.com">Book Now</a></div>
+    <div class="btn-holder"><a href="#" class="btn-outline">Be a part of it</a></div>
+    <div class="cta-text"><a href="#">Book Now</a></div>
   </section>
 
 </section>
