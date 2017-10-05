@@ -1,8 +1,23 @@
 {
   "gallery_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/32_701_5687/media/2017-07-29-095223/Royalton-Lobby-3-WEB.jpg"
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/Park-Lounge-Library-Full-Image-Angle1.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/Park-Lounge-Library-Full-Image-Angle1.jpg",
+    "file_type": "image/jpeg",
+    "name": "Park-Lounge-Library-Full-Image-Angle1",
+    "tags": "",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/large_Park-Lounge-Library-Full-Image-Angle1.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/thumb_Park-Lounge-Library-Full-Image-Angle1.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/medium_Park-Lounge-Library-Full-Image-Angle1.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/small_Park-Lounge-Library-Full-Image-Angle1.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/xsmall_Park-Lounge-Library-Full-Image-Angle1.jpg",
+    "width": 1500,
+    "height": 900,
+    "file_size": 327856,
+    "alt": "Park Lounge Library",
+    "caption": "",
+    "description": ""
   },
-  "image_caption": "Royalton Lobby",
-  "alt_tag": "Royalton Lobby",
+  "image_caption": "Park Lounge Library",
+  "alt_tag": "Park Lounge Library",
   "category": "hotel"
 }

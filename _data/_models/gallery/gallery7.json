@@ -1,8 +1,23 @@
 {
   "gallery_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/32_701_5687/media/2017-07-29-095228/Royalton-Main-Bar-WEB.jpg"
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/playhookie2.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/playhookie2.jpg",
+    "file_type": "image/jpeg",
+    "name": "playhookie2",
+    "tags": "",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/large_playhookie2.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/thumb_playhookie2.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/medium_playhookie2.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/small_playhookie2.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/xsmall_playhookie2.jpg",
+    "width": 1500,
+    "height": 900,
+    "file_size": 414866,
+    "alt": "Play Hookie",
+    "caption": "",
+    "description": ""
   },
-  "image_caption": "Drinks - Bar 44",
-  "alt_tag": "Drinks - Bar 44",
-  "category": "dining"
+  "image_caption": "Play Hookie",
+  "alt_tag": "Play Hookie",
+  "category": "hotel"
 }
