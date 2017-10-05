@@ -7,6 +7,8 @@ main:
     url: /rooms-and-suites/ 
   - title: Eat & Drink
     url: /eat-and-drink/ 
+  - title: Events
+    url: /events/ballroom/ 
   - title: Location
     url: /location/ 
   - title: Gallery

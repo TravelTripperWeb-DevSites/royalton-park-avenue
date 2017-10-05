@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Rooms"
+title: "Room"
 description: ""
-permalink: /room/
+permalink: /room-details/
 ---
 
 <div class="loading" style="display:block">Loading&#8230;</div>
@@ -46,7 +46,7 @@ permalink: /room/
 
    <section class="empty-banner border-left">
     <div class="empty-banner-container">
-       <div class="empty-banner-row bg-cover" style="background-image: url(/assets/images/offers/offer-details-hero.jpg);"></div>
+       <div class="empty-banner-row bg-cover" style="background-image: url(/assets/images/rooms/room-details-hero.jpg);"></div>
      <!--  <div class="empty-banner-row bg-cover" ng-style="{'background-image': 'url('+offers.sRdetail.lead_photo_url.large+' )'}"></div> -->
     </div>
   </section>
@@ -131,7 +131,63 @@ permalink: /room/
       </div>
     </div>
   </section>
+
+
   <section class="more-rooms top-space">
+    <div class="border-right"></div>
+    <div class="container">
+      <div class="wrapper">
+        <h2>More Rooms & Suites</h2>
+        <div class="more-rooms-control">
+          <div class="rooms-suites-nav"> <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span> <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> </div>
+        </div>
+        <div class="more-rooms-list">
+          <div id="more-assets" class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="img-holder"  style="background-image: url('/assets/images/rooms/superior-room.jpg');">
+                <a href="#" target="_blank" class="book-link">Book Room</a>
+              </div>
+              <div class="caption">
+                <h4>superior Room</h4>
+                <a href="#" class="link-text">View This Room</a>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="img-holder"  style="background-image: url('/assets/images/rooms/grand-deluxe-room.jpg');">
+                <a href="#" target="_blank" class="book-link">Book Room</a>
+              </div>
+              <div class="caption">
+                <h4>Grand Deluxe Room</h4>
+                <a href="#" class="link-text">View This Suite</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-holder"  style="background-image: url('/assets/images/rooms/royalton-suite.jpg');">
+                <a href="#" target="_blank" class="book-link">Book Room</a>
+              </div>
+              <div class="caption">
+                <h4>Royalton Suite</h4>
+                <a href="#" class="link-text">View This Suite</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-holder"  style="background-image: url('/assets/images/rooms/deluxe-room.jpg');">
+                <a href="#" target="_blank" class="book-link">Book Room</a>
+              </div>
+              <div class="caption">
+                <h4>superior Room</h4>
+                <a href="#" class="link-text">View This Room</a>
+              </div>
+            </div>
+          </div>
+          <div class="btn-holder"><a href="{{ site.pagelink.rooms }}" class="btn-outline-black">View All</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--   <section class="more-rooms top-space">
     <div class="border-right"></div>
     <div class="container">
       <div class="wrapper">
@@ -157,7 +213,7 @@ permalink: /room/
       </div>
     </div>
   </section>
-
+ -->
   <section class="cta bg-cover" style="background-image:url(/assets/images/rooms/room-details-cta.jpg); background-attachment:fixed;">
     <div class="bg-overlay"></div>
     <div class="logo-holder"><a href="/"><img src="/assets/images/royalton-logo-white.png" alt="Royalton Flatiron"></a></div>
