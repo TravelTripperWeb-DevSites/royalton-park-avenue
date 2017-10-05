@@ -4,15 +4,22 @@
 	background-position: center center;
 	height:  18.25rem;
 	background-color: $heading-color;
+	position: relative;
     @include media-breakpoint-up (md) {
         height:  33.25rem;
     }
-
+	&.page-banner-type-two{
+		@include media-breakpoint-up (md) {
+			height:  30rem;
+		}
+	}
 	h1{
 		font-size: $type-size-inner;
 		color: $white;
 		padding-left: 10%;
 		padding-top:2rem;
+		position: relative;
+		z-index: 10;
 	}
 }
 
@@ -24,7 +31,7 @@
 		background-color: $heading-color;
 		position: relative;
         .title{
-        	@include rotate(90);
+        	@include rotate(90deg);
         	@include transform-origin(left top);
         	font-family: $header-font-family;
         	font-size: $type-size-1 ;

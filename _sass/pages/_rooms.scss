@@ -415,15 +415,17 @@
 				.assets-image {
 					margin-right: 0;
 					@include media-breakpoint-up(md) {
-						margin-left: 4rem;
+						margin-left: 2.15rem;
 					}	
 				}
 				.assets-content {
 					@include media-breakpoint-up(md) {
 						float: right;
 						text-align: right;
+						margin-right: 2.15rem;
 					}
 						h4 {
+							
 							&:before {
 								@include decoration(117px, 3px, $white, 3px, -140px, auto, auto);
 								@include media-breakpoint-down(sm) {
@@ -439,21 +441,31 @@
 	}
 	.assets-row {
 		@extend .row;
-		max-width: 1170px;
+		max-width: 1215px;
 		margin: 0 auto;
 	} 
 	.assets-left {
-		@extend .col-md-7;
+		@extend .col-md-6;
 		@extend .no-padding;
 	}
 	.assets-right {
-		@extend .col-md-5;
+		@extend .col-md-6;
 		@extend .no-padding;
+	}
+	.pulling-right {
+		@include media-breakpoint-up(md) {
+			left: 50%;
+		}
+	}
+	.pulling-left {
+		@include media-breakpoint-up(md) {
+			right: 50%;
+		}
 	}
 	.assets-image {
 		margin-bottom: 3rem;
 		@include media-breakpoint-up(md) {
-			margin-right: 4rem;
+			margin-right: 2.15rem;
 			margin-bottom: 0rem;
 		}
 		position: relative;
@@ -467,7 +479,10 @@
 		}
 	}
 		.assets-content {
-			max-width: 300px;
+			max-width: 515px;
+			@include media-breakpoint-up(md) {
+				margin-left: 2.15rem;
+			}
 			h2 {
 				padding: 0 0 1rem 0;
 			}
@@ -482,6 +497,11 @@
 			h4 {
 				color: $white;
 				position: relative;
+				text-transform: uppercase;
+				font-weight: 700;
+				a {
+				color: $white;
+				}
 				&:before {
 					@include decoration(117px, 3px, $white, 3px, auto, auto, -140px) 
 				}
