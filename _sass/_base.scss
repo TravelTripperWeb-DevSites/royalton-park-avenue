@@ -411,6 +411,15 @@ svg:not(:root) {
     text-decoration: none;
   }
 }
+.btn-outline-grey {
+  @extend .btn-outline;
+  background-color: transparent;
+  border-color: $dark-primary;
+  color: $dark-primary;
+    &:hover{
+    background-color: $dark-primary ;
+    }
+}
 .btn-outline-black {
   @extend .btn-outline;
   background-color: transparent;
