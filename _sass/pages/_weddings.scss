@@ -30,6 +30,9 @@
 			@include media-breakpoint-down(md) {
 				padding: 0 0 0 1.6rem;
 			}
+			@include media-breakpoint-down(sm) {
+				padding: 0 0 0 0;
+			}
     		.btn-cta{
     			@extend .col-lg-5;
     			.btn-holder{
@@ -69,10 +72,11 @@
     }
     
      .left-description{
-			 	padding: 6rem 0;
-			 	min-height: 660px;
+			 	padding: 3rem 0;
 				  @include media-breakpoint-up(md) {
 					  max-width: 500px;
+					  min-height: 660px;
+					  padding: 6rem 0;
 				  }
 			 	p, h4, .btn-holder{
 			 		@include media-breakpoint-up(md) {
