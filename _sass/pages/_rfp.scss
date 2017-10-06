@@ -1,0 +1,175 @@
+.rfp-wrap {
+	padding: 0 0 3rem 0;
+	text-align: center;
+	h4 {
+				&:after {
+                @include decoration(1px,50px,$black,auto,0,0,0);
+            	}
+			}
+			p {
+				margin: 0;
+			}
+	.address {
+		max-width: 500px;
+		margin: 0 auto;
+		a {
+			color: $black;
+			&:hover {
+					text-decoration: none;
+					color: $black;
+				}
+		}
+	}
+	.brg-call {
+		text-align: center;
+		a {
+			display: block;
+			color: $black;
+			padding: 5px 0;
+			span {
+				display: inline-block;
+				padding-right: 10px;
+			}
+				&:hover {
+					text-decoration: none;
+					color: $black;
+				}
+		}
+	}
+	.contact-form {
+		max-width: 600px;
+		margin: 0 auto;
+			.form-control {
+				font-family: $caption-font-family;
+				border-color: $black;
+				border-radius: 0px;
+				height: 48px;
+				box-shadow: none;
+				color: $black;
+				font-weight: 400;
+				letter-spacing: 1px;
+				font-size: $type-size-7;
+				padding: 10px 12px;
+				text-transform: uppercase;
+				@media(max-width: 767px){
+				height: 48px;
+				font-size: 12px;
+				font-weight: 400;
+				letter-spacing: 1px;
+			}
+				&:focus {
+					box-shadow: none;
+					border-color:$black;
+				}
+				&::-webkit-input-placeholder {
+					font-family: $caption-font-family;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					font-style: normal;
+		  			 color: $black;
+				}
+				:-moz-placeholder { /* Firefox 18- */
+				font-family: $caption-font-family;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-style: normal;
+				   color: $black;
+				}
+
+				::-moz-placeholder {  /* Firefox 19+ */
+				font-family: $caption-font-family;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-style: normal;
+				  color: $black;
+				}
+
+				:-ms-input-placeholder {  
+				font-family: $caption-font-family;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-style: normal;
+				   color: $black;
+				}
+				
+			}
+			select {
+				&.form-control {
+				height: 48px !important;
+				box-shadow: none;
+				}
+			}
+			.btn {
+					font-family: $caption-font-family;
+					border-radius: 0px;
+					height: 48px;
+					font-size: $type-size-7;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					width:100%;
+					cursor: pointer;
+					border-radius: 0px;
+					box-shadow: none;
+					transition: $global-transition;
+					background-color: $heading-color;
+					border-color: $heading-color;
+					color: $white;
+					transition: $global-transition;
+					@media(max-width: 767px){
+				height: 48px;
+			}
+					&:hover {
+						background-color: $white;
+						color: $black;
+					}
+				}
+				
+				textarea.form-control{
+					resize: none;
+					height: 150px;
+					padding: 20px 12px 20px 12px;
+						@media(max-width: 767px){
+							height: 100px;
+							}
+				
+				&.m-textarea {
+					height: 130px;
+						@media(max-width: 767px){
+							height: 100px;
+							}
+				}
+			
+				}
+				.checkbox 
+				{
+					padding: 0 0 10px 0;
+					@media(max-width: 767px){
+				padding: 0 0 10px 0;
+			}
+					label {
+						font-family: arial;
+					font-size: 12px;
+					line-height: 22px;
+					letter-spacing: 1px;
+				}
+				}
+		}
+		.right-space {
+			padding-right: 8px;
+			@media(max-width: 767px){
+				padding-right: 0px;
+			}
+		}
+		.left-space {
+			padding-left: 8px;
+			@media(max-width: 767px){
+				padding-left: 0px;
+			}
+		}
+		.form-title {
+			text-align: center;
+		}
+		.two-fields-holder {
+			overflow: hidden;
+		}
+}
