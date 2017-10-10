@@ -53,7 +53,7 @@ include_in_nav_localized:
           {% assign galleries = site.data._models.gallery %}
           {% for gallery in galleries %} 
 			<div class="card item fancybox" data-filter="{{ gallery.category }}"  data-src="{{ gallery.gallery_image.url }}" data-sub-html="{{ gallery.image_caption }}">
-				<img src="{{ gallery.gallery_image.url }}" alt="{{gallery.image_caption}}" class="img-responsive"/>
+				<img src="{{ gallery.gallery_image.url_small }}" alt="{{gallery.image_caption}}" class="img-responsive"/>
 				<div class="overlay">
 					<!-- <ul class="social-share">
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
