@@ -1,12 +1,12 @@
 # Site Settings
-title                    : "Royalton Hotel NYC"
+title                    : "Royalton Park Avenue"
 title_separator          : "-"
-name                     : "Royalton Hotel NYC"
+name                     : "Royalton Park Avenue"
 description              : "One of the finest New York City Hotels, offers elegant room, suites apartments and penthouse. Reserve today and enjoy Royalton Boutique Hotel New York."
-url                      : "http://www.royaltonhotel.com"
+url                      : "https://www.royaltonparkavenue.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : TravelTripperWeb/royalton
-reztripUrl               : "https://royaltonhotel.reztrip.com/"
+repository               : TravelTripperWeb/royaltonflatiron
+reztripUrl               : "https://royaltonparkavenue.reztrip.com"
 
 # Language Settings
 default_lang             : 'en'
@@ -84,25 +84,25 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #   sort_field: 'date'
 #   sort_reverse: true
 
-page_gen: #
-  # - data: 'attractions'
-  #   template: 'single-attraction'
-  #   dir: 'attractions'
-  # - data: 'blog'
-  #   template: 'single-blog'
-  #   dir: 'blog'
-  # - data: 'events'
-  #   template: 'single-event'
-  #   dir: 'events'
-  # - data: 'offers'
-  #   template: 'single-offer'
-  #   dir: 'offers'
-  # - data: 'rooms'
-  #   template: 'single-room'
-  #   dir: 'rooms'
-  # - data: 'specials'
-  #   template: 'single-special'
-  #   dir: 'specials'
+# page_gen: #
+# - data: 'attractions'
+#   template: 'single-attraction'
+#   dir: 'attractions'
+# - data: 'blog'
+#   template: 'single-blog'
+#   dir: 'blog'
+# - data: 'events'
+#   template: 'single-event'
+#   dir: 'events'
+# - data: 'offers'
+#   template: 'single-offer'
+#   dir: 'offers'
+# - data: 'rooms'
+#   template: 'single-room'
+#   dir: 'rooms'
+# - data: 'specials'
+#   template: 'single-special'
+#   dir: 'specials'
 
 # page links
 pagelink:
