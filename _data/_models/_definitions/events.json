@@ -1,0 +1,27 @@
+{
+  "title": {
+    "required": true
+  },
+  "description": {
+    "type": "text",
+    "required": true
+  },
+  "image": {
+    "type": "image",
+    "required": true
+  },
+  "alt_tag": {
+    "type": "text",
+    "label": "Image Alt Tag",
+    "required": true
+  },
+  "start_date": {
+    "type": "date"
+  },
+  "end_date": {
+    "type": "date"
+  },
+  "location": {
+    "type": "text"
+  }
+}

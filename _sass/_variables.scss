@@ -1,0 +1,103 @@
+/*
+   Typography
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+
+$font-size-base             : 1rem !default; // Assumes the browser default, typically `16px`
+
+/* systrem typefaces */
+$serif                      : Georgia, Times, serif !default;
+$sans-serif                 : -apple-systrem, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace                  : Monaco, Consolas, "Lucida Console", monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow          : $sans-serif !default;
+$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+/* serif typefaces */
+$georgia                    : Georgia, serif !default;
+$times                      : Times, serif !default;
+$bodoni                     : "Bodoni MT", serif !default;
+$calisto                    : "Calisto MT", serif !default;
+$garamond                   : Garamond, serif !default;
+$eliganticon                : "ElegantIcons" !default;
+$oggroman                   : "Ogg Roman", serif !default;
+$fugue-mono                 : "fugue-mono", sans-serif !default;
+
+$global-font-family         : $fugue-mono !default;
+$header-font-family         : $oggroman !default;
+$caption-font-family        : 'Raleway', sans-serif !default;
+
+/* type scale */
+$type-size-1                : 12.5rem !default;  // ~200px
+$type-size-2                : 6.25rem !default;  // ~100px
+$type-size-3                : 2.125rem !default;  // ~34px
+$type-size-4                : 1.25rem !default;   // ~20px
+$type-size-5                : 1rem !default;      // ~16px
+$type-size-6                : 0.8125rem !default;   // ~13px
+$type-size-7                : 0.75rem !default; // ~12px
+$type-size-8                : 0.625rem !default;  // ~10px
+$type-size-9                : 0.875rem !default;
+$type-size-inner         	: 3rem !default;  //48px
+$type-size-checkavail       : 1.35rem !default;  
+
+/*
+   Colors
+   ========================================================================== */
+
+$gray                       : #7a8288 !default;
+$dark-gray                  : mix(#000, $gray, 40%) !default;
+$darker-gray                : mix(#000, $gray, 60%) !default;
+$light-gray                 : mix(#fff, $gray, 50%) !default;
+$lighter-gray               :  #cfcfcf !default;
+$lightest-gray              : #f2f2f2 !default;
+
+$body-color                 : #131416 !default;
+$background-color           : #fff !default;
+$text-color                 : $lighter-gray !default;
+$border-color               : $lighter-gray !default;
+$black                      : #000 !default;   //black
+$light-black                : #38373a !default; // caption link color
+$dark-primary               : #131416 !default;  // dark blue bg like button 
+
+$heading-color              : #8a7c60 !default; //black heading color
+$primary-color              : $text-color !default; //paragraph color
+$success-color              : #62c462 !default;
+$warning-color              : #f89406 !default;
+$danger-color               : #ee5f5b !default;
+$info-color                 : #007a9c !default;
+$secondary-color            : #8a7c60 !default; // orange type color
+$grey-color                 : $dark-primary !default; //like nav grey
+$seperator                  : #a2a1a3;
+$border-line                : #e2e2e2;
+ 
+$heading1-color             : #363738 !default;
+$caption                    : #1d2228;
+$white-transparent          : rgba(#ffffff,0.9);
+$bw-label                   : #767676; 
+$btn-grey                   : #f7f7f7 !default; 
+$black-transparent          : rgba(#000000, 0.35);
+
+/* brands */
+$facebook-color             : #3b5998 !default;
+$google-plus-color          : #dd4b39 !default;
+$instagram-color            : #517fa4 !default;
+$pinterest-color            : #cb2027 !default;
+$twitter-color              : #55acee !default;
+$youtube-color              : #bb0000 !default;
+
+/* links */
+$link-color                 : $text-color !default;
+$link-color-hover           : mix(#000, $link-color, 25%) !default;
+$link-color-visited         : mix(#fff, $link-color, 25%) !default;
+
+$trans-speed                : .5s;   //speed only
+
+/*
+   Other
+   ========================================================================== */
+
+$border-radius              : 4px !default;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125) !default;
+$global-transition          : all 0.5s ease !default;
+ 

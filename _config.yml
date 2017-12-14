@@ -1,15 +1,124 @@
+# Site Settings
+title                    : "Royalton Park Avenue"
+title_separator          : "-"
+name                     : "Royalton Park Avenue"
+description              : "One of the finest New York City Hotels, offers elegant room, suites apartments and penthouse. Reserve today and enjoy Royalton Boutique Hotel New York."
+url                      : "https://www.royaltonparkavenue.com"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : TravelTripperWeb/royaltonflatiron
+reztripUrl               : "https://royaltonparkavenue.reztrip.com"
 
-gems:
-- jekyll-sitemap
+# Language Settings
+default_lang             : 'en'
+languages                : ['en']
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - Makefile
+  - media.json
+  - models.json
+  - node_modules
+  - old_media.json
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - sitemap.json
+  - tmp
 keep_files:
-- assets
+  - .git
+  - assets
 rsync_copy:
 - _assets
-exclude:
-- sitemap.json
-- media.json
-- old_media.json
-- models.json
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-default_lang: 'en'
-languages: ['en']
+# Conversion
+markdown: kramdown
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  load_paths:
+    - _sass
+  style: compressed
+
+# Outputting
+permalink: pretty
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# data_paginate:
+#   per_page: 5
+#   data: 'blog'
+#   path: 'blog/page:num'
+#   pagination_template: 'blog/index.html'
+#   sort_field: 'date'
+#   sort_reverse: true
+
+# page_gen: #
+# - data: 'attractions'
+#   template: 'single-attraction'
+#   dir: 'attractions'
+# - data: 'blog'
+#   template: 'single-blog'
+#   dir: 'blog'
+# - data: 'events'
+#   template: 'single-event'
+#   dir: 'events'
+# - data: 'offers'
+#   template: 'single-offer'
+#   dir: 'offers'
+# - data: 'rooms'
+#   template: 'single-room'
+#   dir: 'rooms'
+# - data: 'specials'
+#   template: 'single-special'
+#   dir: 'specials'
+
+# page links
+pagelink:
+  contact: /contact/
+  gallery: /gallery/
+  about: /about/
+  offers: /offers/
+  rooms: /rooms-and-suites/
+  events: /events/
+  dining: /eat-and-drink/
+  location: /location/
+  rfp: /request-for-proposal/
+
+# Contact Information
+email: halie.mogavero@sbe.com
+phone: +1 212 768 5120
+
+# Misc
+maplink: https://www.google.com/maps/place/Royalton+New+York/@40.7554202,-73.9845663,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258ffef0d23a5:0x19f9952aebee2990!8m2!3d40.7554202!4d-73.9823776

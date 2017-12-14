@@ -1,0 +1,150 @@
+.dining-bar-main{
+	@extend .weddings-main;
+	.left-description{
+		padding: 2rem 0;
+		min-height: auto;
+		@include media-breakpoint-up(md){
+			padding: 4rem 0;
+		}
+		@include media-breakpoint-up(xl){
+			min-height: 480px;
+		}
+	}
+	  .no-max{ 
+			 	min-height: auto !important;
+			 }
+	.detail-6{ 
+			 @extend .col-md-6;
+			 position: relative;
+			 min-height: 600px; 
+			 .left-description{
+			 	max-width: 610px;
+			 	&.move-right{
+			 		@include media-breakpoint-up(lg) {
+			 		  padding-left: 4rem;
+			 		}
+			 	}
+			 }
+			 .img-holder{  
+			 	margin-left: -15px;
+			 	img{
+					 padding:0 ($spacer*4);
+			 	}
+			 } 
+			
+	}
+	.about-bar{
+		@extend .about-wedding;
+		.photos-slider{
+			@include media-breakpoint-up(md) {
+				padding-top: 3rem;
+			}
+			&.left-padding {
+				@include media-breakpoint-down(sm) {
+					padding: 0 15px !important; 
+				}
+			}
+			.carousel-item{
+				min-height: 320px !important; 
+				border-bottom: 0 !important;
+				@include media-breakpoint-up(md) {
+					min-height: 620px !important; 
+				}
+			}
+		}
+	}
+	.about-plan{
+		@extend .col-md-6; 
+		position: relative; 
+	   .view-plan{
+	   	position: relative; 
+	   	text-align: center;
+	   	.btn-outline{  
+				   bottom:  10%;
+	               position: absolute;
+	               left: 35%;
+	               left: calc(50% - 5rem);
+				background-color: $btn-grey;
+				&:hover{
+					background-color: $body-color;
+					color: $white;
+				}
+			} 
+	   }
+		
+	}
+	.counter{
+		color: $heading1-color;
+	}
+	#bar-carousel{
+		@extend #photosSlider;
+	}
+}
+
+.scroll-container{
+	color: $body-color;
+	@extend .container-fluid;
+	.wrapper{
+		@extend .row;
+		.logo-scroll{
+			@extend .col-md-12;
+			position: relative;
+			padding-left: 4.4rem;
+			padding-right: 4.4rem;
+			h4{
+				&:after{
+                   background-color: $body-color;
+				}
+			}
+			#pressCarousel{
+				padding-left: 4.4rem;
+				padding-right: 4.4rem;
+
+				img{
+					width: auto;
+					margin: 0 auto;
+					max-width: 100%;
+				}
+			}
+			.press-logo-nav{
+				position: relative;
+				width: 100%;
+				.owl-arrow-next,, .owl-arrow-prev{
+					position: absolute;
+					bottom: -2rem;
+					z-index: 12;
+				}
+				.owl-arrow-next{
+					right: 0rem;
+				}
+			}
+		}
+	}
+}
+ 
+.table-detail{
+	background-color: $dark-primary;
+    .table-responsive {
+        @include media-breakpoint-up(md) {
+            display: table;
+        }
+    }
+	table{
+
+		tr:first-child{
+			td, th{
+				 border-top: 0px;
+			}
+          
+		}
+		tr{
+			td,th{
+				border-top: 1px solid $border-line;
+				padding: 2.1rem .2rem;
+				font-family: $caption-font-family;
+				font-size: $type-size-7 ;
+				font-weight: bold;
+			}
+		}
+	}
+}

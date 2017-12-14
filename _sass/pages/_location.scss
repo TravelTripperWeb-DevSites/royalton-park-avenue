@@ -1,0 +1,87 @@
+.our-location{
+	@extend .container-fluid;
+	@extend .p-0;
+	background-color: $dark-primary;
+	.wrapper{
+		@extend .row;
+		@extend .no-gutters;
+  
+		.detail-5{ 
+			@extend .col-md-5;
+		}
+		.detail-7{ 
+			@extend .col-md-7; 
+		}
+		.detail-6{ 
+			@extend .col-md-6;
+		} 
+		.img-holder{
+			@include media-breakpoint-up (xl) {
+				padding-left: 8.7rem;
+			}
+		}
+		.img-caption{
+			font-family: $caption-font-family;
+			font-size: $type-size-7;
+			letter-spacing: 0.02rem;
+			@include media-breakpoint-up (xl) {
+				padding-left: 9rem;
+			}
+		}
+		.details{
+			padding-left: 1rem;
+			font-size: $type-size-6;
+			@include media-breakpoint-up (xl) {
+				padding-left: 9rem;
+			}
+		}
+		.about{
+			max-width: 29.38rem;
+			margin-left: 1rem;
+			@include media-breakpoint-up (xl) {
+				margin-left: 3rem;
+			}
+		}
+		h4{
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		.fa{
+			@include media-breakpoint-up (xl) {
+				margin-left: -20px;
+			}
+		}
+		#map{
+			min-height: 540px;
+			border-bottom: 8px solid $secondary-color;
+			@include media-breakpoint-up (md) {
+				margin-top: -13.5rem;
+			}
+		}
+	}
+}
+.attractions{
+	@extend .container;
+	.wrapper{
+		@extend .row;
+	}
+	h2{
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.sub-nav{
+		border-top: 1px solid $border-color;
+		margin: 0px;
+		display: block;
+		a{
+			padding: 1.6rem 0.2rem;
+		}
+	}
+	.tab-content{
+		 text-align: center;
+		p{
+			max-width: 35.63rem;
+			margin: 2rem auto;
+		}
+	}
+}

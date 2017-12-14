@@ -1,0 +1,43 @@
+.error-content {
+	text-align: center;
+	padding: 3rem 0;
+	.container {
+		max-width: 800px;
+	}
+	.line-one {
+		font-family: $oggroman;
+		font-size: $type-size-3;
+		color: $secondary-color;
+	}
+	.line-two {
+		font-family: $caption-font-family;
+		font-size: $type-size-6;
+		text-transform: uppercase;
+		letter-spacing: 0.100rem;
+		color: $lighter-gray;
+		padding: 1rem 0 2rem 0;
+			a {
+				color: $secondary-color;
+				font-weight: 700;
+			}
+	}
+	.sitemap-list {
+		padding: 2rem 0 0 0;
+		ul {
+			margin: 0;
+			padding: 0;
+				li {
+					list-style-type: none;
+					a {
+						transition: $global-transition;
+						display: block;
+						padding: 3px 0;
+						&:hover {
+							color: $secondary-color;
+							text-decoration: none;
+						}
+					}
+				}
+		}
+	}
+}

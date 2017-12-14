@@ -1,9 +1,39 @@
-.sass-cache/*
-.DS_Store
-feed.xml
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
 
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+*.gem
+*.sublime-project
+*.sublime-workspace
+.editorconfig
+.DS_Store
+_asset_bundler_cache
+Gemfile.lock
+npm-debug.log*
 sitemap.json
 media.json
-old_media.json
 models.json
-_site/*
+_site/
+.sass-cache/
+.jekyll-metadata
+bower_components/
+node_modules/
+.bundle/
+vendor/ 
+
+!assets/js/vendor/

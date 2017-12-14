@@ -1,0 +1,46 @@
+<section class="dining-gallery top-padding bottom-padding">
+    <div class="wrapper"> 
+                   <h2 class="text-center m-auto">Browse Gallery</h2> 
+    </div>
+    <div class="wrapper">
+                  <div class="snap-gallery-nav">
+              <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span>
+              <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> 
+            </div>
+    </div>
+    <div class="wrapper">
+            <div class="container-fluid p-0">                   
+                  <div id="snap-carousel" class="owl-carousel owl-theme pt-md-2"> 
+                     {% assign galleries = site.data._models.gallery | where: "category", "dining" %}
+                     {% for gallery in galleries %} 
+                      <div class="item" data-src="{{ gallery.gallery_image.url }}" data-sub-html="{{ gallery.image_caption }}" style="background-image: url('{{ gallery.gallery_image.url }}')">
+                           <div class="org-overlay">   
+                               <a href="{{ gallery.gallery_image.url }}" class="enlarger align-self-center" data-src="{{ gallery.gallery_image.url }}" data-sub-html="{{ gallery.image_caption }}"><img src="/assets/images/plus.png" alt="Zoom In"/></a>
+                            </div>
+                      </div>
+                      {%endfor%}
+                      <!--div class="item" style="background-image: url('/assets/images/bar/nightlife/2.jpg')">
+                            <div class="org-overlay">   
+                               <a href="/" class="enlarger align-self-center"><img src="/assets/images/plus.png" alt="Zoom In"/></a>
+                            </div>
+                     </div>
+                         
+                      <div class="item" style="background-image: url('/assets/images/bar/nightlife/3.jpg')">
+                            <div class="org-overlay">   
+                               <a href="/" class="enlarger align-self-center"><img src="/assets/images/plus.png" alt="Zoom In"/></a>
+                            </div>
+                     </div> 
+                          
+                      <div class="item" style="background-image: url('/assets/images/bar/nightlife/4.jpg')">
+                             <div class="org-overlay">   
+                               <a href="/" class="enlarger align-self-center"><img src="/assets/images/plus.png" alt="Zoom In"/></a>
+                            </div>
+                      </div--> 
+                   </div> 
+            </div>
+    </div>  
+    <div class="wrapper mt-4 ">   
+                <div class="btn-holder text-center"><a href="{{site.pagelink.gallery}}" title="View Gallery" class="btn-outline-black">View Gallery</a></div>
+     
+  </div>
+</section>

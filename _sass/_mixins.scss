@@ -1,0 +1,120 @@
+/*
+   Mixins
+   ========================================================================== */
+
+
+/* Vertical Center (Includes IE9) */
+
+@mixin vertical-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*---- transition mixins ---*/
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
+/*--transform mixins---*/ 
+
+@mixin transform($transforms) {
+		  transform: $transforms;
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;        
+}
+
+// rotate
+
+@mixin rotation ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+ 
+// scale
+
+@mixin scale($scale) {
+   @include transform(scale($scale));
+} 
+// translate
+
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+
+// skew
+
+@mixin skew ($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+//transform origin
+
+@mixin transform-origin ($origin) {
+    moz-transform-origin: $origin;
+       -o-transform-origin: $origin;
+      -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+          transform-origin: $origin;
+}
+
+// after or before line
+
+@mixin decoration ($width, $height, $line-color, $top, $right, $bottom, $left) {
+	content: "";
+	position: absolute;
+	width: $width;
+	height: $height;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+	left: $left;
+	margin: 0 auto;
+	background-color: $line-color;
+}
+
+@mixin jumbo-typo($left, $right) {
+			font-family: $header-font-family;
+			position: absolute;
+			font-size: $type-size-1;
+			color: $heading1-color;
+      left: $left;
+      right: $right;
+      top: 50%;
+      transform: translateY(-50%);
+      @include media-breakpoint-down (md) {
+        content: normal !important;
+      }
+}
+
+ 

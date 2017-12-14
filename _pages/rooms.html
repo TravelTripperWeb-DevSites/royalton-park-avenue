@@ -1,0 +1,241 @@
+---
+title_localized:
+  en: Boutique Hotels NYC | Royalton Park Avenue Hotel in New York
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/rooms-and-suites/"
+meta_description_localized:
+  en: Royalton Park Avenue Hotel
+meta_keywords_localized:
+  en: 
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+<div class="page-banner page-banner-type-two" style="background-image: url('/assets/images/rooms/rooms-banner.jpg');">
+  <div class="banner-overlay"></div>
+  <h1>Rooms &<br>
+    Suites</h1>
+</div>
+
+
+
+  <!--<section class="sub-header">
+  <div class="sub-header-row">
+    <div class="sub-header-left">
+      <h1>Rooms &<br>Suites</h1>
+    </div>
+     <div class="sub-header-right">
+      <ul class="sub-header-nav">
+        <li ng-repeat="cat in browser.roomCategories" ng-class="{'active': cat == selectedCat}" >
+          <a href="" ng-click="setCategory(cat)" >
+           <h4 class="sr-no">[[$index +1 ]]</h4>
+           <h4 class="text-uppercase">[[cat]]</h4>
+         </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>-->
+
+  <!--<div class="sub-header-decoration"></div>-->
+
+  <!-- <section class="rooms">
+  <div class="room-item" ng-class="{'border-left' : $even, 'border-right even': $odd}" ng-repeat="room in browser.roomsList">
+      <div class="room-row">
+        <div class="room-holder" ng-class="{'push-lg-6' : $odd}">
+          <div class="room-img">
+             <a href="" class="org-overlay"></a>
+            <div class="title-holder">
+              <h2 ng-bind-html="room.name | renderHTMLCorrectly"></h2>
+              <div class="btn-holder"><a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank" class="btn-outline-black">Book [[room.name | roomOrSuite]]</a></div>
+            </div>
+            <img ng-src="[[room.photos[0].yankee_large]]" alt="[[room.name]]">
+            <div class="rate-holder">
+          <a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">
+            <h4>Tonight’s<br>Rate</h4>
+            <div class="tonight-rate">[[room.todayRate]]</div>
+          </a>
+        </div>
+          </div>
+        <div class="link-holder"><a ng-href="/room/#[[room.name | formatNameForLink]]" class="link-text">View This [[room.name | roomOrSuite]]</a></div>
+        </div>
+      </div>
+  </div>
+</section> -->
+
+  <!-- <section class="rooms-wrapper">
+    <div class="assets-item" ng-class="{'border-left' : $even, 'border-right even': $odd}" ng-repeat="room in browser.roomsList">
+      <div class="assets-container">
+        <div class="assets-row">
+          <div class="assets-left" ng-class="{'push-md-5' : $odd}">
+            <div class="assets-image"><img ng-src="[[room.photos[0].large]]" alt="[[room.name]]">
+              <div class="btn-holder"><a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" class="btn-fill">Book [[room.name | roomOrSuite]]</a></div>
+            </div>
+          </div>
+          <div class="assets-right align-self-center" ng-class="{'pull-md-7' : $odd}">
+            <div class="assets-content">
+              <h2 ng-bind-html="room.name | renderHTMLCorrectly"></h2>
+              <p ng-bind-html="room.short_description | renderHTMLCorrectly"></p>
+              <h4><a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">Tonight's Rate<br>
+        <span ng-class="{'tonight-rate-checkavail': room.todayRate == 'Check Availability','tonight-rate': room.todayRate != 'Check Availability'}">[[room.todayRate]]</span></a></h4>
+              <div class="link-holder"><a ng-href="/room/#[[room.name | formatNameForLink]]" class="link-text">View This [[room.name | roomOrSuite]]</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</section> -->
+
+<section class="rooms-wrapper">
+  <div class="assets-item">
+    <div class="assets-container">
+      <div class="assets-row">
+        <div class="assets-left">
+          <div class="assets-image"><img src="/assets/images/rooms/superior-room.jpg" alt="Superior Room">
+            <div class="btn-holder"><a href="/" class="btn-fill">Book Room</a></div>
+          </div>
+        </div>
+        <div class="assets-right align-self-center">
+          <div class="assets-content">
+            <h2>Superior Room</h2>
+            <p>Smartly styled city rooms measure 350 square feet and offer one king or queen bed, living area, and an oversized bathroom.</p>
+            <h4><a href="" target="_blank">Tonight's Rate<br>
+      <span class="tonight-rate">$379</span></a></h4>
+            <div class="link-holder"><a href="/room-details/" class="link-text">View This Room</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="assets-item even">
+    <div class="assets-container">
+      <div class="assets-row">
+        <div class="assets-left pulling-right">
+          <div class="assets-image"><img src="/assets/images/rooms/deluxe-room.jpg" alt="Deluxe Room">
+            <div class="btn-holder"><a href="/" class="btn-fill">Book Room</a></div>
+          </div>
+        </div>
+        <div class="assets-right align-self-center pulling-left">
+          <div class="assets-content float-md-right">
+            <h2>Deluxe Room</h2>
+            <p>Smartly styled city rooms measure 370 square feet and offer one king  or double-double beds, living area, sleeper sofas in most rooms, and an oversized bathroom.</p>
+            <h4><a href="" target="_blank">Tonight's Rate<br>
+      <span class="tonight-rate">$379</span></a></h4>
+            <div class="link-holder"><a href="/room-details/" class="link-text">View This Room</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="assets-item">
+    <div class="assets-container">
+      <div class="assets-row">
+        <div class="assets-left">
+          <div class="assets-image"><img src="/assets/images/rooms/grand-deluxe-room.jpg" alt="Grand Deluxe Room">
+            <div class="btn-holder"><a href="/" class="btn-fill">Book Room</a></div>
+          </div>
+        </div>
+        <div class="assets-right align-self-center">
+          <div class="assets-content">
+            <h2>Grand Deluxe Room</h2>
+            <p>Distinguished Grand Deluxe rooms measure up to 525 square feet and offer one king bed, living area with sleeper sofa, and an oversized bathroom.</p>
+            <h4><a href="" target="_blank">Tonight's Rate<br>
+      <span class="tonight-rate">$379</span></a></h4>
+            <div class="link-holder"><a href="/room-details/" class="link-text">View This Room</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="assets-item even">
+    <div class="assets-container">
+      <div class="assets-row">
+        <div class="assets-left pulling-right">
+          <div class="assets-image"><img src="/assets/images/rooms/royalton-suite.jpg" alt="Royalton Suite">
+            <div class="btn-holder"><a href="/" class="btn-fill">Book Suite</a></div>
+          </div>
+        </div>
+        <div class="assets-right align-self-center pulling-left">
+          <div class="assets-content float-md-right">
+            <h2>Royalton Suite</h2>
+            <p>The residentially appointed Royalton Suite offers 980 square feet with two full bathrooms.</p>
+            <h4><a href="" target="_blank">Tonight's Rate<br>
+      <span class="tonight-rate">$379</span></a></h4>
+            <div class="link-holder"><a href="/room-details/" class="link-text">View This Suite</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="assets-item">
+    <div class="assets-container">
+      <div class="assets-row">
+        <div class="assets-left">
+          <div class="assets-image"><img src="/assets/images/rooms/manhattan-suite.jpg" alt="Manhattan Suite">
+            <div class="btn-holder"><a href="/" class="btn-fill">Book Suite</a></div>
+          </div>
+        </div>
+        <div class="assets-right align-self-center">
+          <div class="assets-content">
+            <h2>Manhattan Suite</h2>
+            <p>The residentially-appointed Manhattan Suite measures 700 square feet and holds court with dramatic city views.</p>
+            <h4><a href="" target="_blank">Tonight's Rate<br>
+      <span class="tonight-rate">$379</span></a></h4>
+            <div class="link-holder"><a href="/room-details/"  class="link-text">View This Suite</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="assets-item even">
+    <div class="assets-container">
+      <div class="assets-row">
+        <div class="assets-left pulling-right">
+          <div class="assets-image"><img src="/assets/images/rooms/park-avenue-suite.jpg" alt="Park Avenue Suite">
+            <div class="btn-holder"><a href="/" class="btn-fill">Book Suite</a></div>
+          </div>
+        </div>
+        <div class="assets-right align-self-center pulling-left">
+          <div class="assets-content float-md-right">
+            <h2>Park Avenue Suite</h2>
+            <p>The residentially appointed Park Avenue Suite measures at least 775 square feet. The spacious living area features a pull-out sofa and an oversized coffee table for entertaining.</p>
+            <h4><a href="" target="_blank">Tonight's Rate<br>
+      <span class="tonight-rate">$379</span></a></h4>
+            <div class="link-holder"><a href="/room-details/"  class="link-text">View This Suite</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="assets-item">
+    <div class="assets-container">
+      <div class="assets-row">
+        <div class="assets-left">
+          <div class="assets-image"><img src="/assets/images/rooms/duplex-penthouse-suite.jpg" alt="Duplex Penthouse Suite">
+            <div class="btn-holder"><a href="/" class="btn-fill">Book Suite</a></div>
+          </div>
+        </div>
+        <div class="assets-right align-self-center">
+          <div class="assets-content">
+            <h2>Duplex Penthouse Suite</h2>
+            <p>The indulgent convertible one, two or three-bedroom, 2,000 sq. ft. Duplex Penthouse boasts all the premium amenities you could ever desire.</p>
+            <h4><a href="" target="_blank">Tonight's Rate<br>
+      <span class="tonight-rate">$379</span></a></h4>
+            <div class="link-holder"><a href="/room-details/" class="link-text">View This Suite</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

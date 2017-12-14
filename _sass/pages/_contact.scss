@@ -1,0 +1,109 @@
+.contact-section{
+    @extend .container-fluid;
+
+    .contact-row{
+    @extend .row;
+        h4{
+           font-weight: bold;
+           text-transform: uppercase; 
+        }
+        a{
+            font-size: $type-size-6;
+            
+        }
+        .social{
+             @extend .pt-3;
+              @extend .pb-4;
+             .fa{
+             @extend .mr-4;
+            
+            }
+        }
+        h4{
+            @extend .mt-5;
+        }
+       
+    }
+    .contact-directions{
+    @extend .col-md-7;
+      .details-container{
+        padding:5rem 4rem 0 8rem;
+
+         @include media-breakpoint-down (md) {
+          padding:2rem;
+        }
+      }
+    }
+    .contact-form{
+		.title{
+			margin-left: 8.7%;
+		}
+    @extend .col-md-5;
+    overflow: hidden;
+    background-color: $dark-primary;
+    h4{
+        @extend .mb-4;
+    }
+       
+    .title{
+     font-size: 10rem;    
+    }
+    .banner-detail{
+        background-color: transparent;
+        text-align: left;
+
+        
+    }
+    input, textarea, button{
+        padding:.85rem;
+        background-color: $dark-primary;
+        border: 1px solid $background-color; 
+        color: $background-color;
+        border-radius:0;
+        font-size: $type-size-7 ;
+        min-width:16rem;
+      
+         @include media-breakpoint-up (lg) {
+         min-width: 23rem;
+        }
+
+    }
+    textarea{
+        height: 11rem;
+    }
+
+    button{
+       min-width: 7.75rem;
+              @extend .my-3;
+       cursor: pointer;
+       text-align: left;
+       position: relative;
+       @include transition($global-transition);
+       &:hover{
+           background-color: $background-color; 
+           color: $grey-color ;
+           
+        &:before{
+            background-color:  $grey-color;
+        }
+
+       }
+       &:before{
+                position: absolute;
+                content: "";
+                height: 2.9rem;
+                top: 0;
+                right: 2.8rem;
+                width: 1px;
+                background-color: #fff;
+                @include transition($global-transition);
+
+       }
+       .fa{
+            margin-left: 2rem;
+       }
+    }
+
+    }
+     
+}

@@ -1,0 +1,184 @@
+.top-page-cta{
+		@extend .cta;
+	    min-height: 15.38rem;
+	    @include media-breakpoint-up(md) {
+          min-height: 39.38rem;
+	    }
+	    .btn-holder{
+	    	z-index: 2;
+	    	&:before, &:after{
+	    		width: 0;
+	    	}
+	    }
+}
+
+.weddings-main{
+	@extend .restaurant;
+	background-color: $grey-color;
+    .about-wedding{
+    	@extend .about-restaurant;
+    	figure{
+    		margin-bottom: 0;
+    		img{
+    			width: 100%;
+    		 
+    	        }
+    		}
+    	.contact-info{
+    		@extend .row;
+			@extend .no-gutters;
+			@include media-breakpoint-down(md) {
+				padding: 0 0 0 1.6rem;
+			}
+			@include media-breakpoint-down(sm) {
+				padding: 0 0 0 0;
+			}
+    		.btn-cta{
+    			@extend .col-lg-5;
+    			.btn-holder{
+					padding: 0 0 3rem 0;
+					@include media-breakpoint-up(lg) {
+						padding-left: 2rem;
+						padding-bottom: 0;
+						padding: 0 0 0 2rem;
+					}
+    			}
+    		}
+    		.detail-7{
+    			@extend .col-lg-7;
+    			p{
+    				padding-left: 0 !important;
+    				font-weight: bold;
+    				a{ 
+    					text-decoration: none;
+    				}
+    			}
+    		}
+    		.detail-12{
+				@extend .col-md-12;
+				@include media-breakpoint-down(sm) {
+					padding: 0 15px !important;
+				}
+    			p{
+    				padding-left: 0 !important;
+    				font-weight: bold;
+    				a{ 
+    					text-decoration: none;
+    				}
+    			}
+    		}
+    		
+    	}
+    }
+    
+     .left-description{
+			 	padding: 3rem 0;
+				  @include media-breakpoint-up(md) {
+					  max-width: 500px;
+					  min-height: 660px;
+					  padding: 6rem 0;
+				  }
+			 	p, h4, .btn-holder{
+			 		@include media-breakpoint-up(md) {
+			 		   padding-left:($spacer*4); 
+			 	    }
+			 	}
+			 	h4{
+			 		font-weight: bold;
+			 		letter-spacing: 0.12rem;
+			 		text-transform: uppercase;
+			 		text-align: center;
+			 		padding-bottom: 1rem;
+			 	} 
+    }
+	
+}
+
+.snap-gallery-nav{
+	@extend .exclusive-offers-nav;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+#snap-carousel{
+	@extend #exclusive-offers-carousel;
+
+	.item{
+		position: relative;
+		min-height: 393px;
+		.org-overlay{
+			opacity: 0;
+			background-color: rgba($secondary-color, 0.6);
+
+		}
+		&:hover{
+			cursor: pointer;
+			.org-overlay{
+				opacity:1;
+			}
+		}
+		.enlarger{
+			position: absolute;
+			left: auto;
+			right: auto; 
+		    color: $white; 
+		    font-size: $type-size-3;
+		    text-decoration: none;
+		    img{
+		    	max-width: 33px;
+		    }
+		}
+		.social-share{ 
+             text-align: right;
+             padding: 0;
+             margin: 0;
+             list-style-type: none;
+             max-width: 100px;
+             position: absolute;
+             right: 20px;
+             top: 20px;
+             font-size: $type-size-7 ;
+             li{
+             	padding: 6px;
+             	display: inline-block;
+             	a{
+             		color: $white;
+             	}
+             }
+		}
+	}
+}
+
+
+.featured-venue{
+	@extend .container-fluid;
+	.wrapper{
+		@extend .row;
+		h2 {
+			span {
+				border-bottom: solid 3px $heading-color;
+			}
+		}
+		.venue{
+			@extend .col-md-6;
+			@extend .p-0;
+			.detail{
+				@extend .rotate-left-banner;
+				.banner-detail{
+					background-color: rgba($white, 0.90);
+					text-align: left;
+					.link-text {
+						color: $dark-primary;
+					}
+					h2{	
+						padding-bottom: 0;
+						padding-top: 2rem;
+						&:after{
+							display: none;
+						}
+						
+					}
+				}
+			}
+		}
+	}
+}

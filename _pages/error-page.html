@@ -1,0 +1,46 @@
+---
+title_localized:
+  en: Page Not Found | Royalton Hotel
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/error-page/"
+meta_description_localized:
+  en: 
+meta_keywords_localized:
+  en: 
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+{% assign menuitems = site.data.navigation.main %}
+
+<section class="sub-header">
+  <div class="sub-header-row">
+    <div class="sub-header-left">
+      <h1>Page<br>Not Found</h1>
+    </div>
+  </div>
+</section>
+<div class="page-banner" style="background-image: url('/assets/images/error-page-banner.jpg');">
+</div>
+
+<section class="error-content">
+	<div class="container">
+    	<div class="line-one">We're sorry but it looks like that page doesn't exist anymore.</div>
+    	<div class="line-two">Please view the Sitemap below or go back to the <a href="/">Homepage</a>.</div>
+        <div class="sitemap-list">
+        	<ul>
+            <li><a href="/">Home</a></li>
+            {% for item in menuitems %}
+              <li><a href="{{item.url | absolute_url}}">{{ item.title }}</a></li>
+              {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
