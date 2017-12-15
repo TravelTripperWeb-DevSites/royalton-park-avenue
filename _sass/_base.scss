@@ -198,15 +198,16 @@ svg:not(:root) {
       max-width: 130px; 
     }
     @include media-breakpoint-up (md) { 
-       margin: 2rem 4rem;
+       margin: 2rem 2rem;
        max-width: 170px;
     }
     @include media-breakpoint-up (lg) {
-       margin: 2.4rem 4rem;
+       margin: 2.4rem 2rem;
        max-width: 180px; 
        z-index: 1;
     }
-     @include media-breakpoint-up (xl) {
+     @media (min-width: 1360px) {
+      margin: 2.4rem 4rem;
        max-width: 260px;  
        z-index: 1;
     }
