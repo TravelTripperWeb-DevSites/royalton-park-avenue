@@ -206,7 +206,7 @@ svg:not(:root) {
        max-width: 180px; 
        z-index: 1;
     }
-     @include media-breakpoint-up (xl) {
+     @media (min-width: 1360px) {
       margin: 2.4rem 4rem;
        max-width: 260px;  
        z-index: 1;
