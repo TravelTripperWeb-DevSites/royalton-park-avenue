@@ -5,12 +5,12 @@
       $interpolateProvider.endSymbol(']]');
     })
     .value('rt3api', new Rt3Api({
-      portalId: 'royaltonhotel',
-      hotelId: 'NYCROY',
+      portalId: 'royaltonparkavenue',
+      hotelId: 'NYCRPA',
       defaultLocale: 'en',
       defaultCurrency: 'USD'
     }))
-     
+
    .config(function($locationProvider) {
       $locationProvider.html5Mode({
         enabled: true,
@@ -37,43 +37,43 @@
     })
     .controller('roomDetail', ['$scope', 'rt3Search', 'rt3Browser','$timeout','$filter','$http', function($scope, rt3Search, rt3Browser,$timeout,$filter,$http) {
       window.onhashchange = function() {
-        $(".loading").css("display","block");
-        $timeout(function(){
-          $(".loading").css("display","none");
-        },800);
-        $timeout(function() {
-          $('#more-assets').owlCarousel('destroy'); 
-          $('#more-assets').owlCarousel({
-            margin: 30,
-            loop: true,
-            items: 2,
-            responsiveClass: true,
-            responsive: {
-              0: {
-                items: 1
-              },
-              600: {
-                items: 2
-              },
-              1000: {
-                items: 3
-              }
-            }
-          });
-         
-        },2000);
+            $(".loading").css("display","block");
+            $timeout(function(){
+              $(".loading").fadeOut('slow');
+              $(window).scrollTop(0);
+            },800);
+            $timeout(function() {
+              $('#more-assets').owlCarousel('destroy');
+              $('#more-assets').owlCarousel({
+                margin: 30,
+                loop: true,
+                items: 2,
+                responsiveClass: true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 2
+                  },
+                  1000: {
+                    items: 3
+                  }
+                }
+              });
+
+            },2000);
       }
       $scope.reloadPage = function(){window.location.reload();}
       $timeout(function() {
-           $(".loading").css("display","none");
-      
+           $(".loading").fadeOut('slow');
       }, 1500);
-      
+
     }])
     .controller('roomsCategories',['$scope' , function($scope){
         $scope.selectedCat = 'Standard';
         $scope.setCategory = function (cat){
-            $scope.selectedCat = cat;            
+            $scope.selectedCat = cat;
         }
     }])
     .controller('offerDetail', ['$scope', 'rt3Search', 'rt3Browser','$timeout','$filter', function($scope, rt3Search, rt3Browser,$timeout,$filter) {
@@ -82,7 +82,8 @@
         }
         $scope.reloadPage = function(){$window.location.reload();}
         setTimeout(function(){
-            $(".loading").css("display","none");
+            $(".loading").fadeOut('slow');
+            $(window).scrollTop(0);
         },800);
 
     }])

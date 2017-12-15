@@ -8,22 +8,22 @@
 
 <!--New Booking Widget-->
 
-<script src="https://plugins.traveltripper.io/v2/rt3api.js"></script> 
-<script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script> 
+<script src="https://plugins.traveltripper.io/v2/rt3api.js"></script>
+<script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script>
 <script>
-   
+
     TTWeb.Config.configure({
-      hotelId: 'NYCROY', //'orwhatever your values are',
-      portalId: 'royaltonhotel',
+      hotelId: 'NYCRPA', //'orwhatever your values are',
+      portalId: 'royaltonparkavenue',
       defaultTimezone: 'America/New_York', // timezone of site
       ipAddress: sessionStorage.ip_add,
       defaultCurrency: 'USD'
     });
-    
+
 
     $("[show-booking-widget]").bookingWidget({
          //showRateCalendar: true,
-         showOfferCode: true          
+         showOfferCode: true
     });
 </script>
 
@@ -36,4 +36,3 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="{{ '/assets/js/ie10-viewport-bug-workaround.js' | absolute_url }}"></script>
- 
