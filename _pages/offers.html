@@ -2,7 +2,7 @@
 title_localized:
   en: Boutique Hotels NYC | Royalton Park Avenue Hotel in New York
 label_localized:
-  en: 
+  en:
 layout_localized:
   en: default
 permalink_localized:
@@ -10,7 +10,7 @@ permalink_localized:
 meta_description_localized:
   en: Royalton Park Avenue Hotel
 meta_keywords_localized:
-  en: 
+  en:
 published_localized:
   en: true
 include_in_nav_localized:
@@ -90,186 +90,25 @@ include_in_nav_localized:
   </section> -->
 
   <section class="offers-wrapper">
-    <div class="assets-item">
+    <div class="assets-item" ng-class="{'even': $odd}" ng-repeat="offer in offers.special_rates">
       <div class="assets-container">
         <div class="assets-row">
-          <div class="assets-left">
-            <div class="assets-image"><img src="/assets/images/offers/get-local.jpg" alt="Get Local">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
+          <div class="assets-left" ng-class="{'pulling-right' : $odd}">
+            <div class="assets-image"><img ng-src="[[offer.lead_photo_url.large || '/assets/images/dummy.jpg']] " alt="[[offer.rate_plan_name]]">
+              <div class="btn-holder"><a ng-href="[[offer.promo_url]]" target="_blank" class="btn-fill">Check Rate</a></div>
             </div>
           </div>
-          <div class="assets-right align-self-center">
+          <div class="assets-right align-self-center" ng-class="{'pulling-left' : $odd}">
             <div class="assets-content">
-              <h2>Get Local</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-              <div class="link-holder"><a href="/offer-details/" class="link-text">View This Offer</a></div>
+              <h2 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h2>
+              <p ng-bind-html="offer.short_description | renderHTMLCorrectly"></p>
+              <div class="link-holder"><a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]" class="link-text">View This Offer</a></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="assets-item even">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left pulling-right">
-            <div class="assets-image"><img src="/assets/images/offers/tour-de.jpg" alt="Tour de Domestique Cycling Package in NYC">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center pulling-left">
-            <div class="assets-content float-md-right">
-              <h2>Tour de Domestique Cycling Package in NYC</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="link-holder"><a href="/offer-details/" class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="assets-item">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left">
-            <div class="assets-image"><img src="/assets/images/offers/get-suite-summer.jpg" alt="Get Suite Summer">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center">
-            <div class="assets-content">
-              <h2>Get Suite Summer</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-              <div class="link-holder"><a href="/offer-details/" class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="assets-item even">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left pulling-right">
-            <div class="assets-image"><img src="/assets/images/offers/play-hooky.jpg" alt="Play Hooky - Day Pool Package">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center pulling-left">
-            <div class="assets-content float-md-right">
-              <h2>Play Hooky - Day Pool Package</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. veniam, quis nostrud exercitation ullamco</p>
-              <div class="link-holder"><a  href="/offer-details/" class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="assets-item">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left">
-            <div class="assets-image"><img src="/assets/images/offers/get-it-all.jpg" alt="Get It All">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center">
-            <div class="assets-content">
-              <h2>Get It All</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-              <div class="link-holder"><a  href="/offer-details/"  class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="assets-item even">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left pulling-right">
-            <div class="assets-image"><img src="/assets/images/offers/get-fit.jpg" alt="Get Fit">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center pulling-left">
-            <div class="assets-content float-md-right">
-              <h2>Get Fit</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
-              <div class="link-holder"><a  href="/offer-details/"  class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="assets-item">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left">
-            <div class="assets-image"><img src="/assets/images/offers/get-fly.jpg" alt="Get Fly, Ride With Us">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center">
-            <div class="assets-content">
-              <h2>Get Fly, Ride With Us</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-              <div class="link-holder"><a  href="/offer-details/"  class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="assets-item even">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left pulling-right">
-            <div class="assets-image"><img src="/assets/images/offers/night-owl.jpg" alt="Night Owl">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center pulling-left">
-            <div class="assets-content float-md-right">
-              <h2>Night Owl</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-              <div class="link-holder"><a  href="/offer-details/" class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="assets-item">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left">
-            <div class="assets-image"><img src="/assets/images/offers/get-hitched.jpg" alt="Get Hitched">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center">
-            <div class="assets-content">
-              <h2>Get Hitched</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-              <div class="link-holder"><a  href="/offer-details/"  class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="assets-item even">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left pulling-right">
-            <div class="assets-image"><img src="/assets/images/offers/get-pampered.jpg" alt="Get Pampered - Ultimate Spa Package">
-              <div class="btn-holder"><a href="/" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center pulling-left">
-            <div class="assets-content float-md-right">
-              <h2>Get Pampered - Ultimate Spa Package</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
-              <div class="link-holder"><a ng-href="/rooms/superior-room/" class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </section>
 
 <!--   <section class="cta bg-cover" style="background-image:url(/assets/images/offers/offers-cta.jpg); background-attachment:fixed;">

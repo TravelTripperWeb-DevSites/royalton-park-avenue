@@ -2,16 +2,16 @@
 title_localized:
   en: Contact Us | The Royalton Hotel in New York City
 label_localized:
-  en: 
+  en:
 layout_localized:
   en: default
 permalink_localized:
   en: "/contact/"
 meta_description_localized:
   en: Get in touch with the Royalton Hotel at 44 West 44th Street, New York, NY 10036,
-    call us on +1 212 869 4400 or contact us direct through our website.
+    call us on +1 212 317 2900 or contact us direct through our website.
 meta_keywords_localized:
-  en: 
+  en:
 published_localized:
   en: true
 include_in_nav_localized:
@@ -28,7 +28,7 @@ include_in_nav_localized:
       <ul class="sub-header-nav">
 
         <li>
-          <a href="{{site.pagelink.location}}"> 
+          <a href="{{site.pagelink.location}}">
             <h4 class="text-uppercase">Our<br>Location</h4>
           </a>
         </li>
@@ -46,7 +46,7 @@ include_in_nav_localized:
         <a href="{{site.maplink}}" target="_blank"> <i class="fa fa-map-marker" aria-hidden="true"></i> 420 Park Avenue South (at 29th Street), <br> New York, NY 10016</a>
         <br>
 
-        <a href="tel:+1 212 869 4400"> <i class="fa fa-phone" aria-hidden="true"></i> +1 212 869 4400</a>
+        <a href="tel:+1 212 317 2900"> <i class="fa fa-phone" aria-hidden="true"></i> +1 212 317 2900</a>
         <div class="social">
           {% if site.data.social.facebook.username %}
           <a href="https://facebook.com/{{ site.data.social.facebook.username }}" target="_blank" role="link" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -70,7 +70,7 @@ include_in_nav_localized:
       </p>
       <div class="banner-detail m-auto">
 
-         <form class="jotform-form" action="https://submit.jotform.me/submit/72781612869468/" method="post" name="form_72781612869468" id="72781612869468" accept-charset="utf-8"> 
+         <form class="jotform-form" action="https://submit.jotform.me/submit/72781612869468/" method="post" name="form_72781612869468" id="72781612869468" accept-charset="utf-8">
           <input type="hidden" name="formID" value="72781612869468">
           <h4>Contact Form</h4>
           <div class="form-group">
@@ -102,32 +102,32 @@ include_in_nav_localized:
   </div>
 </section>
 <section class="dining-gallery top-padding bottom-padding">
-    <div class="wrapper"> 
-                   <h2 class="text-center m-auto">Take A Visual Tour</h2> 
+    <div class="wrapper">
+                   <h2 class="text-center m-auto">Take A Visual Tour</h2>
     </div>
     <div class="wrapper">
                   <div class="snap-gallery-nav">
               <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span>
-              <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> 
+              <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span>
             </div>
     </div>
     <div class="wrapper">
-            <div class="container-fluid p-0">                   
-                  <div id="snap-carousel" class="owl-carousel owl-theme pt-md-2"> 
+            <div class="container-fluid p-0">
+                  <div id="snap-carousel" class="owl-carousel owl-theme pt-md-2">
                      {% assign galleries = site.data._models.gallery | where: "category", "rooms" %}
-                     {% for gallery in galleries %} 
+                     {% for gallery in galleries %}
                       <div class="item" data-src="{{ gallery.gallery_image.url }}" data-sub-html="{{ gallery.image_caption }}" style="background-image: url('{{ gallery.gallery_image.url }}')">
-                           <div class="org-overlay">   
+                           <div class="org-overlay">
                                <a href="{{ gallery.gallery_image.url }}" class="enlarger align-self-center" data-src="{{ gallery.gallery_image.url }}" data-sub-html="{{ gallery.image_caption }}"><img src="/assets/images/plus.png" alt="Zoom In"/></a>
                             </div>
                       </div>
                       {%endfor%}
-                   </div> 
+                   </div>
             </div>
-    </div>  
-    <div class="wrapper mt-4 ">   
+    </div>
+    <div class="wrapper mt-4 ">
                 <div class="btn-holder text-center"><a href="{{site.pagelink.gallery}}" title="View Gallery" class="btn-outline-black">View Gallery</a></div>
-     
+
   </div>
 </section>
 <section class="cta bg-cover" style="background-image:url(/assets/images/contact/contact-cta.jpg); background-attachment:fixed;">

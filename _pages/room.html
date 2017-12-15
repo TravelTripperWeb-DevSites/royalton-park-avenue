@@ -2,7 +2,7 @@
 layout: default
 title: "Room"
 description: ""
-permalink: /room-details/
+permalink: /room/
 ---
 
 <div class="loading" style="display:block">Loading&#8230;</div>
@@ -35,18 +35,12 @@ permalink: /room-details/
 
   <div class="sub-header-decoration"></div>
   <ul class="sub-nav">
-        <li><a href="#" >SUPERIOR ROOM</a></li>
-        <li><a href="#" class="active">DELUXE ROOM</a></li>
-        <li><a href="#">GRAND DELUXE ROOM</a></li>
-        <li><a href="#">ROYALTON SUITE</a></li>
-        <li><a href="#">MANHATTAN SUITE</a></li>
-        <li><a href="#">PARK AVENUE SUITE</a></li>
-        <li><a href="#">DUPLEX PENTHOUSE SUITE</a></li>
+        <li ng-repeat="r in browser.roomsList"><a ng-href="/room/#[[r.name | formatNameForLink]]" ng-class="{'active': r.code == selectedRoom.code}" ng-bind-html="r.name | renderHTMLCorrectly"></a></li>
   </ul>
 
    <section class="empty-banner border-left">
     <div class="empty-banner-container">
-       <div class="empty-banner-row bg-cover" style="background-image: url(/assets/images/rooms/room-details-hero.jpg);"></div>
+       <div class="empty-banner-row bg-cover" ng-style="{'background-image':'url('+selectedRoom.photos[0].large+')'}"></div>
      <!--  <div class="empty-banner-row bg-cover" ng-style="{'background-image': 'url('+offers.sRdetail.lead_photo_url.large+' )'}"></div> -->
     </div>
   </section>
@@ -78,10 +72,10 @@ permalink: /room-details/
         <div class="rd-left">
           <div class="rate-holder bottom-line">
 
-            <a href="#" target="_blank">
+            <a ng-href="{{ site.reztripUrl }}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">
               <h4>Tonight’s<br>
               Rate</h4>
-              <div class="tonight-rate">$ 415</div>
+              <div class="tonight-rate">[[selectedRoom.todayRate]]</div>
             </a>
 
             <!-- <a ng-href="{{ site.reztripUrl }}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">
@@ -94,14 +88,12 @@ permalink: /room-details/
         </div>
         <div class="rd-right">
            <div class="room-des">
-            <h2><span class="discount">Deluxe<br>Room</span></h2>
-            <p>Smartly styled city rooms measure 370 square feet and offer one king  or double-double beds, living area, sleeper sofas in most rooms, and an oversized bathroom. Premium amenities include 400 thread count luxury Egyptian cotton linens, bathrobe, and slippers; interactive hi-definition LCD flat screen televisions, a fully stocked private bar; a Bowers and Wilkins Zeppelin mini iPod docking station and more.</p>
-            <p>
-            For your convenience, Deluxe King rooms offer individual climate control, cordless multi-line telephone, laptop compatible in-room safe, an umbrella, and iron and ironing board.
-            </p>
-            <div class="btn-holder"><a href="#" target="_blank" class="btn-outline-black">Book Now</a></div>
+            <h2><span class="discount" ng-bind-html="selectedRoom.name | renderHTMLCorrectly"></span></h2>
+            <p ng-bind-html="selectedRoom.description | renderHTMLCorrectly"></p>
+
+            <div class="btn-holder"><a ng-href="{{ site.reztripUrl }}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]"  target="_blank" class="btn-outline-black">Book Now</a></div>
           </div>
-         <!--  
+         <!--
           <div class="room-des">
             <h2><span class="discount" ng-bind-html="selectedRoom.name | renderHTMLCorrectly"></span></h2>
             <p ng-bind-html="selectedRoom.description | renderHTMLCorrectly"></p>
@@ -118,12 +110,8 @@ permalink: /room-details/
       <div class="right-coloumn align-self-center">
         <div class="rate-holder bottom-line">
           <h4>Room Features</h4>
-          <p> 370 sqft </p>
-          <p> King bed </p>
-          <p> In-room safe </p>
-          <p>  Full stocked private bar </p>
-          <p>  Individual climate control </p>
-          <p>  Flat screen HDTV </p>        
+          <p ng-repeat="amenity in selectedRoom.amenities">[[amenity]]</p>
+          <p ng-repeat="amenity in hotelInfo.common_room_amenities">[[amenity]]</p>
 
        <!--    <p ng-repeat="amenity in selectedRoom.amenities">[[amenity]]</p>
           <p ng-repeat="amenity in hotelInfo.common_room_amenities">[[amenity]]</p> -->
@@ -143,43 +131,16 @@ permalink: /room-details/
         </div>
         <div class="more-rooms-list">
           <div id="more-assets" class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="img-holder"  style="background-image: url('/assets/images/rooms/superior-room.jpg');">
-                <a href="#" target="_blank" class="book-link">Book Room</a>
+            <div class="item" ng-repeat="room in browser.roomsList | filter: {'code': '!'+selectedRoom.code}">
+              <div class="img-holder"  ng-style="{'background-image':'url([[room.photos[0].large]])'}">
+                <a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank" class="book-link">Book [[room.name | roomOrSuite]]</a>
               </div>
               <div class="caption">
-                <h4>superior Room</h4>
-                <a href="#" class="link-text">View This Room</a>
+                <h4 ng-bind-html="room.name | renderHTMLCorrectly"></h4>
+                <a ng-href="/room/#[[room.name | formatNameForLink]]" class="link-text">View This [[room.name | roomOrSuite]]</a>
               </div>
             </div>
-            
-            <div class="item">
-              <div class="img-holder"  style="background-image: url('/assets/images/rooms/grand-deluxe-room.jpg');">
-                <a href="#" target="_blank" class="book-link">Book Room</a>
-              </div>
-              <div class="caption">
-                <h4>Grand Deluxe Room</h4>
-                <a href="#" class="link-text">View This Suite</a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img-holder"  style="background-image: url('/assets/images/rooms/royalton-suite.jpg');">
-                <a href="#" target="_blank" class="book-link">Book Room</a>
-              </div>
-              <div class="caption">
-                <h4>Royalton Suite</h4>
-                <a href="#" class="link-text">View This Suite</a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img-holder"  style="background-image: url('/assets/images/rooms/deluxe-room.jpg');">
-                <a href="#" target="_blank" class="book-link">Book Room</a>
-              </div>
-              <div class="caption">
-                <h4>superior Room</h4>
-                <a href="#" class="link-text">View This Room</a>
-              </div>
-            </div>
+
           </div>
           <div class="btn-holder"><a href="{{ site.pagelink.rooms }}" class="btn-outline-black">View All</a></div>
         </div>
@@ -218,7 +179,7 @@ permalink: /room-details/
     <div class="bg-overlay"></div>
     <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Park Avenue"></a></div>
     <div class="btn-holder"><a href="{{ site.reztripUrl }}" class="btn-outline">Be a part of it</a></div>
-    <div class="cta-text"><a href="https://royaltonparkavenue.reztrip.com">Book Now</a></div>
+    <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
   </section>
 
 </section>
