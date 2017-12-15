@@ -6,7 +6,7 @@ description              : "One of the finest New York City Hotels, offers elega
 url                      : "https://www.royaltonparkavenue.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : TravelTripperWeb/royaltonflatiron
-reztripUrl               : "https://royaltonparkavenue.reztrip.com"
+reztripUrl               : "https://royaltonparkavenue.reztrip.com/"
 
 # Language Settings
 default_lang             : 'en'
