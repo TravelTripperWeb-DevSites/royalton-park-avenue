@@ -235,3 +235,18 @@
 		}
     }
 }
+
+.nye-content {
+    padding-bottom: 2em;
+
+    h3 {
+        font-family: $oggroman;
+        color: $heading-color;
+        padding-bottom: 1em;
+        text-transform: uppercase;
+    }
+
+    img {
+        max-width: 320px;
+    }
+}
