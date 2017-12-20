@@ -1,0 +1,82 @@
+---
+title_localized:
+  en: New Years Eve | Royalton Park Avenue in New York City
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/new-years-eve/"
+meta_description_localized:
+  en: New Years Eve in New York City
+meta_keywords_localized:
+  en: 
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+label: New Years Eve
+
+---
+
+<section class="sub-header">
+  <div class="sub-header-row">
+    <div class="sub-header-left">
+      <h1>NEW YEARS EVE</h1>
+    </div>
+  </div>
+</section>
+<section class="new-years-eve container">
+  <div class="row">
+    <div class="nye-content text-center col-md-6">
+      <h3>Royalton Park Rooftop</h3>
+        <img src="//cdn.traveltripper.io/site-assets/192_800_10429/media/2017-12-20-130112/royalton-new-york-city-new-years-eve-party-flyer-2018-b.jpg">
+        <div class="btn-holder text-center">
+          <a href="http://newyears.com/newyork/parties_royalton-park-avenue_420-park-ave-s-new-york-ny" title="More Info" class="btn-outline-black">More Info</a>
+        </div>
+    </div> 
+    <div class="nye-content text-center col-md-6">
+      <h3>Asellina at The Royalton Park Hotel</h3>
+      <img src="//cdn.traveltripper.io/site-assets/192_800_10429/media/2017-12-20-130109/asellina-at-the-gansevoort-park-hotel-nyc-new-years-party-flyer-b-dj.jpg">
+      <div class="btn-holder text-center">
+        <a href="http://newyears.com/newyork/parties_asellina-at-the-royalton-park-hotel-formerly-gansevoort-park-hotel_420-park-ave-s-new-york-ny" title="More Info" class="btn-outline-black">More Info</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="dining-gallery top-padding bottom-padding">
+  <div class="wrapper">
+    <h2 class="text-center m-auto">Take A Visual Tour</h2>
+  </div>
+  <div class="wrapper">
+    <div class="snap-gallery-nav">
+      <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span>
+      <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="container-fluid p-0">
+      <div id="snap-carousel" class="owl-carousel owl-theme pt-md-2">
+         {% assign galleries = site.data._models.gallery | where: "category", "rooms" %}
+         {% for gallery in galleries %}
+          <div class="item" data-src="{{ gallery.gallery_image.url }}" data-sub-html="{{ gallery.image_caption }}" style="background-image: url('{{ gallery.gallery_image.url }}')">
+               <div class="org-overlay">
+                   <a href="{{ gallery.gallery_image.url }}" class="enlarger align-self-center" data-src="{{ gallery.gallery_image.url }}" data-sub-html="{{ gallery.image_caption }}"><img src="/assets/images/plus.png" alt="Zoom In"/></a>
+                </div>
+          </div>
+          {%endfor%}
+       </div>
+    </div>
+  </div>
+  <div class="wrapper mt-4 ">
+    <div class="btn-holder text-center">
+        <a href="{{site.pagelink.gallery}}" title="View Gallery" class="btn-outline-black">View Gallery</a>
+    </div>
+  </div>
+</section>
+<section class="cta bg-cover" style="background-image:url(/assets/images/contact/contact-cta.jpg); background-attachment:fixed;">
+  <div class="bg-overlay"></div>
+  <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Park Avenue"></a></div>
+  <div class="btn-holder"><a href="#" class="btn-outline">Be a part of it</a></div>
+  <div class="cta-text"><a href="#">Book Now</a></div>
+</section>
