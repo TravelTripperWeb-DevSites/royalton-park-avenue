@@ -214,7 +214,7 @@
     .assets-item {
 		p {
 				&:before {
-					@include media-breakpoint-down(sm) {
+					@include media-breakpoint-down(xl) {
 						content: normal !important;
 					} 
 				}
