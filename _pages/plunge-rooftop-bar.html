@@ -79,15 +79,15 @@ include_in_nav_localized:
 	            </div>
           </div>
           <div class="about-bar">
-
+           {% assign rooftops = site.data._models.rooftop-slider | sort: 'order' %}
             <div class="photos-slider left-padding">
                 <div id="photosSlider" class="carousel slide" data-ride="carousel">
              	    <div class="carousel-inner" role="listbox">
-             	      <div class="carousel-item" style="background-image: url('/assets/images/restaurant/plunge-rooftop-bar-lounge/plunge-rooftop-bar-lounge-1.jpg');">
-             	      </div>
-             	      <div class="carousel-item active" style="background-image: url('/assets/images/restaurant/plunge-rooftop-bar-lounge/plunge-rooftop-bar-lounge-2.jpg');">
-             	      </div>
-
+                  {% for rooftop in rooftops %}
+                    <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{rooftop.image.url_large}}');">
+                    </div>
+                  {% endfor %}
+             	       
              	    </div>
              	    <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev">
              	     <span class="eligant-icons control-arrow" aria-hidden="true">#</span>

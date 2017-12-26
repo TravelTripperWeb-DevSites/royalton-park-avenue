@@ -81,14 +81,15 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
 	            </div>
           </div>
           <div class="about-bar">
-
+          {% assign ristorante = site.data._models.ristorante-slider | sort: 'order' %}
             <div class="photos-slider left-padding">
                 <div id="photosSlider" class="carousel slide" data-ride="carousel">
              	    <div class="carousel-inner" role="listbox">
-             	      <div class="carousel-item" style="background-image: url('/assets/images/restaurant/ristorante-asellina/ristorante-asellina-1.jpg');">
-             	      </div>
-             	      <div class="carousel-item active" style="background-image: url('/assets/images/restaurant/ristorante-asellina/ristorante-asellina-2.jpg');">
-             	      </div>
+                    {% for slide in ristorante %}
+                      <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slide.image.url_large}}');">
+                      </div>
+                    {% endfor %}
+             	       
 
              	    </div>
              	    <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev">
