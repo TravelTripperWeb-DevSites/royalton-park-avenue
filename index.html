@@ -60,14 +60,15 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
     </div>
     <div class="btn-col-3 bottom-padding align-self-center"> <a href="{{site.pagelink.about}}" class="align-middle btn-outline-black ml-md-5 ml-lg-0" title="Discover More">Discover More</a> </div>
   </div>
+  {% assign property-sliders = site.data._models.welcome-property-slider | sort: 'order' %}
   <div class="wrapper">
     <div class="photos-slider d-flex justify-content-between">
       <div id="photosSlider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active" style="background-image: url('/assets/images/home/presidential-suite.jpg');"> </div>
-          <div class="carousel-item" style="background-image: url('/assets/images/home/fireplace.jpg');"> </div>
-          <div class="carousel-item" style="background-image: url('/assets/images/home/bar.jpg');"> </div>
-          <div class="carousel-item" style="background-image: url('/assets/images/home/sundeck.jpg');"> </div>
+          {% for propertyimage in property-sliders %}
+              <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{propertyimage.image.url_large}}');"> </div>
+          {% endfor %}
+           
         </div>
         <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a> </div>
 
