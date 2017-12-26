@@ -270,15 +270,12 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
       <div class="attractions-controls"> <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span> <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> <span class="c-caption">Explore <br>
         New York City</span> </div>
     </div>
+    {% assign nycpics = site.data._models.explore-nyc-scroller | sort: 'order' %}
     <div class="col-md-7 no-padding">
       <div id="home-attractions" class="owl-carousel owl-theme">
-        <div class="item"><img src="/assets/images/home/location-slider/02.jpg" alt="Royalton Park Avenue"></div>
-        <div class="item"><img src="/assets/images/home/location-slider/05.jpg" alt="Royalton Park Avenue"></div>
-        <div class="item"><img src="/assets/images/home/location-slider/03.jpg" alt="Royalton Park Avenue"></div>
-        <div class="item"><img src="/assets/images/home/location-slider/04.jpg" alt="Royalton Park Avenue"></div>
-        <div class="item"><img src="/assets/images/home/location-slider/01.jpg" alt="Royalton Park Avenue"></div>
-        <div class="item"><img src="/assets/images/home/location-slider/06.jpg" alt="Royalton Park Avenue"></div>
-        <div class="item"><img src="/assets/images/home/location-slider/07.jpg" alt="Royalton Park Avenue"></div>
+        {% for pic in nycpics %}
+           <div class="item"><img src="{{pic.image.url_small}}" alt="{{pic.image.alt}}"></div>
+        {% endfor %} 
       </div>
     </div>
   </div>
