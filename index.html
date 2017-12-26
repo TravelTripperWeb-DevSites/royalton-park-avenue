@@ -5,26 +5,17 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
 ---
 
 <!--Main Carousel here-->
-
+{% assign homeheroSliders = site.data._models.homepage-slider | sort: 'order' %}
 <section class="homepageSlider  d-flex justify-content-between">
   <div id="heroSlider" class="homeSlide carousel slide" data-ride="carousel" data-interval="6000" data-pause>
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active" style="background-image: url('/assets/images/home/heroSlider/terrace-pool.jpg');"> 
-        <div class="carousel-caption text-left  d-md-block">
-          <h4>high style, luxury and comfort all in one</h4> 
-          <a href="{{site.pagelink.rooms}}" class="link-text">Rooms &amp; Suites</a> </div>
-      </div>
-      <div class="carousel-item" style="background-image: url('/assets/images/home/heroSlider/city.jpg');"> 
-        <div class="carousel-caption text-left  d-md-block">
-          <h4>In the heart of Midtown</h4>
-          <a href="{{site.pagelink.location}}" class="link-text">Location</a> </div>
-      </div>
-      <div class="carousel-item" style="background-image: url('/assets/images/home/heroSlider/bar.jpg');">
-       
-        <div class="carousel-caption text-left d-md-block">
-          <h4>Eat &amp; Drink</h4>
-          <a href="{{site.pagelink.dining}}" class="link-text">Eat &amp; Drink</a> </div>
-      </div>
+     {% for slider in homeheroSliders %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slider.image.url_large}}');"> 
+          <div class="carousel-caption text-left  d-md-block">
+            <h4>{{slider.name}}</h4> 
+            <a href="{{slider.link-url}}" class="link-text">{{slider.link-text}}</a> </div>
+        </div>     
+     {% endfor %} 
     </div>
     <a class="carousel-control-prev" href="#" data-target="#heroSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#" data-target="#heroSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a> </div>
 </section>
