@@ -174,13 +174,17 @@ svg:not(:root) {
   @include transition($global-transition);
   font-family: $caption-font-family;
   font-weight: bold;
-  font-size: $type-size-7;
+  font-size: $type-size-8;
   padding: 0;
   background: $grey-color; 
   height: 5.5rem;
   @include media-breakpoint-up (md) {
    height: 8.375rem;
+
   }
+  @media(min-width: 1300px){
+    font-size:$type-size-7;
+  } 
   &.home-nav{
     background: $grey-color;
     .navbar-toggler{
@@ -198,15 +202,15 @@ svg:not(:root) {
       max-width: 130px; 
     }
     @include media-breakpoint-up (md) { 
-       margin: 2rem 2rem;
+       margin: 2rem 1.5rem;
        max-width: 170px;
     }
     @include media-breakpoint-up (lg) {
-       margin: 2.4rem 2rem;
+       margin: 2.4rem 1.5rem;
        max-width: 180px; 
        z-index: 1;
     }
-     @media (min-width: 1360px) {
+     @media (min-width: 1520px) {
       margin: 2.4rem 4rem;
        max-width: 260px;  
        z-index: 1;
@@ -308,6 +312,10 @@ svg:not(:root) {
     top: 1.5rem;
     z-index: 99;
      @include media-breakpoint-up (md) {
+      top: 2.5rem;
+      right: 1.5rem;
+     }
+     @media (min-width: 1520px) {
       top: 2.5rem;
       right: 3.8rem;
      }
