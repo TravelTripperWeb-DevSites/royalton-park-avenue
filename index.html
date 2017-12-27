@@ -27,13 +27,23 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
     <div class="hero-images">
       <div class="image-box">
         <div class="img-caption">
-          <p class="caption-90">The Royalton Park Avenue Lobby</p>
+          {% regionblock home_intro_hotel_name, type:text %}
+            <p class="caption-90">The Royalton Park Avenue Lobby</p>
+          {% endregionblock %}
         </div>
         <div class="img-6 pl-md-0 pr-xs-0">
-          <figure> <img src="/assets/images/about/resting.jpg" alt="lobby in royalton" class="img-fluid"> </figure>
+          <figure> 
+            {% regionblock home_intro_img_1, type:image %}
+              <img src="/assets/images/about/resting.jpg" alt="lobby in royalton" class="img-fluid"> 
+            {% endregionblock %}
+          </figure>
         </div>
         <div class="img-4 pr-md-0">
-          <figure> <img src="/assets/images/about/lobby.jpg" alt="royalton hotel lobby" class="img-fluid"> </figure>
+          <figure> 
+            {% regionblock home_intro_img_2, type:image %}
+              <img src="/assets/images/about/lobby.jpg" alt="royalton hotel lobby" class="img-fluid">
+            {% endregionblock %} 
+          </figure>
         </div>
       </div>
     </div>
@@ -50,15 +60,27 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
   </div>
   <div class="wrapper top-space">
     <div class="left-caption pb-xs-2">
-      <!--h4 class="sr-no">01</h4-->
+      {% regionblock home_intro_heading_main, type:header %}
       <h4 class="text-uppercase">Welcome to<br>Royalton PArk<br>Avenue Hotel</h4>
-      <a href="{{site.pagelink.contact}}" class="link-text">Contact us</a> </div>
+      {% endregionblock %}
+      {% regionblock home_intro_btn_one, type:text %}
+        <a href="{{site.pagelink.contact}}" class="link-text">Contact us</a> 
+        {% endregionblock %}
+    </div>
     <div class="details-5">
+      {% regionblock home_intro_text_heading, type:header %}
       <h2>La Crème de la <br>
         Crème </h2>
+      {% endregionblock %}
+      {% regionblock home_intro_content, type:text %}
       <p>The Royalton Park Avenue Hotel offers downtown edge with an uptown sensibility. Boasting 249 luxury rooms and remarkable suites, most with lofty ceilings, Juliet balconies, and five fixture bathrooms – the property perched on the corner of 29th Street and Park Avenue couldn’t be more centrally located.</p>
+      {% endregionblock %}
     </div>
-    <div class="btn-col-3 bottom-padding align-self-center"> <a href="{{site.pagelink.about}}" class="align-middle btn-outline-black ml-md-5 ml-lg-0" title="Discover More">Discover More</a> </div>
+    <div class="btn-col-3 bottom-padding align-self-center"> 
+      {% regionblock home_intro_btn_two, type:text %}
+      <a href="{{site.pagelink.about}}" class="align-middle btn-outline-black ml-md-5 ml-lg-0" title="Discover More">Discover More</a> 
+      {% endregionblock %}
+    </div>
   </div>
   {% assign property-sliders = site.data._models.welcome-property-slider | sort: 'order' %}
   <div class="wrapper">
@@ -85,12 +107,18 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
   <div class="border-right"></div>
   <div class="container">
     <div class="wrapper">
-      <div class="cta-rooms align-self-center text-center"> <a href="{{site.pagelink.rooms}}" class="align-middle btn-outline-black mb-3" title="Discover More">Discover More</a> </div>
+      <div class="cta-rooms align-self-center text-center"> 
+        {% regionblock home_rooms_btn, type:text %}
+        <a href="{{site.pagelink.rooms}}" class="align-middle btn-outline-black mb-3" title="Discover More">Discover More</a> 
+        {% endregionblock %}
+      </div>
       <div class="sub-heading">
         <!--h4 class="sr-no">02</h4-->
+        {% regionblock home_rooms_heading, type:header %}
         <h4 class="text-uppercase">high style, luxury <br>
           and comfort all in <br>
           one</h4>
+          {% endregionblock %}
       </div>
     </div>
     <div class="wrapper  top-space">
@@ -121,7 +149,9 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
     </div>
     <div class="wrapper">
       <div class="rooms-intro-h">
+        {% regionblock home_rooms_content, type:text %}
         <p>Our design-oriented, luxury accommodations boast an average size of 475 square feet, lofty ceilings, Juliet balconies, and magnificent Park Avenue South views.</p>
+        {% endregionblock %}
       </div>
     </div>
   </div>
@@ -134,12 +164,14 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
 	  <div class="carousel-item active" style="background-image: url('/assets/images/home/trip-advisor-room.jpg');">
 		<div class="carousel-caption text-right d-none d-md-block">
 		  <!--<h3>01</h3>-->
+      {% regionblock home_cityscape, type:header %}
 		  <h4>Cityscape views and open air</h4>
+      {% endregionblock %}
 		</div>
 		<div class="org-overlay">
-		  <h3>
-		  What our guests say
-		  </h3>
+      {% regionblock home_offers_guests_title, type:header %}
+		  <h3>What our guests say</h3>
+      {% endregionblock %}
 		  <!-- <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
 		  <p><i class="fa fa-tripadvisor" aria-hidden="true"></i></p>
 		</div>
@@ -161,12 +193,17 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
   <div class="wrapper">
     <div class="left-caption">
       <!--h4 class="sr-no">03</h4-->
-      <h4 class="text-uppercase">Exclusive <br>
-        Offers</h4>
+      {% regionblock home_offers_heading, type:header %}
+      <h4 class="text-uppercase">Exclusive <br>Offers</h4>
+      {% endregionblock %}
     </div>
     <div class="details-8">
+      {% regionblock home_offers_subheading, type:header %}
       <h2>Have it all</h2>
+      {% endregionblock %}
+      {% regionblock home_offers_content, type:text %}
       <p>Whether you’re planning a weekend getaway or a long-term stay, we offer exclusive specials to guests who book direct.</p>
+      {% endregionblock %}
     </div>
   </div>
   <div class="wrapper">
@@ -204,7 +241,11 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
   <div class="wrapper">
     <div class="left-caption"> </div>
     <div class="details-8">
-      <div class="btn-holder"><a href="{{site.pagelink.offers}}" class="btn-outline-black">View All Offers</a></div>
+      <div class="btn-holder">
+        {% regionblock home_offers_btn, type:text %}
+        <a href="{{site.pagelink.offers}}" class="btn-outline-black">View All Offers</a>
+        {% endregionblock %}
+      </div>
     </div>
   </div>
 </section>
@@ -216,20 +257,34 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
     <div class="eat-drink  top-space">
       <div class="r-caption">
         <!--h4 class="sr-no">04</h4-->
+        {% regionblock home_eat_drink_heading, type:header %}
         <h4 class="text-uppercase">ROOFTOP BAR + LOUNGE<br>SUNDECK<br>RISTORANTE ASELLINA</h4>
+        {% endregionblock %}
       </div>
       <div class="rotate-title">
         <p class="title"> Eat Drink <br>
           <span>Be merry.</span> </p>
       </div>
       <div class="border-left img-holder">
-        <figure><img src="/assets/images/home/offers/royaltan-restaurant.jpg" alt="restaurant" class="img-fluid"></figure>
+        <figure>
+          {% regionblock home_eat_drink_img_1, type:image %}
+          <img src="/assets/images/home/offers/royaltan-restaurant.jpg" alt="restaurant" class="img-fluid">
+          {% endregionblock %}
+        </figure>
       </div>
     </div>
     <div class="about-restaurant">
-      <figure> <img src="/assets/images/home/offers/restaurant.jpg" alt="restaurant" class="img-fluid"> </figure>
+      <figure> 
+        {% regionblock home_eat_drink_img_2, type:image %}
+        <img src="/assets/images/home/offers/restaurant.jpg" alt="restaurant" class="img-fluid"> 
+        {% endregionblock %}
+      </figure>
       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
-      <div class="btn-holder"><a href="{{site.pagelink.dining}}" class="btn-outline-black">Discover More</a></div>
+      <div class="btn-holder">
+        {% regionblock home_eat_drink_btn, type:text %}
+        <a href="{{site.pagelink.dining}}" class="btn-outline-black">Discover More</a>
+        {% endregionblock %}
+      </div>
     </div>
   </div>
 </section>
@@ -238,9 +293,23 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
 
 <section class="cta bg-cover top-space" style="background-image:url(/assets/images/city-ariel-view.jpg); background-attachment:fixed;">
   <div class="bg-overlay"></div>
-  <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Park Avenue"></a></div>
-  <div class="btn-holder"><!--<a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>--><a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a></div>
-  <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
+  <div class="logo-holder">
+    <a href="/">
+      {% regionblock home_cta_img, type:text %}
+      <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+      {% endregionblock %}
+    </a>
+  </div>
+  <div class="btn-holder"><!--<a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>-->
+    {% regionblock home_cta_small_btn, type:text %}
+    <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+    {% endregionblock %}
+  </div>
+  <div class="cta-text">
+    {% regionblock home_cta_btn, type:text %}
+    <a href="{{site.reztripUrl}}">Book Now</a>
+    {% endregionblock %}
+  </div>
 </section>
 
 <!--Location Section here-->
@@ -248,27 +317,53 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
 <section class="home-location-container">
   <div class="container-inner">
     <div class="row no-gutters">
+      {% regionblock home_location_heading, type:header %}
       <h2>Location</h2>
+      {% endregionblock %}
       <div class="col-md-6 no-padding">
         <div class="content-left">
+          {% regionblock home_location_subheading, type:header %}
           <h4>in the heart of NOMAD</h4>
+          {% endregionblock %}
           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
-          <div class="btn-holder" style="text-align: center;"><a href="{{site.pagelink.location}}" class="btn-outline-black">Discover More</a></div>
+          <div class="btn-holder" style="text-align: center;">
+            {% regionblock home_location_btn, type:text %}
+            <a href="{{site.pagelink.location}}" class="btn-outline-black">Discover More</a>
+            {% endregionblock %}
+          </div>
         </div>
       </div>
       <div class="col-md-6 no-padding">
         <div class="content-right">
+          {% regionblock home_location_hotel_title, type:header %}
           <h4>royalton Park Avenue</h4>
-          <p><i class="fa fa-map-marker"></i> 420 Park Avenue South (at 29th Street),<br>New York, NY 10016<br>
-		  <i class="fa fa-phone"></i><a href="tel:12123172900"></a>+1 212 317 2900</a></p>
+          {% endregionblock %}
+          {% regionblock home_location_address, type:text %}
+          <p>
+              <i class="fa fa-map-marker"></i> 
+                420 Park Avenue South (at 29th Street),
+                <br>
+                New York, NY 10016<br>
+          </p>
+          {% endregionblock %}
+          {% regionblock home_location_contact_number, type:text %}
+          <p>
+  		        <i class="fa fa-phone"></i>
+              <a href="tel:12123172900"></a>
+                +1 212 317 2900
+          </p>
+          {% endregionblock %}
         </div>
       </div>
     </div>
   </div>
   <div class="auto-width-carousel border-left">
     <div class="col-md-5 no-padding">
-      <div class="attractions-controls"> <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span> <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> <span class="c-caption">Explore <br>
-        New York City</span> </div>
+      <div class="attractions-controls"> <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span> <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> 
+        {% regionblock home_attractions_subheading, type:header %}
+        <span class="c-caption">Explore <br>New York City</span> 
+        {% endregionblock %}
+      </div>
     </div>
     {% assign nycpics = site.data._models.explore-nyc-scroller | sort: 'order' %}
     <div class="col-md-7 no-padding">
@@ -283,12 +378,20 @@ title: Boutique Hotels in Manhattan, NYC | Royalton Park Avenue
     <div class="row no-gutters">
       <div class="col-md-7 no-padding">
         <div class="content-bottom">
+          {% regionblock home_attractions_heading, type:header %}
           <h4>The Greatest City in the World</h4>
+          {% endregionblock %}
+          {% regionblock home_attractions_content, type:text %}
           <p>A bastion of creativity, New York City is unlike any other place in the world. An international hub of people, ideas, and culture, you could spends years in New York City and never see it in its entirely. New York never loses its interest. Come see it in all its glory, in the heart of Manhattan, at the Royalton Hotel.</p>
+          {% endregionblock %}
         </div>
       </div>
       <div class="col-md-5 no-padding">
-        <div class="script-wrap"> <img src="/assets/images/script.png" alt="Royalton Park Avenue"> </div>
+        <div class="script-wrap">
+        {% regionblock home_attractions_img, type:image %} 
+          <img src="/assets/images/script.png" alt="Royalton Park Avenue"> 
+        {% endregionblock %}
+        </div>
       </div>
     </div>
   </div>
