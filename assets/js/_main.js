@@ -215,14 +215,27 @@ $(document).ready(function () {
 
 	//home attraction owl
 	owlOwlNav('#home-attractions', '.attractions-controls');
-	$('#home-attractions').owlCarousel({
-		margin: 30,
-		loop: true,
-		autoWidth: true,
-		autoHeight: true,
-		items: 4,
-		nav: true
-	});
+	setTimeout(function(){
+		 $('#home-attractions').owlCarousel({
+		 	margin: 30,
+		 	loop: true,  
+		 	responsiveClass:true,
+		 	items: 1.5,
+		 	nav: true,
+		 	responsive:{
+		 	        0:{
+		 	            items:1.2 
+		 	        },
+		 	        600:{
+		 	            items:1.3 
+		 	        },
+		 	        1000:{
+		 	            items:1.6 
+		 	        }
+		 	    }
+		 });
+	},1500);
+	
 
 
 
