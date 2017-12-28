@@ -67,7 +67,9 @@
         }
             .footer-content {
                 padding-bottom: 0;
-                padding-left: 0;
+                @include media-breakpoint-down (md) {
+                    padding-left: 0;
+                }
             }
     }
     .footer-content {
