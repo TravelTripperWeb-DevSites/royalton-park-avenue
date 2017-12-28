@@ -23,7 +23,9 @@ label: Location
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock location_banner_title, type:header %}
       <h1>Our <br>Location</h1>
+      {% endregionblock %}
     </div>
   </div>
 </section>
@@ -32,15 +34,25 @@ label: Location
   <div class="wrapper">
     <div class="detail-5 top-space">
       <div class="details">
+        {% regionblock location_content_title, type:header %}
         <h4>royalton Park Avenue</h4>
-        <p><a href="https://goo.gl/maps/p7Ufh4JKE5P2" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>
-          420 Park Avenue South<br>New York, NY 10016</a>
-          <br><a href="tel:+1 212 317 2900"> <i class="fa fa-phone" aria-hidden="true"></i> +1 212 317 2900</a></p>
-
+        {% endregionblock %}
+        {% regionblock location_content_address, type:text %}
+        <p>
+          <a href="https://goo.gl/maps/p7Ufh4JKE5P2" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>
+          420 Park Avenue South<br>New York, NY 10016</a></p>
+          {% endregionblock %}
+          {% regionblock location_content_number, type:text %}
+          <p><a href="tel:+1 212 317 2900"> <i class="fa fa-phone" aria-hidden="true"></i> +1 212 317 2900</a></p>
+          {% endregionblock %}
+          {% regionblock location_content_btn, type:text %}
         <p class="pt-1"><a href="https://goo.gl/maps/jKUChvbLKq72" target="_blank" class="link-text">Get Directions</a></p>
+        {% endregionblock %}
 
         <figure>
+          {% regionblock location_content_sign, type:image %}
           <img src="/assets/images/script.png" alt="sign" class="img-fluid top-padding pr-md-5">
+          {% endregionblock %}
         </figure>
       </div>
     </div>
@@ -51,19 +63,30 @@ label: Location
   <div class="wrapper top-padding">
     <div class="detail-6 p-0">
       <div class="border-left  img-holder">
-        <figure><img src="/assets/images/location/royalton-main.jpg" alt="Royalton Hotel" class="img-fluid"></figure>
+        <figure>
+          {% regionblock location_content_img, type:image %}
+          <img src="/assets/images/location/royalton-main.jpg" alt="Royalton Hotel" class="img-fluid">
+        {% endregionblock %}</figure>
       </div>
       <div class="img-caption">
+        {% regionblock location_content_img_cap, type:text %}
         <p>Cityscape views and open air</p>
+        {% endregionblock %}
       </div>
     </div>
     <div class="detail-6 p-0 text-center">
       <div class="about text-left">
+        {% regionblock location_nomad_title, type:header %}
         <h4 class="text-center">in the heart of NOMAD</h4>
+        {% endregionblock %}
+        {% regionblock location_nomad_text, type:text %}
         <p>If New York is the center of the world, the Royalton Park Avenue is its epicenter. Just steps from the electrifying Times Square, the buzzing Theater District, and the iconic Rockefeller Center the Royalton Park Avenue truly is located in the center of the country's most influential happenings.</p>
+        {% endregionblock %}
       </div>
       <figure>
+        {% regionblock location_nomad_img, type:image %}
         <img src="/assets/images/location/midtown.png" alt="Midtown" class="m-auto img-fluid">
+        {% endregionblock %}
       </figure>
     </div>
   </div>
@@ -72,7 +95,9 @@ label: Location
 <section class="attractions top-space">
   <div class="wrapper">
     <div class="col-md-12">
+      {% regionblock location_attractions_title, type:header %}
       <h2> Attractions</h2>
+      {% endregionblock %}
        {% assign attractions = site.data._models.attractions | sort: 'order' %}
       <!-- Tab links -->
       <ul class="sub-nav mt-3 nav" role="tablist">
@@ -114,7 +139,9 @@ label: Location
       </div>
 
       <div class="photo-r-caption">
+        {% regionblock location_midtown_img_cap, type:text %}
         <p class="caption-90">Midtown, New York City</p>
+        {% endregionblock %}
       </div>
 
     </div>
@@ -125,7 +152,21 @@ label: Location
 
 <section class="cta bg-cover" style="background-image:url(/assets/images/location/city.jpg); background-attachment:fixed;">
   <div class="bg-overlay"></div>
-  <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Park Avenue"></a></div>
-  <div class="btn-holder"><a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a></div><!--{{site.reztrip}}-->
-  <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
+  <div class="logo-holder">
+      <a href="/">
+        {% regionblock location_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %} 
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock location_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock location_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
 </section>

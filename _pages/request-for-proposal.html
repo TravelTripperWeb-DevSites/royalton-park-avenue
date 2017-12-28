@@ -20,7 +20,9 @@ include_in_nav_localized:
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock rfp_banner_title, type:header %}
       <h1>Request For<br>Proposal</h1>
+      {% endregionblock %}
     </div>
   </div>
 </section>
@@ -28,8 +30,12 @@ include_in_nav_localized:
 </div>
 <section class="error-content">
 	<div class="container">
+    {% regionblock rfp_content_title, type:header %}
     	<div class="line-one">Request For Proposal</div>
+      {% endregionblock %}
+      {% regionblock rfp_content, type:text %}
     	<p>Please fill out the below form for us to better assist you.</p>
+      {% endregionblock %}
     </div>
 </section>
 <section class="rfp-wrap">
