@@ -22,75 +22,13 @@ label: About
 
 <div class="page-banner page-banner-type-two" style="background-image: url('/assets/images/offers/offers-banner.jpg');">
   <div class="banner-overlay"></div>
+  {% regionblock offers_banner, type:header %}
   <h1>Special <br>
     Offers</h1>
+    {% endregionblock %}
 </div>
 
 <section rt3-special-rates= "offers">
-
-  <!--<section class="sub-header">
-  <div class="sub-header-row">
-    <div class="sub-header-left">
-      <h1>Special<br>Offers</h1>
-    </div>
-     <div class="sub-header-right">
-      <ul class="sub-header-nav">
-        <li>
-          <a href="#">
-           <h4 class="sr-no">01</h4>
-           <h4 class="text-uppercase">Newsletter<br>Signup</h4>
-         </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<div class="sub-header-decoration"></div>-->
-  <!-- <section class="offers">
-  <div class="offers-container" ng-class="{'border-left' : $even, 'border-right': $odd}" ng-repeat="offer in offers.special_rates ">
-    <div class="offers-item" >
-    <div class="offers-row" ng-class="{'even' : $odd}">
-      <div class="title-wrap" ng-class="{'push-md-4' : $odd}">
-          <div class="image-wrap bg-cover" ng-style="{'background-image': 'url([[offer.lead_photo_url.yankee_large || '/assets/images/dummy.jpg']] )'}" ></div>
-          <div class="title-holder">
-            <h2 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h2>
-            <div class="btn-holder"><a ng-href="[[offer.promo_url]]"  target="_blank" class="btn-outline-black">Check Rate</a></div>
-          </div>
-      </div>
-      <div class="description-wrap align-self-end" ng-class="{'pull-md-8' : $odd}">
-        <div class="description-holder">
-          <h4>UP TO 35% OFF</h4>
-          <p ng-bind-html="offer.long_description | renderHTMLCorrectly"></p>
-          <a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]" class="link-text">View This Offer</a>
-        </div>
-      </div>
-      </div>
-    </div>
-      </div>
-
-</section> -->
-
-  <!-- <section class="offers-wrapper">
-    <div class="assets-item" ng-class="{'border-left' : $even, 'border-right even': $odd}" ng-repeat="offer in offers.special_rates">
-      <div class="assets-container">
-        <div class="assets-row">
-          <div class="assets-left" ng-class="{'push-md-5' : $odd}">
-            <div class="assets-image"><img ng-src="[[offer.lead_photo_url.large || '/assets/images/dummy.jpg']] " alt="[[offer.rate_plan_name]]">
-              <div class="btn-holder"><a ng-href="[[offer.promo_url]]" class="btn-fill">Check Rate</a></div>
-            </div>
-          </div>
-          <div class="assets-right align-self-center" ng-class="{'pull-md-7' : $odd}">
-            <div class="assets-content">
-              <h2 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h2>
-              <p ng-bind-html="offer.short_description | renderHTMLCorrectly"></p>
-              <div class="link-holder"><a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]" class="link-text">View This Offer</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <section class="offers-wrapper">
     <div class="assets-item" ng-class="{'even': $odd}" ng-repeat="offer in offers.special_rates">
       <div class="assets-container">
@@ -112,12 +50,5 @@ label: About
     </div>
     
   </section>
-
-<!--   <section class="cta bg-cover" style="background-image:url(/assets/images/offers/offers-cta.jpg); background-attachment:fixed;">
-    <div class="bg-overlay"></div>
-    <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Park Avenue"></a></div>
-    <div class="btn-holder"><a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a></div>
-    <div class="cta-text"><a href="https://royaltonparkavenue.reztrip.com">Book Now</a></div>
-  </section> -->
 
 </section>
