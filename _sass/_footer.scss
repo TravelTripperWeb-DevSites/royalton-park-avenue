@@ -32,7 +32,7 @@
         }
         @include media-breakpoint-up(lg) {
             /* width: 11.665%; */
-            width: 33.33%;
+            width: 30%;
         }
     }
     .coloumn-2 {
@@ -43,7 +43,7 @@
         }
         @include media-breakpoint-up(lg) {
             /*  width: 34.423%; */
-            width: 33.33%;
+            width: 35%;
         }
     }
 /*     .coloumn-3 {
@@ -63,7 +63,7 @@
         }
         @include media-breakpoint-up(lg) {
              /* width: 24.518%; */
-             width: 33.33%;
+             width: 35%;
         }
             .footer-content {
                 padding-bottom: 0;
@@ -203,6 +203,9 @@
         padding: 2rem 0 0 0;
         display: inline-block;
         margin-left: 2rem;
+        @include media-breakpoint-up (md) {
+            margin-left: 6rem;
+        }
         img {
             max-width: 110px;
             display: inline-block;
