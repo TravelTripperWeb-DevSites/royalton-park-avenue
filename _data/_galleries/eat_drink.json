@@ -494,6 +494,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/thumb_jonathan-pease-83068.jpg",
       "git_file_name": "_assets/image_data/jonathan-pease-83068.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/jonathan-pease-83068.jpg"
+    },
+    {
+      "name": "anders-jilden-250",
+      "file_name": "anders-jilden-250.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075232/anders-jilden-250.jpg",
+      "tags": "gallery,location",
+      "file_size": 366831,
+      "width": 1920,
+      "height": 1280,
+      "description": "City View",
+      "date_added": "2017-10-05-075232",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075232/large_anders-jilden-250.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075232/medium_anders-jilden-250.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075232/small_anders-jilden-250.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075232/xsmall_anders-jilden-250.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075232/thumb_anders-jilden-250.jpg",
+      "git_file_name": "_assets/image_data/anders-jilden-250.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075232/anders-jilden-250.jpg"
     }
   ],
   "description": ""
