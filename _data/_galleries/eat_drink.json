@@ -741,6 +741,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075451/thumb_gvh_park_grand_deluxe_001.jpg",
       "git_file_name": "_assets/image_data/gvh_park_grand_deluxe_001.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075451/gvh-park-grand-deluxe-001.jpg"
+    },
+    {
+      "name": "gvh_park_deluxe_0032",
+      "file_name": "gvh_park_deluxe_0032.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/gvh-park-deluxe-0032.jpg",
+      "tags": "gallery,rooms&suites",
+      "file_size": 241905,
+      "width": 1500,
+      "height": 900,
+      "description": "Royalton Park Deluxe",
+      "date_added": "2017-10-05-075442",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/large_gvh_park_deluxe_0032.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/medium_gvh_park_deluxe_0032.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/small_gvh_park_deluxe_0032.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/xsmall_gvh_park_deluxe_0032.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/thumb_gvh_park_deluxe_0032.jpg",
+      "git_file_name": "_assets/image_data/gvh_park_deluxe_0032.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/gvh-park-deluxe-0032.jpg"
     }
   ],
   "description": ""
