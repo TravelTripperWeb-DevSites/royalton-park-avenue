@@ -57,6 +57,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/thumb_gvh_park_nightlife_001.jpg",
       "git_file_name": "_assets/image_data/gvh_park_nightlife_001.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/gvh-park-nightlife-001.jpg"
+    },
+    {
+      "name": "gvh_park_nightlife_001",
+      "file_name": "gvh_park_nightlife_001.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/gvh-park-nightlife-001.jpg",
+      "tags": "gallery,hotel",
+      "file_size": 221716,
+      "width": 1500,
+      "height": 900,
+      "description": "Royalton Park Night Life",
+      "date_added": "2017-10-05-075502",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/large_gvh_park_nightlife_001.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/medium_gvh_park_nightlife_001.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/small_gvh_park_nightlife_001.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/xsmall_gvh_park_nightlife_001.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/thumb_gvh_park_nightlife_001.jpg",
+      "git_file_name": "_assets/image_data/gvh_park_nightlife_001.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/gvh-park-nightlife-001.jpg"
     }
   ],
   "description": ""
