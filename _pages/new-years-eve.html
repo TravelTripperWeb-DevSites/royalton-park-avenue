@@ -22,31 +22,47 @@ label: New Years Eve
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock new_years_eve_banner, type:header %}
       <h1>NEW YEARS EVE</h1>
+      {% endregionblock %}
     </div>
   </div>
 </section>
 <section class="new-years-eve container">
   <div class="row">
     <div class="nye-content text-center col-md-6">
+      {% regionblock new_years_rooftop_title, type:header %}
       <h3>Royalton Park Rooftop</h3>
+      {% endregionblock %}
+      {% regionblock new_years_rooftop_img, type:image %}
         <img src="//cdn.traveltripper.io/site-assets/192_800_10429/media/2017-12-20-130112/royalton-new-york-city-new-years-eve-party-flyer-2018-b.jpg">
+        {% endregionblock %}
         <div class="btn-holder text-center">
+          {% regionblock new_years_rooftop_btn, type:text %}
           <a href="http://newyears.com/newyork/parties_royalton-park-avenue_420-park-ave-s-new-york-ny" title="More Info" class="btn-outline-black" target="_blank">More Info</a>
+          {% endregionblock %}
         </div>
     </div> 
     <div class="nye-content text-center col-md-6">
+      {% regionblock new_years_assellina_title, type:header %}
       <h3>Asellina at The Royalton Park Hotel</h3>
+      {% endregionblock %}
+      {% regionblock new_years_assellina_img, type:image %}
       <img src="//cdn.traveltripper.io/site-assets/192_800_10429/media/2017-12-20-130109/asellina-at-the-gansevoort-park-hotel-nyc-new-years-party-flyer-b-dj.jpg">
+      {% endregionblock %}
       <div class="btn-holder text-center">
+        {% regionblock new_years_assellina_btn, type:text %}
         <a href="http://newyears.com/newyork/parties_asellina-at-the-royalton-park-hotel-formerly-gansevoort-park-hotel_420-park-ave-s-new-york-ny" title="More Info" class="btn-outline-black" target="_blank">More Info</a>
+        {% endregionblock %}
       </div>
     </div>
   </div>
 </section>
 <section class="dining-gallery top-padding bottom-padding">
   <div class="wrapper">
+    {% regionblock new_years_visual_tour, type:header %}
     <h2 class="text-center m-auto">Take A Visual Tour</h2>
+    {% endregionblock %}
   </div>
   <div class="wrapper">
     <div class="snap-gallery-nav">
@@ -76,7 +92,21 @@ label: New Years Eve
 </section>
 <section class="cta bg-cover" style="background-image:url(/assets/images/contact/contact-cta.jpg); background-attachment:fixed;">
   <div class="bg-overlay"></div>
-  <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Park Avenue"></a></div>
-  <div class="btn-holder"><a href="#" class="btn-outline">Be a part of it</a></div>
-  <div class="cta-text"><a href="#">Book Now</a></div>
+  <div class="logo-holder">
+      <a href="/">
+        {% regionblock eat_drink_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %} 
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock eat_drink_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock eat_drink_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
 </section>

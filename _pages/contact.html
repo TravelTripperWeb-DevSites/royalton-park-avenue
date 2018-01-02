@@ -24,7 +24,9 @@ label: Contact
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock contact_banner_title, type:header %}
       <h1>Get in<br>touch</h1>
+      {% endregionblock %}
     </div>
     <!--div class="sub-header-right">
       <ul class="sub-header-nav">
@@ -44,9 +46,15 @@ label: Contact
   <div class="contact-row">
     <div class="contact-directions">
       <div class="details-container">
+        {% regionblock contact_content_title, type:header %}
         <h4>royalton park avenue</h4>
+        {% endregionblock %}
+        {% regionblock contact_content_address, type:header %}
         <a href="https://goo.gl/maps/jKUChvbLKq72" target="_blank"> <i class="fa fa-map-marker" aria-hidden="true"></i> 420 Park Avenue South<br> New York, NY 10016</a>
+        {% endregionblock %}
+        {% regionblock contact_content_number, type:header %}
      <br><br><a href="tel:+1 212 317 2900"> <i class="fa fa-phone" aria-hidden="true"></i> +1 212 317 2900</a>
+     {% endregionblock %}
         <!-- <div class="social">
           {% if site.data.social.facebook.username %}
           <a href="https://facebook.com/{{ site.data.social.facebook.username }}" target="_blank" role="link" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -72,7 +80,9 @@ label: Contact
 
          <form class="jotform-form" action="https://submit.jotform.me/submit/72781612869468/" method="post" name="form_72781612869468" id="72781612869468" accept-charset="utf-8">
           <input type="hidden" name="formID" value="72781612869468">
+          {% regionblock contact_form_title, type:header %}
           <h4>Contact Form</h4>
+          {% endregionblock %}
           <div class="form-group">
 
             <input aria-label="Name" type="text" class="form-control"  id="input_1" name="q1_name"   id="formGroupExampleInput" placeholder="Name">
@@ -103,7 +113,9 @@ label: Contact
 </section>
 <section class="dining-gallery top-padding bottom-padding">
     <div class="wrapper">
+      {% regionblock contact_visual_title, type:header %}
                    <h2 class="text-center m-auto">Take A Visual Tour</h2>
+                   {% endregionblock %}
     </div>
     <div class="wrapper">
                   <div class="snap-gallery-nav">
@@ -132,7 +144,21 @@ label: Contact
 </section>
 <section class="cta bg-cover" style="background-image:url(/assets/images/contact/contact-cta.jpg); background-attachment:fixed;">
   <div class="bg-overlay"></div>
-  <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Park Avenue"></a></div>
-  <div class="btn-holder"><a href="#" class="btn-outline">Be a part of it</a></div>
-  <div class="cta-text"><a href="#">Book Now</a></div>
+  <div class="logo-holder">
+      <a href="/">
+        {% regionblock contact_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %} 
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock contact_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock contact_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
 </section>

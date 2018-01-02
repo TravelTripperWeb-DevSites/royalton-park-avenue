@@ -1,0 +1,12 @@
+{ 
+  "title":{ 
+  	"required": true  
+  }, 
+  "description":{
+    "type":"richtext",
+    "required": true
+  },
+  "order":{
+  	"type": "integer"
+  }
+}

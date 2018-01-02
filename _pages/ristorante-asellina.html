@@ -22,23 +22,31 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock eat_drink_banner, type:header %}
       <h1>Eat <br>&amp; Drink</h1>
+      {% endregionblock %}
     </div>
     <div class="sub-header-right">
       <ul class="sub-header-nav">
         <li>
           <a href="/eat-and-drink/">
+            {% regionblock eat_drink_navitem_1, type:text %}
            <h4 class="text-uppercase">ROOFTOP<br>at Royalton Park Avenue</h4>
+           {% endregionblock %}
          </a>
         </li>
         <li>
           <a href="/sundeck/">
+            {% regionblock eat_drink_navitem_2, type:text %}
            <h4 class="text-uppercase">SUNDECK</h4>
+           {% endregionblock %}
          </a>
         </li>
-         <li class="active">
+         <li  class="active">
           <a href="/ristorante-asellina/">
+            {% regionblock eat_drink_navitem_3, type:text %}
            <h4 class="text-uppercase">RISTORANTE<br> ASELLINA</h4>
+           {% endregionblock %}
          </a>
         </li>
       </ul>
@@ -49,7 +57,9 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
 <section class="top-page-cta bg-cover" style="background-image:url(/assets/images/restaurant/ristorante-asellina/hero.jpg); background-attachment:fixed;">
 
 		<!-- <div class="btn-holder"><a href="#" target="_blank" class="btn-outline" title="Make a reservation"> Reserve a table</a></div> -->
+    {% regionblock eat_drink_ristorante_asellina, type:header %}
 	    <div class="cta-text">Ristorante Asellina</div>
+      {% endregionblock %}
 
 </section>
 <section class="dining-bar-main">
@@ -63,32 +73,44 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
               </div-->
 	              <div class="left-description">
 	                  <!--div class="counter pb-4 text-right">01</div-->
+                    {% regionblock eat_drink_asellina_subheading, type:header %}
 	                <h4>RISTORANTE ASELLINA</h4>
+                  {% endregionblock %}
+                  {% regionblock eat_drink_asellina_content, type:text %}
 		              <p>Named after the owner of an ancient Pompeian tavern operated by a “freewoman,” Asellina encompasses the ultimate in traditional-meets-modern Italian cuisine. With rich materials of wood, stone and polished concrete framing expansive greenery and fireplaces to provide warmth - the Living Room lounge, main dining room and private patio all provide an ideal environment for dining. Asellina even offers half-portions and finger-foods, all crafted with an authentic Italian twist.
                   </p>
+                  {% endregionblock %}
+                  {% regionblock eat_drink_asellina_hours, type:text %}
                   <p>HOURS <br>
                   Monday - Sunday: 7:00AM - 11:030PM
                   </p>
-
+                  {% endregionblock %}
+                  {% regionblock eat_drink_asellina_happy_hours, type:text %}
                   <p>Happy Hour<br>
                   Monday - Friday: 4:30PM - 6:30PM
                   </p>
-
-		              <div class="btn-holder"><a href="{{site.pagelink.contact}}" class="btn-outline-black" title="Contact ">Contact Us</a></div>
+                  {% endregionblock %}
+		              <div class="btn-holder">
+                    {% regionblock eat_drink_asellina_btn, type:text %}
+                    <a href="{{site.pagelink.contact}}" class="btn-outline-black" title="Contact ">Contact Us</a>
+                  {% endregionblock %}</div>
 	              </div>
 	            <div class="border-left  img-holder">
-	               <figure><img src="/assets/images/restaurant/ristorante-asellina/tables.jpg" alt="Asellina encompasses the ultimate in traditional-meets-modern Italian cuisine." class="img-fluid"></figure>
+	               <figure>
+                  {% regionblock eat_drink_asellina_res_img, type:image %}<img src="/assets/images/restaurant/ristorante-asellina/tables.jpg" alt="Asellina encompasses the ultimate in traditional-meets-modern Italian cuisine." class="img-fluid">
+                {% endregionblock %}</figure>
 	            </div>
           </div>
           <div class="about-bar">
-
+          {% assign ristorante = site.data._models.ristorante-slider | sort: 'order' %}
             <div class="photos-slider left-padding">
                 <div id="photosSlider" class="carousel slide" data-ride="carousel">
              	    <div class="carousel-inner" role="listbox">
-             	      <div class="carousel-item" style="background-image: url('/assets/images/restaurant/ristorante-asellina/ristorante-asellina-1.jpg');">
-             	      </div>
-             	      <div class="carousel-item active" style="background-image: url('/assets/images/restaurant/ristorante-asellina/ristorante-asellina-2.jpg');">
-             	      </div>
+                    {% for slide in ristorante %}
+                      <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slide.image.url_large}}');">
+                      </div>
+                    {% endfor %}
+             	       
 
              	    </div>
              	    <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev">
@@ -105,9 +127,18 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
 	                <div class="contact-info top-space">
 	                 <div class="detail-12 left-padding">
 	                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. </p> -->
+                      {% regionblock eat_drink_asellina_private, type:header %}
 	                     <h4 class="sr-no"> Private Functions</h4>
-	                     <p><a class="link-text" href="mailto:reservations@royaltonparkavenue.com" title="write us mail">reservations@royaltonparkavenue.com</a>
-	                     <br><a class="link-text" href="tel:+212 317 2900" title="Call us +212 317 2900">+212 317 2900</a></p>
+                       {% endregionblock %}
+                       {% regionblock eat_drink_asellina_private_email, type:text %}
+	                     <p>
+                        <a class="link-text" href="mailto:reservations@royaltonparkavenue.com" title="write us mail">reservations@royaltonparkavenue.com</a></p>
+                        {% endregionblock %}
+                       {% regionblock eat_drink_asellina_private_number, type:text %}
+                       <p>
+                        <a class="link-text" href="tel:+212 317 2900" title="Call us +212 317 2900">+212 317 2900</a>
+                      </p>
+                      {% endregionblock %}
 	                 </div>
 	               </div>
 	            </div>
@@ -118,8 +149,22 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
 
 <section class="cta bg-cover" style="background-image:url(/assets/images/restaurant/ristorante-asellina/ristorante-asellina-cta.jpg); background-attachment:fixed;">
         <div class="bg-overlay"></div>
-		<div class="logo-holder"> <img src="/assets/images/logo.png" alt="Royalton Park Avenue"> </div>
-		<div class="btn-holder"><a href="{{site.reztripUrl}}" class="btn-outline" title="Be a part of it">Be a part of it</a></div>
-	    <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
+		<div class="logo-holder">
+      <a href="/">
+        {% regionblock asellina_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %} 
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock asellina_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock asellina_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
 
 </section>
