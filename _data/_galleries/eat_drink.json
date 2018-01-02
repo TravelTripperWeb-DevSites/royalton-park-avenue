@@ -608,6 +608,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080003/thumb_Superior-Room_HR.jpg",
       "git_file_name": "_assets/image_data/Superior-Room_HR.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080003/Superior-Room-HR.jpg"
+    },
+    {
+      "name": "redroom11",
+      "file_name": "redroom11.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080000/redroom11.jpg",
+      "tags": "gallery,rooms&suites",
+      "file_size": 370647,
+      "width": 1500,
+      "height": 900,
+      "description": "Red Room",
+      "date_added": "2017-10-05-080000",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080000/large_redroom11.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080000/medium_redroom11.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080000/small_redroom11.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080000/xsmall_redroom11.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080000/thumb_redroom11.jpg",
+      "git_file_name": "_assets/image_data/redroom11.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080000/redroom11.jpg"
     }
   ],
   "description": ""
