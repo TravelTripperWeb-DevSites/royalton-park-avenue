@@ -874,6 +874,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/thumb_gvh_park_gans_suite_0011.jpg",
       "git_file_name": "_assets/image_data/gvh_park_gans_suite_0011.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/gvh-park-gans-suite-0011.jpg"
+    },
+    {
+      "name": "plunge-rooftop-bar-lounge-1",
+      "file_name": "plunge-rooftop-bar-lounge-1.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051251/plunge-rooftop-bar-lounge-1.jpg",
+      "tags": "",
+      "file_size": 206466,
+      "width": 804,
+      "height": 846,
+      "description": "",
+      "date_added": "2017-12-26-051251",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051251/large_plunge-rooftop-bar-lounge-1.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051251/medium_plunge-rooftop-bar-lounge-1.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051251/small_plunge-rooftop-bar-lounge-1.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051251/xsmall_plunge-rooftop-bar-lounge-1.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051251/thumb_plunge-rooftop-bar-lounge-1.jpg",
+      "git_file_name": "_assets/image_data/plunge-rooftop-bar-lounge-1.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051251/plunge-rooftop-bar-lounge-1.jpg"
     }
   ],
   "description": ""
