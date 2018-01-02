@@ -475,6 +475,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075439/thumb_gvh_park_ballroom_0021.jpg",
       "git_file_name": "_assets/image_data/gvh_park_ballroom_0021.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075439/gvh-park-ballroom-0021.jpg"
+    },
+    {
+      "name": "jonathan-pease-83068",
+      "file_name": "jonathan-pease-83068.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/jonathan-pease-83068.jpg",
+      "tags": "gallery,location",
+      "file_size": 352500,
+      "width": 1920,
+      "height": 1278,
+      "description": "City View",
+      "date_added": "2017-10-05-075758",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/large_jonathan-pease-83068.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/medium_jonathan-pease-83068.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/small_jonathan-pease-83068.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/xsmall_jonathan-pease-83068.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/thumb_jonathan-pease-83068.jpg",
+      "git_file_name": "_assets/image_data/jonathan-pease-83068.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075758/jonathan-pease-83068.jpg"
     }
   ],
   "description": ""
