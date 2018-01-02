@@ -12,7 +12,9 @@ permalink: /room/
   <section class="sub-header">
     <div class="sub-header-row">
       <div class="sub-header-left">
+        {% regionblock room_banner, type:header %}
         <h1>Rooms &<br>Suites</h1>
+        {% endregionblock %}
       </div>
       <!-- <div class="sub-header-right">
       <ul class="sub-header-nav">
@@ -177,9 +179,21 @@ permalink: /room/
  -->
   <section class="cta bg-cover" style="background-image:url(/assets/images/rooms/room-details-cta.jpg); background-attachment:fixed;">
     <div class="bg-overlay"></div>
-    <div class="logo-holder"><a href="/"><img src="/assets/images/logo.png" alt="Royalton Park Avenue"></a></div>
-    <div class="btn-holder"><a href="{{ site.reztripUrl }}" class="btn-outline">Be a part of it</a></div>
-    <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
+    <div class="logo-holder"><a href="/">
+      {% regionblock room_cta_logo, type:image %}
+      <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+      {% endregionblock %}
+    </a></div>
+    <div class="btn-holder">
+      {% regionblock room_cta_btn_1, type:text %}
+      <a href="{{ site.reztripUrl }}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+    <div class="cta-text">
+      {% regionblock room_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}">Book Now</a>
+      {% endregionblock %}
+    </div>
   </section>
 
 </section>

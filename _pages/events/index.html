@@ -8,29 +8,39 @@ permalink: /events/
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock ballrom_banner_title, type:header %}
       <h1>Meetings <br>&amp; Events</h1>
+      {% endregionblock %}
     </div>
     <div class="sub-header-right">
       <ul class="sub-header-nav">
         <li class="active">
           <a href="/events/">
+            {% regionblock events_navitem_one, type:header %}
            <h4 class="text-uppercase">Ballroom</h4>
+           {% endregionblock %}
          </a>
         </li>
 
         <li>
           <a href="/events/park-lounge/">
+            {% regionblock events_navitem_two, type:header %}
            <h4 class="text-uppercase">Park<br>Lounge</h4>
+           {% endregionblock %}
          </a>
         </li>
          <li>
           <a href="/events/red-room/">
+            {% regionblock events_navitem_three, type:header %}
            <h4 class="text-uppercase">Red Room</h4>
+           {% endregionblock %}
          </a>
         </li>
         <li>
           <a href="/events/ivy-lounge/">
+            {% regionblock events_navitem_four, type:header %}
            <h4 class="text-uppercase">Ivy<br>Lounge</h4>
+           {% endregionblock %}
          </a>
         </li>
       </ul>
@@ -40,8 +50,14 @@ permalink: /events/
 
 <section class="top-page-cta bg-cover" style="background-image:url(/assets/images/events/ballroom/ballroom-hero.jpg); background-attachment:fixed;">
 
-    <div class="btn-holder"><a href="{{site.pagelink.rfp}}"  class="btn-outline" title="Request for Proposal"> Request for Proposal</a></div>
+    <div class="btn-holder">
+      {% regionblock ballrom_rfp_btn, type:text %}
+      <a href="{{site.pagelink.rfp}}"  class="btn-outline" title="Request for Proposal"> Request for Proposal</a>
+      {% endregionblock %}
+    </div>
+    {% regionblock ballroom_rfp_title, type:header %}
       <div class="cta-text">Ballroom</div>
+      {% endregionblock %}
 
 </section>
 <section class="dining-bar-main">
@@ -55,13 +71,25 @@ permalink: /events/
               </div-->
                 <div class="left-description">
                     <!--div class="counter pb-4 text-right">01</div-->
+                    {% regionblock ballroom_content_title, type:header %}
                     <h4>BALLROOM</h4>
+                    {% endregionblock %}
+                    {% regionblock ballroom_content, type:text %}
                   <p>The 3,000 square foot ballroom offers floor-to-ceiling windows and sweeping views of Park Avenue South with a neutral palate that becomes your blank canvas. This versatile space is divisible by two with separate entrances, private pre-function areas, and an intimate patio for open-air catering. The ballroom is equipped with state-of-the-art audiovisual systems, and complimentary high-speed wireless Internet.  </p>
+                  {% endregionblock %}
 
-                  <div class="btn-holder"><a href="mailto:specialevents@royaltonparkavenue.com" class="btn-outline-black" title="Contact ">Contact Us</a></div>
+                  <div class="btn-holder">
+                    {% regionblock ballroom_content_btn, type:text %}
+                    <a href="mailto:specialevents@royaltonparkavenue.com" class="btn-outline-black" title="Contact ">Contact Us</a>
+                    {% endregionblock %}
+                  </div>
                 </div>
               <div class="border-left  img-holder">
-                 <figure><img src="/assets/images/events/ballroom/ballroom-3.jpg" alt="The 3,000 square foot ballroom" class="img-fluid"></figure>
+                 <figure>
+                  {% regionblock ballroom_content_img, type:image %}
+                  <img src="/assets/images/events/ballroom/ballroom-3.jpg" alt="The 3,000 square foot ballroom" class="img-fluid">
+                  {% endregionblock %}
+                </figure>
               </div>
           </div>
           <div class="about-bar">
@@ -100,8 +128,22 @@ permalink: /events/
 
 <section class="cta bg-cover" style="background-image:url(/assets/images/events/ballroom/ballroom-cta.jpg); background-attachment:fixed;">
         <div class="bg-overlay"></div>
-    <div class="logo-holder"> <img src="/assets/images/logo.png" alt="Royalton Park Avenue"> </div>
-    <div class="btn-holder"><a href="{{site.reztripUrl}}" class="btn-outline" title="Be a part of it">Be a part of it</a></div>
-      <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
+    <div class="logo-holder">
+      <a href="/">
+        {% regionblock ballroom_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %} 
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock ballroom_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock ballroom_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
 
 </section>

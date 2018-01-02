@@ -1,0 +1,18 @@
+{
+  "name": {
+    "required": true
+  },
+  "image":{
+  	"type": "image",
+  	"required": true  
+  },
+  "link-text":{
+  	"required": true
+  },
+  "link-url":{
+  	"required": true
+  },
+  "order":{
+  	"type": "integer"
+  }
+}

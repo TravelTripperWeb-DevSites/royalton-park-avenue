@@ -8,29 +8,39 @@ permalink: /events/park-lounge/
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock park_lounge_banner_title, type:header %}
       <h1>Meetings <br>&amp; Events</h1>
+      {% endregionblock %}
     </div>
     <div class="sub-header-right">
       <ul class="sub-header-nav">
         <li>
           <a href="/events/">
+            {% regionblock events_navitem_one, type:header %}
            <h4 class="text-uppercase">Ballroom</h4>
+           {% endregionblock %}
          </a>
         </li>
 
         <li class="active">
           <a href="/events/park-lounge/">
+            {% regionblock events_navitem_two, type:header %}
            <h4 class="text-uppercase">Park<br>Lounge</h4>
+           {% endregionblock %}
          </a>
         </li>
          <li>
           <a href="/events/red-room/">
+            {% regionblock events_navitem_three, type:header %}
            <h4 class="text-uppercase">Red Room</h4>
+           {% endregionblock %}
          </a>
         </li>
         <li>
           <a href="/events/ivy-lounge/">
+            {% regionblock events_navitem_four, type:header %}
            <h4 class="text-uppercase">Ivy<br>Lounge</h4>
+           {% endregionblock %}
          </a>
         </li>
       </ul>
@@ -40,8 +50,14 @@ permalink: /events/park-lounge/
 
 <section class="top-page-cta bg-cover" style="background-image:url(/assets/images/events/park-lounge/park-lounge-hero.jpg); background-attachment:fixed;">
 
-    <div class="btn-holder"><a href="{{site.pagelink.rfp}}"  class="btn-outline" title="Request for Proposal"> Request for Proposal</a></div>
+    <div class="btn-holder">
+      {% regionblock park_lounge_rfp_btn, type:text %}
+      <a href="{{site.pagelink.rfp}}"  class="btn-outline" title="Request for Proposal"> Request for Proposal</a>
+      {% endregionblock %}
+    </div>
+    {% regionblock park_lounge_rfp_title, type:header %}
       <div class="cta-text">Park Lounge</div>
+      {% endregionblock %}
 
 </section>
 <section class="dining-bar-main">
@@ -55,13 +71,25 @@ permalink: /events/park-lounge/
               </div-->
                 <div class="left-description">
                     <!--div class="counter pb-4 text-right">01</div-->
+                    {% regionblock park_lounge_content_title, type:header %}
                     <h4>Park Lounge</h4>
+                    {% endregionblock %}
+                    {% regionblock park_lounge_content, type:text %}
                   <p>Park Lounge features floor-to-ceiling windows overlooking Park Avenue, an outdoor terrace, two plasma TVs, complete with flexible lounge-style seating.</p>
+                  {% endregionblock %}
 
-                  <div class="btn-holder"><a href="mailto:specialevents@royaltonparkavenue.com" class="btn-outline-black" title="Contact ">Contact Us</a></div>
+                  <div class="btn-holder">
+                     {% regionblock park_lounge_content_btn, type:text %}
+                    <a href="mailto:specialevents@royaltonparkavenue.com" class="btn-outline-black" title="Contact ">Contact Us</a>
+                    {% endregionblock %}
+                  </div>
                 </div>
               <div class="border-left  img-holder">
-                 <figure><img src="/assets/images/events/park-lounge/park-lounge-3.jpg" alt="Park Lounge features floor-to-ceiling windows overlooking Park Avenue" class="img-fluid"></figure>
+                 <figure>
+                  {% regionblock park_lounge_content_img, type:image %}
+                  <img src="/assets/images/events/park-lounge/park-lounge-3.jpg" alt="Park Lounge features floor-to-ceiling windows overlooking Park Avenue" class="img-fluid">
+                  {% endregionblock %}
+                </figure>
               </div>
           </div>
           <div class="about-bar">
@@ -100,8 +128,22 @@ permalink: /events/park-lounge/
 
 <section class="cta bg-cover" style="background-image:url(/assets/images/events/park-lounge/park-lounge-cta.jpg); background-attachment:fixed;">
         <div class="bg-overlay"></div>
-    <div class="logo-holder"> <img src="/assets/images/logo.png" alt="Royalton Park Avenue"> </div>
-    <div class="btn-holder"><a href="{{site.reztripUrl}}" class="btn-outline" title="Be a part of it">Be a part of it</a></div>
-      <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
+    <div class="logo-holder">
+      <a href="/">
+        {% regionblock park_lounge_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %} 
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock park_lounge_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock park_lounge_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
 
 </section>

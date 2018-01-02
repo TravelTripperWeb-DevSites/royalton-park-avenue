@@ -8,29 +8,39 @@ permalink: /events/ivy-lounge/
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock ivy_lounge_banner_title, type:header %}
       <h1>Meetings <br>&amp; Events</h1>
+      {% endregionblock %}
     </div>
     <div class="sub-header-right">
       <ul class="sub-header-nav">
         <li>
           <a href="/events/">
+            {% regionblock events_navitem_one, type:header %}
            <h4 class="text-uppercase">Ballroom</h4>
+           {% endregionblock %}
          </a>
         </li>
 
         <li>
           <a href="/events/park-lounge/">
+            {% regionblock events_navitem_two, type:header %}
            <h4 class="text-uppercase">Park<br>Lounge</h4>
+           {% endregionblock %}
          </a>
         </li>
          <li>
           <a href="/events/red-room/">
+            {% regionblock events_navitem_three, type:header %}
            <h4 class="text-uppercase">Red Room</h4>
+           {% endregionblock %}
          </a>
         </li>
         <li class="active">
           <a href="/events/ivy-lounge/">
+            {% regionblock events_navitem_four, type:header %}
            <h4 class="text-uppercase">Ivy<br>Lounge</h4>
+           {% endregionblock %}
          </a>
         </li>
       </ul>
@@ -40,8 +50,14 @@ permalink: /events/ivy-lounge/
 
 <section class="top-page-cta bg-cover" style="background-image:url(/assets/images/events/ivy-lounge/ivy-lounge-hero.jpg); background-attachment:fixed;">
 
-    <div class="btn-holder"><a href="{{site.pagelink.rfp}}"  class="btn-outline" title="Request for Proposal"> Request for Proposal</a></div>
+    <div class="btn-holder">
+      {% regionblock ivy_lounge_rfp_btn, type:text %}
+      <a href="{{site.pagelink.rfp}}"  class="btn-outline" title="Request for Proposal"> Request for Proposal</a>
+      {% endregionblock %}
+    </div>
+    {% regionblock ivy_lounge_rfp_title, type:header %}
       <div class="cta-text">Ivy Lounge</div>
+      {% endregionblock %}
 
 </section>
 <section class="dining-bar-main">
@@ -55,13 +71,24 @@ permalink: /events/ivy-lounge/
               </div-->
                 <div class="left-description">
                     <!--div class="counter pb-4 text-right">01</div-->
+                    {% regionblock ivy_lounge_content_title, type:header %}
                     <h4>Ivy Lounge</h4>
+                    {% endregionblock %}
+                    {% regionblock ivy_lounge_content, type:text %}
                   <p>The Ivy Lounge, previously known as the Blue Room, welcomes the most dramatic transformation with the addition of custom-made crank tables complemented by chevron-patterned banquettes with charcoal gray seats and reclaimed wooden ceiling beams. The seating arrangement transforms seamlessly to accommodate a variety of functions, from a casual boardroom meeting and business luncheons, to private cocktail parties and intimate catered dinners. The tri-level penthouse has also been updated for tech users, providing ample charging stations, including USB ports, and free Wi-Fi.</p>
-
-                  <div class="btn-holder"><a href="mailto:specialevents@royaltonparkavenue.com" class="btn-outline-black" title="Contact ">Contact Us</a></div>
+                  {% endregionblock %}
+                  <div class="btn-holder">
+                    {% regionblock ivy_lounge_content_btn, type:text %}
+                    <a href="mailto:specialevents@royaltonparkavenue.com" class="btn-outline-black" title="Contact ">Contact Us</a>
+                    {% endregionblock %}
+                  </div>
                 </div>
               <div class="border-left  img-holder">
-                 <figure><img src="/assets/images/events/ivy-lounge/ivy-lounge-3.jpg" alt="The Ivy Lounge, previously known as the Blue Room" class="img-fluid"></figure>
+                 <figure>
+                  {% regionblock ivy_lounge_content_img, type:image %}
+                  <img src="/assets/images/events/ivy-lounge/ivy-lounge-3.jpg" alt="The Ivy Lounge, previously known as the Blue Room" class="img-fluid">
+                  {% endregionblock %}
+                </figure>
               </div>
           </div>
           <div class="about-bar">
@@ -100,8 +127,22 @@ permalink: /events/ivy-lounge/
 
 <section class="cta bg-cover" style="background-image:url(/assets/images/events/ivy-lounge/ivy-lounge-cta.jpg); background-attachment:fixed;">
         <div class="bg-overlay"></div>
-    <div class="logo-holder"> <img src="/assets/images/logo.png" alt="Royalton Park Avenue"> </div>
-    <div class="btn-holder"><a href="{{site.reztripUrl}}" class="btn-outline" title="Be a part of it">Be a part of it</a></div>
-      <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
+    <div class="logo-holder">
+      <a href="/">
+        {% regionblock ivy_lounge_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %} 
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock ivy_lounge_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock ivy_lounge_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
 
 </section>
