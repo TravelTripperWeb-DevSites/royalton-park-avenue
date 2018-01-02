@@ -646,6 +646,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/thumb_gvh_park_superior_0022.jpg",
       "git_file_name": "_assets/image_data/gvh_park_superior_0022.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/gvh-park-superior-0022.jpg"
+    },
+    {
+      "name": "gvh_park_room_0031",
+      "file_name": "gvh_park_room_0031.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/gvh-park-room-0031.jpg",
+      "tags": "gallery,rooms&suites",
+      "file_size": 171903,
+      "width": 1500,
+      "height": 900,
+      "description": "Royalton Park Room",
+      "date_added": "2017-10-05-075744",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/large_gvh_park_room_0031.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/medium_gvh_park_room_0031.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/small_gvh_park_room_0031.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/xsmall_gvh_park_room_0031.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/thumb_gvh_park_room_0031.jpg",
+      "git_file_name": "_assets/image_data/gvh_park_room_0031.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/gvh-park-room-0031.jpg"
     }
   ],
   "description": ""
