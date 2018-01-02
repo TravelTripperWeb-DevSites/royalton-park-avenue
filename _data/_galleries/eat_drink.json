@@ -380,6 +380,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/thumb_Park-Lounge-Library-Full-Image-Angle1.jpg",
       "git_file_name": "_assets/image_data/Park-Lounge-Library-Full-Image-Angle1.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075832/Park-Lounge-Library-Full-Image-Angle1.jpg"
+    },
+    {
+      "name": "Park-Lounge-Conference-Setup11",
+      "file_name": "Park-Lounge-Conference-Setup11.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/Park-Lounge-Conference-Setup11.jpg",
+      "tags": "gallery,hotel",
+      "file_size": 332061,
+      "width": 1500,
+      "height": 900,
+      "description": "Park Lounge Conference",
+      "date_added": "2017-10-05-075824",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/large_Park-Lounge-Conference-Setup11.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/medium_Park-Lounge-Conference-Setup11.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/small_Park-Lounge-Conference-Setup11.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/xsmall_Park-Lounge-Conference-Setup11.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/thumb_Park-Lounge-Conference-Setup11.jpg",
+      "git_file_name": "_assets/image_data/Park-Lounge-Conference-Setup11.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/Park-Lounge-Conference-Setup11.jpg"
     }
   ],
   "description": ""
