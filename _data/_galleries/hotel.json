@@ -57,6 +57,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/thumb_gvh_park_nightlife_001.jpg",
       "git_file_name": "_assets/image_data/gvh_park_nightlife_001.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075502/gvh-park-nightlife-001.jpg"
+    },
+    {
+      "name": "playhookie2",
+      "file_name": "playhookie2.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/playhookie2.jpg",
+      "tags": "gallery,hotel",
+      "file_size": 414866,
+      "width": 1500,
+      "height": 900,
+      "description": "Play Hookie",
+      "date_added": "2017-10-05-075956",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/large_playhookie2.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/medium_playhookie2.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/small_playhookie2.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/xsmall_playhookie2.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/thumb_playhookie2.jpg",
+      "git_file_name": "_assets/image_data/playhookie2.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/playhookie2.jpg"
     }
   ],
   "description": ""
