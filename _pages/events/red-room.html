@@ -8,29 +8,39 @@ permalink: /events/red-room/
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock red_room_banner_title, type:header %}
       <h1>Meetings <br>&amp; Events</h1>
+      {% endregionblock %}
     </div>
     <div class="sub-header-right">
       <ul class="sub-header-nav">
         <li>
           <a href="/events/">
+            {% regionblock events_navitem_one, type:header %}
            <h4 class="text-uppercase">Ballroom</h4>
+           {% endregionblock %}
          </a>
         </li>
 
         <li>
           <a href="/events/park-lounge/">
+            {% regionblock events_navitem_two, type:header %}
            <h4 class="text-uppercase">Park<br>Lounge</h4>
+           {% endregionblock %}
          </a>
         </li>
          <li  class="active">
           <a href="/events/red-room/">
+            {% regionblock events_navitem_three, type:header %}
            <h4 class="text-uppercase">Red Room</h4>
+           {% endregionblock %}
          </a>
         </li>
         <li>
           <a href="/events/ivy-lounge/">
+            {% regionblock events_navitem_four, type:header %}
            <h4 class="text-uppercase">Ivy<br>Lounge</h4>
+           {% endregionblock %}
          </a>
         </li>
       </ul>
@@ -40,9 +50,14 @@ permalink: /events/red-room/
 
 <section class="top-page-cta bg-cover" style="background-image:url(/assets/images/events/red-room/red-room-hero.jpg); background-attachment:fixed;">
 
-    <div class="btn-holder"><a href="{{site.pagelink.rfp}}" class="btn-outline" title="Make a reservation"> Request for Proposal</a></div>
+    <div class="btn-holder">
+      {% regionblock red_room_rfp_btn, type:text %}
+      <a href="{{site.pagelink.rfp}}" class="btn-outline" title="Make a reservation"> Request for Proposal</a>
+      {% endregionblock %}
+    </div>
+    {% regionblock red_room_rfp_title, type:header %}
       <div class="cta-text">RED ROOM</div>
-
+      {% endregionblock %}
 </section>
 <section class="dining-bar-main">
   <div class="wrapper">
@@ -55,10 +70,17 @@ permalink: /events/red-room/
               </div-->
                 <div class="left-description">
                     <!--div class="counter pb-4 text-right">01</div-->
+                    {% regionblock red_room_content_title, type:header %}
                     <h4>Red Room</h4>
+                    {% endregionblock %}
+                    {% regionblock red_room_content, type:text %}
                   <p>Our VIP Red Room claims star status, outfitted with the latest in LED light technology, a surround sound stereo system, a central DJ booth, outdoor terrace, indoor fireplace and a full bar.</p>
-
-                  <div class="btn-holder"><a href="mailto:specialevents@royaltonparkavenue.com" class="btn-outline-black" title="Contact ">Contact Us</a></div>
+                  {% endregionblock %}
+                  <div class="btn-holder">
+                    {% regionblock red_room_content_btn, type:text %}
+                    <a href="mailto:specialevents@royaltonparkavenue.com" class="btn-outline-black" title="Contact ">Contact Us</a>
+                  {% endregionblock %}
+                </div>
                 </div>
             <!--   <div class="border-left  img-holder">
                   <figure><img src="/assets/images/events/red-room/red-room-3.jpg" alt="Plunge Rooftop Bar + Lounge serves up a full bar and panoramic views of historic 5th Avenue." class="img-fluid"></figure>
@@ -100,8 +122,22 @@ permalink: /events/red-room/
 
 <section class="cta bg-cover" style="background-image:url(/assets/images/events/red-room/red-room-cta.jpg); background-attachment:fixed;">
         <div class="bg-overlay"></div>
-    <div class="logo-holder"> <img src="/assets/images/logo.png" alt="Royalton Park Avenue"> </div>
-    <div class="btn-holder"><a href="{{site.reztripUrl}}" class="btn-outline" title="Be a part of it">Be a part of it</a></div>
-      <div class="cta-text"><a href="{{site.reztripUrl}}">Book Now</a></div>
+    <div class="logo-holder">
+      <a href="/">
+        {% regionblock red_room_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %} 
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock red_room_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock red_room_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
 
 </section>

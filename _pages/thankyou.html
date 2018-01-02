@@ -17,7 +17,9 @@ permalink_localized:
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock ty_banner_title, type:header %}
       <h1>THANK <br>YOU</h1>
+      {% endregionblock %}
     </div>
     <div class="sub-header-right">
       <ul class="sub-header-nav">
@@ -32,9 +34,10 @@ permalink_localized:
     </div>
   </div>
 </section>
-<div class="page-banner d-flex" style="background-image: url('/assets/images/about/lobby-royalton.jpg');">  
+<div class="page-banner d-flex" style="background-image: url('/assets/images/about/lobby-royalton.jpg');"> 
+{% regionblock ty_text, type:header %} 
     <h1 class="m-auto">WE WILL GET IN TOUCH WITH YOU SHORTLY.</h1>
- 
+ {% endregionblock %}
 </div>
 
 

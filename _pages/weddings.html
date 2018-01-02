@@ -9,7 +9,9 @@ parent: weddings
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+    	{% regionblock wedding_banner_title, type:header %}
       <h1>Weddings at <br>Royalton Park Avenue Hotel</h1>
+      {% endregionblock %}
     </div>
     <div class="sub-header-right">
       <!-- <ul class="sub-header-nav">
@@ -26,44 +28,78 @@ parent: weddings
 
 <section class="top-page-cta bg-cover" style="background-image:url(/assets/images/weddings/weddings-cta.jpg); background-attachment:fixed;"> 
 		 
-		<div class="btn-holder"><a href="{{site.pagelink.rfp}}" class="btn-outline" title="Request for Proposal">Request for Proposal</a></div>
+		<div class="btn-holder">
+			{% regionblock wedding_rfp_btn, type:text %}
+			<a href="{{site.pagelink.rfp}}" class="btn-outline" title="Request for Proposal">Request for Proposal</a>
+		{% endregionblock %}
+	</div>
+	{% regionblock wedding_rfp_title, type:header %}
 	    <div class="cta-text">Weddings</div> 
-	
+	{% endregionblock %}
 </section> 
 <section class="weddings-main">
 	<div class="wrapper">
            <div class="eat-drink  top-space bottom-padding">
               <div class="r-caption">
+              	{% regionblock wedding_contact_btn, type:text %}
                  <a href="{{site.pagelink.contact}}" class="link-text" title="contact us">Contact Us</a>
+                 {% endregionblock %}
               </div>
 	              <div class="left-description">
+	              	{% regionblock wedding_forever_title, type:header %}
 	                  <h4>Forever moments</h4>
+	                  {% endregionblock %}
+	                  {% regionblock wedding_forever_content_1, type:text %}
 		              <p>Royalton is an ideal location for intimate weddings and social events. The 1700 square foot Penthouse is a unique and flexible space overlooking Midtown and Times Square,offering a perfect New York experience for rehearsal dinners, small weddings and other special events leading up to your wedding day.</p>
-
+		              {% endregionblock %}
+		              {% regionblock wedding_forever_content_2, type:text %}
 	                  <p>Forty Four, our restaurant and bar, is perfect for a memorable reception - this popular event space features a modern twist on timeless classics in a unique and sophisticated environment only Royalton can offer.</p>
-
+	                  {% endregionblock %}
+	                  {% regionblock wedding_forever_content_3, type:text %}
 	                  <p>Flawless service is supplied by on-site professional meeting planners and an expert staff, including sumptuous catering, entertainment planning and state-of-the-art audio-visual services.</p>
+	                  {% endregionblock %}
 	              </div>
 	            <div class="border-left img-holder">
-	               <figure><img src="/assets/images/weddings/wedding-moment.jpg" alt="Wedding Moment" class="img-fluid"></figure>
+	               <figure>
+	               	{% regionblock wedding_forever_img_1, type:image %}
+	               	<img src="/assets/images/weddings/wedding-moment.jpg" alt="Wedding Moment" class="img-fluid">
+	               {% endregionblock %}
+	           </figure>
 	            </div>
           </div>
           <div class="about-wedding">
                <figure>
+               	{% regionblock wedding_forever_img_2, type:image %}
                	<img src="/assets/images/weddings/forever-moment-1.jpg" alt="Forever Moment" class="img-fluid pb-0"> 
+               	{% endregionblock %}
                </figure>
                <figure>
+               	{% regionblock wedding_forever_img_3, type:image %}
                	<img src="/assets/images/weddings/forever-moment-2.jpg" alt="Forever Moment" class="img-fluid">
+               	{% endregionblock %}
                </figure>
                <div class="container-fluid">
 	                <div class="contact-info top-space">
 	                 <div class="btn-cta">
-	                    <div class="btn-holder"><a href="{{site.pagelink.rfp}}" class="btn-outline-black" title="rfp">Request for proposal</a></div>
+	                    <div class="btn-holder">
+	                    	{% regionblock wedding_rfp_btn, type:text %}
+	                    	<a href="{{site.pagelink.rfp}}" class="btn-outline-black" title="rfp">Request for proposal</a>
+	                    {% endregionblock %}
+	                </div>
 	                 </div>
 	                 <div class="detail-7">
+	                 	{% regionblock wedding_rfp_contact_title, type:header %}
 	                     <h4 class="sr-no"> Contact</h4>
-	                     <p><a class="link-text" href="mailto:{{site.email}}" title="write us mail">{{site.email}} </a>
-	                     <br><a class="link-text" href="tel:{{site.phone}}" title="Call us {{site.phone}}">{{site.phone}}</a></p>
+	                     {% endregionblock %}
+	                     <p>
+	                     	{% regionblock wedding_rfp_contact_mail, type:text %}
+	                     	<a class="link-text" href="mailto:{{site.email}}" title="write us mail">{{site.email}} </a>
+	                     	{% endregionblock %}
+	                     <br>
+	                     {% regionblock wedding_rfp_contact_number, type:text %}
+	                     <a class="link-text" href="tel:{{site.phone}}" title="Call us {{site.phone}}">{{site.phone}}</a>
+	                 {% endregionblock %}
+	             </p>
 	                 </div>
 	               </div>
 	            </div>
@@ -73,7 +109,9 @@ parent: weddings
 
 <section class="wedding-gallery bottom-padding top-padding">
 		<div class="wrapper"> 
+			{% regionblock wedding_gallery_title, type:header %}
 			             <h2 class="text-center m-auto">Browse Wedding Gallery</h2> 
+			             {% endregionblock %}
 		</div>
 		<div class="wrapper">
 			            <div class="snap-gallery-nav text-right">
@@ -109,7 +147,11 @@ parent: weddings
             </div>
 		</div> 
     <div class="wrapper mt-4 ">   
-		            <div class="btn-holder text-center"><a href="{{site.pagelink.gallery}}" title="View Gallery" class="btn-outline-black">View Gallery</a></div>
+		            <div class="btn-holder text-center">
+		            	{% regionblock wedding_gallery_btn, type:header %}
+		            	<a href="{{site.pagelink.gallery}}" title="View Gallery" class="btn-outline-black">View Gallery</a>
+		            {% endregionblock %}
+		        </div>
 		 
 	</div>
 </section>
@@ -117,37 +159,68 @@ parent: weddings
 
 <section class="featured-venue bg-l-grey top-padding bottom-padding p">
 	<div class="wrapper"> 
+		{% regionblock wedding_featured_title, type:header %}
 		             <h2 class="text-center text-uppercase m-auto line-below"><span>Featured</span></h2> 
+		             {% endregionblock %}
 	</div>
 	 <div class="wrapper top-space">
 	   <div class="venue">
               <div class="detail d-flex" style="background-image: url('/assets/images/weddings/ivy-lounge.jpg');"> 
                   <div class="banner-detail m-auto">
+                  	{% regionblock wedding_ivy_lounge_view, type:text %}
                     <a href="/events/ivy-lounge/" class="link-text pb-3">View This Venue</a>
+                    {% endregionblock %}
+                    {% regionblock wedding_ivy_lounge_title, type:header %}
                     <h2>Ivy<br>Lounge</h2>
-                   <div class="btn-holder text-center"><a href="/{{site.pagelink.rfp}}/" title="Book Venue" class="btn-outline-grey">Book Venue</a></div>
+                    {% endregionblock %}
+                    {% regionblock wedding_ivy_lounge_book, type:text %}
+                   <div class="btn-holder text-center">
+                   	<a href="/{{site.pagelink.rfp}}/" title="Book Venue" class="btn-outline-grey">Book Venue</a>
+                   	{% endregionblock %}
+                   </div>
                   </div>
               </div>
 	   </div>
 	   <div class="venue">
                <div class="detail d-flex" style="background-image: url('/assets/images/weddings/redroom.jpg');"> 
                   <div class="banner-detail m-auto">
+                  	{% regionblock wedding_red_room_view, type:text %}
                     <a href="/events/red-room/" class="link-text pb-3">View This Venue</a>
+                    {% endregionblock %}
+                    {% regionblock wedding_red_room_title, type:header %}
                     <h2>Red<br>Room</h2>
-                   <div class="btn-holder text-center"><a href="{{site.pagelink.rfp}}" title="Book Venue" class="btn-outline-grey">Book Venue</a></div>
+                    {% endregionblock %}
+                   <div class="btn-holder text-center">
+                   	{% regionblock wedding_red_room_book, type:text %}
+                   	<a href="{{site.pagelink.rfp}}" title="Book Venue" class="btn-outline-grey">Book Venue</a>
+                   {% endregionblock %}
+               </div>
                   </div>
               </div>
 	   </div>      
 	 </div>
 	<div class="wrapper mt-4 ">   
-			            <div class="btn-holder m-auto"><a href="/events/" title="View Gallery" class="btn-outline-black">View Venues</a></div>
+			            <div class="btn-holder m-auto">
+			            	{% regionblock wedding_featured_btn, type:header %}
+			            	<a href="/events/" title="View Gallery" class="btn-outline-black">View Venues</a>
+			            {% endregionblock %}
+			        </div>
 			 
     </div>
 </section>
 
 <section class="cta bg-cover" style="background-image:url(/assets/images/weddings/married-couple.jpg); background-attachment:fixed;"> 
-		<div class="logo-holder"> <img src="/assets/images/logo.png" alt="Royalton Park Avenue"> </div>
-		<div class="btn-holder"><a href="{{site.pagelink.rfp}}" class="btn-outline" title="Request for Proposal">Request for Proposal</a></div>
+		<div class="logo-holder"> 
+			{% regionblock wedding_cta_logo, type:image %}
+			<img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+			{% endregionblock %} 
+			 </div>
+		<div class="btn-holder">
+			{% regionblock wedding_cta_btn, type:text %}
+			<a href="{{site.pagelink.rfp}}" class="btn-outline" title="Request for Proposal">Request for Proposal</a>
+			{% endregionblock %} 
+		</div>
+		{% regionblock wedding_cta_title, type:header %}
 	    <div class="cta-text">Say I Do</div> 
-	
+		{% endregionblock %} 
 </section> 
