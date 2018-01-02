@@ -209,6 +209,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075755/thumb_jens-theess-28249.jpg",
       "git_file_name": "_assets/image_data/jens-theess-28249.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075755/jens-theess-28249.jpg"
+    },
+    {
+      "name": "gvh_park_ave_events_0013",
+      "file_name": "gvh_park_ave_events_0013.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/gvh-park-ave-events-0013.jpg",
+      "tags": "gallery,eat&drink",
+      "file_size": 316049,
+      "width": 1500,
+      "height": 900,
+      "description": "Royalton Park Ave Events",
+      "date_added": "2017-10-05-075305",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/large_gvh_park_ave_events_0013.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/medium_gvh_park_ave_events_0013.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/small_gvh_park_ave_events_0013.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/xsmall_gvh_park_ave_events_0013.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/thumb_gvh_park_ave_events_0013.jpg",
+      "git_file_name": "_assets/image_data/gvh_park_ave_events_0013.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/gvh-park-ave-events-0013.jpg"
     }
   ],
   "description": ""
