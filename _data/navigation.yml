@@ -8,8 +8,8 @@ main:
   url: "/rooms-and-suites/"
 - title: Eat & Drink
   url: "/eat-and-drink/"
-- title: New Years Eve
-  url: "/new-years-eve/"
+# - title: New Years Eve
+#   url: "/new-years-eve/"
 - title: Events
   url: "/events/"
 - title: Location
