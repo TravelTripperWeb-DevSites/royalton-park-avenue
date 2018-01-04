@@ -5,4 +5,4 @@ Disallow:
 
 # Define website sitemaps
 
-Sitemap:
+Sitemap:https://www.royaltonparkavenue.com/sitemap.xml
