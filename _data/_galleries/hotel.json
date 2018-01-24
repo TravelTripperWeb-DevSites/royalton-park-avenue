@@ -57,6 +57,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075459/thumb_gvh_park_gym_0021.jpg",
       "git_file_name": "_assets/image_data/gvh_park_gym_0021.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075459/gvh-park-gym-0021.jpg"
+    },
+    {
+      "name": "Park-Lounge-Library",
+      "file_name": "Park-Lounge-Library.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075835/Park-Lounge-Library.jpg",
+      "tags": "gallery,hotel",
+      "file_size": 333524,
+      "width": 1500,
+      "height": 900,
+      "description": "Park Lounge Library",
+      "date_added": "2017-10-05-075835",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075835/large_Park-Lounge-Library.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075835/medium_Park-Lounge-Library.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075835/small_Park-Lounge-Library.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075835/xsmall_Park-Lounge-Library.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075835/thumb_Park-Lounge-Library.jpg",
+      "git_file_name": "_assets/image_data/Park-Lounge-Library.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075835/Park-Lounge-Library.jpg"
     }
   ],
   "description": ""
