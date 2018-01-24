@@ -209,6 +209,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/thumb_deluxe-king.jpg",
       "git_file_name": "_assets/image_data/deluxe-king.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/deluxe-king.jpg"
+    },
+    {
+      "name": "park-avenue-suite-bedroom",
+      "file_name": "park-avenue-suite-bedroom.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/park-avenue-suite-bedroom.jpg",
+      "tags": "gallery,location",
+      "file_size": 242399,
+      "width": 1500,
+      "height": 900,
+      "description": "Park avenue suite bedroom",
+      "date_added": "2018-01-24-053409",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/large_park-avenue-suite-bedroom.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/medium_park-avenue-suite-bedroom.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/small_park-avenue-suite-bedroom.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/xsmall_park-avenue-suite-bedroom.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/thumb_park-avenue-suite-bedroom.jpg",
+      "git_file_name": "_assets/image_data/park-avenue-suite-bedroom.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/park-avenue-suite-bedroom.jpg"
     }
   ],
   "description": ""
