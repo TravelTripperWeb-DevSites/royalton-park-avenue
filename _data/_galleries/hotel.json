@@ -1,0 +1,44 @@
+{
+  "name": "hotel",
+  "photos": [
+    {
+      "name": "playhookie2",
+      "file_name": "playhookie2.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/playhookie2.jpg",
+      "tags": "gallery,hotel",
+      "file_size": 414866,
+      "width": 1500,
+      "height": 900,
+      "description": "Play Hookie",
+      "date_added": "2017-10-05-075956",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/large_playhookie2.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/medium_playhookie2.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/small_playhookie2.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/xsmall_playhookie2.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/thumb_playhookie2.jpg",
+      "git_file_name": "_assets/image_data/playhookie2.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075956/playhookie2.jpg"
+    },
+    {
+      "name": "Park-Ivy-Lounge-Table-With-Ivy-Wall10",
+      "file_name": "Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075821/Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
+      "tags": "gallery,eat&drink",
+      "file_size": 401325,
+      "width": 1500,
+      "height": 900,
+      "description": "Park Ivy Lounge Table",
+      "date_added": "2017-10-05-075821",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075821/large_Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075821/medium_Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075821/small_Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075821/xsmall_Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075821/thumb_Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
+      "git_file_name": "_assets/image_data/Park-Ivy-Lounge-Table-With-Ivy-Wall10.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075821/Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg"
+    }
+  ],
+  "description": ""
+}
