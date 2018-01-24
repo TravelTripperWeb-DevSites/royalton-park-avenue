@@ -285,25 +285,6 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075454/thumb_gvh_park_grand_deluxe_002.jpg",
       "git_file_name": "_assets/image_data/gvh_park_grand_deluxe_002.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075454/gvh-park-grand-deluxe-002.jpg"
-    },
-    {
-      "name": "gvh_park_gans_suite_0011",
-      "file_name": "gvh_park_gans_suite_0011.jpg",
-      "file_type": "image/jpeg",
-      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/gvh-park-gans-suite-0011.jpg",
-      "tags": "gallery,rooms&suites",
-      "file_size": 204896,
-      "width": 1500,
-      "height": 900,
-      "description": "Royalton Park Grand Suite",
-      "date_added": "2017-10-05-075444",
-      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/large_gvh_park_gans_suite_0011.jpg",
-      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/medium_gvh_park_gans_suite_0011.jpg",
-      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/small_gvh_park_gans_suite_0011.jpg",
-      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/xsmall_gvh_park_gans_suite_0011.jpg",
-      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/thumb_gvh_park_gans_suite_0011.jpg",
-      "git_file_name": "_assets/image_data/gvh_park_gans_suite_0011.json",
-      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/gvh-park-gans-suite-0011.jpg"
     }
   ],
   "description": ""
