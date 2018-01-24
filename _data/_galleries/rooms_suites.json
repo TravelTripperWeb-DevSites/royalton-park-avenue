@@ -171,6 +171,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075507/thumb_gvh_park_pres_suite_004.jpg",
       "git_file_name": "_assets/image_data/gvh_park_pres_suite_004.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075507/gvh-park-pres-suite-004.jpg"
+    },
+    {
+      "name": "avenue-grand-deluxe-king",
+      "file_name": "avenue-grand-deluxe-king.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/avenue-grand-deluxe-king.jpg",
+      "tags": "gallery,location",
+      "file_size": 200047,
+      "width": 1500,
+      "height": 900,
+      "description": "Avenue grand deluxe king",
+      "date_added": "2018-01-24-053340",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/large_avenue-grand-deluxe-king.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/medium_avenue-grand-deluxe-king.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/small_avenue-grand-deluxe-king.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/xsmall_avenue-grand-deluxe-king.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/thumb_avenue-grand-deluxe-king.jpg",
+      "git_file_name": "_assets/image_data/avenue-grand-deluxe-king.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/avenue-grand-deluxe-king.jpg"
     }
   ],
   "description": ""
