@@ -1,5 +1,5 @@
 {
-  "name": "rooms_suites",
+  "name": "Rooms & Suites",
   "photos": [
     {
       "name": "gvh_park_ave_suite_0051",
@@ -158,7 +158,7 @@
       "file_name": "avenue-grand-deluxe-king.jpg",
       "file_type": "image/jpeg",
       "url": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/avenue-grand-deluxe-king.jpg",
-      "tags": "gallery,location",
+      "tags": "gallery,rooms&suites",
       "file_size": 200047,
       "width": 1500,
       "height": 900,
@@ -177,7 +177,7 @@
       "file_name": "deluxe-king.jpg",
       "file_type": "image/jpeg",
       "url": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/deluxe-king.jpg",
-      "tags": "gallery,location",
+      "tags": "gallery,rooms&suites",
       "file_size": 231848,
       "width": 1500,
       "height": 900,
@@ -196,7 +196,7 @@
       "file_name": "park-avenue-suite-bedroom.jpg",
       "file_type": "image/jpeg",
       "url": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/park-avenue-suite-bedroom.jpg",
-      "tags": "gallery,location",
+      "tags": "gallery,rooms&suites",
       "file_size": 242399,
       "width": 1500,
       "height": 900,
@@ -215,7 +215,7 @@
       "file_name": "royalton-suite-bedroom.jpg",
       "file_type": "image/jpeg",
       "url": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053418/royalton-suite-bedroom.jpg",
-      "tags": "gallery,location",
+      "tags": "gallery,rooms&suites",
       "file_size": 224475,
       "width": 1500,
       "height": 900,
