@@ -2,25 +2,6 @@
   "name": "rooms_suites",
   "photos": [
     {
-      "name": "SuperiorDouble1-1500x900",
-      "file_name": "SuperiorDouble1-1500x900.jpg",
-      "file_type": "image/jpeg",
-      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080013/SuperiorDouble1-1500x900.jpg",
-      "tags": "gallery,rooms&suites",
-      "file_size": 239922,
-      "width": 1500,
-      "height": 900,
-      "description": "Superior Double Room",
-      "date_added": "2017-10-05-080013",
-      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080013/large_SuperiorDouble1-1500x900.jpg",
-      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080013/medium_SuperiorDouble1-1500x900.jpg",
-      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080013/small_SuperiorDouble1-1500x900.jpg",
-      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080013/xsmall_SuperiorDouble1-1500x900.jpg",
-      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080013/thumb_SuperiorDouble1-1500x900.jpg",
-      "git_file_name": "_assets/image_data/SuperiorDouble1-1500x900.json",
-      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080013/SuperiorDouble1-1500x900.jpg"
-    },
-    {
       "name": "superior1-1500x900",
       "file_name": "superior1-1500x900.jpg",
       "file_type": "image/jpeg",
