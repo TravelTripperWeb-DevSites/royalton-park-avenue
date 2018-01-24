@@ -31,20 +31,16 @@ include_in_nav_localized:
 <section class="gallery-wrapper"> 
  <div class="gallery-listing">
       <div class="container">
-        {% assign tagslist = "" %} {% for photo in photos %} {% if photo.tags contains "gallery" %} {% assign taglist = taglist | append: photo.tags | split: "," | join: ' ' | replace: 'gallery','' %} {% endif %} {% endfor %} {% assign categories = taglist | split: ' ' | uniq | join: ', ' %} {% assign categoriesArray = categories | split: ','%}
         <ul class="sub-nav">
             <li><a href="javascript:;" class="filter active" data-filter="all" data-rel="all">ALL</a></li>
-            {% for category in categoriesArray %}
-            <li><a href="javascript:;" class="filter" data-rel="{{category | replace:' ',''}}">{{category | replace:'-', ' '}}</a></li>
-            {% endfor %}
+            
+            <li><a href="javascript:;" class="filter" data-rel="Hotel">{{category | replace:'-', ' '}}</a></li>
         </ul>
       </div>
       <div class="container no-padding gallery-wrap" id="lightgallery">
         <div class="card-columns">
-            {% for photo in photos %} 
-            {% assign tag_list = photo.tags | split: "," | strip %} 
-              {% if tag_list contains "gallery" %}
-                <div class="card item fancybox" data-filter="{{photo.tags | replace: 'gallery' | replace: ',','' | replace:' ',''}}" data-src="{% if photo.url_large %}{{ photo.url_large }}{% else %}{{ photo.url }}{% endif %}" data-exthumbimage="{% if photo.url_medium %}{{ photo.url_medium }}{% else %}{{ photo.url }}{% endif %}" >
+          {% for photo in data._galleries.Hotel.photos %}
+                <div class="card item fancybox" data-filter="Hotel" data-src="{% if photo.url_large %}{{ photo.url_large }}{% else %}{{ photo.url }}{% endif %}" data-exthumbimage="{% if photo.url_medium %}{{ photo.url_medium }}{% else %}{{ photo.url }}{% endif %}" >
                     <img src="{% if photo.url_medium %}{{ photo.url_medium }}{% else %}{{ photo.url }}{% endif %}" alt="{{photo.description}}" class="img-fluid" />
                     <div class="overlay">
                       <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
@@ -55,7 +51,6 @@ include_in_nav_localized:
                       </div>
                     </div>
                 </div>
-              {% endif %} 
             {% endfor %}
 
         </div>
