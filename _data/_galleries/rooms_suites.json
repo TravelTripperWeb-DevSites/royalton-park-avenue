@@ -152,6 +152,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-042343/thumb_presidential-suite.jpg",
       "git_file_name": "_assets/image_data/presidential-suite.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-042343/presidential-suite.jpg"
+    },
+    {
+      "name": "gvh_park_superior_0022",
+      "file_name": "gvh_park_superior_0022.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/gvh-park-superior-0022.jpg",
+      "tags": "gallery,rooms&suites",
+      "file_size": 163373,
+      "width": 1500,
+      "height": 900,
+      "description": "Royalton Park Superior",
+      "date_added": "2017-10-05-075749",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/large_gvh_park_superior_0022.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/medium_gvh_park_superior_0022.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/small_gvh_park_superior_0022.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/xsmall_gvh_park_superior_0022.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/thumb_gvh_park_superior_0022.jpg",
+      "git_file_name": "_assets/image_data/gvh_park_superior_0022.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/gvh-park-superior-0022.jpg"
     }
   ],
   "description": ""
