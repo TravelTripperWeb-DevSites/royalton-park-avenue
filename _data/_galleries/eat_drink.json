@@ -209,6 +209,25 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075302/thumb_gvh_park_ave_events_002.jpg",
       "git_file_name": "_assets/image_data/gvh_park_ave_events_002.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075302/gvh-park-ave-events-002.jpg"
+    },
+    {
+      "name": "getsuitesummer-1500x900-6",
+      "file_name": "getsuitesummer-1500x900-6.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075254/getsuitesummer-1500x900-6.jpg",
+      "tags": "gallery,eat&drink",
+      "file_size": 165425,
+      "width": 1500,
+      "height": 900,
+      "description": "",
+      "date_added": "2017-10-05-075254",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075254/large_getsuitesummer-1500x900-6.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075254/medium_getsuitesummer-1500x900-6.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075254/small_getsuitesummer-1500x900-6.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075254/xsmall_getsuitesummer-1500x900-6.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075254/thumb_getsuitesummer-1500x900-6.jpg",
+      "git_file_name": "_assets/image_data/getsuitesummer-1500x900-6.json",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075254/getsuitesummer-1500x900-6.jpg"
     }
   ],
   "description": ""
