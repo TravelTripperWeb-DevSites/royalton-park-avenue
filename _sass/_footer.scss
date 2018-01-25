@@ -126,7 +126,10 @@
         }
     }
     .footer-logo {
-        max-width: 70px;
+        max-width: 55px;
+        @include media-breakpoint-up (xl) {
+            max-width: 70px;
+        }
     }
     .input-holder {
 				position: relative;
@@ -202,14 +205,18 @@
     .other-logos {
         padding: 2rem 0 0 0;
         display: inline-block;
-        margin-left: 2rem;
+        margin-left: 1rem;
         @include media-breakpoint-up (md) {
-            margin-left: 6rem;
+            /* margin-left: 6rem; */
+            margin-left: 1rem;
         }
         img {
-            max-width: 110px;
+            max-width: 80px;
             display: inline-block;
             margin: 0;
+            @include media-breakpoint-up (xl) {
+                max-width: 110px;
+            }
         }
     }
         .copyrights { 
