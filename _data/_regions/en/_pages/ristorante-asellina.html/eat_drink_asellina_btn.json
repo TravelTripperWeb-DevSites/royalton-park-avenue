@@ -1,6 +1,6 @@
 [
   {
     "_template": "html",
-    "content": "<p><a class=\"btn-outline-black\" title=\"Contact \" href=\"https://cdn.traveltripper.io/site-assets/192_800_11560/media/2018-01-23-145706/Asellina-Restaurant-Week-Lunch-Menu.pdf\">Restaurant Week Lunch Menu</a></p>\n<p><a class=\"btn-outline-black\" title=\"Contact \" href=\"https://cdn.traveltripper.io/site-assets/192_800_11560/media/2018-01-23-145705/Asellina-Restaurant-Week-Dinner-Menu.pdf\">Restaurant Week Dinner Menu</a></p>\n<p><a class=\"btn-outline-black\" title=\"Contact \" href=\"../contact/\">Contact Us</a></p>"
+    "content": "<p><a class=\"btn-outline-black\" title=\"Contact \" href=\"https://cdn.traveltripper.io/site-assets/192_800_11560/media/2018-01-23-145706/Asellina-Restaurant-Week-Lunch-Menu.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Restaurant Week Lunch Menu</a></p>\n<p><a class=\"btn-outline-black\" title=\"Contact \" href=\"https://cdn.traveltripper.io/site-assets/192_800_11560/media/2018-01-23-145705/Asellina-Restaurant-Week-Dinner-Menu.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Restaurant Week Dinner Menu</a></p>\n<p><a class=\"btn-outline-black\" title=\"Contact \" href=\"../contact/\">Contact Us</a></p>"
   }
 ]
