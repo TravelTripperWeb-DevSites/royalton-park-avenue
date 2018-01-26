@@ -1,0 +1,123 @@
+{
+  "attractions": [
+    {
+      "name": "ROCKEFELLER CENTER",
+      "title": "ROCKEFELLER CENTER",
+      "file": "attractions5.json"
+    },
+    {
+      "name": "METROPOLITAN MUSEUM OF ART",
+      "title": "METROPOLITAN MUSEUM OF ART",
+      "file": "attractions4.json"
+    },
+    {
+      "name": "BRYANT PARK",
+      "title": "BRYANT PARK",
+      "file": "attractions3.json"
+    },
+    {
+      "name": "TIMES SQUARE",
+      "title": "TIMES SQUARE",
+      "file": "attractions2.json"
+    },
+    {
+      "name": "THEATER DISTRICT",
+      "title": "THEATER DISTRICT",
+      "file": "attractions1.json"
+    },
+    {
+      "name": "EMPIRE STATE BUILDING",
+      "title": "EMPIRE STATE BUILDING",
+      "file": "attractions6.json"
+    }
+  ],
+  "welcome-property-slider": [
+    {
+      "file": "welcome-property-slider3.json"
+    },
+    {
+      "file": "welcome-property-slider2.json"
+    },
+    {
+      "file": "welcome-property-slider4.json"
+    },
+    {
+      "file": "welcome-property-slider1.json"
+    }
+  ],
+  "homepage-slider": [
+    {
+      "name": "high style, luxury and comfort all in one",
+      "file": "homepage-slider1.json"
+    },
+    {
+      "name": "In the heart of Midtown",
+      "file": "homepage-slider2.json"
+    },
+    {
+      "name": "Eat & Drink",
+      "file": "homepage-slider3.json"
+    }
+  ],
+  "sundeck-slider": [
+    {
+      "file": "sundeck-slider1.json"
+    },
+    {
+      "file": "sundeck-slider2.json"
+    }
+  ],
+  "ristorante-slider": [
+    {
+      "file": "ristorante-slider1.json"
+    },
+    {
+      "file": "ristorante-slider2.json"
+    }
+  ],
+  "rooftop-slider": [
+    {
+      "file": "rooftop-slider2.json"
+    },
+    {
+      "file": "rooftop-slider1.json"
+    }
+  ],
+  "explore-nyc-scroller": [
+    {
+      "file": "explore-nyc-scroller6.json"
+    },
+    {
+      "file": "explore-nyc-scroller7.json"
+    },
+    {
+      "file": "explore-nyc-scroller1.json"
+    },
+    {
+      "file": "explore-nyc-scroller2.json"
+    },
+    {
+      "file": "explore-nyc-scroller3.json"
+    },
+    {
+      "file": "explore-nyc-scroller4.json"
+    },
+    {
+      "file": "explore-nyc-scroller5.json"
+    }
+  ],
+  "_definitions": [
+    {
+      "name": {
+        "required": true
+      },
+      "title": {
+        "required": true
+      },
+      "file": "events.json"
+    },
+    {
+      "file": "gallery.json"
+    }
+  ]
+}
