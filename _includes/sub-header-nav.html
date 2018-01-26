@@ -1,0 +1,31 @@
+<div class="sub-header-right">
+  <ul class="sub-header-nav">
+    {% if page.url contains 'eat-and-drink' %}
+      <li class="active">
+     {% else %}
+       <li>
+     {% endif %}
+      <a href="/eat-and-drink/">
+       <h4 class="text-uppercase">ROOFTOP<br>at Royalton Park Avenue</h4>
+     </a>
+    </li>
+    {% if page.url contains 'sundeck' %}
+     <li class="active">
+    {% else %}
+      <li>
+    {% endif %}
+      <a href="/sundeck/">
+       <h4 class="text-uppercase">SUNDECK</h4>
+     </a>
+    </li>
+    {% if page.url contains 'ristorante-asellina' %}
+     <li class="active">
+    {% else %}
+      <li>
+    {% endif %}
+      <a href="/ristorante-asellina/">
+       <h4 class="text-uppercase">RISTORANTE<br> ASELLINA</h4>
+     </a>
+    </li>
+  </ul>
+</div>
