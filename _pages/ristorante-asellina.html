@@ -2,7 +2,7 @@
 title_localized:
   en: Ristorante Asellina | Royalton Park Avenue Hotel
 label_localized:
-  en: 
+  en:
 layout_localized:
   en: default
 permalink_localized:
@@ -10,7 +10,7 @@ permalink_localized:
 meta_description_localized:
   en: Ristorante Asellina in New York, Asellina encompasses the ultimate in traditional-meets-modern Italian cuisine, all crafted with an authentic Italian twist.
 meta_keywords_localized:
-  en: 
+  en:
 published_localized:
   en: true
 include_in_nav_localized:
@@ -26,31 +26,7 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
       <h1>Eat <br>&amp; Drink</h1>
       {% endregionblock %}
     </div>
-    <div class="sub-header-right">
-      <ul class="sub-header-nav">
-        <li>
-          <a href="/eat-and-drink/">
-            {% regionblock eat_drink_navitem_1, type:text %}
-           <h4 class="text-uppercase">ROOFTOP<br>at Royalton Park Avenue</h4>
-           {% endregionblock %}
-         </a>
-        </li>
-        <li>
-          <a href="/sundeck/">
-            {% regionblock eat_drink_navitem_2, type:text %}
-           <h4 class="text-uppercase">SUNDECK</h4>
-           {% endregionblock %}
-         </a>
-        </li>
-         <li  class="active">
-          <a href="/ristorante-asellina/">
-            {% regionblock eat_drink_navitem_3, type:text %}
-           <h4 class="text-uppercase">RISTORANTE<br> ASELLINA</h4>
-           {% endregionblock %}
-         </a>
-        </li>
-      </ul>
-    </div>
+    {% include sub-header-nav.html %}
   </div>
 </section>
 
@@ -110,7 +86,7 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
                       <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slide.image.url_large}}');">
                       </div>
                     {% endfor %}
-             	       
+
 
              	    </div>
              	    <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev">
@@ -153,7 +129,7 @@ label: Ristorante Asellina | Royalton Park Avenue Hotel in New York
       <a href="/">
         {% regionblock asellina_cta_logo, type:image %}
         <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
-        {% endregionblock %} 
+        {% endregionblock %}
       </a>
     </div>
     <div class="btn-holder">
