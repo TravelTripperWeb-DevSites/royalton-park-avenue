@@ -1,19 +1,9 @@
 {
   "attractions": [
     {
-      "name": "ROCKEFELLER CENTER",
-      "title": "ROCKEFELLER CENTER",
-      "file": "attractions5.json"
-    },
-    {
-      "name": "METROPOLITAN MUSEUM OF ART",
-      "title": "METROPOLITAN MUSEUM OF ART",
-      "file": "attractions4.json"
-    },
-    {
-      "name": "BRYANT PARK",
-      "title": "BRYANT PARK",
-      "file": "attractions3.json"
+      "name": "THEATER DISTRICT",
+      "title": "THEATER DISTRICT",
+      "file": "attractions1.json"
     },
     {
       "name": "TIMES SQUARE",
@@ -21,9 +11,19 @@
       "file": "attractions2.json"
     },
     {
-      "name": "THEATER DISTRICT",
-      "title": "THEATER DISTRICT",
-      "file": "attractions1.json"
+      "name": "BRYANT PARK",
+      "title": "BRYANT PARK",
+      "file": "attractions3.json"
+    },
+    {
+      "name": "METROPOLITAN MUSEUM OF ART",
+      "title": "METROPOLITAN MUSEUM OF ART",
+      "file": "attractions4.json"
+    },
+    {
+      "name": "ROCKEFELLER CENTER",
+      "title": "ROCKEFELLER CENTER",
+      "file": "attractions5.json"
     },
     {
       "name": "EMPIRE STATE BUILDING",
@@ -31,18 +31,27 @@
       "file": "attractions6.json"
     }
   ],
-  "welcome-property-slider": [
+  "explore-nyc-scroller": [
     {
-      "file": "welcome-property-slider3.json"
+      "file": "explore-nyc-scroller1.json"
     },
     {
-      "file": "welcome-property-slider2.json"
+      "file": "explore-nyc-scroller2.json"
     },
     {
-      "file": "welcome-property-slider4.json"
+      "file": "explore-nyc-scroller3.json"
     },
     {
-      "file": "welcome-property-slider1.json"
+      "file": "explore-nyc-scroller4.json"
+    },
+    {
+      "file": "explore-nyc-scroller5.json"
+    },
+    {
+      "file": "explore-nyc-scroller6.json"
+    },
+    {
+      "file": "explore-nyc-scroller7.json"
     }
   ],
   "homepage-slider": [
@@ -59,14 +68,6 @@
       "file": "homepage-slider3.json"
     }
   ],
-  "sundeck-slider": [
-    {
-      "file": "sundeck-slider1.json"
-    },
-    {
-      "file": "sundeck-slider2.json"
-    }
-  ],
   "ristorante-slider": [
     {
       "file": "ristorante-slider1.json"
@@ -77,33 +78,32 @@
   ],
   "rooftop-slider": [
     {
-      "file": "rooftop-slider2.json"
+      "file": "rooftop-slider1.json"
     },
     {
-      "file": "rooftop-slider1.json"
+      "file": "rooftop-slider2.json"
     }
   ],
-  "explore-nyc-scroller": [
+  "sundeck-slider": [
     {
-      "file": "explore-nyc-scroller6.json"
+      "file": "sundeck-slider1.json"
     },
     {
-      "file": "explore-nyc-scroller7.json"
+      "file": "sundeck-slider2.json"
+    }
+  ],
+  "welcome-property-slider": [
+    {
+      "file": "welcome-property-slider1.json"
     },
     {
-      "file": "explore-nyc-scroller1.json"
+      "file": "welcome-property-slider2.json"
     },
     {
-      "file": "explore-nyc-scroller2.json"
+      "file": "welcome-property-slider3.json"
     },
     {
-      "file": "explore-nyc-scroller3.json"
-    },
-    {
-      "file": "explore-nyc-scroller4.json"
-    },
-    {
-      "file": "explore-nyc-scroller5.json"
+      "file": "welcome-property-slider4.json"
     }
   ],
   "_definitions": [
