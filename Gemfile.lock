@@ -5,6 +5,7 @@ GEM
     colorator (0.1)
     concurrent-ruby (1.0.5)
     ffi (1.9.18)
+    ffi (1.9.18-x64-mingw32)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     jekyll (3.1.6)
@@ -44,6 +45,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   i18n
@@ -52,4 +54,4 @@ DEPENDENCIES
   xkeys
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
