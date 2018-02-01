@@ -16,7 +16,7 @@
         },
         "data_source": null,
         "source_path": "index.html",
-        "order": 29
+        "order": 30
       }
     ],
     "events": {
@@ -84,7 +84,7 @@
             },
             "data_source": null,
             "source_path": "_pages/weddings.html",
-            "order": 28
+            "order": 29
           }
         ]
       }
@@ -187,6 +187,20 @@
         }
       ]
     },
+    "exhale-fitness-spa": {
+      "__PAGES__": [
+        {
+          "label": "Contact",
+          "published": true,
+          "locales": {
+            "en": "/exhale-fitness-spa/"
+          },
+          "data_source": null,
+          "source_path": "_pages/exhale-fitness-spa.html",
+          "order": 13
+        }
+      ]
+    },
     "gallery": {
       "__PAGES__": [
         {
@@ -197,7 +211,7 @@
           },
           "data_source": null,
           "source_path": "_pages/gallery.html",
-          "order": 13
+          "order": 14
         }
       ]
     },
@@ -211,7 +225,7 @@
           },
           "data_source": null,
           "source_path": "_pages/location.html",
-          "order": 14
+          "order": 15
         }
       ]
     },
@@ -225,7 +239,7 @@
           },
           "data_source": null,
           "source_path": "_pages/new-years-eve.html",
-          "order": 15
+          "order": 16
         }
       ]
     },
@@ -239,7 +253,7 @@
           },
           "data_source": null,
           "source_path": "_pages/offer.html",
-          "order": 16
+          "order": 17
         }
       ]
     },
@@ -253,7 +267,7 @@
           },
           "data_source": null,
           "source_path": "_pages/offers.html",
-          "order": 17
+          "order": 18
         }
       ]
     },
@@ -267,7 +281,7 @@
           },
           "data_source": null,
           "source_path": "_pages/plunge-rooftop-bar.html",
-          "order": 18
+          "order": 19
         }
       ]
     },
@@ -281,7 +295,7 @@
           },
           "data_source": null,
           "source_path": "_pages/request-for-proposal.html",
-          "order": 19
+          "order": 20
         }
       ]
     },
@@ -295,7 +309,7 @@
           },
           "data_source": null,
           "source_path": "_pages/ristorante-asellina.html",
-          "order": 20
+          "order": 21
         }
       ]
     },
@@ -309,7 +323,7 @@
           },
           "data_source": null,
           "source_path": "_pages/room.html",
-          "order": 21
+          "order": 22
         }
       ]
     },
@@ -323,7 +337,7 @@
           },
           "data_source": null,
           "source_path": "_pages/rooms.html",
-          "order": 22
+          "order": 23
         }
       ]
     },
@@ -337,7 +351,7 @@
           },
           "data_source": null,
           "source_path": "_pages/save-20.html",
-          "order": 23
+          "order": 24
         }
       ]
     },
@@ -351,7 +365,7 @@
           },
           "data_source": null,
           "source_path": "_pages/save-25.html",
-          "order": 24
+          "order": 25
         }
       ]
     },
@@ -365,7 +379,7 @@
           },
           "data_source": null,
           "source_path": "_pages/stay-more-save-more.html",
-          "order": 25
+          "order": 26
         }
       ]
     },
@@ -379,7 +393,7 @@
           },
           "data_source": null,
           "source_path": "_pages/sundeck.html",
-          "order": 26
+          "order": 27
         }
       ]
     },
@@ -393,7 +407,7 @@
           },
           "data_source": null,
           "source_path": "_pages/thankyou.html",
-          "order": 27
+          "order": 28
         }
       ]
     }
@@ -420,7 +434,28 @@
     "_pages/contact.html/contact_cta_logo.json",
     "_pages/contact.html/contact_cta_btn_1.json",
     "_pages/contact.html/contact_cta_btn_2.json",
+    "_pages/exhale-fitness-spa.html/exhale_banner_title.json",
+    "_pages/exhale-fitness-spa.html/exhale_content_title.json",
+    "_pages/exhale-fitness-spa.html/exhale_content_address.json",
+    "_pages/exhale-fitness-spa.html/contact_visual_title.json",
+    "_pages/exhale-fitness-spa.html/exhale_cta_logo.json",
+    "_pages/exhale-fitness-spa.html/exhale_cta_btn_1.json",
+    "_pages/exhale-fitness-spa.html/exhale_cta_btn_2.json",
     "_pages/gallery.html/gallery_banner_title.json",
+    "_pages/events/index.html/ballrom_banner_title.json",
+    "_pages/events/index.html/events_navitem_one.json",
+    "_pages/events/index.html/events_navitem_two.json",
+    "_pages/events/index.html/events_navitem_three.json",
+    "_pages/events/index.html/events_navitem_four.json",
+    "_pages/events/index.html/ballrom_rfp_btn.json",
+    "_pages/events/index.html/ballroom_rfp_title.json",
+    "_pages/events/index.html/ballroom_content_title.json",
+    "_pages/events/index.html/ballroom_content.json",
+    "_pages/events/index.html/ballroom_content_btn.json",
+    "_pages/events/index.html/ballroom_content_img.json",
+    "_pages/events/index.html/ballroom_cta_logo.json",
+    "_pages/events/index.html/ballroom_cta_btn_1.json",
+    "_pages/events/index.html/ballroom_cta_btn_2.json",
     "index.html/home_intro_img_1.json",
     "index.html/home_intro_img_2.json",
     "index.html/home_intro_heading_main.json",
@@ -454,20 +489,6 @@
     "index.html/home_attractions_heading.json",
     "index.html/home_attractions_content.json",
     "index.html/home_attractions_img.json",
-    "_pages/events/index.html/ballrom_banner_title.json",
-    "_pages/events/index.html/events_navitem_one.json",
-    "_pages/events/index.html/events_navitem_two.json",
-    "_pages/events/index.html/events_navitem_three.json",
-    "_pages/events/index.html/events_navitem_four.json",
-    "_pages/events/index.html/ballrom_rfp_btn.json",
-    "_pages/events/index.html/ballroom_rfp_title.json",
-    "_pages/events/index.html/ballroom_content_title.json",
-    "_pages/events/index.html/ballroom_content.json",
-    "_pages/events/index.html/ballroom_content_btn.json",
-    "_pages/events/index.html/ballroom_content_img.json",
-    "_pages/events/index.html/ballroom_cta_logo.json",
-    "_pages/events/index.html/ballroom_cta_btn_1.json",
-    "_pages/events/index.html/ballroom_cta_btn_2.json",
     "_pages/events/ivy-lounge.html/ivy_lounge_banner_title.json",
     "_pages/events/ivy-lounge.html/events_navitem_one.json",
     "_pages/events/ivy-lounge.html/events_navitem_two.json",
@@ -624,5 +645,5 @@
     "verification",
     "_galleries"
   ],
-  "__SHA__": "90183d855a28b5a8410c412cdeb8e2d966bb2233"
+  "__SHA__": "075bc516bdbb4b5d5e75534278c31cb9fd6fcb65"
 }
