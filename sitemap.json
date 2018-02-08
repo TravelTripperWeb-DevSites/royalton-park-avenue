@@ -190,7 +190,7 @@
     "exhale-fitness-spa": {
       "__PAGES__": [
         {
-          "label": "Contact",
+          "label": "Exhale Fitness + Spa",
           "published": true,
           "locales": {
             "en": "/exhale-fitness-spa/"
@@ -437,7 +437,7 @@
     "_pages/exhale-fitness-spa.html/exhale_banner_title.json",
     "_pages/exhale-fitness-spa.html/exhale_content_title.json",
     "_pages/exhale-fitness-spa.html/exhale_content_address.json",
-    "_pages/exhale-fitness-spa.html/contact_visual_title.json",
+    "_pages/exhale-fitness-spa.html/exhale_visual_title.json",
     "_pages/exhale-fitness-spa.html/exhale_cta_logo.json",
     "_pages/exhale-fitness-spa.html/exhale_cta_btn_1.json",
     "_pages/exhale-fitness-spa.html/exhale_cta_btn_2.json",
@@ -645,5 +645,5 @@
     "verification",
     "_galleries"
   ],
-  "__SHA__": "075bc516bdbb4b5d5e75534278c31cb9fd6fcb65"
+  "__SHA__": "16bcf48ba4a76f5b6bb3e811fd56a4d336f1830b"
 }
