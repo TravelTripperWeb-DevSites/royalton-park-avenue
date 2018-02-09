@@ -72,6 +72,24 @@
       "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/xsmall_exhale-4.jpg",
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/thumb_exhale-4.jpg",
       "path": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/exhale-4.jpg"
+    },
+    {
+      "name": "exhale-5",
+      "file_name": "exhale-5.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/exhale-5.jpg",
+      "tags": "",
+      "file_size": 116594,
+      "width": 700,
+      "height": 1050,
+      "description": "",
+      "date_added": "2018-02-09-051208",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/large_exhale-5.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/medium_exhale-5.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/small_exhale-5.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/xsmall_exhale-5.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/thumb_exhale-5.jpg",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/exhale-5.jpg"
     }
   ],
   "description": ""
