@@ -1,0 +1,100 @@
+---
+title_localized:
+  en: Flywheel Fitness Tech
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/fitness/"
+meta_description_localized:
+  en: Our indoor cycling classes feature FLY Tech to track your performance, plus the support of a passionate community and friendly competition to help you go the distance.
+meta_keywords_localized:
+  en: 
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+<section class="top-page-cta bg-cover" style="background-image:url(/assets/images/fitness/fly-fitness1.jpg); background-attachment:fixed;">
+	  {% regionblock eat_drink_rooftop_title, type:image %}
+	 
+	  {% endregionblock %}
+</section>
+
+<section class="dining-bar-main">
+	<div class="wrapper">
+           <div class="eat-drink  top-space bottom-padding">
+             
+	              <div class="left-description">
+	                  <!--div class="counter pb-4 text-right">01</div-->
+	                  <div class="text-center">
+						<img src="/assets/images/fitness/fly-logo.jpg" alt="Flywheel riders channel" class="flywheel-logo">
+						{% regionblock eat_drink_rooftop_subheading, type:header %}
+						<h4>THERE’S A CLASS FOR EVERYONE</h4>
+						{% endregionblock %}
+						{% regionblock eat_drink_rooftop_content, type:text %}
+						<p>Since 2010, Flywheel has helped countless riders channel their inner athlete and crush their fitness goals. Our indoor cycling classes feature FLY Tech to track your performance, plus the support of a passionate community and friendly competition to help you go the distance.</p>
+						{% endregionblock %}                
+						<div class="btn-holder">
+						{% regionblock eat_drink_entertainment_btn, type:text %}
+						<a href="https://www.flywheelsports.com/studio/gansevoort-park (https://www.flywheelsports.com/studio/gansevoort-park" target="_blank" class="btn-outline-black" title="Entertainment calendar">Book a class</a>
+						{% endregionblock %}
+						</div> 
+	                  </div>
+                              
+	              </div>
+	         
+          </div>
+          <div class="about-bar">
+           
+            <div class="photos-slider left-padding">
+                <div id="photosSlider" class="carousel slide" data-ride="carousel">
+             	    <div class="carousel-inner" role="listbox">
+                 
+                    <div class="carousel-item active" style="background-image: url('/assets/images/fitness/fly-fitness3.jpg');">
+                    </div>
+                    <div class="carousel-item" style="background-image: url('/assets/images/fitness/fly-fitness2.jpg');">
+                    </div>
+                 
+
+             	    </div>
+             	    <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev">
+             	     <span class="eligant-icons control-arrow" aria-hidden="true">#</span>
+             	      <span class="sr-only">Previous</span>
+             	    </a>
+             	    <a class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next">
+             	      <span class="eligant-icons control-arrow" aria-hidden="true">$</span>
+             	      <span class="sr-only">Next</span>
+             	    </a>
+             	  </div>
+            </div>
+          </div>
+	</div>
+</section>
+
+
+{% include exclusive-offers.html %}
+
+<section class="cta-overlay bg-cover" style="background-image:url(/assets/images/fitness/flywhell-fitness.jpg); background-attachment:fixed;">
+       <div class="bg-overlay"></div> 
+		<div class="logo-holder">
+			<a href="/">
+				{% regionblock about_cta_logo, type:image %}
+				<img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+				{% endregionblock %} 
+			</a>
+		</div>
+		<div class="btn-holder">
+			{% regionblock about_cta_btn_1, type:text %}
+			<a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+			{% endregionblock %}
+		</div>
+	    <div class="cta-text">
+	    	{% regionblock about_cta_btn_2, type:text %}
+	    	<a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+	    	{% endregionblock %}
+	    </div> 
+</section>
+{% include footer-map.html%}

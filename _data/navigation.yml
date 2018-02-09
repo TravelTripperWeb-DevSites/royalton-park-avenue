@@ -16,5 +16,7 @@ main:
   url: "/location/"
 - title: Gallery
   url: "/gallery/"
+- title: Flywheel
+  url: "/fitness/"
 - title: Contact
   url: "/contact/"

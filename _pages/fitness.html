@@ -1,0 +1,124 @@
+---
+title_localized:
+  en: Flywheel Fitness Tech
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/fitness/"
+meta_description_localized:
+  en: Our indoor cycling classes feature FLY Tech to track your performance, plus the support of a passionate community and friendly competition to help you go the distance.
+meta_keywords_localized:
+  en: 
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+<div class="page-banner" style="background-image: url('/assets/images/about/lobby-royalton.jpg');">
+	<div class="banner-overlay"></div>
+	{% regionblock about_banner, type:header %}
+     <h1>About <br>Us</h1>
+     {% endregionblock %}
+</div>
+
+<section class="welcome-royalton top-space">
+	<div class="wrapper border-left">   
+	      <div class="hero-images">
+	        <div class="image-box">
+	          <div class="img-caption">
+	             <p class="caption-90">The Royalton Park Avenue Lobby</p>
+	          </div>
+		      <div class="img-6 pl-md-0 pr-xs-0">
+		         <figure>
+		         	{% regionblock about_intro_img_1, type:image %}
+		         	<img src="/assets/images/about/redroom.jpg" alt="Royalton Park Avenue Lobby" class="img-fluid">
+		         	{% endregionblock %}
+		         </figure>
+		      </div>
+		      <div class="img-4 pr-md-0">
+		         <figure>
+		         	{% regionblock about_intro_img_2, type:image %}
+		         	<img src="/assets/images/about/lounge-library.jpg" alt="Royalton Lounge Library" class="img-fluid">
+		         	{% endregionblock %}
+		         </figure>
+		      </div>
+		    </div> 
+	     </div> 
+	</div>
+	<div class="wrapper">
+		<div class="divider"> 
+		          <div class="horizontal-row">
+		               <div class="left-gap"></div> 
+			           <div class="h-separator p-0">
+			           	 <hr>
+			           </div>
+			      </div>   
+		</div>
+	</div>
+	<div class="wrapper top-space">
+         <div class="left-caption">
+         	{% regionblock about_intro_heading, type:header %}
+           <h4 class="sr-no">About</h4>
+           {% endregionblock %}
+           {% regionblock about_intro_text, type:text %}
+           <h4 class="text-uppercase">Welcome to <br>Royalton Park Avenue<br>Hotel</h4>
+           {% endregionblock %}
+         </div>
+         <div class="details-5"> 
+         			{% regionblock about_intro_subheading, type:header %}
+		             <h2>Where Good Taste Never <br>Gets Old</h2>
+		             {% endregionblock %}
+		             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p> -->
+		</div>
+		<div class="btn-col-3 bottom-padding align-self-center"> 
+			{% regionblock about_intro_btn, type:text %}
+		    <a href="{{site.pagelink.contact}}" class="align-middle btn-outline-black ml-md-5 ml-lg-0" title="Contact us">Contact Us</a>
+		    {% endregionblock %}    
+        </div>
+	</div>
+	 
+</section>
+
+<section class="rotate-left-banner d-flex" style="background-image: url('/assets/images/about/gym.jpg');">
+    <p class="title">
+    	Fitness
+    </p>
+    <div class="banner-detail m-auto">
+    	{% regionblock about_gym_heading, type:header %}
+      <h2>Royalton Gym</h2>
+      {% endregionblock %} 
+      {% regionblock about_gym_text, type:text %}
+      <p>Featuring state-of-the-art exercise equipment, the Fitness Center at Royalton is located on the 3rd floor and is accessible via guest room key.</p>
+      {% endregionblock %} 
+    </div>
+</section>
+
+{% include exclusive-offers.html %}
+
+<section class="cta-overlay bg-cover" style="background-image:url(/assets/images/about/pedro-lastra.jpg); background-attachment:fixed;">
+       <div class="bg-overlay"></div> 
+		<div class="logo-holder">
+			<a href="/">
+				{% regionblock about_cta_logo, type:image %}
+				<img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+				{% endregionblock %} 
+			</a>
+		</div>
+		<div class="btn-holder">
+			{% regionblock about_cta_btn_1, type:text %}
+			<a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+			{% endregionblock %}
+		</div>
+	    <div class="cta-text">
+	    	{% regionblock about_cta_btn_2, type:text %}
+	    	<a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+	    	{% endregionblock %}
+	    </div>
+		 
+	
+</section>
+{% include footer-map.html%}
