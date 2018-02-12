@@ -19,6 +19,24 @@
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051614/thumb_ristorante-asellina-1.jpg",
       "git_file_name": "_assets/image_data/ristorante-asellina-1.json",
       "path": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051614/ristorante-asellina-1.jpg"
+    },
+    {
+      "name": "ristorante-asellina-01",
+      "file_name": "ristorante-asellina-01.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/ristorante-asellina-01.jpg",
+      "tags": "",
+      "file_size": 193735,
+      "width": 1200,
+      "height": 720,
+      "description": "",
+      "date_added": "2018-02-12-071735",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/large_ristorante-asellina-01.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/medium_ristorante-asellina-01.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/small_ristorante-asellina-01.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/xsmall_ristorante-asellina-01.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/thumb_ristorante-asellina-01.jpg",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/ristorante-asellina-01.jpg"
     }
   ],
   "description": ""
