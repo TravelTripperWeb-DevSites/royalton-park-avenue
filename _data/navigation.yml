@@ -14,10 +14,10 @@ main:
   url: "/events/"
 - title: Location
   url: "/location/"
-- title: Exhale
-  url: "/exhale-fitness-spa/"
 - title: Gallery
   url: "/gallery/"
+- title: Exhale
+  url: "/exhale-fitness-spa/"
 - title: Flywheel
   url: "/fitness/"
 - title: Contact
