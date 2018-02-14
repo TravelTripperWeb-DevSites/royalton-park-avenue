@@ -72,6 +72,24 @@
       "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/xsmall_exhale-5.jpg",
       "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/thumb_exhale-5.jpg",
       "path": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/exhale-5.jpg"
+    },
+    {
+      "name": "PARK_Lobby",
+      "file_name": "PARK_Lobby.jpg",
+      "file_type": "image/jpeg",
+      "url": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/PARK-Lobby.jpg",
+      "tags": "",
+      "file_size": 294600,
+      "width": 1800,
+      "height": 1201,
+      "description": "",
+      "date_added": "2018-02-14-042647",
+      "url_large": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/large_PARK_Lobby.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/medium_PARK_Lobby.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/small_PARK_Lobby.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/xsmall_PARK_Lobby.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/thumb_PARK_Lobby.jpg",
+      "path": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/PARK-Lobby.jpg"
     }
   ],
   "description": ""
