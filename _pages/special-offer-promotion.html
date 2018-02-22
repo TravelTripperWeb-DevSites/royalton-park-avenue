@@ -1,0 +1,95 @@
+---
+layout: default
+title: Boutique NYC Hotel Offers | Royalton Park Avenue Hotel
+description: Take advantage of these exclusive special offers only available when you book here on the Official Website of the boutique Royalton avenue Hotel in New York.
+permalink: /special-offer-promotion/
+---
+
+<div class="loading" style="display:block">Loading&#8230;</div>
+
+<section rt3-special-rates="offers" ng-controller="offerDetail">
+
+  <section class="sub-header">
+    <div class="sub-header-row">
+      <div class="sub-header-left">
+        {% regionblock promotion_offer_banner, type:header %}
+        <h1>Special Offer</h1>
+        {% endregionblock %}
+      </div>
+    </div>
+  </section>
+
+  <section class="empty-banner border-left">
+     <div class="empty-banner-container">
+   <div class="empty-banner-row bg-cover" style="background-image: url('//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-031800/large_Heart.jpg');"></div>
+ </div>
+  </section>
+
+  <div class="room-info">
+    <div class="container-fluid">
+      <div class="rd-row">
+
+        <div class="rd-left">
+          <div class="rate-holder bottom-line">
+         <!--    <h4>About This<br>Offer</h4> -->
+          </div>
+        </div>
+
+        <div class="rd-right">
+          <div class="room-des">
+            {% regionblock promotion_offer_head_1, type:heading %}
+           <h2>AAA Members Offer</h2>
+            {% endregionblock %}
+             {% regionblock promotion_offer_content, type:text %}
+            <p>AAA members special rate with official AAA membership, must present active membership card at check in.</p>
+            {% endregionblock %}
+            <!-- <div class="btn-holder">
+              <a href="#" target="_blank" class="link-text">Contact Us</a>
+            </div> -->
+            <div class="btn-holder">
+              {% regionblock promotion_offer_cta_btn_4, type:text %}
+              <a href="https://royaltonparkavenue.reztrip.com/ext/promoRate?property=1595&mode=b&pm=true&sr=316479&vr=3&accessCode=UPGRADE" target="_blank" class="btn-outline-black">Book Now</a>
+              {% endregionblock %}
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+   <section class="room-features-container border-right">
+    <div class="room-features-row">
+      <div class="left-coloumn bg-cover" style="background-image:url(/assets/images/offers/offer-feature-1.jpg);"></div>
+      <div class="center-coloumn bg-cover" style="background-image:url(/assets/images/offers/offer-feature-2.jpg);"></div>
+      <div class="right-coloumn align-self-center">
+        <div class="rate-holder bottom-line">
+         <h4 ng-show="offers.sRdetail.addons.length > 0">Offer<br>Features</h4>
+          <p ng-repeat="addon in offers.sRdetail.addons">[[ addon ]]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% include exclusive-offers.html %}  
+
+  <section class="cta bg-cover" style="background-image:url(/assets/images/offers/offer-details-cta.jpg); background-attachment:fixed;">
+    <div class="bg-overlay"></div>
+    <div class="logo-holder"><a href="/">
+      {% regionblock promotion_offer_cta_logo, type:image %}
+      <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+      {% endregionblock %}
+    </a></div>
+    <div class="btn-holder">
+      {% regionblock promotion_offer_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+    <div class="cta-text">
+      {% regionblock promotion_offer_cta_btn_2, type:text %}
+      <a href="{{site.reztripUrl}}">Book Now</a>
+      {% endregionblock %}
+    </div>
+  </section>
+
+</section>

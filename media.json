@@ -144,8 +144,31 @@
     "git_file_name": "_assets/image_data/wesley-tingey-178030.json"
   },
   {
+<<<<<<< HEAD
     "name": "Park-Pool-bar-Lounge-Facing-Park-Ave-Night-201417",
     "file_name": "Park-Pool-bar-Lounge-Facing-Park-Ave-Night-201417.jpg",
+=======
+    "name": "1200x1200-3",
+    "file_name": "1200x1200-3.png",
+    "file_type": "image/png",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032022/1200x1200-3.png",
+    "tags": "",
+    "file_size": 2315195.0,
+    "width": 1200,
+    "height": 1200,
+    "description": "",
+    "date_added": "2018-02-14-032022",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032022/large_1200x1200-3.png",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032022/medium_1200x1200-3.png",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032022/small_1200x1200-3.png",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032022/xsmall_1200x1200-3.png",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032022/thumb_1200x1200-3.png",
+    "git_file_name": "_assets/image_data/1200x1200-3.json"
+  },
+  {
+    "name": "anders-jilden-250",
+    "file_name": "anders-jilden-250.jpg",
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "file_type": "image/jpeg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075946/Park-Pool-bar-Lounge-Facing-Park-Ave-Night-201417.jpg",
     "tags": "gallery,eat&drink",
@@ -270,6 +293,7 @@
     "git_file_name": "_assets/image_data/gvh_park_ave_events_002.json"
   },
   {
+<<<<<<< HEAD
     "name": "gvh_park_room_0031",
     "file_name": "gvh_park_room_0031.jpg",
     "file_type": "image/jpeg",
@@ -286,6 +310,127 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/xsmall_gvh_park_room_0031.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075744/thumb_gvh_park_room_0031.jpg",
     "git_file_name": "_assets/image_data/gvh_park_room_0031.json"
+=======
+    "name": "exhale-1",
+    "file_name": "exhale-1.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/exhale-1.jpg",
+    "tags": "",
+    "file_size": 334329.0,
+    "width": 1800,
+    "height": 1200,
+    "description": "",
+    "date_added": "2018-02-08-080619",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/large_exhale-1.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/medium_exhale-1.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/small_exhale-1.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/xsmall_exhale-1.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/thumb_exhale-1.jpg",
+    "git_file_name": "_assets/image_data/exhale-1.json"
+  },
+  {
+    "name": "exhale-2",
+    "file_name": "exhale-2.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/exhale-2.jpg",
+    "tags": "",
+    "file_size": 311409.0,
+    "width": 1800,
+    "height": 1200,
+    "description": "",
+    "date_added": "2018-02-08-080630",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/large_exhale-2.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/medium_exhale-2.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/small_exhale-2.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/xsmall_exhale-2.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/thumb_exhale-2.jpg",
+    "git_file_name": "_assets/image_data/exhale-2.json"
+  },
+  {
+    "name": "exhale-3",
+    "file_name": "exhale-3.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/exhale-3.jpg",
+    "tags": "",
+    "file_size": 431888.0,
+    "width": 1800,
+    "height": 1200,
+    "description": "",
+    "date_added": "2018-02-08-080641",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/large_exhale-3.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/medium_exhale-3.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/small_exhale-3.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/xsmall_exhale-3.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/thumb_exhale-3.jpg",
+    "git_file_name": "_assets/image_data/exhale-3.json"
+  },
+  {
+    "name": "exhale-4",
+    "file_name": "exhale-4.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/exhale-4.jpg",
+    "tags": "",
+    "file_size": 387552.0,
+    "width": 1800,
+    "height": 1200,
+    "description": "",
+    "date_added": "2018-02-09-051121",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/large_exhale-4.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/medium_exhale-4.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/small_exhale-4.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/xsmall_exhale-4.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051121/thumb_exhale-4.jpg",
+    "git_file_name": "_assets/image_data/exhale-4.json"
+  },
+  {
+    "name": "exhale-5",
+    "file_name": "exhale-5.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/exhale-5.jpg",
+    "tags": "",
+    "file_size": 116594.0,
+    "width": 700,
+    "height": 1050,
+    "description": "",
+    "date_added": "2018-02-09-051208",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/large_exhale-5.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/medium_exhale-5.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/small_exhale-5.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/xsmall_exhale-5.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-09-051208/thumb_exhale-5.jpg",
+    "git_file_name": "_assets/image_data/exhale-5.json"
+  },
+  {
+    "name": "exhale-7",
+    "file_name": "exhale-7.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/exhale-7.jpg",
+    "tags": "",
+    "file_size": 224990.0,
+    "width": 1800,
+    "height": 1200,
+    "description": "",
+    "date_added": "2018-02-14-043236",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/large_exhale-7.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/medium_exhale-7.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/small_exhale-7.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/xsmall_exhale-7.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/thumb_exhale-7.jpg",
+    "git_file_name": "_assets/image_data/exhale-7.json"
+  },
+  {
+    "name": "FEB 2018",
+    "file_name": "FEB 2018.pdf",
+    "file_type": "application/pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11696/media/2018-01-29-010708/FEB-2018.pdf",
+    "tags": "",
+    "file_size": 756480.0,
+    "width": null,
+    "height": null,
+    "description": "",
+    "date_added": "2018-01-29-010708",
+    "git_file_name": "_assets/image_data/FEB 2018.json"
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
   },
   {
     "name": "Untitled-3",
@@ -306,6 +451,7 @@
     "git_file_name": "_assets/image_data/Untitled-3.json"
   },
   {
+<<<<<<< HEAD
     "name": "06",
     "file_name": "06.jpg",
     "file_type": "image/jpeg",
@@ -322,6 +468,42 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-045619/xsmall_06.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-045619/thumb_06.jpg",
     "git_file_name": "_assets/image_data/06.json"
+=======
+    "name": "Flywheel",
+    "file_name": "flywheel.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032232/flywheel.jpg",
+    "tags": "",
+    "file_size": 167586.0,
+    "width": 1200,
+    "height": 720,
+    "description": "",
+    "date_added": "2018-02-14-032232",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032232/large_flywheel.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032232/medium_flywheel.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032232/small_flywheel.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032232/xsmall_flywheel.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-14-032232/thumb_flywheel.jpg",
+    "git_file_name": "_assets/image_data/flywheel.json"
+  },
+  {
+    "name": "gansevoort-park-loft",
+    "file_name": "gansevoort-park-loft.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075242/gansevoort-park-loft.jpg",
+    "tags": "",
+    "file_size": 204184.0,
+    "width": 1500,
+    "height": 900,
+    "description": "Gansevoort Park Loft",
+    "date_added": "2017-10-05-075242",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075242/large_gansevoort-park-loft.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075242/medium_gansevoort-park-loft.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075242/small_gansevoort-park-loft.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075242/xsmall_gansevoort-park-loft.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075242/thumb_gansevoort-park-loft.jpg",
+    "git_file_name": "_assets/image_data/gansevoort-park-loft.json"
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
   },
   {
     "name": "plunge-rooftop-bar-lounge-2",
@@ -471,9 +653,15 @@
     "name": "gvh_park_gans_suite_0021",
     "file_name": "gvh_park_gans_suite_0021.jpg",
     "file_type": "image/jpeg",
+<<<<<<< HEAD
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075447/gvh-park-gans-suite-0021.jpg",
     "tags": "gallery,rooms&suites",
     "file_size": 184368.0,
+=======
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075436/gvh-park-ave-suite-0061.jpg",
+    "tags": "",
+    "file_size": 266044.0,
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "width": 1500,
     "height": 900,
     "description": "Royalton Park Grand Suite",
@@ -507,6 +695,7 @@
     "name": "terrace-pool",
     "file_name": "terrace-pool.jpg",
     "file_type": "image/jpeg",
+<<<<<<< HEAD
     "url": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-024437/terrace-pool.jpg",
     "tags": "",
     "file_size": 375077.0,
@@ -520,11 +709,27 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-024437/xsmall_terrace-pool.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-024437/thumb_terrace-pool.jpg",
     "git_file_name": "_assets/image_data/terrace-pool.json"
+=======
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/gvh-park-deluxe-0032.jpg",
+    "tags": "",
+    "file_size": 241905.0,
+    "width": 1500,
+    "height": 900,
+    "description": "Royalton Park Deluxe",
+    "date_added": "2017-10-05-075442",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/large_gvh_park_deluxe_0032.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/medium_gvh_park_deluxe_0032.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/small_gvh_park_deluxe_0032.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/xsmall_gvh_park_deluxe_0032.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/thumb_gvh_park_deluxe_0032.jpg",
+    "git_file_name": "_assets/image_data/gvh_park_deluxe_0032.json"
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
   },
   {
     "name": "park-lounge-cta",
     "file_name": "park-lounge-cta.jpg",
     "file_type": "image/jpeg",
+<<<<<<< HEAD
     "url": "//cdn.traveltripper.io/site-assets/192_800_10962/media/2018-01-11-061941/park-lounge-cta.jpg",
     "tags": "",
     "file_size": 266798.0,
@@ -538,6 +743,21 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_10962/media/2018-01-11-061941/xsmall_park-lounge-cta.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10962/media/2018-01-11-061941/thumb_park-lounge-cta.jpg",
     "git_file_name": "_assets/image_data/park-lounge-cta.json"
+=======
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/gvh-park-gans-suite-0011.jpg",
+    "tags": "",
+    "file_size": 204896.0,
+    "width": 1500,
+    "height": 900,
+    "description": "Royalton Park Grand Suite",
+    "date_added": "2017-10-05-075444",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/large_gvh_park_gans_suite_0011.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/medium_gvh_park_gans_suite_0011.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/small_gvh_park_gans_suite_0011.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/xsmall_gvh_park_gans_suite_0011.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075444/thumb_gvh_park_gans_suite_0011.jpg",
+    "git_file_name": "_assets/image_data/gvh_park_gans_suite_0011.json"
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
   },
   {
     "name": "grand-deluxe_hr",
@@ -561,6 +781,7 @@
     "name": "sundeck",
     "file_name": "sundeck.jpg",
     "file_type": "image/jpeg",
+<<<<<<< HEAD
     "url": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-042621/sundeck.jpg",
     "tags": "",
     "file_size": 559684.0,
@@ -574,14 +795,35 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-042621/xsmall_sundeck.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-042621/thumb_sundeck.jpg",
     "git_file_name": "_assets/image_data/sundeck.json"
+=======
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075451/gvh-park-grand-deluxe-001.jpg",
+    "tags": "",
+    "file_size": 277693.0,
+    "width": 1500,
+    "height": 900,
+    "description": "Royalton Park Grand Deluxe",
+    "date_added": "2017-10-05-075451",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075451/large_gvh_park_grand_deluxe_001.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075451/medium_gvh_park_grand_deluxe_001.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075451/small_gvh_park_grand_deluxe_001.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075451/xsmall_gvh_park_grand_deluxe_001.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075451/thumb_gvh_park_grand_deluxe_001.jpg",
+    "git_file_name": "_assets/image_data/gvh_park_grand_deluxe_001.json"
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
   },
   {
     "name": "Park-Lounge-Conference-Setup11",
     "file_name": "Park-Lounge-Conference-Setup11.jpg",
     "file_type": "image/jpeg",
+<<<<<<< HEAD
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/Park-Lounge-Conference-Setup11.jpg",
     "tags": "gallery,hotel",
     "file_size": 332061.0,
+=======
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075454/gvh-park-grand-deluxe-002.jpg",
+    "tags": "",
+    "file_size": 269211.0,
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "width": 1500,
     "height": 900,
     "description": "Park Lounge Conference",
@@ -774,8 +1016,31 @@
     "git_file_name": "_assets/image_data/Park-Sundeck-Daytime-20148.json"
   },
   {
+<<<<<<< HEAD
     "name": "sundeck-2",
     "file_name": "sundeck-2.jpg",
+=======
+    "name": "Heart",
+    "file_name": "Heart.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-031800/Heart.jpg",
+    "tags": "",
+    "file_size": 155386.0,
+    "width": 1200,
+    "height": 647,
+    "description": "",
+    "date_added": "2018-02-06-031800",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-031800/large_Heart.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-031800/medium_Heart.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-031800/small_Heart.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-031800/xsmall_Heart.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-031800/thumb_Heart.jpg",
+    "git_file_name": "_assets/image_data/Heart.json"
+  },
+  {
+    "name": "jan-senderek-167231",
+    "file_name": "jan-senderek-167231.jpg",
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "file_type": "image/jpeg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-051520/sundeck-2.jpg",
     "tags": "",
@@ -864,8 +1129,85 @@
     "git_file_name": "_assets/image_data/jonathan-pease-83068.json"
   },
   {
+<<<<<<< HEAD
     "name": "gvh_park_pres_suite_003",
     "file_name": "gvh_park_pres_suite_003.jpg",
+=======
+    "name": "large_SuperiorDouble",
+    "file_name": "large_SuperiorDouble.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/large-SuperiorDouble.jpg",
+    "tags": "gallery, rooms&suites",
+    "file_size": 280621.0,
+    "width": 1200,
+    "height": 720,
+    "description": "",
+    "date_added": "2018-01-24-003100",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/large_large_SuperiorDouble.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/medium_large_SuperiorDouble.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/small_large_SuperiorDouble.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/xsmall_large_SuperiorDouble.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/thumb_large_SuperiorDouble.jpg",
+    "git_file_name": "_assets/image_data/large_SuperiorDouble.json"
+  },
+  {
+    "name": "large_SuperiorDouble1-1500x900",
+    "file_name": "large_SuperiorDouble1-1500x900.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-004259/large-SuperiorDouble1-1500x900.jpg",
+    "tags": "gallery,rooms&suites",
+    "file_size": 264949.0,
+    "width": 1200,
+    "height": 720,
+    "description": "",
+    "date_added": "2018-01-24-004259",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-004259/large_large_SuperiorDouble1-1500x900.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-004259/medium_large_SuperiorDouble1-1500x900.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-004259/small_large_SuperiorDouble1-1500x900.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-004259/xsmall_large_SuperiorDouble1-1500x900.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-004259/thumb_large_SuperiorDouble1-1500x900.jpg",
+    "git_file_name": "_assets/image_data/large_SuperiorDouble1-1500x900.json"
+  },
+  {
+    "name": "lobby-1",
+    "file_name": "lobby-1.png",
+    "file_type": "image/png",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032128/lobby-1.png",
+    "tags": "",
+    "file_size": 329826.0,
+    "width": 570,
+    "height": 344,
+    "description": "",
+    "date_added": "2018-02-06-032128",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032128/large_lobby-1.png",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032128/medium_lobby-1.png",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032128/small_lobby-1.png",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032128/xsmall_lobby-1.png",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032128/thumb_lobby-1.png",
+    "git_file_name": "_assets/image_data/lobby-1.json"
+  },
+  {
+    "name": "lobby-2",
+    "file_name": "lobby-2.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032132/lobby-2.jpg",
+    "tags": "",
+    "file_size": 118405.0,
+    "width": 550,
+    "height": 485,
+    "description": "",
+    "date_added": "2018-02-06-032132",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032132/large_lobby-2.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032132/medium_lobby-2.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032132/small_lobby-2.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032132/xsmall_lobby-2.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12038/media/2018-02-06-032132/thumb_lobby-2.jpg",
+    "git_file_name": "_assets/image_data/lobby-2.json"
+  },
+  {
+    "name": "park-avenue-suite-bedroom",
+    "file_name": "park-avenue-suite-bedroom.jpg",
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "file_type": "image/jpeg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075504/gvh-park-pres-suite-003.jpg",
     "tags": "gallery,rooms&suites",
@@ -1134,8 +1476,49 @@
     "git_file_name": "_assets/image_data/gvh_park_pres_suite_005.json"
   },
   {
+<<<<<<< HEAD
     "name": "gvh_park_ave_suite_0051",
     "file_name": "gvh_park_ave_suite_0051.jpg",
+=======
+    "name": "Park-Lounge-Setup-11",
+    "file_name": "Park-Lounge-Setup-11.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-081632/Park-Lounge-Setup-11.jpg",
+    "tags": "",
+    "file_size": 297257.0,
+    "width": 1500,
+    "height": 900,
+    "description": "",
+    "date_added": "2018-02-12-081632",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-081632/large_Park-Lounge-Setup-11.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-081632/medium_Park-Lounge-Setup-11.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-081632/small_Park-Lounge-Setup-11.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-081632/xsmall_Park-Lounge-Setup-11.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-081632/thumb_Park-Lounge-Setup-11.jpg",
+    "git_file_name": "_assets/image_data/Park-Lounge-Setup-11.json"
+  },
+  {
+    "name": "park-lounge",
+    "file_name": "park-lounge.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-19-005329/park-lounge.jpg",
+    "tags": "",
+    "file_size": 180622.0,
+    "width": 1349,
+    "height": 685,
+    "description": "",
+    "date_added": "2018-01-19-005329",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-19-005329/large_park-lounge.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-19-005329/medium_park-lounge.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-19-005329/small_park-lounge.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-19-005329/xsmall_park-lounge.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-19-005329/thumb_park-lounge.jpg",
+    "git_file_name": "_assets/image_data/park-lounge.json"
+  },
+  {
+    "name": "Park-Pool-Bar-Facing-Pool-Day-201411",
+    "file_name": "Park-Pool-Bar-Facing-Pool-Day-201411.jpg",
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "file_type": "image/jpeg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075307/gvh-park-ave-suite-0051.jpg",
     "tags": "gallery,rooms&suites",
@@ -1206,8 +1589,31 @@
     "git_file_name": "_assets/image_data/anders-jilden-250.json"
   },
   {
+<<<<<<< HEAD
     "name": "gvh_park_gym_0011",
     "file_name": "gvh_park_gym_0011.jpg",
+=======
+    "name": "PARK_Lobby",
+    "file_name": "PARK_Lobby.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/PARK-Lobby.jpg",
+    "tags": "",
+    "file_size": 294600.0,
+    "width": 1800,
+    "height": 1201,
+    "description": "",
+    "date_added": "2018-02-14-042647",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/large_PARK_Lobby.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/medium_PARK_Lobby.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/small_PARK_Lobby.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/xsmall_PARK_Lobby.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/thumb_PARK_Lobby.jpg",
+    "git_file_name": "_assets/image_data/PARK_Lobby.json"
+  },
+  {
+    "name": "playhookie2",
+    "file_name": "playhookie2.jpg",
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "file_type": "image/jpeg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075457/gvh-park-gym-0011.jpg",
     "tags": "gallery,hotel",
@@ -1309,8 +1715,49 @@
     "git_file_name": "_assets/image_data/avenue-grand-deluxe-king.json"
   },
   {
+<<<<<<< HEAD
     "name": "Park-Ivy-Lounge-Small-Table-With-Ivy-Wall3",
     "file_name": "Park-Ivy-Lounge-Small-Table-With-Ivy-Wall3.jpg",
+=======
+    "name": "ristorante-asellina-01",
+    "file_name": "ristorante-asellina-01.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/ristorante-asellina-01.jpg",
+    "tags": "gallery,eat&drink",
+    "file_size": 193735.0,
+    "width": 1200,
+    "height": 720,
+    "description": "Ristorante Asellina",
+    "date_added": "2018-02-12-071735",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/large_ristorante-asellina-01.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/medium_ristorante-asellina-01.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/small_ristorante-asellina-01.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/xsmall_ristorante-asellina-01.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-071735/thumb_ristorante-asellina-01.jpg",
+    "git_file_name": "_assets/image_data/ristorante-asellina-01.json"
+  },
+  {
+    "name": "ristorante-asellina-02",
+    "file_name": "ristorante-asellina-02.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-072505/ristorante-asellina-02.jpg",
+    "tags": "gallery,eat&drink",
+    "file_size": 232977.0,
+    "width": 1200,
+    "height": 720,
+    "description": "Ristorante Asellina",
+    "date_added": "2018-02-12-072505",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-072505/large_ristorante-asellina-02.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-072505/medium_ristorante-asellina-02.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-072505/small_ristorante-asellina-02.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-072505/xsmall_ristorante-asellina-02.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_12187/media/2018-02-12-072505/thumb_ristorante-asellina-02.jpg",
+    "git_file_name": "_assets/image_data/ristorante-asellina-02.json"
+  },
+  {
+    "name": "ristorante-asellina-1",
+    "file_name": "ristorante-asellina-1.jpg",
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "file_type": "image/jpeg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075814/Park-Ivy-Lounge-Small-Table-With-Ivy-Wall3.jpg",
     "tags": "gallery,eat&drink",
@@ -1384,9 +1831,15 @@
     "name": "gvh_park_pres_suite_004",
     "file_name": "gvh_park_pres_suite_004.jpg",
     "file_type": "image/jpeg",
+<<<<<<< HEAD
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075507/gvh-park-pres-suite-004.jpg",
     "tags": "gallery,rooms&suites",
     "file_size": 145115.0,
+=======
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080003/Superior-Room-HR.jpg",
+    "tags": "",
+    "file_size": 241642.0,
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "width": 1500,
     "height": 900,
     "description": "Royalton Park Pres Suites",
@@ -1402,9 +1855,15 @@
     "name": "Park-Ivy-Lounge-Table-With-Ivy-Wall10",
     "file_name": "Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
     "file_type": "image/jpeg",
+<<<<<<< HEAD
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075821/Park-Ivy-Lounge-Table-With-Ivy-Wall10.jpg",
     "tags": "gallery,eat&drink",
     "file_size": 401325.0,
+=======
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080010/superior1-1500x900.jpg",
+    "tags": "",
+    "file_size": 237535.0,
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "width": 1500,
     "height": 900,
     "description": "Park Ivy Lounge Table",
@@ -1420,9 +1879,15 @@
     "name": "Park-Ivy-Lounge-Table-Setup-Fireplace101",
     "file_name": "Park-Ivy-Lounge-Table-Setup-Fireplace101.jpg",
     "file_type": "image/jpeg",
+<<<<<<< HEAD
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075817/Park-Ivy-Lounge-Table-Setup-Fireplace101.jpg",
     "tags": "gallery,eat&drink",
     "file_size": 319873.0,
+=======
+    "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080013/SuperiorDouble1-1500x900.jpg",
+    "tags": "",
+    "file_size": 239922.0,
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "width": 1500,
     "height": 900,
     "description": "",
@@ -1453,8 +1918,31 @@
     "git_file_name": "_assets/image_data/large_SuperiorDouble1-1500x900.json"
   },
   {
+<<<<<<< HEAD
     "name": "Park-Pool-Bar-Facing-Pool-Day-201411",
     "file_name": "Park-Pool-Bar-Facing-Pool-Day-201411.jpg",
+=======
+    "name": "Untitled-3",
+    "file_name": "Untitled-3.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-18-033556/Untitled-3.jpg",
+    "tags": "",
+    "file_size": 196865.0,
+    "width": 1349,
+    "height": 685,
+    "description": "",
+    "date_added": "2018-01-18-033556",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-18-033556/large_Untitled-3.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-18-033556/medium_Untitled-3.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-18-033556/small_Untitled-3.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-18-033556/xsmall_Untitled-3.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-18-033556/thumb_Untitled-3.jpg",
+    "git_file_name": "_assets/image_data/Untitled-3.json"
+  },
+  {
+    "name": "wesley-tingey-178030",
+    "file_name": "wesley-tingey-178030.jpg",
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
     "file_type": "image/jpeg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075837/Park-Pool-Bar-Facing-Pool-Day-201411.jpg",
     "tags": "gallery,eat&drink",

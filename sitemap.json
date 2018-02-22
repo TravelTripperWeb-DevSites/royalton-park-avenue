@@ -16,7 +16,7 @@
         },
         "data_source": null,
         "source_path": "index.html",
-        "order": 29
+        "order": 32
       }
     ],
     "events": {
@@ -84,7 +84,11 @@
             },
             "data_source": null,
             "source_path": "_pages/weddings.html",
+<<<<<<< HEAD
             "order": 12
+=======
+            "order": 31
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
           }
         ]
       }
@@ -187,7 +191,39 @@
         }
       ]
     },
+<<<<<<< HEAD
     "new-years-eve": {
+=======
+    "exhale-fitness-spa": {
+      "__PAGES__": [
+        {
+          "label": "Exhale Fitness + Spa",
+          "published": true,
+          "locales": {
+            "en": "/exhale-fitness-spa/"
+          },
+          "data_source": null,
+          "source_path": "_pages/exhale-fitness-spa.html",
+          "order": 13
+        }
+      ]
+    },
+    "fitness": {
+      "__PAGES__": [
+        {
+          "label": "Flywheel Fitness Tech",
+          "published": true,
+          "locales": {
+            "en": "/fitness/"
+          },
+          "data_source": null,
+          "source_path": "_pages/flywheel-fitness.html",
+          "order": 15
+        }
+      ]
+    },
+    "gallery": {
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
       "__PAGES__": [
         {
           "label": "New Years Eve",
@@ -196,8 +232,13 @@
             "en": "/new-years-eve/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/new-years-eve.html",
           "order": 13
+=======
+          "source_path": "_pages/gallery.html",
+          "order": 16
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -210,8 +251,13 @@
             "en": "/save-20/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/save-20.html",
           "order": 14
+=======
+          "source_path": "_pages/location.html",
+          "order": 17
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -224,8 +270,13 @@
             "en": "/dining/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/dining.html",
           "order": 15
+=======
+          "source_path": "_pages/new-years-eve.html",
+          "order": 18
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -238,8 +289,13 @@
             "en": "/rooms-and-suites/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/rooms.html",
           "order": 16
+=======
+          "source_path": "_pages/offer.html",
+          "order": 19
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -252,8 +308,13 @@
             "en": "/sundeck/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/sundeck.html",
           "order": 17
+=======
+          "source_path": "_pages/offers.html",
+          "order": 20
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -266,8 +327,13 @@
             "en": "/thankyou/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/thankyou.html",
           "order": 18
+=======
+          "source_path": "_pages/plunge-rooftop-bar.html",
+          "order": 21
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -280,8 +346,13 @@
             "en": "/gallery/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/gallery.html",
           "order": 19
+=======
+          "source_path": "_pages/request-for-proposal.html",
+          "order": 22
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -294,8 +365,13 @@
             "en": "/breakfast/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/breakfast.html",
           "order": 20
+=======
+          "source_path": "_pages/ristorante-asellina.html",
+          "order": 23
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -308,8 +384,13 @@
             "en": "/ristorante-asellina/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/ristorante-asellina.html",
           "order": 21
+=======
+          "source_path": "_pages/room.html",
+          "order": 24
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -322,8 +403,13 @@
             "en": "/eat-and-drink/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/plunge-rooftop-bar.html",
           "order": 22
+=======
+          "source_path": "_pages/rooms.html",
+          "order": 25
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -336,8 +422,13 @@
             "en": "/location/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/location.html",
           "order": 23
+=======
+          "source_path": "_pages/save-20.html",
+          "order": 26
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -350,8 +441,13 @@
             "en": "/request-for-proposal/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/request-for-proposal.html",
           "order": 24
+=======
+          "source_path": "_pages/save-25.html",
+          "order": 27
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -364,8 +460,13 @@
             "en": "/save-25/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/save-25.html",
           "order": 25
+=======
+          "source_path": "_pages/stay-more-save-more.html",
+          "order": 28
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -378,8 +479,13 @@
             "en": "/stay-more-save-more/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/stay-more-save-more.html",
           "order": 26
+=======
+          "source_path": "_pages/sundeck.html",
+          "order": 29
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     },
@@ -392,8 +498,13 @@
             "en": "/offers/"
           },
           "data_source": null,
+<<<<<<< HEAD
           "source_path": "_pages/offers.html",
           "order": 28
+=======
+          "source_path": "_pages/thankyou.html",
+          "order": 30
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
         }
       ]
     }
@@ -420,6 +531,32 @@
     "_pages/contact.html/contact_cta_logo.json",
     "_pages/contact.html/contact_cta_btn_1.json",
     "_pages/contact.html/contact_cta_btn_2.json",
+    "_pages/exhale-fitness-spa.html/exhale_banner_title.json",
+    "_pages/exhale-fitness-spa.html/exhale_content_title.json",
+    "_pages/exhale-fitness-spa.html/exhale_content_address.json",
+    "_pages/exhale-fitness-spa.html/exhale_visual_title.json",
+    "_pages/exhale-fitness-spa.html/exhale_cta_logo.json",
+    "_pages/exhale-fitness-spa.html/exhale_cta_btn_1.json",
+    "_pages/exhale-fitness-spa.html/exhale_cta_btn_2.json",
+    "_pages/fitness.html/about_banner.json",
+    "_pages/fitness.html/about_intro_img_1.json",
+    "_pages/fitness.html/about_intro_img_2.json",
+    "_pages/fitness.html/about_intro_heading.json",
+    "_pages/fitness.html/about_intro_text.json",
+    "_pages/fitness.html/about_intro_subheading.json",
+    "_pages/fitness.html/about_intro_btn.json",
+    "_pages/fitness.html/about_gym_heading.json",
+    "_pages/fitness.html/about_gym_text.json",
+    "_pages/fitness.html/about_cta_logo.json",
+    "_pages/fitness.html/about_cta_btn_1.json",
+    "_pages/fitness.html/about_cta_btn_2.json",
+    "_pages/flywheel-fitness.html/eat_drink_rooftop_title.json",
+    "_pages/flywheel-fitness.html/eat_drink_rooftop_subheading.json",
+    "_pages/flywheel-fitness.html/eat_drink_rooftop_content.json",
+    "_pages/flywheel-fitness.html/eat_drink_entertainment_btn.json",
+    "_pages/flywheel-fitness.html/about_cta_logo.json",
+    "_pages/flywheel-fitness.html/about_cta_btn_1.json",
+    "_pages/flywheel-fitness.html/about_cta_btn_2.json",
     "_pages/gallery.html/gallery_banner_title.json",
     "_pages/events/index.html/ballrom_banner_title.json",
     "_pages/events/index.html/events_navitem_one.json",
@@ -624,5 +761,9 @@
     "verification",
     "_galleries"
   ],
+<<<<<<< HEAD
   "__SHA__": "29636ea785981337bffebaddadaf53e17a050ffe"
+=======
+  "__SHA__": "c46026096727427466677a29d85d550a554f5f94"
+>>>>>>> 504e269d78e2df60d3264bd1ffbb8e423998a05e
 }
