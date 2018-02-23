@@ -30,7 +30,7 @@
         @extend .col-sm-6;
         @extend .no-padding;
         @include media-breakpoint-up(md){
-            text-align: right;
+            text-align:left;
         }
             .sub-header-nav {
                 margin: 0;
