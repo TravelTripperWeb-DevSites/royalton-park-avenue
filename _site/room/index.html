@@ -209,32 +209,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li ng-repeat="r in browser.roomsList"><a ng-href="/room/#[[r.name | formatNameForLink]]" ng-class="{'active': r.code == selectedRoom.code}" ng-bind-html="r.name | renderHTMLCorrectly"></a></li>
   </ul>
 
-   <section class="empty-banner border-left">
+   <!-- <section class="empty-banner border-left">
     <div class="empty-banner-container">
-       <div class="empty-banner-row bg-cover" ng-style="{'background-image':'url('+selectedRoom.photos[0].large+')'}"></div>
+       <div class="empty-banner-row bg-cover" ng-style="{'background-image':'url('+selectedRoom.photos[0].large+')'}"></div> -->
      <!--  <div class="empty-banner-row bg-cover" ng-style="{'background-image': 'url('+offers.sRdetail.lead_photo_url.large+' )'}"></div> -->
-    </div>
-  </section>
+    <!-- </div>
+  </section> -->
 
  <!--  <ul class="sub-nav">
     <li ng-repeat="r in browser.roomsList"><a ng-href="/room/#[[r.name | formatNameForLink]]" ng-class="{'active': r.code == selectedRoom.code}" ng-bind-html="r.name | renderHTMLCorrectly"></a></li>
   </ul> -->
 
-  <!-- <section class="empty-banner border-left">
-    <div class="empty-banner-container"> -->
+  <section class="empty-banner border-left">
+    <div class="empty-banner-container"> 
       <!--<div class="empty-banner-row bg-cover" ng-style="{'background-image':'url('+selectedRoom.photos[0].large+')'}"></div>-->
       <!--<img ng-src="[[selectedRoom.photos[0].large]]" alt="[[selectedRoom.name | renderHTMLCorrectly]]" class="w-100"/>-->
-      <!-- <div id="photosSlider" class="carousel slide" data-ride="carousel">
+      <div id="photosSlider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item bg-cover" ng-class="{'active': $index ==0}" ng-repeat="pic in selectedRoom.image_info" ng-style="{'background-image':'url('+pic.urls.large+')'}"> -->
+          <div class="carousel-item bg-cover" ng-class="{'active': $index ==0}" ng-repeat="pic in selectedRoom.image_info" ng-style="{'background-image':'url('+pic.urls.large+')'}">
             <!--<img ng-src="[[pic.urls.large]]" alt="[[pic.caption | renderHTMLCorrectly]]" />-->
-          <!-- </div>
+           </div>
         </div>
         <a ng-if="selectedRoom.image_info.length > 0" class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a>
         <a ng-if="selectedRoom.image_info.length > 0" class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a>
       </div>
     </div>
-  </section> -->
+  </section> 
 
 
   <div class="room-info">
@@ -418,7 +418,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <form action="https://web2.cendynhub.com/FormPost/FormPost.ashx" method="post" name="form_C512B697-5F37-4392-9150-AB292C2750FF" id="C512B697-5F37-4392-9150-AB292C2750FF" accept-charset="utf-8">
                         <input type="hidden" name="formID" value="C512B697-5F37-4392-9150-AB292C2750FF" />
                     <div class="input-holder">
-                        <input type="email" class="nl validate[Email]" title="Newsletter Signup" placeholder="Your e-mail" id="input_3" name="q3_email">
+                        <input type="email" class="nl validate[Email]" title="Newsletter Signup" placeholder="Your e-mail" id="input_3" name="emailAddress">
                          <button class="nl-signup-btn"><span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span></button>
                     </form>
 			    <br><br>
