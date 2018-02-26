@@ -171,6 +171,16 @@
                 background-size: cover;
                 background-position: center center;
                 border-bottom: 8px solid $secondary-color;
+                &:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 0;
+}
                 @include media-breakpoint-up (lg) {
                     min-height: 638px;
                 }
