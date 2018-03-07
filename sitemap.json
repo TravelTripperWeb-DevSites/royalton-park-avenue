@@ -507,7 +507,6 @@
     "index.html/home_intro_img_2.json",
     "index.html/home_intro_heading_main.json",
     "index.html/home_intro_btn_one.json",
-    "index.html/home_intro_text_heading.json",
     "index.html/home_intro_content.json",
     "index.html/home_intro_btn_two.json",
     "index.html/home_rooms_btn.json",
@@ -699,5 +698,5 @@
     "verification",
     "_galleries"
   ],
-  "__SHA__": "861c08e9547232a63cb32e741a7d3b5aa7541353"
+  "__SHA__": "1f1f58557655d56bc7635c7eca7f781513df5056"
 }
