@@ -25,6 +25,16 @@
                   padding-bottom: 0; 
              }
         }
+        a{
+            text-decoration: none;
+
+
+            &:hover{
+                       h1{
+                        color:$background-color;
+                       }
+            }
+        }
     }
     .sub-header-right {
         @extend .col-sm-6;
