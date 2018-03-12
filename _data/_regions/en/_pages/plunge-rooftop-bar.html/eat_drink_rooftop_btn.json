@@ -1,6 +1,6 @@
 [
   {
     "_template": "html",
-    "content": "<p><a class=\"btn-outline-black\" title=\"Contact \" href=\"mailto: Parkrooftop@togrp.com\">Contact Us</a></p>"
+    "content": "<a class=\"btn-outline-black\" title=\"Contact \" href=\"mailto: Parkrooftop@togrp.com\">Contact Us</a>"
   }
 ]
