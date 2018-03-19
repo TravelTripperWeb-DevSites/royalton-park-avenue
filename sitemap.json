@@ -16,7 +16,7 @@
         },
         "data_source": null,
         "source_path": "index.html",
-        "order": 33
+        "order": 36
       }
     ],
     "events": {
@@ -29,7 +29,7 @@
           },
           "data_source": null,
           "source_path": "_pages/events.html",
-          "order": 12
+          "order": 14
         }
       ],
       "ivy-lounge": {
@@ -84,10 +84,24 @@
             },
             "data_source": null,
             "source_path": "_pages/weddings.html",
-            "order": 32
+            "order": 34
           }
         ]
       }
+    },
+    "15-special-offer-promotion": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/15-special-offer-promotion/"
+          },
+          "data_source": null,
+          "source_path": "_pages/15-special-offer-promotion.html",
+          "order": 5
+        }
+      ]
     },
     "about": {
       "__PAGES__": [
@@ -99,7 +113,7 @@
           },
           "data_source": null,
           "source_path": "_pages/about.html",
-          "order": 5
+          "order": 6
         }
       ]
     },
@@ -113,7 +127,7 @@
           },
           "data_source": null,
           "source_path": "_pages/bar-44.html",
-          "order": 6
+          "order": 7
         }
       ]
     },
@@ -127,7 +141,21 @@
           },
           "data_source": null,
           "source_path": "_pages/book-early-save.html",
-          "order": 7
+          "order": 8
+        }
+      ]
+    },
+    "breakfast-inclusive": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/breakfast-inclusive/"
+          },
+          "data_source": null,
+          "source_path": "_pages/breakfast-inclusive.html",
+          "order": 9
         }
       ]
     },
@@ -141,7 +169,7 @@
           },
           "data_source": null,
           "source_path": "_pages/breakfast.html",
-          "order": 8
+          "order": 10
         }
       ]
     },
@@ -155,7 +183,7 @@
           },
           "data_source": null,
           "source_path": "_pages/contact.html",
-          "order": 9
+          "order": 11
         }
       ]
     },
@@ -169,7 +197,7 @@
           },
           "data_source": null,
           "source_path": "_pages/dining.html",
-          "order": 10
+          "order": 12
         }
       ]
     },
@@ -183,7 +211,7 @@
           },
           "data_source": null,
           "source_path": "_pages/error-page.html",
-          "order": 11
+          "order": 13
         }
       ]
     },
@@ -197,7 +225,7 @@
           },
           "data_source": null,
           "source_path": "_pages/exhale-fitness-spa.html",
-          "order": 13
+          "order": 15
         }
       ]
     },
@@ -211,7 +239,7 @@
           },
           "data_source": null,
           "source_path": "_pages/flywheel-fitness.html",
-          "order": 15
+          "order": 17
         }
       ]
     },
@@ -225,7 +253,7 @@
           },
           "data_source": null,
           "source_path": "_pages/gallery.html",
-          "order": 16
+          "order": 18
         }
       ]
     },
@@ -239,7 +267,7 @@
           },
           "data_source": null,
           "source_path": "_pages/location.html",
-          "order": 17
+          "order": 19
         }
       ]
     },
@@ -253,7 +281,7 @@
           },
           "data_source": null,
           "source_path": "_pages/new-years-eve.html",
-          "order": 18
+          "order": 20
         }
       ]
     },
@@ -267,7 +295,7 @@
           },
           "data_source": null,
           "source_path": "_pages/offer.html",
-          "order": 19
+          "order": 21
         }
       ]
     },
@@ -281,7 +309,7 @@
           },
           "data_source": null,
           "source_path": "_pages/offers.html",
-          "order": 20
+          "order": 22
         }
       ]
     },
@@ -295,7 +323,7 @@
           },
           "data_source": null,
           "source_path": "_pages/plunge-rooftop-bar.html",
-          "order": 21
+          "order": 23
         }
       ]
     },
@@ -309,7 +337,7 @@
           },
           "data_source": null,
           "source_path": "_pages/request-for-proposal.html",
-          "order": 22
+          "order": 24
         }
       ]
     },
@@ -323,7 +351,7 @@
           },
           "data_source": null,
           "source_path": "_pages/ristorante-asellina.html",
-          "order": 23
+          "order": 25
         }
       ]
     },
@@ -337,7 +365,7 @@
           },
           "data_source": null,
           "source_path": "_pages/room.html",
-          "order": 24
+          "order": 26
         }
       ]
     },
@@ -351,7 +379,7 @@
           },
           "data_source": null,
           "source_path": "_pages/rooms.html",
-          "order": 25
+          "order": 27
         }
       ]
     },
@@ -365,7 +393,7 @@
           },
           "data_source": null,
           "source_path": "_pages/save-20.html",
-          "order": 26
+          "order": 28
         }
       ]
     },
@@ -379,7 +407,7 @@
           },
           "data_source": null,
           "source_path": "_pages/save-25.html",
-          "order": 27
+          "order": 29
         }
       ]
     },
@@ -393,7 +421,7 @@
           },
           "data_source": null,
           "source_path": "_pages/special-offer-promotion.html",
-          "order": 28
+          "order": 30
         }
       ]
     },
@@ -407,7 +435,7 @@
           },
           "data_source": null,
           "source_path": "_pages/stay-more-save-more.html",
-          "order": 29
+          "order": 31
         }
       ]
     },
@@ -421,7 +449,7 @@
           },
           "data_source": null,
           "source_path": "_pages/sundeck.html",
-          "order": 30
+          "order": 32
         }
       ]
     },
@@ -435,12 +463,33 @@
           },
           "data_source": null,
           "source_path": "_pages/thankyou.html",
-          "order": 31
+          "order": 33
+        }
+      ]
+    },
+    "weekend-getaway": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/weekend-getaway/"
+          },
+          "data_source": null,
+          "source_path": "_pages/weekend-getaway.html",
+          "order": 35
         }
       ]
     }
   },
   "__REGIONS__": [
+    "_pages/15-special-offer-promotion.html/promotion_offer_banner.json",
+    "_pages/15-special-offer-promotion.html/promotion_offer_head_1.json",
+    "_pages/15-special-offer-promotion.html/promotion_offer_content.json",
+    "_pages/15-special-offer-promotion.html/promotion_offer_cta_btn_4.json",
+    "_pages/15-special-offer-promotion.html/promotion_offer_cta_logo.json",
+    "_pages/15-special-offer-promotion.html/promotion_offer_cta_btn_1.json",
+    "_pages/15-special-offer-promotion.html/promotion_offer_cta_btn_2.json",
     "_pages/about.html/about_banner.json",
     "_pages/about.html/about_intro_img_1.json",
     "_pages/about.html/about_intro_img_2.json",
@@ -453,6 +502,13 @@
     "_pages/about.html/about_cta_logo.json",
     "_pages/about.html/about_cta_btn_1.json",
     "_pages/about.html/about_cta_btn_2.json",
+    "_pages/breakfast-inclusive.html/promotion_offer_banner.json",
+    "_pages/breakfast-inclusive.html/promotion_offer_head_1.json",
+    "_pages/breakfast-inclusive.html/promotion_offer_content.json",
+    "_pages/breakfast-inclusive.html/promotion_offer_cta_btn_4.json",
+    "_pages/breakfast-inclusive.html/promotion_offer_cta_logo.json",
+    "_pages/breakfast-inclusive.html/promotion_offer_cta_btn_1.json",
+    "_pages/breakfast-inclusive.html/promotion_offer_cta_btn_2.json",
     "_pages/contact.html/contact_banner_title.json",
     "_pages/contact.html/contact_content_title.json",
     "_pages/contact.html/contact_content_address.json",
@@ -684,7 +740,14 @@
     "_pages/weddings.html/wedding_featured_btn.json",
     "_pages/weddings.html/wedding_cta_logo.json",
     "_pages/weddings.html/wedding_cta_btn.json",
-    "_pages/weddings.html/wedding_cta_title.json"
+    "_pages/weddings.html/wedding_cta_title.json",
+    "_pages/weekend-getaway.html/promotion_offer_banner.json",
+    "_pages/weekend-getaway.html/promotion_offer_head_1.json",
+    "_pages/weekend-getaway.html/promotion_offer_content.json",
+    "_pages/weekend-getaway.html/promotion_offer_cta_btn_4.json",
+    "_pages/weekend-getaway.html/promotion_offer_cta_logo.json",
+    "_pages/weekend-getaway.html/promotion_offer_cta_btn_1.json",
+    "_pages/weekend-getaway.html/promotion_offer_cta_btn_2.json"
   ],
   "__SETTINGS__": [
     "advertising",
@@ -698,5 +761,5 @@
     "verification",
     "_galleries"
   ],
-  "__SHA__": "a8cc7b7ce36eff4f96743455849c3e7473d93eec"
+  "__SHA__": "6f3cdbd20e3efe01469b8c8f391d64652580f887"
 }
