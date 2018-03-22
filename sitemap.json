@@ -648,6 +648,8 @@
     "_pages/plunge-rooftop-bar.html/eat_drink_rooftop_hours.json",
     "_pages/plunge-rooftop-bar.html/eat_drink_rooftop_btn.json",
     "_pages/plunge-rooftop-bar.html/eat_drink_entertainment_btn.json",
+    "_pages/plunge-rooftop-bar.html/eat_drink_roof-menu_btn.json",
+    "_pages/plunge-rooftop-bar.html/eat_drink_roofmenu2_btn.json",
     "_pages/plunge-rooftop-bar.html/eat_drink_rooftop_res_img.json",
     "_pages/plunge-rooftop-bar.html/eat_drink_rooftop_res_title.json",
     "_pages/plunge-rooftop-bar.html/eat_drink_rooftop_res_email.json",
@@ -761,5 +763,5 @@
     "verification",
     "_galleries"
   ],
-  "__SHA__": "22a3ac44a4ca343bf6b7e98522df7df4d22a0cd6"
+  "__SHA__": "e8e45b0a9cd96a6a48d941413922733127836194"
 }
