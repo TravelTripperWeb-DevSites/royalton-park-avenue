@@ -252,6 +252,24 @@
     "git_file_name": "_assets/image_data/bar.json"
   },
   {
+    "name": "breakfast-inclusive",
+    "file_name": "breakfast-inclusive.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-080940/breakfast-inclusive.jpg",
+    "tags": "",
+    "file_size": 165309.0,
+    "width": 900,
+    "height": 601,
+    "description": "",
+    "date_added": "2018-03-19-080940",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-080940/large_breakfast-inclusive.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-080940/medium_breakfast-inclusive.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-080940/small_breakfast-inclusive.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-080940/xsmall_breakfast-inclusive.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-080940/thumb_breakfast-inclusive.jpg",
+    "git_file_name": "_assets/image_data/breakfast-inclusive.json"
+  },
+  {
     "name": "city",
     "file_name": "city.jpg",
     "file_type": "image/jpeg",
@@ -1448,6 +1466,24 @@
     "git_file_name": "_assets/image_data/plunge-rooftop-bar-lounge-2.json"
   },
   {
+    "name": "pool-bar",
+    "file_name": "pool-bar.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_13806/media/2018-03-22-014053/pool-bar.jpg",
+    "tags": "",
+    "file_size": 298057.0,
+    "width": 1100,
+    "height": 1158,
+    "description": "",
+    "date_added": "2018-03-22-014053",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_13806/media/2018-03-22-014053/large_pool-bar.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_13806/media/2018-03-22-014053/medium_pool-bar.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_13806/media/2018-03-22-014053/small_pool-bar.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_13806/media/2018-03-22-014053/xsmall_pool-bar.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_13806/media/2018-03-22-014053/thumb_pool-bar.jpg",
+    "git_file_name": "_assets/image_data/pool-bar.json"
+  },
+  {
     "name": "presidential-suite",
     "file_name": "presidential-suite.jpg",
     "file_type": "image/jpeg",
@@ -1734,6 +1770,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-18-033556/xsmall_Untitled-3.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-18-033556/thumb_Untitled-3.jpg",
     "git_file_name": "_assets/image_data/Untitled-3.json"
+  },
+  {
+    "name": "weekend-getaway",
+    "file_name": "weekend-getaway.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-081017/weekend-getaway.jpg",
+    "tags": "",
+    "file_size": 155818.0,
+    "width": 1000,
+    "height": 667,
+    "description": "",
+    "date_added": "2018-03-19-081017",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-081017/large_weekend-getaway.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-081017/medium_weekend-getaway.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-081017/small_weekend-getaway.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-081017/xsmall_weekend-getaway.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_13688/media/2018-03-19-081017/thumb_weekend-getaway.jpg",
+    "git_file_name": "_assets/image_data/weekend-getaway.json"
   },
   {
     "name": "wesley-tingey-178030",
