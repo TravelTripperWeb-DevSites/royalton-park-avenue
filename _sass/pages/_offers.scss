@@ -25,12 +25,22 @@
                   padding-bottom: 0; 
              }
         }
+        a{
+            text-decoration: none;
+
+
+            &:hover{
+                       h1{
+                        color:$background-color;
+                       }
+            }
+        }
     }
     .sub-header-right {
         @extend .col-sm-6;
         @extend .no-padding;
         @include media-breakpoint-up(md){
-            text-align: right;
+            text-align:left;
         }
             .sub-header-nav {
                 margin: 0;

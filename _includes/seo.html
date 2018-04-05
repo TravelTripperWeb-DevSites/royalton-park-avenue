@@ -99,3 +99,7 @@
   <meta name="yandex-verification" content="{{ site.data.verification..yandex_site_verification }}">
 {% endif %}
 <!-- end SEO -->
+
+{% if page.meta_tags.robots %}
+ <meta name="robots" content="{{ page.meta_tags.robots }}">
+{% endif %}

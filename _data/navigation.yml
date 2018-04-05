@@ -16,6 +16,8 @@ main:
   url: "/location/"
 - title: Gallery
   url: "/gallery/"
+- title: Exhale
+  url: "/exhale-fitness-spa/"
 - title: Flywheel
   url: "/fitness/"
 - title: Contact
