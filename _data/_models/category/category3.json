@@ -1,7 +1,7 @@
 {
-  "order": "3",
-  "title": "Royalton NYC News & Updates",
-  "url_friendly_name": "royalton-nyc-news-updates",
+  "order": "1",
+  "title": "Fashion",
+  "url_friendly_name": "fashion",
   "categoryimage": {
     "url": "https://cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/home-9.jpg",
     "path": "https://cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/home-9.jpg",
@@ -16,7 +16,7 @@
     "width": 1400,
     "height": 838,
     "file_size": 323958,
-    "alt": "Royalton NYC News & Updates",
+    "alt": "Fashion",
     "caption": "",
     "description": ""
   }
