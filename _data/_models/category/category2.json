@@ -1,7 +1,7 @@
 {
-  "order": "2",
-  "title": "Dives & Insider Spots in New York City",
-  "url_friendly_name": "dives-insider-spots-in-new-york-city",
+  "order": "4",
+  "title": "Sports & Entertainment",
+  "url_friendly_name": "sports-entertainment",
   "categoryimage": {
     "url": "https://cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/home-9.jpg",
     "path": "https://cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/home-9.jpg",
@@ -16,7 +16,7 @@
     "width": 1400,
     "height": 838,
     "file_size": 323958,
-    "alt": "Dives & Insider Spots in New York City",
+    "alt": "Sports & Entertainment",
     "caption": "",
     "description": ""
   }
