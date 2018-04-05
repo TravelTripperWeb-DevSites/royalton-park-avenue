@@ -3,8 +3,54 @@
    ========================================================================== */
 
 
+function pinterestShare(img, desc) {
+    window.open("//www.pinterest.com/pin/create/button/" +
+        "?url=" + window.location.href +
+        "&media=" + img +
+        "&description=" + desc, "pinIt", "toolbar=no, scrollbars=no, resizable=no, top=0, right=0");
+    return false;
+}
+
+var fbAppId = '499595317087970';
+
+if(document.location.hostname.indexOf('www.royaltonparkavenue.com') > -1){
+    fbAppId = '163245761170250';
+}
+
+window.fbAsyncInit = function() {
+    FB.init({appId: fbAppId, status: true, cookie: true,
+    xfbml: true});
+};
+
+(function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+    '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+}());
+
+
+
+
 $(document).ready(function () {
 
+	$('.fa-facebook').click(function(e){ 
+	    e.preventDefault();
+	    FB.ui({
+	        method: 'share_open_graph',
+	        action_type: 'og.shares',
+	        action_properties: JSON.stringify({
+	            object : {
+	               'og:url': window.location.href,
+	               'og:title': $("h1.blog-heading").text(),
+	               'og:description': $(".blog-description").text(),
+	               'og:image:width': '1200',
+	               'og:image:height': '650',
+	               'og:image': "http:"+$("img.hero-img").attr("src")
+	            }
+	        })
+	    });
+	});
 	// FitVids init
 	$("#main").fitVids();
 
