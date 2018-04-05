@@ -57,13 +57,18 @@
 				    color: $white;
 				    display: inline-block;
 				    &.disabled{
-				    	background: $lighter-gray; 
+				    	opacity: 0.2;
+				    	pointer-events: none;
 				    }
 				}
 				.pagnum{
 					display: inline-block;
 					a{
 						margin: 0 0.8rem;
+						&.current{
+							text-decoration: underline;
+							color: $secondary-color;
+						}
 					}
 				}
 			}
@@ -88,7 +93,7 @@
 				.submit-btn{
 					position: absolute;
 					top: 0;
-					height: 52px;
+					height: 100%;
 					right: 0;
 					padding: 0 1rem 0 1rem;
 					background-color: $border-color;

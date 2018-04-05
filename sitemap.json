@@ -33,7 +33,7 @@
     "blog": {
       "__PAGES__": [
         {
-          "label": "Blog | The Royalton Hotel in New York City",
+          "label": "Blog | Royalton Park Avenue Hotel",
           "published": true,
           "locales": {
             "en": "/blog/"
@@ -60,7 +60,7 @@
       "search": {
         "__PAGES__": [
           {
-            "label": "Blog | The Royalton Hotel in New York City",
+            "label": "Blog | Royalton Park Avenue Hotel",
             "published": true,
             "locales": {
               "en": "/blog/search/"
@@ -821,5 +821,5 @@
     "verification",
     "_galleries"
   ],
-  "__SHA__": "ecf56ca243f91f376432db2fb5836268b8d06f56"
+  "__SHA__": "df59e6e94db7a9ae10d19a86361555139e2d5a31"
 }
