@@ -25,31 +25,7 @@ include_in_nav_localized:
       <h1>Eat <br>&amp; Drink</h1>
       {% endregionblock %}
     </div>
-    <div class="sub-header-right">
-      <ul class="sub-header-nav">
-        <li class="active">
-          <a href="/eat-and-drink/">
-            {% regionblock eat_drink_navitem_1, type:text %}
-           <h4 class="text-uppercase">ROOFTOP<br>at Royalton Park Avenue</h4>
-           {% endregionblock %}
-         </a>
-        </li>
-        <li>
-          <a href="/sundeck/">
-            {% regionblock eat_drink_navitem_2, type:text %}
-           <h4 class="text-uppercase">SUNDECK</h4>
-           {% endregionblock %}
-         </a>
-        </li>
-         <li>
-          <a href="/ristorante-asellina/">
-            {% regionblock eat_drink_navitem_3, type:text %}
-           <h4 class="text-uppercase">RISTORANTE<br> ASELLINA</h4>
-           {% endregionblock %}
-         </a>
-        </li>
-      </ul>
-    </div>
+    {% include sub-header-nav.html %}
   </div>
 </section>
 
@@ -95,6 +71,11 @@ include_in_nav_localized:
                     <a href="mailto: Parkrooftop@togrp.com" class="btn-outline-black" title="Contact ">Contact Us</a>
                     {% endregionblock %}
                   </div>
+                  <div class="btn-holder">
+                    {% regionblock eat_drink_entertainment_btn, type:text %}
+                    <a href="//cdn.traveltripper.io/site-assets/192_800_11696/media/2018-01-29-010708/FEB-2018.pdf" target="_blank" class="btn-outline-black" title="Entertainment calendar">Entertainment calendar</a>
+                    {% endregionblock %}
+                  </div>
 	              </div>
 	            <div class="border-left  img-holder">
 	               <figure>
@@ -113,7 +94,7 @@ include_in_nav_localized:
                     <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{rooftop.image.url_large}}');">
                     </div>
                   {% endfor %}
-             	       
+
              	    </div>
              	    <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev">
              	     <span class="eligant-icons control-arrow" aria-hidden="true">#</span>
@@ -152,7 +133,7 @@ include_in_nav_localized:
       <a href="/">
         {% regionblock eat_drink_cta_logo, type:image %}
         <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
-        {% endregionblock %} 
+        {% endregionblock %}
       </a>
     </div>
     <div class="btn-holder">

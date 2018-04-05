@@ -1,16 +1,14 @@
-# Social Sharing
+---
 twitter:
-  username               : RoyaltonNYC
+  username: RoyaltonNYC
 facebook:
-  username               : RoyaltonNYC
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username: royaltonparkavenue
+  app_id: 
+  publisher: 
+og_image: 
 instagram:
-  username               : royaltonhotelnyc                      
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+  username: royaltonparkavenue
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links                  : # An array of links to social media profiles
+  type: 
+  name: 
+  links: 

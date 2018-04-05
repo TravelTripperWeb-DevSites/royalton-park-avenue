@@ -5,7 +5,8 @@
                 <div class="footer-content no-left-padding">
                     <a href="http://highgate.com/" target="_blank"><img src="/assets/images/highgate-logo-white.png" class="footer-logo img-fluid" alt="Highgate Hotels"></a>
                     <div class="other-logos">
-                        <a href="https://preferredhotels.com/destinations/new-york-ny/royalton-park-avenue" target="_blank"><img src="/assets/images/lvx-preferred-royalton-park-avenue.png" alt="lvx-Prefer"></a>
+                        <a href="https://preferredhotels.com/destinations/new-york-ny/royalton-park-avenue" target="_blank" rel="nofollow"><img src="/assets/images/lvx-preferred-royalton-park-avenue.png" alt="lvx-Prefer"></a>
+                        <a href="https://iprefer.com/enroll?hotel=NYCRP" target="_blank" rel="nofollow"><img src="/assets/images/iprefer-new.png" alt="iPrefer"></a>
                     </div>
                 </div>
             </div>
@@ -44,22 +45,16 @@
                     <div class="input-holder">
                         <input type="email" class="nl validate[Email]" title="Newsletter Signup" placeholder="Your e-mail" id="input_3" name="q3_email">
                          <button class="nl-signup-btn"><span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span></button>
-                    </div>
                     </form>
-        <!-- <div class="social">
+			    <br><br>
+		<h4>Social</h4>
            {% if site.data.social.instagram.username %}
-            <a href="https://instagram.com/{{ site.data.social.instagram.username }}" target="_blank" role="link" aria-label="Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/{{ site.data.social.instagram.username }}" target="_blank" rel="nofollow" role="link" aria-label="Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
            {%endif%}
            {% if site.data.social.facebook.username %}
-            <a href="https://facebook.com/{{ site.data.social.facebook.username }}" target="_blank" role="link" aria-label="Facebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/{{ site.data.social.facebook.username }}" target="_blank" rel="nofollow" role="link" aria-label="Facebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             {%endif%}
-            {% if site.data.social.twitter.username %}
-            <a href="https://twitter.com/{{ site.data.social.twitter.username }}" target="_blank" role="link" aria-label="Twitter" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            {% endif %}
-
-        </div> -->
-        
-                </div>
+		    </div></div>
             </div>
         </div>
         </div>
@@ -67,7 +62,7 @@
 <div class="copyrights">
     <div class="footer-container">
         <div class="copyrights-row">
-        <div class="copright-text">© 2017 Royalton Park Avenue</div>
+        <div class="copright-text">&copy; {{ site.time | date: "%Y" }} Royalton Park Avenue</div>
         <div class="credentials"><a href="https://www.traveltripper.com/" target="_blank"><img src="/assets/images/traveltripper-logo.png" class="img-fluid" alt="Travel Trpper"></a></div>
         </div>
     </div>

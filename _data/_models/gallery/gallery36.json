@@ -1,0 +1,26 @@
+{
+  "gallery_image": {
+    "name": "large_SuperiorDouble",
+    "file_name": "large_SuperiorDouble.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/large-SuperiorDouble.jpg",
+    "tags": "gallery, rooms&suites",
+    "file_size": 280621,
+    "width": 1200,
+    "height": 720,
+    "description": "",
+    "date_added": "2018-01-24-003100",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/large_large_SuperiorDouble.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/medium_large_SuperiorDouble.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/small_large_SuperiorDouble.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/xsmall_large_SuperiorDouble.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/thumb_large_SuperiorDouble.jpg",
+    "git_file_name": "_assets/image_data/large_SuperiorDouble.json",
+    "path": "//cdn.traveltripper.io/site-assets/192_800_11371/media/2018-01-24-003100/large-SuperiorDouble.jpg",
+    "alt": "GVH Park Grand Suite",
+    "caption": "gallery, rooms"
+  },
+  "image_caption": "GVH Park Grand Suite",
+  "alt_tag": "GVH Park Grand Suite",
+  "category": "rooms"
+}
