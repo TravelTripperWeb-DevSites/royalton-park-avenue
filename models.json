@@ -31,6 +31,100 @@
       "file": "attractions6.json"
     }
   ],
+  "blog": [
+    {
+      "name": "Walking in the Winter Village at Bryant Park",
+      "title": "Walking in the Winter Village at Bryant Park",
+      "file": "blog1.json"
+    },
+    {
+      "name": "How to Stay Warm at the Height of Winter",
+      "title": "How to Stay Warm at the Height of Winter",
+      "file": "blog10.json"
+    },
+    {
+      "name": "Unique Ways to Celebrate Easter in New York ",
+      "title": "Unique Ways to Celebrate Easter in New York ",
+      "file": "blog11.json"
+    },
+    {
+      "name": "5 Ways to Stir Up Your Irish-Self",
+      "title": "5 Ways to Stir Up Your Irish-Self",
+      "file": "blog12.json"
+    },
+    {
+      "name": "Tribeca Film Festival Reloaded ",
+      "title": "Tribeca Film Festival Reloaded ",
+      "file": "blog13.json"
+    },
+    {
+      "name": "Sleek Designs and Innovation Await in New York Auto Show",
+      "title": "Sleek Designs and Innovation Await in New York Auto Show",
+      "file": "blog14.json"
+    },
+    {
+      "name": "Celebrate the Holidays with Trains, Landmarks and Cocktails ",
+      "title": "Celebrate the Holidays with Trains, Landmarks and Cocktails ",
+      "file": "blog2.json"
+    },
+    {
+      "name": "Broadway Week is Back in Town!",
+      "title": "Broadway Week is Back in Town!",
+      "file": "blog3.json"
+    },
+    {
+      "name": "Forty Four Brings Power Lunches Back to Midtown",
+      "title": "Forty Four Brings Power Lunches Back to Midtown",
+      "file": "blog4.json"
+    },
+    {
+      "name": "5 Places to Kill Time at Grand Central",
+      "title": "5 Places to Kill Time at Grand Central",
+      "file": "blog5.json"
+    },
+    {
+      "name": "Travel Accessories that You Must Have in 2018",
+      "title": "Travel Accessories that You Must Have in 2018",
+      "file": "blog6.json"
+    },
+    {
+      "name": "How to Have a Productive Power Lunch in 45 Minutes",
+      "title": "How to Have a Productive Power Lunch in 45 Minutes",
+      "file": "blog7.json"
+    },
+    {
+      "name": "How to Enjoy (or Endure) ValentineΓÇÖs Day in New York City",
+      "title": "How to Enjoy (or Endure) ValentineΓÇÖs Day in New York City",
+      "file": "blog8.json"
+    },
+    {
+      "name": "Look Closer: The Beauty of the High Line is in its Details ",
+      "title": "Look Closer: The Beauty of the High Line is in its Details ",
+      "file": "blog9.json"
+    }
+  ],
+  "category": [
+    {
+      "name": "Corporate Travel",
+      "title": "Corporate Travel",
+      "file": "category1.json"
+    },
+    {
+      "name": "Dives & Insider Spots in New York City",
+      "title": "Dives & Insider Spots in New York City",
+      "file": "category2.json"
+    },
+    {
+      "name": "Royalton NYC News & Updates",
+      "title": "Royalton NYC News & Updates",
+      "file": "category3.json"
+    },
+    {
+      "name": "The Jetset Life",
+      "title": "The Jetset Life",
+      "file": "category4.json"
+    }
+  ],
   "explore-nyc-scroller": [
     {
       "file": "explore-nyc-scroller1.json"

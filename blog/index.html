@@ -1,0 +1,88 @@
+---
+title_localized:
+  en: Blog | The Royalton Hotel in New York City
+label_localized:
+  en: 
+layout_localized:
+  en: default
+meta_description_localized:
+  en: Blog.
+meta_keywords_localized:
+  en: 
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+<div class="blog-banner" style="background-image: url('/assets/images/blog/blog-banner.jpg');">
+    {% regionblock blog_banner_heading, type:header %}
+     <h1>Blog</h1>
+     {% endregionblock %}
+</div>
+
+<section class="blog-container">
+    <div class="blog-row">
+        <div class="blog-col">
+            {% for post in data_paginator.posts %}
+            <div class="post">
+                <a href="/blog/{{ post.url_friendly_name }}" class="blog-title mt-4"> 
+                    <img src="{{post.blogimage.url}}" class="img-responsive main-hero listing-img" alt="{{post.img_alt_txt}}"> </a>
+                <div class="blog-item-text">                    
+                    <a href="/blog/{{ post.url_friendly_name }}" class="blog-title mt-4">
+                        <h2> {{post.title}} </h2>
+                    </a>
+                    <div class="info">
+                        <p>
+                            <span class="date">{% assign d = post.date | date: "%-d" %}
+                                {{ post.date | date: "%B" }}
+                                {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}<sup>th</sup>{% endcase %},
+                                {{ post.date | date: "%Y" }} </span> | <span class="categories"><a href="/blog/category/{{post.category.url_friendly_name}}/" >{{post.category.title}}</a></span>
+                        </p>
+                    </div>
+                    <div class="short-description">                        
+                        {{post.short_description}}  
+                    </div>
+                    <a class="link-text black mb-4" href="/blog/{{ post.url_friendly_name }}/"> Read more </a>
+                </div>    
+            </div>
+            <div class="clearfix"></div>
+            <hr>
+            {% endfor %}
+            {% if data_paginator.total_pages > 1 %}
+                <div class="pagination">
+                    {% if data_paginator.previous_page %}
+                        {% if data_paginator.page %}
+                            <a name="previous" title="previous" class="bg-center-center bg-norepeat left-arrow btn-outline-black" href="{{ data_paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> PREV </a>
+                        {% else %}
+                            <a href="{{ data_paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> {{ page }} </a>
+                         {% endif %}
+                    {% else %}
+                        <a href="#"  name="previous" title="previous"  class="bg-center-center bg-norepeat left-arrow disabled btn-outline-black">PREV</a>
+                    {% endif %}
+                    <div class="pagnum">
+                        {% for page in (1..data_paginator.total_pages) %}
+                             {% if page == 1 %}
+                                <a href="/blog/">{{ page }}</a>                                
+                            {% elsif page == data_paginator.page %}
+                                <a class="current" href="/blog{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}/">{{ page }}</a>                           
+                            {% else %}
+                                <a href="/blog{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}/">{{ page }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    {% if data_paginator.next_page %}
+                        <a  name="next" title="next"  class="bg-center-center bg-norepeat right-arrow btn-outline-black" href="{{ data_paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> NEXT </a>
+                    {% else %}
+                        <a href="#"  name="next" title="next"  class="bg-center-center bg-norepeat right-arrow disabled btn-outline-black"> NEXT </a>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+        <div class="blog-right-block">
+            {% include blog-aside.html %}
+        </div>
+    </div>
+</section>
+
