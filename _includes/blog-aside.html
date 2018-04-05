@@ -1,0 +1,47 @@
+<div class="right-col">
+    <div class="widget-box">
+        <h3 class="mb-3">Search</h3>
+        <form class="search-form" action="/blog/search/" method="get">
+            <input type="text" id="search-box" class="input-grey" name="query" placeholder="Type Here..." aria-label="Search Field" title="Search Field" /> 
+            <button class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>    
+    <hr>
+    <div class="widget-box">
+        <h3 class="my-3">Recent Posts</h3>
+        <ul class="recent-posts">
+            {% for recentpost in site.data._models.blog | limit: 5 %}
+            <li>
+                <a href="/blog/{{recentpost.url_friendly_name }}/" title="{{recentpost.title}}"> <div class="thumb" style="background-image: url({{recentpost.blogimage.url}});"></div> </a>
+                <div class="text">
+                    <p> <a href="/blog/{{recentpost.url_friendly_name }}/" class="" title="{{recentpost.title  | truncate: 25 }}">{{recentpost.title  | truncate: 25 }} </a> </p>
+                    <p class="date">{% assign d = recentpost.date | date: "%-d" %}
+                    {{ recentpost.date | date: "%B" }}
+                    {{ recentpost.date | date: "%d" }}
+                    {{ recentpost.date | date: "%Y" }}</p>
+                </div>
+                <div class="clear-float"></div>
+            </li>
+            {% endfor %} 
+        </ul>
+    </div>
+    <hr>
+    <div class="widget-box">
+        <h3 class="mb-3">Categories</h3>
+        <ul class="categories">
+            {% assign categories = site.data._models.category | sort:'order'%} 
+            {% for categorylist in categories %} 
+            <li><a href="/blog/category/{{categorylist.url_friendly_name}}/" class="" title="{{categorylist.title}}"> {{categorylist.title}} 
+                {% assign count = 0 %}
+                {% for postcount in site.data._models.blog %}
+                {% if postcount.category.title == categorylist.title%}
+                {% capture count  %}{{ count  | plus: '1' }}{% endcapture %} 
+                {%endif%} 
+                {%endfor%} 
+                <span>({{count}})</span>
+                </a>
+            </li>
+            {%endfor%} 
+        </ul>
+    </div>
+</div>

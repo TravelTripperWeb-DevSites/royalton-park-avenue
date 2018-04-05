@@ -1,0 +1,23 @@
+{
+  "order": "3",
+  "title": "Design",
+  "url_friendly_name": "design",
+  "categoryimage": {
+    "url": "https://cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/home-9.jpg",
+    "path": "https://cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/home-9.jpg",
+    "file_type": "image/jpeg",
+    "name": "home-9",
+    "tags": "",
+    "url_large": "//cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/large_home-9.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/thumb_home-9.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/medium_home-9.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/small_home-9.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/xsmall_home-9.jpg",
+    "width": 1400,
+    "height": 838,
+    "file_size": 323958,
+    "alt": "Design",
+    "caption": "",
+    "description": ""
+  }
+}
