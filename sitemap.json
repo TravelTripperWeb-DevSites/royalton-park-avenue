@@ -1,7 +1,18 @@
 {
   "__CONFIG__": {
     "default_locale": "en",
-    "page_gen": null,
+    "page_gen": [
+      {
+        "data": "blog",
+        "template": "blog-details",
+        "dir": "blog"
+      },
+      {
+        "data": "category",
+        "template": "category-list",
+        "dir": "blog/category"
+      }
+    ],
     "locales": [
       "en"
     ]
@@ -16,9 +27,51 @@
         },
         "data_source": null,
         "source_path": "index.html",
-        "order": 36
+        "order": 39
       }
     ],
+    "blog": {
+      "__PAGES__": [
+        {
+          "label": "Blog | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/blog/"
+          },
+          "data_source": null,
+          "source_path": "blog/index.html",
+          "order": 2
+        }
+      ],
+      "category": {
+        "__PAGES__": [
+          {
+            "label": "Blog | The Royalton Hotel in New York City",
+            "published": true,
+            "locales": {
+              "en": "/blog/category/"
+            },
+            "data_source": null,
+            "source_path": "blog/category/index.html",
+            "order": 1
+          }
+        ]
+      },
+      "search": {
+        "__PAGES__": [
+          {
+            "label": "Blog | Royalton Park Avenue Hotel",
+            "published": true,
+            "locales": {
+              "en": "/blog/search/"
+            },
+            "data_source": null,
+            "source_path": "blog/search.html",
+            "order": 3
+          }
+        ]
+      }
+    },
     "events": {
       "__PAGES__": [
         {
@@ -29,7 +82,7 @@
           },
           "data_source": null,
           "source_path": "_pages/events.html",
-          "order": 14
+          "order": 17
         }
       ],
       "ivy-lounge": {
@@ -42,7 +95,7 @@
             },
             "data_source": null,
             "source_path": "_pages/events/ivy-lounge.html",
-            "order": 2
+            "order": 5
           }
         ]
       },
@@ -56,7 +109,7 @@
             },
             "data_source": null,
             "source_path": "_pages/events/park-lounge.html",
-            "order": 3
+            "order": 6
           }
         ]
       },
@@ -70,7 +123,7 @@
             },
             "data_source": null,
             "source_path": "_pages/events/red-room.html",
-            "order": 4
+            "order": 7
           }
         ]
       },
@@ -84,7 +137,7 @@
             },
             "data_source": null,
             "source_path": "_pages/weddings.html",
-            "order": 34
+            "order": 37
           }
         ]
       }
@@ -99,7 +152,7 @@
           },
           "data_source": null,
           "source_path": "_pages/15-special-offer-promotion.html",
-          "order": 5
+          "order": 8
         }
       ]
     },
@@ -113,7 +166,7 @@
           },
           "data_source": null,
           "source_path": "_pages/about.html",
-          "order": 6
+          "order": 9
         }
       ]
     },
@@ -127,7 +180,7 @@
           },
           "data_source": null,
           "source_path": "_pages/bar-44.html",
-          "order": 7
+          "order": 10
         }
       ]
     },
@@ -141,7 +194,7 @@
           },
           "data_source": null,
           "source_path": "_pages/book-early-save.html",
-          "order": 8
+          "order": 11
         }
       ]
     },
@@ -155,7 +208,7 @@
           },
           "data_source": null,
           "source_path": "_pages/breakfast-inclusive.html",
-          "order": 9
+          "order": 12
         }
       ]
     },
@@ -169,7 +222,7 @@
           },
           "data_source": null,
           "source_path": "_pages/breakfast.html",
-          "order": 10
+          "order": 13
         }
       ]
     },
@@ -183,7 +236,7 @@
           },
           "data_source": null,
           "source_path": "_pages/contact.html",
-          "order": 11
+          "order": 14
         }
       ]
     },
@@ -197,7 +250,7 @@
           },
           "data_source": null,
           "source_path": "_pages/dining.html",
-          "order": 12
+          "order": 15
         }
       ]
     },
@@ -211,7 +264,7 @@
           },
           "data_source": null,
           "source_path": "_pages/error-page.html",
-          "order": 13
+          "order": 16
         }
       ]
     },
@@ -225,7 +278,7 @@
           },
           "data_source": null,
           "source_path": "_pages/exhale-fitness-spa.html",
-          "order": 15
+          "order": 18
         }
       ]
     },
@@ -239,7 +292,7 @@
           },
           "data_source": null,
           "source_path": "_pages/flywheel-fitness.html",
-          "order": 17
+          "order": 20
         }
       ]
     },
@@ -253,7 +306,7 @@
           },
           "data_source": null,
           "source_path": "_pages/gallery.html",
-          "order": 18
+          "order": 21
         }
       ]
     },
@@ -267,7 +320,7 @@
           },
           "data_source": null,
           "source_path": "_pages/location.html",
-          "order": 19
+          "order": 22
         }
       ]
     },
@@ -281,7 +334,7 @@
           },
           "data_source": null,
           "source_path": "_pages/new-years-eve.html",
-          "order": 20
+          "order": 23
         }
       ]
     },
@@ -295,7 +348,7 @@
           },
           "data_source": null,
           "source_path": "_pages/offer.html",
-          "order": 21
+          "order": 24
         }
       ]
     },
@@ -309,7 +362,7 @@
           },
           "data_source": null,
           "source_path": "_pages/offers.html",
-          "order": 22
+          "order": 25
         }
       ]
     },
@@ -323,7 +376,7 @@
           },
           "data_source": null,
           "source_path": "_pages/plunge-rooftop-bar.html",
-          "order": 23
+          "order": 26
         }
       ]
     },
@@ -337,7 +390,7 @@
           },
           "data_source": null,
           "source_path": "_pages/request-for-proposal.html",
-          "order": 24
+          "order": 27
         }
       ]
     },
@@ -351,7 +404,7 @@
           },
           "data_source": null,
           "source_path": "_pages/ristorante-asellina.html",
-          "order": 25
+          "order": 28
         }
       ]
     },
@@ -365,7 +418,7 @@
           },
           "data_source": null,
           "source_path": "_pages/room.html",
-          "order": 26
+          "order": 29
         }
       ]
     },
@@ -379,7 +432,7 @@
           },
           "data_source": null,
           "source_path": "_pages/rooms.html",
-          "order": 27
+          "order": 30
         }
       ]
     },
@@ -393,7 +446,7 @@
           },
           "data_source": null,
           "source_path": "_pages/save-20.html",
-          "order": 28
+          "order": 31
         }
       ]
     },
@@ -407,7 +460,7 @@
           },
           "data_source": null,
           "source_path": "_pages/save-25.html",
-          "order": 29
+          "order": 32
         }
       ]
     },
@@ -421,7 +474,7 @@
           },
           "data_source": null,
           "source_path": "_pages/special-offer-promotion.html",
-          "order": 30
+          "order": 33
         }
       ]
     },
@@ -435,7 +488,7 @@
           },
           "data_source": null,
           "source_path": "_pages/stay-more-save-more.html",
-          "order": 31
+          "order": 34
         }
       ]
     },
@@ -449,7 +502,7 @@
           },
           "data_source": null,
           "source_path": "_pages/sundeck.html",
-          "order": 32
+          "order": 35
         }
       ]
     },
@@ -463,7 +516,7 @@
           },
           "data_source": null,
           "source_path": "_pages/thankyou.html",
-          "order": 33
+          "order": 36
         }
       ]
     },
@@ -477,7 +530,7 @@
           },
           "data_source": null,
           "source_path": "_pages/weekend-getaway.html",
-          "order": 35
+          "order": 38
         }
       ]
     }
@@ -559,6 +612,7 @@
     "_pages/events/index.html/ballroom_cta_logo.json",
     "_pages/events/index.html/ballroom_cta_btn_1.json",
     "_pages/events/index.html/ballroom_cta_btn_2.json",
+    "blog/index.html/blog_banner_heading.json",
     "index.html/home_intro_img_1.json",
     "index.html/home_intro_img_2.json",
     "index.html/home_intro_heading_main.json",
@@ -692,6 +746,7 @@
     "_pages/room.html/room_cta_btn_1.json",
     "_pages/room.html/room_cta_btn_1.json",
     "_pages/rooms.html/rooms_banner.json",
+    "blog/search.html/blog_search_banner_heading.json",
     "_pages/special-offer-promotion.html/promotion_offer_banner.json",
     "_pages/special-offer-promotion.html/promotion_offer_head_1.json",
     "_pages/special-offer-promotion.html/promotion_offer_content.json",
@@ -749,7 +804,10 @@
     "_pages/weekend-getaway.html/weekend_getaway_cta_btn_4.json",
     "_pages/weekend-getaway.html/weekend_getaway_cta_logo.json",
     "_pages/weekend-getaway.html/weekend_getaway_cta_btn_1.json",
-    "_pages/weekend-getaway.html/weekend_getaway_cta_btn_2.json"
+    "_pages/weekend-getaway.html/weekend_getaway_cta_btn_2.json",
+    "blog/page2/index.html/blog_banner_heading.json",
+    "blog/page3/index.html/blog_banner_heading.json",
+    "blog/page4/index.html/blog_banner_heading.json"
   ],
   "__SETTINGS__": [
     "advertising",
@@ -763,5 +821,5 @@
     "verification",
     "_galleries"
   ],
-  "__SHA__": "e8e45b0a9cd96a6a48d941413922733127836194"
+  "__SHA__": "921e503735dd816f5cbaf65d210194a14211f900"
 }

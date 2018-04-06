@@ -20,5 +20,7 @@ main:
   url: "/exhale-fitness-spa/"
 - title: Flywheel
   url: "/fitness/"
+- title: Blog
+  url: "/blog/"
 - title: Contact
   url: "/contact/"
