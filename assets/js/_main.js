@@ -26,7 +26,10 @@ window.fbAsyncInit = function() {
     var e = document.createElement('script'); e.async = true;
     e.src = document.location.protocol +
     '//connect.facebook.net/en_US/all.js';
-    document.getElementById('fb-root').appendChild(e);
+    if(document.getElementById('fb-root')) {
+      document.getElementById('fb-root').appendChild(e);
+    }
+
 }());
 
 
@@ -34,7 +37,7 @@ window.fbAsyncInit = function() {
 
 $(document).ready(function () {
 
-	$('.fa-facebook').click(function(e){ 
+	$('.fa-facebook').click(function(e){
 	    e.preventDefault();
 	    FB.ui({
 	        method: 'share_open_graph',
@@ -62,7 +65,7 @@ $(document).ready(function () {
 
 	//navbar main menu
 	$(window).bind('scroll', function () {
-		var navHeight = 300; // custom nav height 
+		var navHeight = 300; // custom nav height
 		($(window).scrollTop() > navHeight) ? $('nav').addClass('sticky-top'): $('nav').removeClass('sticky-top');
 	});
 	$(".navbar-collapse ul").css({
@@ -150,7 +153,7 @@ $(document).ready(function () {
 			carouselID.trigger('prev.owl.carousel');
 		});
 	}
-	//wedding carousel 
+	//wedding carousel
 	setTimeout(function () {
 		owlOwlNav('#snap-carousel', '.snap-gallery-nav');
 		$('#snap-carousel').owlCarousel({
@@ -179,9 +182,9 @@ $(document).ready(function () {
 	 owlOwlNav( '#pressCarousel', '.press-logo-nav');
 	 $('#pressCarousel').owlCarousel({
 	      margin:30,
-	      loop:true, 
-	      items:2,  
-	      responsiveClass:true,  
+	      loop:true,
+	      items:2,
+	      responsiveClass:true,
 	      responsive:{
 	          0:{
 	              items:1
@@ -264,24 +267,24 @@ $(document).ready(function () {
 	setTimeout(function(){
 		 $('#home-attractions').owlCarousel({
 		 	margin: 30,
-		 	loop: true,  
+		 	loop: true,
 		 	responsiveClass:true,
 		 	items: 1.5,
 		 	nav: true,
 		 	responsive:{
 		 	        0:{
-		 	            items:1.2 
+		 	            items:1.2
 		 	        },
 		 	        600:{
-		 	            items:1.3 
+		 	            items:1.3
 		 	        },
 		 	        1000:{
-		 	            items:1.6 
+		 	            items:1.6
 		 	        }
 		 	    }
 		 });
 	},1500);
-	
+
 
 
 
