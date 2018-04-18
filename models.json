@@ -1,25 +1,238 @@
 {
+  "category": [
+    {
+      "name": "Design",
+      "title": "Design",
+      "file": "category4.json"
+    },
+    {
+      "name": "Sports & Entertainment",
+      "title": "Sports & Entertainment",
+      "file": "category2.json"
+    },
+    {
+      "name": "Food & Wine",
+      "title": "Food & Wine",
+      "file": "category1.json"
+    },
+    {
+      "name": "Fashion",
+      "title": "Fashion",
+      "file": "category3.json"
+    }
+  ],
+  "ristorante-slider": [
+    {
+      "file": "ristorante-slider1.json"
+    },
+    {
+      "file": "ristorante-slider2.json"
+    }
+  ],
+  "gallery": [
+    {
+      "file": "gallery3.json"
+    },
+    {
+      "file": "gallery43.json"
+    },
+    {
+      "file": "gallery13.json"
+    },
+    {
+      "file": "gallery16.json"
+    },
+    {
+      "file": "gallery23.json"
+    },
+    {
+      "file": "gallery30.json"
+    },
+    {
+      "file": "gallery34.json"
+    },
+    {
+      "file": "gallery22.json"
+    },
+    {
+      "file": "gallery24.json"
+    },
+    {
+      "file": "gallery17.json"
+    },
+    {
+      "file": "gallery14.json"
+    },
+    {
+      "file": "gallery4.json"
+    },
+    {
+      "file": "gallery32.json"
+    },
+    {
+      "file": "gallery46.json"
+    },
+    {
+      "file": "gallery9.json"
+    },
+    {
+      "file": "gallery29.json"
+    },
+    {
+      "file": "gallery26.json"
+    },
+    {
+      "file": "gallery25.json"
+    },
+    {
+      "file": "gallery18.json"
+    },
+    {
+      "file": "gallery36.json"
+    },
+    {
+      "file": "gallery45.json"
+    },
+    {
+      "file": "gallery10.json"
+    },
+    {
+      "file": "gallery47.json"
+    },
+    {
+      "file": "gallery50.json"
+    },
+    {
+      "file": "gallery37.json"
+    },
+    {
+      "file": "gallery31.json"
+    },
+    {
+      "file": "gallery7.json"
+    },
+    {
+      "file": "gallery12.json"
+    },
+    {
+      "file": "gallery44.json"
+    },
+    {
+      "file": "gallery38.json"
+    },
+    {
+      "file": "gallery5.json"
+    },
+    {
+      "file": "gallery51.json"
+    },
+    {
+      "file": "gallery27.json"
+    },
+    {
+      "file": "gallery49.json"
+    },
+    {
+      "file": "gallery11.json"
+    },
+    {
+      "file": "gallery39.json"
+    },
+    {
+      "file": "gallery42.json"
+    },
+    {
+      "file": "gallery8.json"
+    },
+    {
+      "file": "gallery35.json"
+    },
+    {
+      "file": "gallery28.json"
+    },
+    {
+      "file": "gallery40.json"
+    },
+    {
+      "file": "gallery33.json"
+    },
+    {
+      "file": "gallery41.json"
+    },
+    {
+      "file": "gallery2.json"
+    },
+    {
+      "file": "gallery20.json"
+    },
+    {
+      "file": "gallery6.json"
+    },
+    {
+      "file": "gallery19.json"
+    },
+    {
+      "file": "gallery48.json"
+    },
+    {
+      "file": "gallery21.json"
+    },
+    {
+      "file": "gallery15.json"
+    }
+  ],
+  "welcome-property-slider": [
+    {
+      "file": "welcome-property-slider1.json"
+    },
+    {
+      "file": "welcome-property-slider3.json"
+    },
+    {
+      "file": "welcome-property-slider2.json"
+    },
+    {
+      "file": "welcome-property-slider4.json"
+    }
+  ],
+  "explore-nyc-scroller": [
+    {
+      "file": "explore-nyc-scroller5.json"
+    },
+    {
+      "file": "explore-nyc-scroller1.json"
+    },
+    {
+      "file": "explore-nyc-scroller6.json"
+    },
+    {
+      "file": "explore-nyc-scroller2.json"
+    },
+    {
+      "file": "explore-nyc-scroller4.json"
+    },
+    {
+      "file": "explore-nyc-scroller7.json"
+    },
+    {
+      "file": "explore-nyc-scroller3.json"
+    }
+  ],
+  "homepage-slider": [
+    {
+      "name": "In the heart of Midtown",
+      "file": "homepage-slider2.json"
+    },
+    {
+      "name": "Eat & Drink",
+      "file": "homepage-slider3.json"
+    },
+    {
+      "name": "high style, luxury and comfort all in one",
+      "file": "homepage-slider1.json"
+    }
+  ],
   "attractions": [
-    {
-      "name": "THEATER DISTRICT",
-      "title": "THEATER DISTRICT",
-      "file": "attractions1.json"
-    },
-    {
-      "name": "TIMES SQUARE",
-      "title": "TIMES SQUARE",
-      "file": "attractions2.json"
-    },
-    {
-      "name": "BRYANT PARK",
-      "title": "BRYANT PARK",
-      "file": "attractions3.json"
-    },
-    {
-      "name": "METROPOLITAN MUSEUM OF ART",
-      "title": "METROPOLITAN MUSEUM OF ART",
-      "file": "attractions4.json"
-    },
     {
       "name": "ROCKEFELLER CENTER",
       "title": "ROCKEFELLER CENTER",
@@ -29,297 +242,26 @@
       "name": "EMPIRE STATE BUILDING",
       "title": "EMPIRE STATE BUILDING",
       "file": "attractions6.json"
-    }
-  ],
-  "blog": [
-    {
-      "name": "Walking in the Winter Village at Bryant Park",
-      "title": "Walking in the Winter Village at Bryant Park",
-      "file": "blog1.json"
-    },
-    {
-      "name": "How to Stay Warm at the Height of Winter",
-      "title": "How to Stay Warm at the Height of Winter",
-      "file": "blog10.json"
-    },
-    {
-      "name": "Unique Ways to Celebrate Easter in New York ",
-      "title": "Unique Ways to Celebrate Easter in New York ",
-      "file": "blog11.json"
-    },
-    {
-      "name": "5 Ways to Stir Up Your Irish-Self",
-      "title": "5 Ways to Stir Up Your Irish-Self",
-      "file": "blog12.json"
-    },
-    {
-      "name": "Tribeca Film Festival Reloaded ",
-      "title": "Tribeca Film Festival Reloaded ",
-      "file": "blog13.json"
-    },
-    {
-      "name": "Sleek Designs and Innovation Await in New York Auto Show",
-      "title": "Sleek Designs and Innovation Await in New York Auto Show",
-      "file": "blog14.json"
-    },
-    {
-      "name": "Celebrate the Holidays with Trains, Landmarks and Cocktails ",
-      "title": "Celebrate the Holidays with Trains, Landmarks and Cocktails ",
-      "file": "blog2.json"
-    },
-    {
-      "name": "Broadway Week is Back in Town!",
-      "title": "Broadway Week is Back in Town!",
-      "file": "blog3.json"
-    },
-    {
-      "name": "Forty Four Brings Power Lunches Back to Midtown",
-      "title": "Forty Four Brings Power Lunches Back to Midtown",
-      "file": "blog4.json"
-    },
-    {
-      "name": "5 Places to Kill Time at Grand Central",
-      "title": "5 Places to Kill Time at Grand Central",
-      "file": "blog5.json"
-    },
-    {
-      "name": "Travel Accessories that You Must Have in 2018",
-      "title": "Travel Accessories that You Must Have in 2018",
-      "file": "blog6.json"
-    },
-    {
-      "name": "How to Have a Productive Power Lunch in 45 Minutes",
-      "title": "How to Have a Productive Power Lunch in 45 Minutes",
-      "file": "blog7.json"
-    },
-    {
-      "name": "How to Enjoy (or Endure) ValentineΓÇÖs Day in New York City",
-      "title": "How to Enjoy (or Endure) ValentineΓÇÖs Day in New York City",
-      "file": "blog8.json"
-    },
-    {
-      "name": "Look Closer: The Beauty of the High Line is in its Details ",
-      "title": "Look Closer: The Beauty of the High Line is in its Details ",
-      "file": "blog9.json"
-    }
-  ],
-  "category": [
-    {
-      "name": "Corporate Travel",
-      "title": "Corporate Travel",
-      "file": "category1.json"
-    },
-    {
-      "name": "Dives & Insider Spots in New York City",
-      "title": "Dives & Insider Spots in New York City",
-      "file": "category2.json"
-    },
-    {
-      "name": "Royalton NYC News & Updates",
-      "title": "Royalton NYC News & Updates",
-      "file": "category3.json"
-    },
-    {
-      "name": "The Jetset Life",
-      "title": "The Jetset Life",
-      "file": "category4.json"
-    }
-  ],
-  "explore-nyc-scroller": [
-    {
-      "file": "explore-nyc-scroller1.json"
-    },
-    {
-      "file": "explore-nyc-scroller2.json"
-    },
-    {
-      "file": "explore-nyc-scroller3.json"
-    },
-    {
-      "file": "explore-nyc-scroller4.json"
-    },
-    {
-      "file": "explore-nyc-scroller5.json"
-    },
-    {
-      "file": "explore-nyc-scroller6.json"
-    },
-    {
-      "file": "explore-nyc-scroller7.json"
-    }
-  ],
-  "gallery": [
-    {
-      "file": "gallery10.json"
-    },
-    {
-      "file": "gallery11.json"
-    },
-    {
-      "file": "gallery12.json"
-    },
-    {
-      "file": "gallery13.json"
-    },
-    {
-      "file": "gallery14.json"
-    },
-    {
-      "file": "gallery15.json"
-    },
-    {
-      "file": "gallery16.json"
-    },
-    {
-      "file": "gallery17.json"
-    },
-    {
-      "file": "gallery18.json"
-    },
-    {
-      "file": "gallery19.json"
-    },
-    {
-      "file": "gallery2.json"
-    },
-    {
-      "file": "gallery20.json"
-    },
-    {
-      "file": "gallery21.json"
-    },
-    {
-      "file": "gallery22.json"
-    },
-    {
-      "file": "gallery23.json"
-    },
-    {
-      "file": "gallery24.json"
-    },
-    {
-      "file": "gallery25.json"
-    },
-    {
-      "file": "gallery26.json"
-    },
-    {
-      "file": "gallery27.json"
-    },
-    {
-      "file": "gallery28.json"
-    },
-    {
-      "file": "gallery29.json"
-    },
-    {
-      "file": "gallery3.json"
-    },
-    {
-      "file": "gallery30.json"
-    },
-    {
-      "file": "gallery31.json"
-    },
-    {
-      "file": "gallery32.json"
-    },
-    {
-      "file": "gallery33.json"
-    },
-    {
-      "file": "gallery34.json"
-    },
-    {
-      "file": "gallery35.json"
-    },
-    {
-      "file": "gallery36.json"
-    },
-    {
-      "file": "gallery37.json"
-    },
-    {
-      "file": "gallery38.json"
-    },
-    {
-      "file": "gallery39.json"
-    },
-    {
-      "file": "gallery4.json"
-    },
-    {
-      "file": "gallery40.json"
-    },
-    {
-      "file": "gallery41.json"
-    },
-    {
-      "file": "gallery42.json"
-    },
-    {
-      "file": "gallery43.json"
-    },
-    {
-      "file": "gallery44.json"
-    },
-    {
-      "file": "gallery45.json"
-    },
-    {
-      "file": "gallery46.json"
-    },
-    {
-      "file": "gallery47.json"
-    },
-    {
-      "file": "gallery48.json"
-    },
-    {
-      "file": "gallery49.json"
-    },
-    {
-      "file": "gallery5.json"
-    },
-    {
-      "file": "gallery50.json"
     },
     {
-      "file": "gallery51.json"
+      "name": "METROPOLITAN MUSEUM OF ART",
+      "title": "METROPOLITAN MUSEUM OF ART",
+      "file": "attractions4.json"
     },
     {
-      "file": "gallery6.json"
+      "name": "THEATER DISTRICT",
+      "title": "THEATER DISTRICT",
+      "file": "attractions1.json"
     },
-    {
-      "file": "gallery7.json"
-    },
-    {
-      "file": "gallery8.json"
-    },
-    {
-      "file": "gallery9.json"
-    }
-  ],
-  "homepage-slider": [
-    {
-      "name": "high style, luxury and comfort all in one",
-      "file": "homepage-slider1.json"
-    },
-    {
-      "name": "In the heart of Midtown",
-      "file": "homepage-slider2.json"
-    },
-    {
-      "name": "Eat & Drink",
-      "file": "homepage-slider3.json"
-    }
-  ],
-  "ristorante-slider": [
     {
-      "file": "ristorante-slider1.json"
+      "name": "BRYANT PARK",
+      "title": "BRYANT PARK",
+      "file": "attractions3.json"
     },
     {
-      "file": "ristorante-slider2.json"
+      "name": "TIMES SQUARE",
+      "title": "TIMES SQUARE",
+      "file": "attractions2.json"
     }
   ],
   "rooftop-slider": [
@@ -338,18 +280,26 @@
       "file": "sundeck-slider2.json"
     }
   ],
-  "welcome-property-slider": [
+  "blog": [
     {
-      "file": "welcome-property-slider1.json"
+      "name": "Explore Koreatown in Manhattan",
+      "title": "Explore Koreatown in Manhattan",
+      "file": "blog7.json"
     },
     {
-      "file": "welcome-property-slider2.json"
+      "name": "Upcoming Concerts We’re Excited About",
+      "title": "Upcoming Concerts We’re Excited About",
+      "file": "blog2.json"
     },
     {
-      "file": "welcome-property-slider3.json"
+      "name": "Best Manhattan Wine Bars",
+      "title": "Best Manhattan Wine Bars",
+      "file": "blog6.json"
     },
     {
-      "file": "welcome-property-slider4.json"
+      "name": "Seasonal Style Series: What to Wear in NY this Spring",
+      "title": "Seasonal Style Series: What to Wear in NY this Spring",
+      "file": "blog4.json"
     }
   ],
   "_definitions": [
