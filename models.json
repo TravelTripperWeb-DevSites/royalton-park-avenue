@@ -282,6 +282,11 @@
   ],
   "blog": [
     {
+      "name": "Explore Koreatown in Manhattan",
+      "title": "Explore Koreatown in Manhattan",
+      "file": "blog7.json"
+    },
+    {
       "name": "Upcoming Concerts We’re Excited About",
       "title": "Upcoming Concerts We’re Excited About",
       "file": "blog2.json"
