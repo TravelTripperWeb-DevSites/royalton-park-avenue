@@ -12,17 +12,17 @@ meta_description_localized:
   <div id="heroSlider" class="homeSlide carousel slide" data-ride="carousel" data-interval="6000" data-pause>
     <div class="carousel-inner" role="listbox">
      {% for slider in homeheroSliders %}
-        <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slider.image.url_large}}');"> 
+        <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slider.image.url_large}}');">
           <div class="carousel-caption text-left  d-md-block">
-            <h4>{{slider.name}}</h4> 
+            <h4>{{slider.name}}</h4>
             <a href="{{slider.link-url}}" class="link-text">{{slider.link-text}}</a> </div>
-        </div>     
-     {% endfor %} 
+        </div>
+     {% endfor %}
     </div>
     <a class="carousel-control-prev" href="#" data-target="#heroSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#" data-target="#heroSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a> </div>
 </section>
 
- 
+
 
 <section class="welcome-royalton top-space">
   <!-- <div class="wrapper border-left">
@@ -32,17 +32,17 @@ meta_description_localized:
           <p class="caption-90">The Royalton Park Avenue Lobby</p>
         </div>
         <div class="img-6 pl-md-0 pr-xs-0">
-          <figure> 
+          <figure>
             {% regionblock home_intro_img_1, type:image %}
-              <img src="/assets/images/about/resting.jpg" alt="lobby in royalton" class="img-fluid"> 
+              <img src="/assets/images/about/resting.jpg" alt="lobby in royalton" class="img-fluid">
             {% endregionblock %}
           </figure>
         </div>
         <div class="img-4 pr-md-0">
-          <figure> 
+          <figure>
             {% regionblock home_intro_img_2, type:image %}
               <img src="/assets/images/about/lobby.jpg" alt="royalton hotel lobby" class="img-fluid">
-            {% endregionblock %} 
+            {% endregionblock %}
           </figure>
         </div>
       </div>
@@ -64,7 +64,7 @@ meta_description_localized:
       <h4 class="text-uppercase">Welcome to<br>Royalton PArk<br>Avenue Hotel</h4>
       {% endregionblock %}
       {% regionblock home_intro_btn_one, type:text %}
-        <a href="{{site.pagelink.contact}}" class="link-text">Contact us</a> 
+        <a href="{{site.pagelink.contact}}" class="link-text">Contact us</a>
         {% endregionblock %}
     </div>
     <div class="details-5">
@@ -73,9 +73,9 @@ meta_description_localized:
       <p class="gold-para">The rooftop pool will be closed 02/05 until 03/31, as we are preparing for Summer.</p>
       {% endregionblock %}
     </div>
-    <div class="btn-col-3 bottom-padding align-self-center"> 
+    <div class="btn-col-3 bottom-padding align-self-center">
       {% regionblock home_intro_btn_two, type:text %}
-      <a href="{{site.pagelink.about}}" class="align-middle btn-outline-black ml-md-5 ml-lg-0" title="Discover More">Discover More</a> 
+      <a href="{{site.pagelink.about}}" class="align-middle btn-outline-black ml-md-5 ml-lg-0" title="Discover More">Discover More</a>
       {% endregionblock %}
     </div>
   </div>
@@ -87,7 +87,7 @@ meta_description_localized:
           {% for propertyimage in property-sliders %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{propertyimage.image.url_large}}');"> </div>
           {% endfor %}
-           
+
         </div>
         <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a> </div>
 
@@ -104,9 +104,9 @@ meta_description_localized:
   <div class="border-right"></div>
   <div class="container">
     <div class="wrapper">
-      <div class="cta-rooms align-self-center text-center"> 
+      <div class="cta-rooms align-self-center text-center">
         {% regionblock home_rooms_btn, type:text %}
-        <a href="{{site.pagelink.rooms}}" class="align-middle btn-outline-black mb-3" title="Discover More">Discover More</a> 
+        <a href="{{site.pagelink.rooms}}" class="align-middle btn-outline-black mb-3" title="Discover More">Discover More</a>
         {% endregionblock %}
       </div>
       <div class="sub-heading">
@@ -271,9 +271,9 @@ meta_description_localized:
       </div>
     </div>
     <div class="about-restaurant">
-      <figure> 
+      <figure>
         {% regionblock home_eat_drink_img_2, type:image %}
-        <img src="/assets/images/home/offers/restaurant.jpg" alt="restaurant" class="img-fluid"> 
+        <img src="/assets/images/home/offers/restaurant.jpg" alt="restaurant" class="img-fluid">
         {% endregionblock %}
       </figure>
       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
@@ -333,11 +333,11 @@ meta_description_localized:
       <div class="col-md-6 no-padding">
         <div class="content-right">
           {% regionblock home_location_hotel_title, type:header %}
-          <h4>royalton Park Avenue</h4>
+          <h5 class="ml-0">royalton Park Avenue</h5>
           {% endregionblock %}
           {% regionblock home_location_address, type:text %}
           <p>
-              <i class="fa fa-map-marker"></i> 
+              <i class="fa fa-map-marker"></i>
                 420 Park Avenue South (at 29th Street),
                 <br>
                 New York, NY 10016<br>
@@ -346,8 +346,7 @@ meta_description_localized:
           {% regionblock home_location_contact_number, type:text %}
           <p>
   		        <i class="fa fa-phone"></i>
-              <a href="tel:12123172900"></a>
-                +1 212 317 2900
+              <a href="tel:12123172900">+1 212 317 2900</a>
           </p>
           {% endregionblock %}
         </div>
@@ -356,9 +355,9 @@ meta_description_localized:
   </div>
   <div class="auto-width-carousel border-left">
     <div class="col-md-5 no-padding">
-      <div class="attractions-controls"> <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span> <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> 
+      <div class="attractions-controls"> <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span> <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span>
         {% regionblock home_attractions_subheading, type:header %}
-        <span class="c-caption">Explore <br>New York City</span> 
+        <span class="c-caption">Explore <br>New York City</span>
         {% endregionblock %}
       </div>
     </div>
@@ -367,7 +366,7 @@ meta_description_localized:
       <div id="home-attractions" class="owl-carousel owl-theme">
         {% for pic in nycpics %}
            <div class="item"><img src="{{pic.image.url_small}}" alt="{{pic.image.alt}}"></div>
-        {% endfor %} 
+        {% endfor %}
       </div>
     </div>
   </div>
@@ -385,8 +384,8 @@ meta_description_localized:
       </div>
       <div class="col-md-5 no-padding">
         <div class="script-wrap">
-        {% regionblock home_attractions_img, type:image %} 
-          <img src="/assets/images/script.png" alt="Royalton Park Avenue"> 
+        {% regionblock home_attractions_img, type:image %}
+          <img src="/assets/images/script.png" alt="Royalton Park Avenue">
         {% endregionblock %}
         </div>
       </div>
