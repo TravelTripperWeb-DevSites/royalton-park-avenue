@@ -28,17 +28,17 @@ include_in_nav_localized:
             {% for post in data_paginator.posts %}
             <div class="post">
                 <a href="/blog/{{ post.url_friendly_name }}/" class="blog-title mt-4">
-                    <img src="{{post.blogimage.url}}" class="img-responsive main-hero listing-img" alt="{{post.img_alt_txt}}"> </a>
+                    <img src="{{ post.blogimage.url }}" class="img-responsive main-hero listing-img" alt="{{ post.title }}"> </a>
                 <div class="blog-item-text">
-                    <a href="/blog/{{ post.url_friendly_name }}/" class="blog-title mt-4">
-                        <h2> {{post.title}} </h2>
+                    <a href="/blog/{{ post.url_friendly_name }}/" class="blog-title mt-4" title="{{ post.title }}">
+                        <h2> {{ post.title }} </h2>
                     </a>
                     <div class="info">
                         <p>
                             <span class="date">{% assign d = post.date | date: "%-d" %}
                                 {{ post.date | date: "%B" }}
                                 {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}<sup>th</sup>{% endcase %},
-                                {{ post.date | date: "%Y" }} </span> | <span class="categories"><a href="/blog/category/{{post.category.url_friendly_name}}/" >{{post.category.title}}</a></span>
+                                {{ post.date | date: "%Y" }} </span> | <span class="categories"><a href="/blog/category/{{post.category.url_friendly_name}}/" Title="Category">{{post.category.title}}</a></span>
                         </p>
                     </div>
                     <div class="short-description">
@@ -85,4 +85,3 @@ include_in_nav_localized:
         </div>
     </div>
 </section>
-
