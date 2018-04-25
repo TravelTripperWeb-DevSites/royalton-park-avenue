@@ -2,10 +2,10 @@
     <div class="widget-box">
         <h3 class="mb-3">Search</h3>
         <form class="search-form" action="/blog/search/" method="get">
-            <input type="text" id="search-box" class="input-grey" name="query" placeholder="Type Here..." aria-label="Search Field" title="Search Field" /> 
-            <button class="submit-btn"><i class="fa fa-search"></i></button>
+            <input type="text" id="search-box" class="input-grey" name="query" placeholder="Type Here..." aria-label="Search Field" title="Search Field" />
+            <button class="submit-btn" title="Submit"><i class="fa fa-search"></i></button>
         </form>
-    </div>    
+    </div>
     <hr>
     <div class="widget-box">
         <h3 class="my-3">Recent Posts</h3>
@@ -22,26 +22,26 @@
                 </div>
                 <div class="clear-float"></div>
             </li>
-            {% endfor %} 
+            {% endfor %}
         </ul>
     </div>
     <hr>
     <div class="widget-box">
         <h3 class="mb-3">Categories</h3>
         <ul class="categories">
-            {% assign categories = site.data._models.category | sort:'order'%} 
-            {% for categorylist in categories %} 
-            <li><a href="/blog/category/{{categorylist.url_friendly_name}}/" class="" title="{{categorylist.title}}"> {{categorylist.title}} 
+            {% assign categories = site.data._models.category | sort:'order'%}
+            {% for categorylist in categories %}
+            <li><a href="/blog/category/{{categorylist.url_friendly_name}}/" class="" title="{{categorylist.title}}"> {{categorylist.title}}
                 {% assign count = 0 %}
                 {% for postcount in site.data._models.blog %}
                 {% if postcount.category.title == categorylist.title%}
-                {% capture count  %}{{ count  | plus: '1' }}{% endcapture %} 
-                {%endif%} 
-                {%endfor%} 
+                {% capture count  %}{{ count  | plus: '1' }}{% endcapture %}
+                {%endif%}
+                {%endfor%}
                 <span>({{count}})</span>
                 </a>
             </li>
-            {%endfor%} 
+            {%endfor%}
         </ul>
     </div>
 </div>
