@@ -23,7 +23,9 @@ include_in_nav_localized:
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock terms_header, type:header %}
       <h1>Terms of Use</h1>
+      {% endregionblock %}
     </div>
   </div>
 </section>
@@ -32,7 +34,8 @@ include_in_nav_localized:
 
 <section class="error-content privacy-content">
 	<div class="container">
-    	<div class="line-two">
+    	<div>
+        {% regionblock terms_content, type:text %}
         <p>Thank you for visiting our website located at <a title="Royalton Park Avenue" href="https://www.royaltonparkavenue.com/">www.royaltonparkavenue.com</a> (the &ldquo;Site&rdquo;) and for your interest in <strong>Royalton Park Avenue</strong> (sometimes hereinafter referred to as &ldquo;Hotel&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). As a condition of using this Site we require that you agree to each of the terms and conditions of use and notices stated below. If you do not agree without modification, please discontinue use of this Site.</p>
       <ul>
         <li>The content and information displayed on this Site (&ldquo;Hotel Information&rdquo;) is the property of Hotel and/or other parties. You agree that downloading, reproducing, or transmitting Hotel Information is strictly prohibited (except to the extent conducted for non-commercial individual use).</li>
@@ -48,6 +51,7 @@ include_in_nav_localized:
         <li>We may update this Policy from time to time. By using the Site, you (on behalf of yourself and your organization, if applicable) are expressly agreeing to the terms and conditions of the then-posted version of these terms of use.</li>
         <li>If you would like to view the privacy practices that govern how we process personally identifiable information (PII) about you on this Site, please review our Privacy Policy. By using our Site, you consent to your PII being processed as set out in our Privacy Policy.</li>
       </ul>
+      {% endregionblock %}
       </div>
     </div>
 </section>
