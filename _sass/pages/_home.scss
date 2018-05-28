@@ -183,6 +183,7 @@
 }
                 @include media-breakpoint-up (lg) {
                     min-height: 638px;
+                    background-position: bottom;
                 }
                 .carousel-caption {
                     z-index: 3;
@@ -698,8 +699,8 @@
             background-repeat: no-repeat;
             background-position : center center; // &.active{
             // 	&:hover{
-            // 		.org-overlay{ 
-            // 			opacity: 1; 
+            // 		.org-overlay{
+            // 			opacity: 1;
             // 		}
             // 		.carousel-caption{
             // 			opacity: 0;
