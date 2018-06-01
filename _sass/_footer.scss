@@ -114,7 +114,7 @@
                      width: 50%;
                  }
                     a {
-                        text-decoration: none; 
+                        text-decoration: none;
                         color: $white;
                         transition: $global-transition;
                          &:hover {
@@ -219,7 +219,7 @@
             }
         }
     }
-        .copyrights { 
+        .copyrights {
             padding: 1.250rem 3.875rem;
             text-align: center;
             @include media-breakpoint-up (md) {
@@ -234,29 +234,30 @@
                 @extend .no-margin;
             }
                 .copright-text {
-                    @extend .col-md-6;
+                    @extend .col-md-4;
                     @extend .no-padding;
-                    font-family: $caption-font-family; 
+                    font-family: $caption-font-family;
                     font-size: 12px;
                     font-weight: 300;
                     padding: 0 0 1.5rem 0;
                     @include media-breakpoint-up (md) {
                         padding: 0 0 0 0;
+                        text-align: center;
                     }
                 }
                 .credentials {
-        @extend .col-md-6;
+        @extend .col-md-4;
         @extend .no-padding;
         font-size: 0.625rem;
         text-transform: uppercase;
         letter-spacing: 0.20rem;
         @include media-breakpoint-up (md) {
-            text-align: right;
+            text-align: center;
         }
         span {
             display: inline-block;
             padding: 5px 0 0 0;
         }
-    } 
+    }
         }
 }
