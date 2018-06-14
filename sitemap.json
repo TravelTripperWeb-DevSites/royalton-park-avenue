@@ -27,51 +27,9 @@
         },
         "data_source": null,
         "source_path": "index.html",
-        "order": 39
+        "order": 41
       }
     ],
-    "blog": {
-      "__PAGES__": [
-        {
-          "label": "Blog | Royalton Park Avenue Hotel",
-          "published": true,
-          "locales": {
-            "en": "/blog/"
-          },
-          "data_source": null,
-          "source_path": "blog/index.html",
-          "order": 2
-        }
-      ],
-      "category": {
-        "__PAGES__": [
-          {
-            "label": "Blog | The Royalton Hotel in New York City",
-            "published": true,
-            "locales": {
-              "en": "/blog/category/"
-            },
-            "data_source": null,
-            "source_path": "blog/category/index.html",
-            "order": 1
-          }
-        ]
-      },
-      "search": {
-        "__PAGES__": [
-          {
-            "label": "Blog | Royalton Park Avenue Hotel",
-            "published": true,
-            "locales": {
-              "en": "/blog/search/"
-            },
-            "data_source": null,
-            "source_path": "blog/search.html",
-            "order": 3
-          }
-        ]
-      }
-    },
     "events": {
       "__PAGES__": [
         {
@@ -82,23 +40,9 @@
           },
           "data_source": null,
           "source_path": "_pages/events.html",
-          "order": 26
+          "order": 22
         }
       ],
-      "park-lounge": {
-        "__PAGES__": [
-          {
-            "label": "Park Lounge | Private Party, Function & Event Venue in NYC",
-            "published": true,
-            "locales": {
-              "en": "/events/park-lounge/"
-            },
-            "data_source": null,
-            "source_path": "_pages/events/park-lounge.html",
-            "order": 4
-          }
-        ]
-      },
       "red-room": {
         "__PAGES__": [
           {
@@ -109,7 +53,21 @@
             },
             "data_source": null,
             "source_path": "_pages/events/red-room.html",
-            "order": 6
+            "order": 2
+          }
+        ]
+      },
+      "park-lounge": {
+        "__PAGES__": [
+          {
+            "label": "Park Lounge | Private Party, Function & Event Venue in NYC",
+            "published": true,
+            "locales": {
+              "en": "/events/park-lounge/"
+            },
+            "data_source": null,
+            "source_path": "_pages/events/park-lounge.html",
+            "order": 3
           }
         ]
       },
@@ -123,7 +81,7 @@
             },
             "data_source": null,
             "source_path": "_pages/events/ivy-lounge.html",
-            "order": 7
+            "order": 4
           }
         ]
       },
@@ -137,22 +95,22 @@
             },
             "data_source": null,
             "source_path": "_pages/weddings.html",
-            "order": 12
+            "order": 28
           }
         ]
       }
     },
-    "sundeck": {
+    "book-early-save": {
       "__PAGES__": [
         {
-          "label": "Sundeck at Royalton Park Avenue Hotel in New York",
-          "published": true,
+          "label": "Book Early & Save",
+          "published": false,
           "locales": {
-            "en": "/sundeck/"
+            "en": "/book-early-save/"
           },
           "data_source": null,
-          "source_path": "_pages/sundeck.html",
-          "order": 8
+          "source_path": "_pages/book-early-save.html",
+          "order": 5
         }
       ]
     },
@@ -166,133 +124,7 @@
           },
           "data_source": null,
           "source_path": "_pages/exhale-fitness-spa.html",
-          "order": 9
-        }
-      ]
-    },
-    "weekend-getaway": {
-      "__PAGES__": [
-        {
-          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
-          "published": true,
-          "locales": {
-            "en": "/weekend-getaway/"
-          },
-          "data_source": null,
-          "source_path": "_pages/weekend-getaway.html",
-          "order": 10
-        }
-      ]
-    },
-    "save-25": {
-      "__PAGES__": [
-        {
-          "label": "Book Direct & Save 25%",
-          "published": false,
-          "locales": {
-            "en": "/save-25/"
-          },
-          "data_source": null,
-          "source_path": "_pages/save-25.html",
-          "order": 11
-        }
-      ]
-    },
-    "special-offer-promotion": {
-      "__PAGES__": [
-        {
-          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
-          "published": true,
-          "locales": {
-            "en": "/special-offer-promotion/"
-          },
-          "data_source": null,
-          "source_path": "_pages/special-offer-promotion.html",
-          "order": 13
-        }
-      ]
-    },
-    "bar-44": {
-      "__PAGES__": [
-        {
-          "label": "Bar 44",
-          "published": false,
-          "locales": {
-            "en": "/bar-44/"
-          },
-          "data_source": null,
-          "source_path": "_pages/bar-44.html",
-          "order": 14
-        }
-      ]
-    },
-    "room": {
-      "__PAGES__": [
-        {
-          "label": "Boutique Manhattan Hotel Accommodation | Royalton Hotel",
-          "published": true,
-          "locales": {
-            "en": "/room/"
-          },
-          "data_source": null,
-          "source_path": "_pages/room.html",
-          "order": 15
-        }
-      ]
-    },
-    "error-page": {
-      "__PAGES__": [
-        {
-          "label": "Page Not Found | Royalton Hotel",
-          "published": true,
-          "locales": {
-            "en": "/error-page/"
-          },
-          "data_source": null,
-          "source_path": "_pages/error-page.html",
-          "order": 16
-        }
-      ]
-    },
-    "gallery": {
-      "__PAGES__": [
-        {
-          "label": "Boutique NYC Hotel Photos | Royalton Park Avenue Gallery",
-          "published": true,
-          "locales": {
-            "en": "/gallery/"
-          },
-          "data_source": null,
-          "source_path": "_pages/gallery.html",
-          "order": 17
-        }
-      ]
-    },
-    "eat-and-drink": {
-      "__PAGES__": [
-        {
-          "label": "Food and Drinks | Royalton Park Avenue Hotel",
-          "published": true,
-          "locales": {
-            "en": "/eat-and-drink/"
-          },
-          "data_source": null,
-          "source_path": "_pages/plunge-rooftop-bar.html",
-          "order": 18
-        }
-      ]
-    },
-    "dining": {
-      "__PAGES__": [
-        {
-          "label": "Dining",
-          "published": true,
-          "locales": {
-            "en": "/dining/"
-          },
-          "data_source": null,
-          "source_path": "_pages/dining.html",
-          "order": 19
+          "order": 6
         }
       ]
     },
@@ -306,175 +138,7 @@
           },
           "data_source": null,
           "source_path": "_pages/contact.html",
-          "order": 20
-        }
-      ]
-    },
-    "fitness": {
-      "__PAGES__": [
-        {
-          "label": "Flywheel Fitness Tech",
-          "published": true,
-          "locales": {
-            "en": "/fitness/"
-          },
-          "data_source": null,
-          "source_path": "_pages/fitness.html",
-          "order": 22
-        }
-      ]
-    },
-    "request-for-proposal": {
-      "__PAGES__": [
-        {
-          "label": "Request for Proposal | Royalton Park Avenue Hotel",
-          "published": true,
-          "locales": {
-            "en": "/request-for-proposal/"
-          },
-          "data_source": null,
-          "source_path": "_pages/request-for-proposal.html",
-          "order": 23
-        }
-      ]
-    },
-    "breakfast": {
-      "__PAGES__": [
-        {
-          "label": "Have Breakfast On Us",
-          "published": false,
-          "locales": {
-            "en": "/breakfast/"
-          },
-          "data_source": null,
-          "source_path": "_pages/breakfast.html",
-          "order": 24
-        }
-      ]
-    },
-    "breakfast-inclusive": {
-      "__PAGES__": [
-        {
-          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
-          "published": true,
-          "locales": {
-            "en": "/breakfast-inclusive/"
-          },
-          "data_source": null,
-          "source_path": "_pages/breakfast-inclusive.html",
-          "order": 25
-        }
-      ]
-    },
-    "rooms-and-suites": {
-      "__PAGES__": [
-        {
-          "label": "Boutique Manhattan Hotel Accommodation | Royalton Hotel",
-          "published": true,
-          "locales": {
-            "en": "/rooms-and-suites/"
-          },
-          "data_source": null,
-          "source_path": "_pages/rooms.html",
-          "order": 27
-        }
-      ]
-    },
-    "offers": {
-      "__PAGES__": [
-        {
-          "label": "About",
-          "published": true,
-          "locales": {
-            "en": "/offers/"
-          },
-          "data_source": null,
-          "source_path": "_pages/offers.html",
-          "order": 28
-        }
-      ]
-    },
-    "book-early-save": {
-      "__PAGES__": [
-        {
-          "label": "Book Early & Save",
-          "published": false,
-          "locales": {
-            "en": "/book-early-save/"
-          },
-          "data_source": null,
-          "source_path": "_pages/book-early-save.html",
-          "order": 29
-        }
-      ]
-    },
-    "about": {
-      "__PAGES__": [
-        {
-          "label": "Boutique Hotels NYC | About the Royalton Park Avenue Hotel",
-          "published": true,
-          "locales": {
-            "en": "/about/"
-          },
-          "data_source": null,
-          "source_path": "_pages/about.html",
-          "order": 30
-        }
-      ]
-    },
-    "offer": {
-      "__PAGES__": [
-        {
-          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
-          "published": true,
-          "locales": {
-            "en": "/offer/"
-          },
-          "data_source": null,
-          "source_path": "_pages/offer.html",
-          "order": 31
-        }
-      ]
-    },
-    "thankyou": {
-      "__PAGES__": [
-        {
-          "label": "Thank You",
-          "published": true,
-          "locales": {
-            "en": "/thankyou/"
-          },
-          "data_source": null,
-          "source_path": "_pages/thankyou.html",
-          "order": 32
-        }
-      ]
-    },
-    "stay-more-save-more": {
-      "__PAGES__": [
-        {
-          "label": "Stay More Save More",
-          "published": false,
-          "locales": {
-            "en": "/stay-more-save-more/"
-          },
-          "data_source": null,
-          "source_path": "_pages/stay-more-save-more.html",
-          "order": 33
-        }
-      ]
-    },
-    "new-years-eve": {
-      "__PAGES__": [
-        {
-          "label": "New Years Eve",
-          "published": false,
-          "locales": {
-            "en": "/new-years-eve/"
-          },
-          "data_source": null,
-          "source_path": "_pages/new-years-eve.html",
-          "order": 34
+          "order": 7
         }
       ]
     },
@@ -488,6 +152,342 @@
           },
           "data_source": null,
           "source_path": "_pages/save-20.html",
+          "order": 8
+        }
+      ]
+    },
+    "gallery": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Photos | Royalton Park Avenue Gallery",
+          "published": true,
+          "locales": {
+            "en": "/gallery/"
+          },
+          "data_source": null,
+          "source_path": "_pages/gallery.html",
+          "order": 9
+        }
+      ]
+    },
+    "privacy-policy": {
+      "__PAGES__": [
+        {
+          "label": "Privacy Policy | Royalton Hotel",
+          "published": true,
+          "locales": {
+            "en": "/privacy-policy/"
+          },
+          "data_source": null,
+          "source_path": "_pages/privacy-policy.html",
+          "order": 10
+        }
+      ]
+    },
+    "breakfast": {
+      "__PAGES__": [
+        {
+          "label": "Have Breakfast On Us",
+          "published": false,
+          "locales": {
+            "en": "/breakfast/"
+          },
+          "data_source": null,
+          "source_path": "_pages/breakfast.html",
+          "order": 11
+        }
+      ]
+    },
+    "stay-more-save-more": {
+      "__PAGES__": [
+        {
+          "label": "Stay More Save More",
+          "published": false,
+          "locales": {
+            "en": "/stay-more-save-more/"
+          },
+          "data_source": null,
+          "source_path": "_pages/stay-more-save-more.html",
+          "order": 12
+        }
+      ]
+    },
+    "weekend-getaway": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/weekend-getaway/"
+          },
+          "data_source": null,
+          "source_path": "_pages/weekend-getaway.html",
+          "order": 13
+        }
+      ]
+    },
+    "fitness": {
+      "__PAGES__": [
+        {
+          "label": "Flywheel Fitness Tech",
+          "published": true,
+          "locales": {
+            "en": "/fitness/"
+          },
+          "data_source": null,
+          "source_path": "_pages/flywheel-fitness.html",
+          "order": 20
+        }
+      ]
+    },
+    "offer": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/offer/"
+          },
+          "data_source": null,
+          "source_path": "_pages/offer.html",
+          "order": 15
+        }
+      ]
+    },
+    "rooms-and-suites": {
+      "__PAGES__": [
+        {
+          "label": "Boutique Manhattan Hotel Accommodation | Royalton Hotel",
+          "published": true,
+          "locales": {
+            "en": "/rooms-and-suites/"
+          },
+          "data_source": null,
+          "source_path": "_pages/rooms.html",
+          "order": 16
+        }
+      ]
+    },
+    "room": {
+      "__PAGES__": [
+        {
+          "label": "Boutique Manhattan Hotel Accommodation | Royalton Hotel",
+          "published": true,
+          "locales": {
+            "en": "/room/"
+          },
+          "data_source": null,
+          "source_path": "_pages/room.html",
+          "order": 17
+        }
+      ]
+    },
+    "offers": {
+      "__PAGES__": [
+        {
+          "label": "About",
+          "published": true,
+          "locales": {
+            "en": "/offers/"
+          },
+          "data_source": null,
+          "source_path": "_pages/offers.html",
+          "order": 18
+        }
+      ]
+    },
+    "15-special-offer-promotion": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/15-special-offer-promotion/"
+          },
+          "data_source": null,
+          "source_path": "_pages/15-special-offer-promotion.html",
+          "order": 19
+        }
+      ]
+    },
+    "request-for-proposal": {
+      "__PAGES__": [
+        {
+          "label": "Request for Proposal | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/request-for-proposal/"
+          },
+          "data_source": null,
+          "source_path": "_pages/request-for-proposal.html",
+          "order": 21
+        }
+      ]
+    },
+    "dining": {
+      "__PAGES__": [
+        {
+          "label": "Dining",
+          "published": true,
+          "locales": {
+            "en": "/dining/"
+          },
+          "data_source": null,
+          "source_path": "_pages/dining.html",
+          "order": 23
+        }
+      ]
+    },
+    "ristorante-asellina": {
+      "__PAGES__": [
+        {
+          "label": "Ristorante Asellina | Royalton Park Avenue Hotel in New York",
+          "published": true,
+          "locales": {
+            "en": "/ristorante-asellina/"
+          },
+          "data_source": null,
+          "source_path": "_pages/ristorante-asellina.html",
+          "order": 24
+        }
+      ]
+    },
+    "thankyou": {
+      "__PAGES__": [
+        {
+          "label": "Thank You",
+          "published": true,
+          "locales": {
+            "en": "/thankyou/"
+          },
+          "data_source": null,
+          "source_path": "_pages/thankyou.html",
+          "order": 25
+        }
+      ]
+    },
+    "about": {
+      "__PAGES__": [
+        {
+          "label": "Boutique Hotels NYC | About the Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/about/"
+          },
+          "data_source": null,
+          "source_path": "_pages/about.html",
+          "order": 26
+        }
+      ]
+    },
+    "breakfast-inclusive": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/breakfast-inclusive/"
+          },
+          "data_source": null,
+          "source_path": "_pages/breakfast-inclusive.html",
+          "order": 27
+        }
+      ]
+    },
+    "terms-of-use": {
+      "__PAGES__": [
+        {
+          "label": "Terms of Use | Royalton Hotel",
+          "published": true,
+          "locales": {
+            "en": "/terms-of-use/"
+          },
+          "data_source": null,
+          "source_path": "_pages/terms-of-use.html",
+          "order": 29
+        }
+      ]
+    },
+    "sundeck": {
+      "__PAGES__": [
+        {
+          "label": "Sundeck at Royalton Park Avenue Hotel in New York",
+          "published": true,
+          "locales": {
+            "en": "/sundeck/"
+          },
+          "data_source": null,
+          "source_path": "_pages/sundeck.html",
+          "order": 30
+        }
+      ]
+    },
+    "bar-44": {
+      "__PAGES__": [
+        {
+          "label": "Bar 44",
+          "published": false,
+          "locales": {
+            "en": "/bar-44/"
+          },
+          "data_source": null,
+          "source_path": "_pages/bar-44.html",
+          "order": 31
+        }
+      ]
+    },
+    "special-offer-promotion": {
+      "__PAGES__": [
+        {
+          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/special-offer-promotion/"
+          },
+          "data_source": null,
+          "source_path": "_pages/special-offer-promotion.html",
+          "order": 32
+        }
+      ]
+    },
+    "save-25": {
+      "__PAGES__": [
+        {
+          "label": "Book Direct & Save 25%",
+          "published": false,
+          "locales": {
+            "en": "/save-25/"
+          },
+          "data_source": null,
+          "source_path": "_pages/save-25.html",
+          "order": 33
+        }
+      ]
+    },
+    "error-page": {
+      "__PAGES__": [
+        {
+          "label": "Page Not Found | Royalton Hotel",
+          "published": true,
+          "locales": {
+            "en": "/error-page/"
+          },
+          "data_source": null,
+          "source_path": "_pages/error-page.html",
+          "order": 34
+        }
+      ]
+    },
+    "eat-and-drink": {
+      "__PAGES__": [
+        {
+          "label": "Food and Drinks | Royalton Park Avenue Hotel",
+          "published": true,
+          "locales": {
+            "en": "/eat-and-drink/"
+          },
+          "data_source": null,
+          "source_path": "_pages/plunge-rooftop-bar.html",
           "order": 35
         }
       ]
@@ -506,33 +506,61 @@
         }
       ]
     },
-    "15-special-offer-promotion": {
+    "new-years-eve": {
       "__PAGES__": [
         {
-          "label": "Boutique NYC Hotel Offers | Royalton Park Avenue Hotel",
-          "published": true,
+          "label": "New Years Eve",
+          "published": false,
           "locales": {
-            "en": "/15-special-offer-promotion/"
+            "en": "/new-years-eve/"
           },
           "data_source": null,
-          "source_path": "_pages/15-special-offer-promotion.html",
+          "source_path": "_pages/new-years-eve.html",
           "order": 37
         }
       ]
     },
-    "ristorante-asellina": {
+    "blog": {
       "__PAGES__": [
         {
-          "label": "Ristorante Asellina | Royalton Park Avenue Hotel in New York",
+          "label": "Blog | Royalton Park Avenue Hotel",
           "published": true,
           "locales": {
-            "en": "/ristorante-asellina/"
+            "en": "/blog/"
           },
           "data_source": null,
-          "source_path": "_pages/ristorante-asellina.html",
-          "order": 38
+          "source_path": "blog/index.html",
+          "order": 39
         }
-      ]
+      ],
+      "category": {
+        "__PAGES__": [
+          {
+            "label": "Blog | The Royalton Hotel in New York City",
+            "published": true,
+            "locales": {
+              "en": "/blog/category/"
+            },
+            "data_source": null,
+            "source_path": "blog/category/index.html",
+            "order": 38
+          }
+        ]
+      },
+      "search": {
+        "__PAGES__": [
+          {
+            "label": "Blog | Royalton Park Avenue Hotel",
+            "published": true,
+            "locales": {
+              "en": "/blog/search/"
+            },
+            "data_source": null,
+            "source_path": "blog/search.html",
+            "order": 40
+          }
+        ]
+      }
     }
   },
   "__REGIONS__": [
@@ -598,7 +626,6 @@
     "_pages/flywheel-fitness.html/about_cta_btn_1.json",
     "_pages/flywheel-fitness.html/about_cta_btn_2.json",
     "_pages/gallery.html/gallery_banner_title.json",
-    "blog/index.html/blog_banner_heading.json",
     "_pages/events/index.html/ballrom_banner_title.json",
     "_pages/events/index.html/events_navitem_one.json",
     "_pages/events/index.html/events_navitem_two.json",
@@ -613,6 +640,7 @@
     "_pages/events/index.html/ballroom_cta_logo.json",
     "_pages/events/index.html/ballroom_cta_btn_1.json",
     "_pages/events/index.html/ballroom_cta_btn_2.json",
+    "blog/index.html/blog_banner_heading.json",
     "index.html/home_intro_img_1.json",
     "index.html/home_intro_img_2.json",
     "index.html/home_intro_heading_main.json",
@@ -711,6 +739,9 @@
     "_pages/plunge-rooftop-bar.html/eat_drink_cta_logo.json",
     "_pages/plunge-rooftop-bar.html/eat_drink_cta_btn_1.json",
     "_pages/plunge-rooftop-bar.html/eat_drink_cta_btn_2.json",
+    "_pages/privacy-policy.html/privacy_header.json",
+    "_pages/privacy-policy.html/privacy_contenthead.json",
+    "_pages/privacy-policy.html/privacy_policy.json",
     "_pages/events/red-room.html/red_room_banner_title.json",
     "_pages/events/red-room.html/events_navitem_one.json",
     "_pages/events/red-room.html/events_navitem_two.json",
@@ -768,6 +799,8 @@
     "_pages/sundeck.html/sundesk_cta_logo.json",
     "_pages/sundeck.html/sundesk_cta_btn_1.json",
     "_pages/sundeck.html/sundesk_cta_btn_2.json",
+    "_pages/terms-of-use.html/terms_header.json",
+    "_pages/terms-of-use.html/terms_of_use.json",
     "_pages/thankyou.html/ty_banner_title.json",
     "_pages/thankyou.html/ty_text.json",
     "_pages/weddings.html/wedding_banner_title.json",
@@ -804,19 +837,23 @@
     "_pages/weekend-getaway.html/weekend_getaway_cta_btn_4.json",
     "_pages/weekend-getaway.html/weekend_getaway_cta_logo.json",
     "_pages/weekend-getaway.html/weekend_getaway_cta_btn_1.json",
-    "_pages/weekend-getaway.html/weekend_getaway_cta_btn_2.json"
+    "_pages/weekend-getaway.html/weekend_getaway_cta_btn_2.json",
+    "blog/page2/index.html/blog_banner_heading.json",
+    "blog/page3/index.html/blog_banner_heading.json",
+    "blog/page4/index.html/blog_banner_heading.json",
+    "blog/page5/index.html/blog_banner_heading.json"
   ],
   "__SETTINGS__": [
+    "social",
     "verification",
-    "forms",
-    "ui-text",
+    "api-keys",
     "authors",
     "advertising",
-    "api-keys",
     "tracking",
-    "social",
+    "ui-text",
     "navigation",
+    "forms",
     "_galleries"
   ],
-  "__SHA__": "63c7b0b883a047be411e623e7756c045b5b7eb7a"
+  "__SHA__": "239c2cae5a80bb410055f0587bd33e2975d04d82"
 }

@@ -35,7 +35,7 @@
 		.tonight-rate {
 			font-family: $oggroman;
 			font-size: $type-size-3;
-			color: $secondary-color;
+			color: $lighter-gray;
 		}
 		.tonight-rate-checkavail {
 			font-family: $oggroman;
@@ -77,13 +77,13 @@
 					padding: 1.8rem 0.813rem 1.4rem 0.813rem;
 					display: block;
 					position: relative;
-					transition: $global-transition; 
+					transition: $global-transition;
 						&:hover {
 							text-decoration: none;
 							&:before {
 								opacity: 1;
 								top: 0;
-								bottom: auto;	
+								bottom: auto;
 							}
 						}
 						&:before {
@@ -126,11 +126,11 @@
 			}
 		}
 	}
-} 
+}
 .room-info {
 	padding: 3rem 0 3rem 0;
 	@include media-breakpoint-up(md) {
-	padding: 5.313rem 0 5.313rem 0;		
+	padding: 5.313rem 0 5.313rem 0;
 	}
 	.container-fluid {
 		@extend .no-padding;
@@ -174,7 +174,7 @@
 			max-width: 400px;
 			color: $white;
 			span{
-			color:$heading-color;	
+			color:$heading-color;
 			}
 		}
 		p{
@@ -183,7 +183,7 @@
 		.discount {
 				font-family: $header-font-family;
 				font-size: $type-size-3;
-				color: $secondary-color;
+				color: $lighter-gray;
 			}
 	}
 }
@@ -347,7 +347,7 @@
 			font-size: 18px;
 			display: block;
 			background-color: transparent;
-			width: 100%; 
+			width: 100%;
 			padding: 0 1rem;
 			border-radius: 0;
 			color: $black;
@@ -416,7 +416,7 @@
 					margin-right: 0;
 					@include media-breakpoint-up(md) {
 						margin-left: 2.15rem;
-					}	
+					}
 				}
 				.assets-content {
 					@include media-breakpoint-up(md) {
@@ -425,12 +425,12 @@
 						margin-right: 2.15rem;
 					}
 						h4 {
-							
+
 							&:before {
 								@include decoration(117px, 3px, $white, 3px, -140px, auto, auto);
 								@include media-breakpoint-down(sm) {
 									content: normal;
-								} 
+								}
 							}
 						}
 				}
@@ -443,7 +443,7 @@
 		@extend .row;
 		max-width: 1215px;
 		margin: 0 auto;
-	} 
+	}
 	.assets-left {
 		@extend .col-md-6;
 		@extend .no-padding;
@@ -503,7 +503,7 @@
 				color: $white;
 				}
 				&:before {
-					@include decoration(117px, 3px, $white, 3px, auto, auto, -140px) 
+					@include decoration(117px, 3px, $white, 3px, auto, auto, -140px)
 				}
 				span {
 					    font-family: $oggroman;
@@ -517,7 +517,7 @@
 						font-size: 1.8rem;
 					}
 				}
-				
+
 			}
 			.link-holder {
 				margin: 2rem 0 0 0;
