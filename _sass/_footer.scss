@@ -161,24 +161,25 @@
     }
     .nl-signup-btn {
 				position: absolute;
-                background-color: transparent;
-                border: none;
-                top: 0;
-                right: 0;
-                z-index: 11;
-                cursor: pointer;
-                padding: 4px 12px;
-                    &:focus {
-                        outline: none;
-                    }
-							.fa {
-								color: $black;
-								font-size: 22px;
-                            }
-                            .eligant-icons.control-arrow {
-                                padding: 0;
-                            }
-                    }
+        background-color: $secondary-color;
+        border: none;
+        top: 0;
+        right: 0;
+        z-index: 11;
+        cursor: pointer;
+        padding: 4px 12px;
+          &:focus {
+              outline: none;
+          }
+			.fa {
+				color: $black;
+				font-size: 22px;
+      }
+      .eligant-icons.control-arrow {
+          padding: 0;
+          color: $white;
+      }
+  }
     .social {
         text-align: center;
         max-width: 220px;

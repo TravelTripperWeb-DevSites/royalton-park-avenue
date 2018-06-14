@@ -39,7 +39,7 @@ $type-size-7                : 0.75rem !default; // ~12px
 $type-size-8                : 0.625rem !default;  // ~10px
 $type-size-9                : 0.875rem !default;
 $type-size-inner         	: 3rem !default;  //48px
-$type-size-checkavail       : 1.35rem !default;  
+$type-size-checkavail       : 1.35rem !default;
 
 /*
    Colors
@@ -58,7 +58,7 @@ $text-color                 : $lighter-gray !default;
 $border-color               : $lighter-gray !default;
 $black                      : #000 !default;   //black
 $light-black                : #38373a !default; // caption link color
-$dark-primary               : #131416 !default;  // dark blue bg like button 
+$dark-primary               : #131416 !default;  // dark blue bg like button
 
 $heading-color              : #8a7c60 !default; //black heading color
 $primary-color              : $text-color !default; //paragraph color
@@ -66,16 +66,18 @@ $success-color              : #62c462 !default;
 $warning-color              : #f89406 !default;
 $danger-color               : #ee5f5b !default;
 $info-color                 : #007a9c !default;
-$secondary-color            : #8a7c60 !default; // orange type color
+//$secondary-color            : #8a7c60 !default; // orange type color old
+$secondary-color            : #60533a !default; // orange type color
 $grey-color                 : $dark-primary !default; //like nav grey
 $seperator                  : #a2a1a3;
 $border-line                : #e2e2e2;
- 
+$light-secondary-clr        : #b0a691;
+
 $heading1-color             : #363738 !default;
 $caption                    : #1d2228;
 $white-transparent          : rgba(#ffffff,0.9);
-$bw-label                   : #767676; 
-$btn-grey                   : #f7f7f7 !default; 
+$bw-label                   : #767676;
+$btn-grey                   : #f7f7f7 !default;
 $black-transparent          : rgba(#000000, 0.35);
 
 /* brands */
@@ -100,4 +102,3 @@ $trans-speed                : .5s;   //speed only
 $border-radius              : 4px !default;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125) !default;
 $global-transition          : all 0.5s ease !default;
- 
