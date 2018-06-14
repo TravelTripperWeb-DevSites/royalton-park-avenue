@@ -22,8 +22,8 @@
 			column-count: 2;
 			column-gap: 1.875rem;
 			.card{
-				 background-color: inherit; 
-				 border: 0px; 
+				 background-color: inherit;
+				 border: 0px;
 				 border-radius: 0px;
 				 margin-bottom: 1.875rem;
 				 cursor: pointer;
@@ -32,7 +32,7 @@
 				}
 				.overlay{
 					opacity:0;
-					background: rgba($secondary-color,0.75);
+					background: rgba($secondary-color,0.9);
 					position: absolute;
 					text-align: center;
 					width: 100%;
@@ -89,7 +89,7 @@
 						right: calc(50% - 10px);
 						img{width:100%;}
 					}
-					
+
 				}
 				&:hover{
 					.overlay{
@@ -107,7 +107,7 @@
 						}
 					}
 				}
-				
+
 			}
 			@include media-breakpoint-down(sm){
 					column-count: 1;

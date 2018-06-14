@@ -339,6 +339,7 @@ svg:not(:root) {
         right: 1rem;
         top: 1.5rem;
         z-index: 99;
+        background-color: $secondary-color;
         @include media-breakpoint-up (md) {
             top: 2.5rem;
             right: 1.5rem;

@@ -281,7 +281,7 @@
             p {
                 max-width: 36.25rem;
                 &.gold-para{
-                color: $heading-color;
+                color: $lighter-gray;
                }
             }
         }
@@ -639,7 +639,7 @@
                 padding: 1rem 0;
                 h4 {
                     text-transform: uppercase;
-                    color: $secondary-color;
+                    color: $lighter-gray;
                     font-weight: bold;
                     letter-spacing: 0.12rem;
                 }
@@ -679,8 +679,12 @@
         }
         #map {
             height: 323px;
+            background-color: #fff;
             @include media-breakpoint-up (lg) {
                 height: 443px;
+            }
+            > div {
+              background-color: #fff !important;
             }
         }
     }
@@ -882,7 +886,7 @@
                 font-size: $type-size-2;
                 line-height: $type-size-2;
                 position: absolute;
-                color: $heading1-color;
+                color: $lighter-gray;
                 bottom: -85%;
                 left: 8%;
                 padding: .5rem 2rem;

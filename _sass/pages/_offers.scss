@@ -19,10 +19,10 @@
             font-size: 2.000rem;
             font-family: $oggroman;
             color: $heading-color;
-             padding-bottom: 1rem; 
+             padding-bottom: 1rem;
              @include media-breakpoint-up(md){
                  font-size: 3.000rem;
-                  padding-bottom: 0; 
+                  padding-bottom: 0;
              }
         }
         a{
@@ -55,7 +55,7 @@
                     }
                     &.active {
                         .text-uppercase {
-                            color: $secondary-color;
+                            color: $light-secondary-clr;
                         }
                     }
                     a {
@@ -88,7 +88,7 @@
         @include media-breakpoint-up(xl){
         margin: 0 4rem 0 4rem;
         }
-}  
+}
 .offers {
     overflow: hidden;
     .offers-container {
@@ -200,7 +200,7 @@
             }
             }
 
-        
+
 
 /* Offer listing new styles */
 .offers-wrapper {
@@ -214,7 +214,7 @@
             padding: 0 !important;
             margin: 0;
         &:before {
-                    @include decoration(117px, 3px, $white, 10px, -140px, auto, auto); 
+                    @include decoration(117px, 3px, $white, 10px, -140px, auto, auto);
                 }
         }
         .link-holder {
@@ -226,7 +226,7 @@
 				&:before {
 					@include media-breakpoint-down(xl) {
 						content: normal !important;
-					} 
+					}
 				}
 			}
 		&:nth-child(even){
