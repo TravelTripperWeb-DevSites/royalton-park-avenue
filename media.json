@@ -824,22 +824,22 @@
     "git_file_name": "_assets/image_data/nyc-summer-art-exhibits.json"
   },
   {
-    "name": "rooftop-menu",
-    "file_name": "rooftop-menu.jpg",
-    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/rooftop-menu.jpg",
+    "name": "Rooftop-Menu",
+    "file_name": "Rooftop-Menu.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/Rooftop-Menu.jpg",
     "tags": "",
     "description": "",
-    "date_added": "2018-06-27-023051",
+    "date_added": "2018-07-02-083010",
     "file_type": "image/jpeg",
-    "width": 810,
-    "height": 620,
-    "file_size": 73687,
-    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/large_rooftop-menu.jpg",
-    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/medium_rooftop-menu.jpg",
-    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/small_rooftop-menu.jpg",
-    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/xsmall_rooftop-menu.jpg",
-    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/thumb_rooftop-menu.jpg",
-    "git_file_name": "_assets/image_data/rooftop-menu.json"
+    "width": 1564,
+    "height": 1365,
+    "file_size": 108973,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/large_Rooftop-Menu.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/medium_Rooftop-Menu.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/small_Rooftop-Menu.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/xsmall_Rooftop-Menu.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/thumb_Rooftop-Menu.jpg",
+    "git_file_name": "_assets/image_data/Rooftop-Menu.json"
   },
   {
     "name": "whitney1",
@@ -1105,6 +1105,17 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/xsmall_Park-Lounge-Conference-Setup11.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/thumb_Park-Lounge-Conference-Setup11.jpg",
     "git_file_name": "_assets/image_data/Park-Lounge-Conference-Setup11.json"
+  },
+  {
+    "name": "JULY 2018",
+    "file_name": "JULY 2018.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17304/media/2018-07-09-151709/JULY-2018.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-09-151709",
+    "file_size": 3871487,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/JULY-2018.json"
   },
   {
     "name": "gourmet-burger-nyc",
