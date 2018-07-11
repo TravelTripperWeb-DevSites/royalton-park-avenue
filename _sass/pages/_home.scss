@@ -998,3 +998,42 @@
 .ttweb-booking-widget {
     color: #000000;
 }
+
+.collage-instagram {
+  .row {
+    margin: 0;
+  }
+  .col-md-2, .col-md-4 {
+    padding: 0;
+    img {
+      width: 100%;
+    }
+  }
+  .text {
+    position: relative;
+    height: 100%;
+    background-color: $white;
+    h3 {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: 0;
+      font-size: $type-size-3;
+      color: $black;
+      transform: translateY(-50%);
+    }
+    h6 {
+      position: absolute;
+      top: 10px;
+      left: -21px;
+      padding: 5px;
+      font-size: 14px;
+      color: $white;
+      background-color: $youtube-color;
+      -webkit-transform: rotate(-40deg);
+      -moz-transform: rotate(-40deg);
+      -ms-transform: rotate(-40deg);
+      transform: rotate(-40deg);
+    }
+  }
+}
