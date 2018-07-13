@@ -90,6 +90,24 @@
     "git_file_name": "_assets/image_data/gvh_park_ave_suite_0061.json"
   },
   {
+    "name": "whitney-11",
+    "file_name": "whitney-11.jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020743/whitney-11.jpeg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-27-020743",
+    "file_type": "image/jpeg",
+    "width": 1616,
+    "height": 1080,
+    "file_size": 219613,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020743/large_whitney-11.jpeg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020743/medium_whitney-11.jpeg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020743/small_whitney-11.jpeg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020743/xsmall_whitney-11.jpeg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020743/thumb_whitney-11.jpeg",
+    "git_file_name": "_assets/image_data/whitney-11.json"
+  },
+  {
     "name": "gvh_park_gym_0021",
     "file_name": "gvh_park_gym_0021.jpg",
     "file_type": "image/jpeg",
@@ -126,6 +144,42 @@
     "git_file_name": "_assets/image_data/pool-bar.json"
   },
   {
+    "name": "sundeck-eat-and-drink",
+    "file_name": "sundeck-eat-and-drink.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083744/sundeck-eat-and-drink.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-02-083744",
+    "file_type": "image/jpeg",
+    "width": 1100,
+    "height": 1158,
+    "file_size": 267960,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083744/large_sundeck-eat-and-drink.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083744/medium_sundeck-eat-and-drink.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083744/small_sundeck-eat-and-drink.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083744/xsmall_sundeck-eat-and-drink.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083744/thumb_sundeck-eat-and-drink.jpg",
+    "git_file_name": "_assets/image_data/sundeck-eat-and-drink.json"
+  },
+  {
+    "name": "Whitney 11",
+    "file_name": "Whitney 11.jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020709/Whitney_11.jpeg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-27-020709",
+    "file_type": "image/jpeg",
+    "width": 1616,
+    "height": 1080,
+    "file_size": 219613,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020709/large_Whitney_11.jpeg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020709/medium_Whitney_11.jpeg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020709/small_Whitney_11.jpeg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020709/xsmall_Whitney_11.jpeg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-020709/thumb_Whitney_11.jpeg",
+    "git_file_name": "_assets/image_data/Whitney-11.json"
+  },
+  {
     "name": "01",
     "file_name": "01.jpg",
     "file_type": "image/jpeg",
@@ -144,6 +198,24 @@
     "git_file_name": "_assets/image_data/01.json"
   },
   {
+    "name": "rooftop-menu",
+    "file_name": "rooftop-menu.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/rooftop-menu.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-27-023051",
+    "file_type": "image/jpeg",
+    "width": 810,
+    "height": 620,
+    "file_size": 73687,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/large_rooftop-menu.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/medium_rooftop-menu.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/small_rooftop-menu.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/xsmall_rooftop-menu.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023051/thumb_rooftop-menu.jpg",
+    "git_file_name": "_assets/image_data/rooftop-menu.json"
+  },
+  {
     "name": "Park-Ivy-Lounge-Table-Setup-Fireplace101",
     "file_name": "Park-Ivy-Lounge-Table-Setup-Fireplace101.jpg",
     "file_type": "image/jpeg",
@@ -160,6 +232,17 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075817/xsmall_Park-Ivy-Lounge-Table-Setup-Fireplace101.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075817/thumb_Park-Ivy-Lounge-Table-Setup-Fireplace101.jpg",
     "git_file_name": "_assets/image_data/Park-Ivy-Lounge-Table-Setup-Fireplace101.json"
+  },
+  {
+    "name": "JULY 2018",
+    "file_name": "JULY 2018.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17304/media/2018-07-09-151709/JULY-2018.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-09-151709",
+    "file_size": 3871487,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/JULY-2018.json"
   },
   {
     "name": "park-lounge-cta",
@@ -238,6 +321,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075252/xsmall_getsuitesummer-1500x900-5.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075252/thumb_getsuitesummer-1500x900-5.jpg",
     "git_file_name": "_assets/image_data/getsuitesummer-1500x900-5.json"
+  },
+  {
+    "name": "high-c-brunch-rpa",
+    "file_name": "high-c-brunch-rpa.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17237/media/2018-07-05-090955/high-c-brunch-rpa.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-05-090955",
+    "file_type": "image/jpeg",
+    "width": 800,
+    "height": 630,
+    "file_size": 559352,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17237/media/2018-07-05-090955/large_high-c-brunch-rpa.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17237/media/2018-07-05-090955/medium_high-c-brunch-rpa.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17237/media/2018-07-05-090955/small_high-c-brunch-rpa.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17237/media/2018-07-05-090955/xsmall_high-c-brunch-rpa.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17237/media/2018-07-05-090955/thumb_high-c-brunch-rpa.jpg",
+    "git_file_name": "_assets/image_data/high-c-brunch-rpa.json"
   },
   {
     "name": "bar",
@@ -472,6 +573,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-061235/xsmall_royalton-suite-bedroom.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-061235/thumb_royalton-suite-bedroom.jpg",
     "git_file_name": "_assets/image_data/royalton-suite-bedroom.json"
+  },
+  {
+    "name": "whitney11",
+    "file_name": "whitney11.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-031402/whitney11.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-27-031402",
+    "file_type": "image/jpeg",
+    "width": 760,
+    "height": 800,
+    "file_size": 114171,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-031402/large_whitney11.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-031402/medium_whitney11.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-031402/small_whitney11.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-031402/xsmall_whitney11.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-031402/thumb_whitney11.jpg",
+    "git_file_name": "_assets/image_data/whitney11.json"
   },
   {
     "name": "gvh_park_pres_suite_005",
@@ -1164,6 +1283,24 @@
     "git_file_name": "_assets/image_data/Park-Ivy-Lounge-Setup-Fireplace8.json"
   },
   {
+    "name": "arrow-sundeck",
+    "file_name": "arrow-sundeck.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023826/arrow-sundeck.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-27-023826",
+    "file_type": "image/jpeg",
+    "width": 810,
+    "height": 620,
+    "file_size": 35235,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023826/large_arrow-sundeck.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023826/medium_arrow-sundeck.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023826/small_arrow-sundeck.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023826/xsmall_arrow-sundeck.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-023826/thumb_arrow-sundeck.jpg",
+    "git_file_name": "_assets/image_data/arrow-sundeck.json"
+  },
+  {
     "name": "terrace-pool",
     "file_name": "terrace-pool.jpg",
     "file_type": "image/jpeg",
@@ -1254,6 +1391,24 @@
     "git_file_name": "_assets/image_data/anders-jilden-250.json"
   },
   {
+    "name": "whitney1",
+    "file_name": "whitney1.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080320/whitney1.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-26-080320",
+    "file_type": "image/jpeg",
+    "width": 804,
+    "height": 846,
+    "file_size": 111095,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080320/large_whitney1.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080320/medium_whitney1.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080320/small_whitney1.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080320/xsmall_whitney1.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080320/thumb_whitney1.jpg",
+    "git_file_name": "_assets/image_data/whitney1.json"
+  },
+  {
     "name": "JUNE 2018",
     "file_name": "JUNE 2018.pdf",
     "url": "//cdn.traveltripper.io/site-assets/192_800_16376/media/2018-06-04-123830/JUNE-2018.pdf",
@@ -1335,6 +1490,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/xsmall_Park-Lounge-Conference-Setup11.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075824/thumb_Park-Lounge-Conference-Setup11.jpg",
     "git_file_name": "_assets/image_data/Park-Lounge-Conference-Setup11.json"
+  },
+  {
+    "name": "Rooftop-Menu",
+    "file_name": "Rooftop-Menu.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/Rooftop-Menu.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-02-083010",
+    "file_type": "image/jpeg",
+    "width": 1564,
+    "height": 1365,
+    "file_size": 108973,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/large_Rooftop-Menu.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/medium_Rooftop-Menu.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/small_Rooftop-Menu.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/xsmall_Rooftop-Menu.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083010/thumb_Rooftop-Menu.jpg",
+    "git_file_name": "_assets/image_data/Rooftop-Menu.json"
   },
   {
     "name": "Park-Ivy-Lounge-Table-With-Ivy-Wall10",
@@ -1584,6 +1757,24 @@
     "git_file_name": "_assets/image_data/sundeck-2.json"
   },
   {
+    "name": "met-museum-view",
+    "file_name": "met-museum-view.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17387/media/2018-07-12-155357/met-museum-view.png",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-12-155357",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 667,
+    "file_size": 1245377,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17387/media/2018-07-12-155357/large_met-museum-view.png",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17387/media/2018-07-12-155357/medium_met-museum-view.png",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17387/media/2018-07-12-155357/small_met-museum-view.png",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17387/media/2018-07-12-155357/xsmall_met-museum-view.png",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17387/media/2018-07-12-155357/thumb_met-museum-view.png",
+    "git_file_name": "_assets/image_data/met-museum-view.json"
+  },
+  {
     "name": "gvh_park_deluxe_0032",
     "file_name": "gvh_park_deluxe_0032.jpg",
     "file_type": "image/jpeg",
@@ -1600,6 +1791,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/xsmall_gvh_park_deluxe_0032.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075442/thumb_gvh_park_deluxe_0032.jpg",
     "git_file_name": "_assets/image_data/gvh_park_deluxe_0032.json"
+  },
+  {
+    "name": "yankees-live-watch",
+    "file_name": "yankees-live-watch.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17361/media/2018-07-11-154033/yankees-live-watch.png",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-11-154033",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 667,
+    "file_size": 1640007,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17361/media/2018-07-11-154033/large_yankees-live-watch.png",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17361/media/2018-07-11-154033/medium_yankees-live-watch.png",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17361/media/2018-07-11-154033/small_yankees-live-watch.png",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17361/media/2018-07-11-154033/xsmall_yankees-live-watch.png",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17361/media/2018-07-11-154033/thumb_yankees-live-watch.png",
+    "git_file_name": "_assets/image_data/yankees-live-watch.json"
   },
   {
     "name": "lobby-1",
@@ -1692,6 +1901,24 @@
     "git_file_name": "_assets/image_data/party.json"
   },
   {
+    "name": "high-c-sundeck",
+    "file_name": "high-c-sundeck.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080245/high-c-sundeck.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-26-080245",
+    "file_type": "image/jpeg",
+    "width": 804,
+    "height": 846,
+    "file_size": 209167,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080245/large_high-c-sundeck.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080245/medium_high-c-sundeck.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080245/small_high-c-sundeck.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080245/xsmall_high-c-sundeck.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080245/thumb_high-c-sundeck.jpg",
+    "git_file_name": "_assets/image_data/high-c-sundeck.json"
+  },
+  {
     "name": "Rooftop Menu 2018-3-21",
     "file_name": "Rooftop Menu 2018-3-21.pdf",
     "file_type": "application/pdf",
@@ -1757,6 +1984,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080010/xsmall_superior1-1500x900.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-080010/thumb_superior1-1500x900.jpg",
     "git_file_name": "_assets/image_data/superior1-1500x900.json"
+  },
+  {
+    "name": "whitney2",
+    "file_name": "whitney2.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080019/whitney2.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-26-080019",
+    "file_type": "image/jpeg",
+    "width": 1100,
+    "height": 1158,
+    "file_size": 134920,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080019/large_whitney2.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080019/medium_whitney2.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080019/small_whitney2.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080019/xsmall_whitney2.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080019/thumb_whitney2.jpg",
+    "git_file_name": "_assets/image_data/whitney2.json"
   },
   {
     "name": "gvh_park_gans_suite_0021",
@@ -1898,6 +2143,24 @@
     "git_file_name": "_assets/image_data/flywheel.json"
   },
   {
+    "name": "whitney22",
+    "file_name": "whitney22.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-030319/whitney22.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-27-030319",
+    "file_type": "image/jpeg",
+    "width": 810,
+    "height": 635,
+    "file_size": 165010,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-030319/large_whitney22.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-030319/medium_whitney22.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-030319/small_whitney22.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-030319/xsmall_whitney22.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-030319/thumb_whitney22.jpg",
+    "git_file_name": "_assets/image_data/whitney22.json"
+  },
+  {
     "name": "getsuitesummer-1500x900-6",
     "file_name": "getsuitesummer-1500x900-6.jpg",
     "file_type": "image/jpeg",
@@ -1986,6 +2249,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/xsmall_gvh_park_ave_events_0013.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/thumb_gvh_park_ave_events_0013.jpg",
     "git_file_name": "_assets/image_data/gvh_park_ave_events_0013.json"
+  },
+  {
+    "name": "deck",
+    "file_name": "deck.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-025433/deck.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-06-27-025433",
+    "file_type": "image/jpeg",
+    "width": 630,
+    "height": 800,
+    "file_size": 152509,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-025433/large_deck.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-025433/medium_deck.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-025433/small_deck.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-025433/xsmall_deck.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-025433/thumb_deck.jpg",
+    "git_file_name": "_assets/image_data/deck.json"
   },
   {
     "name": "jan-senderek-167231",

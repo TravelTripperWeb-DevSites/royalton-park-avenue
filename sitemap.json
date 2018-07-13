@@ -842,7 +842,8 @@
     "blog/page3/index.html/blog_banner_heading.json",
     "blog/page4/index.html/blog_banner_heading.json",
     "blog/page5/index.html/blog_banner_heading.json",
-    "blog/page6/index.html/blog_banner_heading.json"
+    "blog/page6/index.html/blog_banner_heading.json",
+    "blog/page7/index.html/blog_banner_heading.json"
   ],
   "__SETTINGS__": [
     "social",
@@ -856,5 +857,5 @@
     "tracking",
     "_galleries"
   ],
-  "__SHA__": "0ad37478e0480442451896d7373355eaf880fc70"
+  "__SHA__": "343ebd2372b3779efa9039bc1463130990cbe657"
 }

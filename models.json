@@ -5,6 +5,9 @@
     },
     {
       "file": "sundeck-slider1.json"
+    },
+    {
+      "file": "sundeck-slider4.json"
     }
   ],
   "category": [
@@ -36,10 +39,16 @@
   ],
   "rooftop-slider": [
     {
+      "file": "rooftop-slider4.json"
+    },
+    {
       "file": "rooftop-slider1.json"
     },
     {
       "file": "rooftop-slider2.json"
+    },
+    {
+      "file": "rooftop-slider3.json"
     }
   ],
   "welcome-property-slider": [
@@ -96,6 +105,11 @@
       "file": "blog24.json"
     },
     {
+      "name": "Catch a Yankees Game at these 5 Manhattan Taprooms",
+      "title": "Catch a Yankees Game at these 5 Manhattan Taprooms",
+      "file": "blog27.json"
+    },
+    {
       "name": "Best Manhattan Wine Bars",
       "title": "Best Manhattan Wine Bars",
       "file": "blog6.json"
@@ -144,6 +158,16 @@
       "name": "Our Favorite NYC Summer Art Exhibits",
       "title": "Our Favorite NYC Summer Art Exhibits",
       "file": "blog16.json"
+    },
+    {
+      "name": "Best Brunch Spots in New York City",
+      "title": "Best Brunch Spots in New York City",
+      "file": "blog26.json"
+    },
+    {
+      "name": "Discover the Best Views from these Amazing NYC Rooftops",
+      "title": "Discover the Best Views from these Amazing NYC Rooftops",
+      "file": "blog28.json"
     },
     {
       "name": "Explore Koreatown in Manhattan",

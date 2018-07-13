@@ -10,13 +10,13 @@
 			min-height: 480px;
 		}
 	}
-	  .no-max{ 
+	  .no-max{
 			 	min-height: auto !important;
 			 }
-	.detail-6{ 
+	.detail-6{
 			 @extend .col-md-6;
 			 position: relative;
-			 min-height: 600px; 
+			 min-height: 600px;
 			 .left-description{
 			 	max-width: 610px;
 			 	&.move-right{
@@ -25,13 +25,13 @@
 			 		}
 			 	}
 			 }
-			 .img-holder{  
+			 .img-holder{
 			 	margin-left: -15px;
 			 	img{
 					 padding:0 ($spacer*4);
 			 	}
-			 } 
-			
+			 }
+
 	}
 	.about-bar{
 		@extend .about-wedding;
@@ -41,25 +41,34 @@
 			}
 			&.left-padding {
 				@include media-breakpoint-down(sm) {
-					padding: 0 15px !important; 
+					padding: 0 15px !important;
 				}
 			}
 			.carousel-item{
-				min-height: 320px !important; 
+				min-height: 360px !important;
 				border-bottom: 0 !important;
+				@include media-breakpoint-up(sm) {
+					min-height: 520px !important;
+				}
 				@include media-breakpoint-up(md) {
-					min-height: 620px !important; 
+					min-height: 620px !important;
+				}
+				@include media-breakpoint-up(lg) {
+					min-height: 700px !important;
+				}
+				@include media-breakpoint-up(xl) {
+					min-height: 1000px !important;
 				}
 			}
 		}
 	}
 	.about-plan{
-		@extend .col-md-6; 
-		position: relative; 
+		@extend .col-md-6;
+		position: relative;
 	   .view-plan{
-	   	position: relative; 
+	   	position: relative;
 	   	text-align: center;
-	   	.btn-outline{  
+	   	.btn-outline{
 				   bottom:  10%;
 	               position: absolute;
 	               left: 35%;
@@ -69,9 +78,9 @@
 					background-color: $body-color;
 					color: $white;
 				}
-			} 
+			}
 	   }
-		
+
 	}
 	.counter{
 		color: $heading1-color;
@@ -121,7 +130,7 @@
 		}
 	}
 }
- 
+
 .table-detail{
 	background-color: $dark-primary;
     .table-responsive {
@@ -135,7 +144,7 @@
 			td, th{
 				 border-top: 0px;
 			}
-          
+
 		}
 		tr{
 			td,th{
