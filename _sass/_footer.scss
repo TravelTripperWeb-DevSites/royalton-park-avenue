@@ -1,52 +1,58 @@
 .footer {
-    .footer-inner {
+  .footer-inner {
     background-color: $dark-primary;
-    padding: 3.875rem 15px 2.938rem 15px;
+    padding: 3.875rem 15px 2.938rem;
+  }
+
+  .footer-container {
+    width: auto;
+    max-width: 1316px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* padding: 0 1.875rem; */
+  }
+
+  .seperator {
+    @include media-breakpoint-up (md) {
+      border-right: solid 1px $seperator;
     }
-    .footer-container {
-        width: auto;
-        max-width: 1316px;
-        margin: 0 auto;
-        overflow: hidden;
-        /* padding: 0 1.875rem; */
+  }
+
+  .floating {
+    @include media-breakpoint-up (md) {
+      float: left;
     }
-    .seperator {
-        @include media-breakpoint-up (md) {
-            border-right: solid 1px $seperator;
-        }
+  }
+
+  .break-768 {
+    @include media-breakpoint-up(lg);
+  }
+
+  .coloumn-1 {
+    @extend .seperator;
+    @extend .floating;
+    text-align: center;
+    @include media-breakpoint-up(md) {
+      width: 50%;
     }
-    .floating {
-        @include media-breakpoint-up (md) {
-            float: left;
-        }
+    @include media-breakpoint-up(lg) {
+      /* width: 11.665%; */
+      width: 30%;
     }
-    .break-768 {
-        @include media-breakpoint-up(lg);
+  }
+
+  .coloumn-2 {
+    @extend .seperator;
+    @extend .floating;
+    @include media-breakpoint-up(md) {
+      width: 50%;
     }
-    .coloumn-1 {
-        @extend .seperator;
-        @extend .floating;
-        text-align: center;
-        @include media-breakpoint-up(md) {
-            width: 50%;
-        }
-        @include media-breakpoint-up(lg) {
-            /* width: 11.665%; */
-            width: 30%;
-        }
+    @include media-breakpoint-up(lg) {
+      /*  width: 34.423%; */
+      width: 35%;
     }
-    .coloumn-2 {
-        @extend .seperator;
-        @extend .floating;
-        @include media-breakpoint-up(md) {
-            width: 50%;
-        }
-        @include media-breakpoint-up(lg) {
-            /*  width: 34.423%; */
-            width: 35%;
-        }
-    }
-/*     .coloumn-3 {
+  }
+  /*     .coloumn-3 {
         @extend .seperator;
         @extend .floating;
         @include media-breakpoint-up(md) {
@@ -56,209 +62,269 @@
              width: 29.394%;
         }
     } */
-    .coloumn-4 {
-        @extend .floating;
-        @include media-breakpoint-up(md) {
-            width: 50%;
-        }
-        @include media-breakpoint-up(lg) {
-             /* width: 24.518%; */
-             width: 35%;
-        }
-            .footer-content {
-                padding-bottom: 0;
-                @include media-breakpoint-down (md) {
-                    padding-left: 0;
-                }
-            }
+  .coloumn-4 {
+    @extend .floating;
+    @include media-breakpoint-up(md) {
+      width: 50%;
     }
+    @include media-breakpoint-up(lg) {
+      /* width: 24.518%; */
+      width: 35%;
+    }
+
     .footer-content {
-        padding: 0 0 2.5rem 0;
-        overflow: hidden;
-        text-align: center;
-        @include media-breakpoint-up (md) {
-            padding: 0 0 0 3.438em;
-            text-align: left;
-            min-height: 142px;
-        }
-        &.no-left-padding {
-            padding-left: 0;
-        }
-        &.no-right-padding {
-            padding-right: 0;
-        }
-        h4 {
-            color: #fff;
-            text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 0.200rem;
-            padding: 0 0 1rem 0;
-            margin: 0;
-        }
-        ul {
-            margin: 0;
-            padding: 0;
-             li {
-                 list-style-type: none;
-                 display: block;
-                 margin: 0;
-                 padding: 0;
-                 color: $white;
-                 font-family: $caption-font-family;
-                 font-size: 0.750rem;
-                 font-weight: 600;
-                 line-height: 1.50rem;
-                 letter-spacing: 0.100rem;
-                 @include media-breakpoint-up (md) {
-                     float: left;
-                     width: 50%;
-                 }
-                    a {
-                        text-decoration: none;
-                        color: $white;
-                        transition: $global-transition;
-                         &:hover {
-                             text-decoration: none;
-                             color: $secondary-color;
-                         }
-                    }
-             }
-        }
-    }
-    .footer-logo {
-        max-width: 55px;
-        @include media-breakpoint-up (xl) {
-            max-width: 70px;
-        }
-    }
-    .input-holder {
-				position: relative;
-                max-width: 320px;
-                margin: 0 auto;
-                @include media-breakpoint-up (md) {
-                    margin: 0;
-                }
-    }
-    .nl {
-        width: 100%;
-				border: none;
-				border-radius: 0px;
-				color: $heading-color;
-				font-family: $caption-font-family;
-				font-size: 12px;
-                letter-spacing: 1px;
-                font-weight: 300;
-				display: block;
-				position: relative;
-				z-index:10;
-				padding: 12px 45px 12px 20px;
-                background-color: $white;
-                transition: $global-transition;
-				 	&:focus {
-                        outline: none;
-                         opacity: 0.9;
-					}
-    }
-    .nl-signup-btn {
-				position: absolute;
-        background-color: $secondary-color;
-        border: none;
-        top: 0;
-        right: 0;
-        z-index: 11;
-        cursor: pointer;
-        padding: 4px 12px;
-          &:focus {
-              outline: none;
-          }
-			.fa {
-				color: $black;
-				font-size: 22px;
+      padding-bottom: 0;
+      @include media-breakpoint-down (md) {
+        padding-left: 0;
       }
-      .eligant-icons.control-arrow {
-          padding: 0;
-          color: $white;
-      }
+    }
   }
-    .social {
-        text-align: center;
-        max-width: 220px;
-        padding: 3.125rem 0 0 0;
-        margin: 0 auto;
-                @include media-breakpoint-up (md) {
-                    text-align: right;
-                    margin: 0;
-                }
+
+  .footer-content {
+    padding: 0 0 2.5rem;
+    overflow: hidden;
+    text-align: center;
+    @include media-breakpoint-up (md) {
+      padding: 0 0 0 3.438em;
+      text-align: left;
+      min-height: 142px;
+    }
+
+    &.no-left-padding {
+      padding-left: 0;
+    }
+
+    &.no-right-padding {
+      padding-right: 0;
+    }
+
+    h4 {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.200rem;
+      padding: 0 0 1rem;
+      margin: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: $white;
+        font-family: $caption-font-family;
+        font-size: 0.750rem;
+        font-weight: 600;
+        line-height: 1.50rem;
+        letter-spacing: 0.100rem;
+        @include media-breakpoint-up (md) {
+          float: left;
+          width: 50%;
+        }
+
         a {
-            padding: 10px 3px;
+          text-decoration: none;
+          color: $white;
+          transition: $global-transition;
+
+          &:hover {
+            text-decoration: none;
+            color: $secondary-color;
+          }
         }
-            .fa {
-                color: $white;
-                font-size: 14px;
-                font-weight: normal;
-                transition: $global-transition;
-                 &:hover {
-                color: $secondary-color;
-                transform: rotate(360deg);
-                }
-            }
+      }
     }
-    .other-logos {
-        padding: 2rem 0 0 0;
+
+    .tnc {
+      margin-top: 10px;
+      padding-right: 20px;
+
+      input[type='checkbox'] {
+        width: auto;
+        height: auto;
+        margin: 6px 0;
+        opacity: inherit;
+      }
+
+      label {
+        font-family: $caption-font-family;
+        font-size: 12px;
+
+        a {
+          transition: $global-transition;
+          text-decoration: underline;
+
+          &:hover {
+            text-decoration: none;
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-logo {
+    max-width: 55px;
+    @include media-breakpoint-up (xl) {
+      max-width: 70px;
+    }
+  }
+
+  .input-holder {
+    position: relative;
+    max-width: 320px;
+    margin: 0 auto;
+    @include media-breakpoint-up (md) {
+      margin: 0;
+    }
+  }
+
+  .nl {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    color: $heading-color;
+    font-family: $caption-font-family;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    display: block;
+    position: relative;
+    z-index: 10;
+    padding: 12px 45px 12px 20px;
+    background-color: $white;
+    transition: $global-transition;
+
+    &:focus {
+      outline: none;
+      opacity: 0.9;
+    }
+  }
+
+  .nl-signup-btn {
+    position: absolute;
+    background-color: $secondary-color;
+    border: none;
+    top: 0;
+    right: 0;
+    z-index: 11;
+    cursor: pointer;
+    padding: 4px 12px;
+
+    &:focus {
+      outline: none;
+    }
+    &:disabled {
+      cursor: not-allowed;
+      opacity: .9;
+    }
+
+    .fa {
+      color: $black;
+      font-size: 22px;
+    }
+
+    .eligant-icons.control-arrow {
+      padding: 0;
+      color: $white;
+    }
+  }
+
+  .social {
+    text-align: center;
+    max-width: 220px;
+    padding: 3.125rem 0 0;
+    margin: 0 auto;
+    @include media-breakpoint-up (md) {
+      text-align: right;
+      margin: 0;
+    }
+
+    a {
+      padding: 10px 3px;
+    }
+
+    .fa {
+      color: $white;
+      font-size: 14px;
+      font-weight: normal;
+      transition: $global-transition;
+
+      &:hover {
+        color: $secondary-color;
+        transform: rotate(360deg);
+      }
+    }
+  }
+
+  .other-logos {
+    padding: 2rem 0 0;
+    display: inline-block;
+    margin-left: 1rem;
+    @include media-breakpoint-up (md) {
+      /* margin-left: 6rem; */
+      margin-left: 1rem;
+    }
+
+    img {
+      max-width: 80px;
+      display: inline-block;
+      margin: 0;
+      @include media-breakpoint-up (xl) {
+        max-width: 110px;
+      }
+    }
+  }
+
+  .copyrights {
+    padding: 1.250rem 3.875rem;
+    text-align: center;
+    @include media-breakpoint-up (md) {
+      text-align: left;
+    }
+
+    .footer-container {
+      @extend .container-fluid;
+      max-width: none;
+    }
+
+    .copyrights-row {
+      @extend .row;
+      @extend .no-margin;
+    }
+
+    .copright-text {
+      @extend .col-md-4;
+      @extend .no-padding;
+      font-family: $caption-font-family;
+      font-size: 12px;
+      font-weight: 300;
+      padding: 0 0 1.5rem;
+      @include media-breakpoint-up (md) {
+        padding: 0;
+        text-align: center;
+      }
+    }
+
+    .credentials {
+      @extend .col-md-4;
+      @extend .no-padding;
+      font-size: 0.625rem;
+      text-transform: uppercase;
+      letter-spacing: 0.20rem;
+      @include media-breakpoint-up (md) {
+        text-align: center;
+      }
+
+      span {
         display: inline-block;
-        margin-left: 1rem;
-        @include media-breakpoint-up (md) {
-            /* margin-left: 6rem; */
-            margin-left: 1rem;
-        }
-        img {
-            max-width: 80px;
-            display: inline-block;
-            margin: 0;
-            @include media-breakpoint-up (xl) {
-                max-width: 110px;
-            }
-        }
+        padding: 5px 0 0;
+      }
     }
-        .copyrights {
-            padding: 1.250rem 3.875rem;
-            text-align: center;
-            @include media-breakpoint-up (md) {
-                    text-align: left;
-                }
-            .footer-container {
-                @extend .container-fluid;
-                max-width: none;
-            }
-            .copyrights-row {
-                @extend .row;
-                @extend .no-margin;
-            }
-                .copright-text {
-                    @extend .col-md-4;
-                    @extend .no-padding;
-                    font-family: $caption-font-family;
-                    font-size: 12px;
-                    font-weight: 300;
-                    padding: 0 0 1.5rem 0;
-                    @include media-breakpoint-up (md) {
-                        padding: 0 0 0 0;
-                        text-align: center;
-                    }
-                }
-                .credentials {
-        @extend .col-md-4;
-        @extend .no-padding;
-        font-size: 0.625rem;
-        text-transform: uppercase;
-        letter-spacing: 0.20rem;
-        @include media-breakpoint-up (md) {
-            text-align: center;
-        }
-        span {
-            display: inline-block;
-            padding: 5px 0 0 0;
-        }
-    }
-        }
+  }
 }

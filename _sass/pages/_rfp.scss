@@ -84,14 +84,14 @@
 				  color: $black;
 				}
 
-				:-ms-input-placeholder {  
+				:-ms-input-placeholder {
 				font-family: $caption-font-family;
 				text-transform: uppercase;
 				letter-spacing: 2px;
 				font-style: normal;
 				   color: $black;
 				}
-				
+
 			}
 			select {
 				&.form-control {
@@ -122,8 +122,12 @@
 						background-color: $white;
 						color: $black;
 					}
+          &:disabled {
+            cursor: not-allowed;
+            opacity: .9;
+          }
 				}
-				
+
 				textarea.form-control{
 					resize: none;
 					height: 150px;
@@ -131,16 +135,16 @@
 						@media(max-width: 767px){
 							height: 100px;
 							}
-				
+
 				&.m-textarea {
 					height: 130px;
 						@media(max-width: 767px){
 							height: 100px;
 							}
 				}
-			
+
 				}
-				.checkbox 
+				.checkbox
 				{
 					padding: 0 0 10px 0;
 					@media(max-width: 767px){
