@@ -1,30 +1,30 @@
 <div class="footer-inner">
-<div class="footer-container">
-        <div class="footer-row">
-            <div class="coloumn-1">
-                <div class="footer-content no-left-padding">
-                    <a href="http://highgate.com/" target="_blank"><img src="/assets/images/highgate-logo-white.png" class="footer-logo img-fluid" alt="Highgate Hotels"></a>
-                    <div class="other-logos">
-                        <a href="https://preferredhotels.com/destinations/new-york-ny/royalton-park-avenue" target="_blank" rel="nofollow"><img src="/assets/images/lvx-preferred-royalton-park-avenue.png" alt="lvx-Prefer"></a>
-                        <a href="https://iprefer.com/enroll?hotel=NYCRP" target="_blank" rel="nofollow"><img src="/assets/images/iprefer-new.png" alt="iPrefer"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="coloumn-2">
-                <div class="footer-content">
-                    <h4>Contact</h4>
-                    <ul class="contact">
-                        <li>
-                           <a href="https://goo.gl/maps/jKUChvbLKq72" target="_blank">
+  <div class="footer-container">
+    <div class="footer-row">
+      <div class="coloumn-1">
+        <div class="footer-content no-left-padding">
+          <a href="http://highgate.com/" target="_blank"><img src="/assets/images/highgate-logo-white.png" class="footer-logo img-fluid" alt="Highgate Hotels"></a>
+          <div class="other-logos">
+            <a href="https://preferredhotels.com/destinations/new-york-ny/royalton-park-avenue" target="_blank" rel="nofollow"><img src="/assets/images/lvx-preferred-royalton-park-avenue.png" alt="lvx-Prefer"></a>
+            <a href="https://iprefer.com/enroll?hotel=NYCRP" target="_blank" rel="nofollow"><img src="/assets/images/iprefer-new.png" alt="iPrefer"></a>
+          </div>
+        </div>
+      </div>
+      <div class="coloumn-2">
+        <div class="footer-content">
+          <h4>Contact</h4>
+          <ul class="contact">
+            <li>
+              <a href="https://goo.gl/maps/jKUChvbLKq72" target="_blank">
 				   420 Park Avenue South<br>New York, NY 10016</a>
-<br><br>
-                           <a href="mailto:reservations@royaltonparkavenue.com">reservations@royaltonparkavenue.com</a><br>
-                           <a href="tel:+1 212 317 2900">+1 212 317 2900</a><br>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-<!--             <div class="coloumn-3">
+              <br><br>
+              <a href="mailto:reservations@royaltonparkavenue.com">reservations@royaltonparkavenue.com</a><br>
+              <a href="tel:+1 212 317 2900">+1 212 317 2900</a><br>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--   <div class="coloumn-3">
                 <div class="footer-content">
                     <h4>Links</h4>
                     <ul class="links">
@@ -37,34 +37,36 @@
                     </ul>
                 </div>
             </div> -->
-            <div class="coloumn-4">
-                <div class="footer-content">
-                    <h4>Newsletter</h4>
-                    <form action="https://web2.cendynhub.com/FormPost/FormPost.ashx" method="post"  id="C512B697-5F37-4392-9150-AB292C2750FF" accept-charset="utf-8">
-                        <input type="hidden" name="formID" value="C512B697-5F37-4392-9150-AB292C2750FF" />
-                    <div class="input-holder">
-                        <input type="email" class="nl validate[Email]" title="Newsletter Signup" placeholder="Your e-mail"  name="emailAddress" aria-label="Newsletter Signup">
-                         <button class="nl-signup-btn" aria-label="Submit"><span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span></button>
-                    </form>
-			    <br><br>
-		<h4>Social</h4>
-           {% if site.data.social.instagram.username %}
-            <a href="https://www.instagram.com/{{ site.data.social.instagram.username }}" target="_blank" rel="nofollow" role="link" aria-label="Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-           {%endif%}
-           {% if site.data.social.facebook.username %}
-            <a href="https://www.facebook.com/{{ site.data.social.facebook.username }}" target="_blank" rel="nofollow" role="link" aria-label="Facebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            {%endif%}
-		    </div></div>
-            </div>
+      <div class="coloumn-4">
+        <div class="footer-content">
+          <h4>Newsletter</h4>
+          <form action="https://web2.cendynhub.com/FormPost/FormPost.ashx" method="post" id="C512B697-5F37-4392-9150-AB292C2750FF" accept-charset="utf-8">
+            <input type="hidden" name="formID" value="C512B697-5F37-4392-9150-AB292C2750FF" />
+            <div class="input-holder">
+              <input type="email" class="nl validate[Email]" title="Newsletter Signup" placeholder="Your e-mail" name="emailAddress" aria-label="Newsletter Signup" required>
+              <button class="nl-signup-btn" id="subscribe" aria-label="Submit"><span class="eligant-icons control-arrow" aria-hidden="true">$</span></button>
+              <div class="form-group form-check tnc">
+                <input type="checkbox" class="form-check-input" id="agree" name="q2_iAgree[]" value="agree" required>
+                <label class="form-check-label" for="agree">I agree to the <a href="/terms-of-use/" target="_blank">Terms of Service</a> and <a href="/privacy-policy/" target="_blank">Privacy Policy</a>.</label>
+              </div>
+          </form>
+          <br>
+          <h4>Social</h4> {% if site.data.social.instagram.username %}
+          <a href="https://www.instagram.com/{{ site.data.social.instagram.username }}" target="_blank" rel="nofollow" role="link" aria-label="Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> {%endif%} {% if site.data.social.facebook.username
+          %}
+          <a href="https://www.facebook.com/{{ site.data.social.facebook.username }}" target="_blank" rel="nofollow" role="link" aria-label="Facebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> {%endif%}
+          </div>
         </div>
-        </div>
+      </div>
     </div>
+  </div>
+</div>
 <div class="copyrights">
-    <div class="footer-container">
-        <div class="copyrights-row">
-        <div class="copright-text">&copy; {{ site.time | date: "%Y" }} Royalton Park Avenue</div>
-        <div class="copright-text"><a href="/privacy-policy/" title="privacy Policy">Privacy Policy</a>  |  <a href="/terms-of-use/" title="Terms of Use">Terms of Use</a></div>
-        <div class="credentials"><a href="https://www.traveltripper.com/" target="_blank"><img src="/assets/images/traveltripper-logo.png" class="img-fluid" alt="Travel Trpper"></a></div>
-        </div>
+  <div class="footer-container">
+    <div class="copyrights-row">
+      <div class="copright-text">&copy; {{ site.time | date: "%Y" }} Royalton Park Avenue</div>
+      <div class="copright-text"><a href="/privacy-policy/" title="privacy Policy">Privacy Policy</a> | <a href="/terms-of-use/" title="Terms of Use">Terms of Use</a></div>
+      <div class="credentials"><a href="https://www.traveltripper.com/" target="_blank"><img src="/assets/images/traveltripper-logo.png" class="img-fluid" alt="Travel Trpper"></a></div>
     </div>
+  </div>
 </div>

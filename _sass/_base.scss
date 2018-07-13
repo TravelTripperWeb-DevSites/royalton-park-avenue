@@ -624,3 +624,32 @@ svg:not(:root) {
     background-color: $black-transparent;
     z-index: 9;
 }
+
+
+
+.agree {
+  display: inline-block;
+  text-align: left;
+  margin-top: 15px;
+
+  input[type='checkbox'] {
+    width: inherit;
+    min-width: 0rem !important;
+    height: auto;
+    margin: 6px 0;
+    opacity: inherit;
+  }
+  .form-check-label {
+    display: inline-block;
+    font-family: $caption-font-family;
+    font-size: 12px;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: underline;
+    &.black {
+      color: $black;
+    }
+  }
+}
