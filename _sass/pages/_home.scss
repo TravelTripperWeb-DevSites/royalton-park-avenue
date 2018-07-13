@@ -1013,6 +1013,11 @@
     position: relative;
     height: 100%;
     background-color: $white;
+    @include media-breakpoint-down (sm) {
+      max-width: 85%;
+      min-height: 200px;
+      margin: 0 auto;
+    }
     h3 {
       position: absolute;
       top: 50%;
@@ -1020,14 +1025,18 @@
       left: 0;
       font-size: $type-size-3;
       color: $black;
+      text-align: center;
       transform: translateY(-50%);
+      @include media-breakpoint-down (md) {
+        font-size: $type-size-5;
+      }
     }
     h6 {
       position: absolute;
       top: 10px;
       left: -21px;
       padding: 5px;
-      font-size: 14px;
+      font-size: $type-size-6;
       color: $white;
       background-color: $youtube-color;
       -webkit-transform: rotate(-40deg);
