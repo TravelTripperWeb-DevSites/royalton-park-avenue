@@ -1,224 +1,20 @@
 {
-  "attractions": [
-    {
-      "name": "ROCKEFELLER CENTER",
-      "title": "ROCKEFELLER CENTER",
-      "file": "attractions5.json"
-    },
-    {
-      "name": "METROPOLITAN MUSEUM OF ART",
-      "title": "METROPOLITAN MUSEUM OF ART",
-      "file": "attractions4.json"
-    },
-    {
-      "name": "BRYANT PARK",
-      "title": "BRYANT PARK",
-      "file": "attractions3.json"
-    },
-    {
-      "name": "TIMES SQUARE",
-      "title": "TIMES SQUARE",
-      "file": "attractions2.json"
-    },
-    {
-      "name": "THEATER DISTRICT",
-      "title": "THEATER DISTRICT",
-      "file": "attractions1.json"
-    },
-    {
-      "name": "EMPIRE STATE BUILDING",
-      "title": "EMPIRE STATE BUILDING",
-      "file": "attractions6.json"
-    }
-  ],
-  "welcome-property-slider": [
-    {
-      "file": "welcome-property-slider3.json"
-    },
-    {
-      "file": "welcome-property-slider2.json"
-    },
-    {
-      "file": "welcome-property-slider4.json"
-    },
-    {
-      "file": "welcome-property-slider1.json"
-    }
-  ],
-  "homepage-slider": [
-    {
-      "name": "high style, luxury and comfort all in one",
-      "file": "homepage-slider1.json"
-    }
-  ],
-  "gallery": [
-    {
-      "file": "gallery38.json"
-    },
-    {
-      "file": "gallery14.json"
-    },
-    {
-      "file": "gallery43.json"
-    },
-    {
-      "file": "gallery34.json"
-    },
-    {
-      "file": "gallery3.json"
-    },
-    {
-      "file": "gallery22.json"
-    },
-    {
-      "file": "gallery18.json"
-    },
-    {
-      "file": "gallery19.json"
-    },
-    {
-      "file": "gallery23.json"
-    },
-    {
-      "file": "gallery2.json"
-    },
-    {
-      "file": "gallery35.json"
-    },
-    {
-      "file": "gallery42.json"
-    },
-    {
-      "file": "gallery15.json"
-    },
-    {
-      "file": "gallery39.json"
-    },
-    {
-      "file": "gallery32.json"
-    },
-    {
-      "file": "gallery5.json"
-    },
-    {
-      "file": "gallery24.json"
-    },
-    {
-      "file": "gallery49.json"
-    },
-    {
-      "file": "gallery9.json"
-    },
-    {
-      "file": "gallery28.json"
-    },
-    {
-      "file": "gallery12.json"
-    },
-    {
-      "file": "gallery45.json"
-    },
-    {
-      "file": "gallery44.json"
-    },
-    {
-      "file": "gallery13.json"
-    },
-    {
-      "file": "gallery29.json"
-    },
-    {
-      "file": "gallery8.json"
-    },
-    {
-      "file": "gallery48.json"
-    },
-    {
-      "file": "gallery25.json"
-    },
-    {
-      "file": "gallery4.json"
-    },
-    {
-      "file": "gallery33.json"
-    },
-    {
-      "file": "gallery26.json"
-    },
-    {
-      "file": "gallery7.json"
-    },
-    {
-      "file": "gallery30.json"
-    },
-    {
-      "file": "gallery47.json"
-    },
-    {
-      "file": "gallery10.json"
-    },
-    {
-      "file": "gallery51.json"
-    },
-    {
-      "file": "gallery50.json"
-    },
-    {
-      "file": "gallery11.json"
-    },
-    {
-      "file": "gallery46.json"
-    },
-    {
-      "file": "gallery31.json"
-    },
-    {
-      "file": "gallery6.json"
-    },
-    {
-      "file": "gallery27.json"
-    },
-    {
-      "file": "gallery41.json"
-    },
-    {
-      "file": "gallery16.json"
-    },
-    {
-      "file": "gallery20.json"
-    },
-    {
-      "file": "gallery36.json"
-    },
-    {
-      "file": "gallery37.json"
-    },
-    {
-      "file": "gallery21.json"
-    },
-    {
-      "file": "gallery17.json"
-    },
-    {
-      "file": "gallery40.json"
-    }
-  ],
   "sundeck-slider": [
+    {
+      "file": "sundeck-slider2.json"
+    },
     {
       "file": "sundeck-slider1.json"
     },
     {
       "file": "sundeck-slider4.json"
-    },
-    {
-      "file": "sundeck-slider2.json"
     }
   ],
   "category": [
     {
-      "name": "Design",
-      "title": "Design",
-      "file": "category4.json"
+      "name": "Food & Wine",
+      "title": "Food & Wine",
+      "file": "category1.json"
     },
     {
       "name": "Activities",
@@ -226,9 +22,9 @@
       "file": "category5.json"
     },
     {
-      "name": "Sports & Entertainment",
-      "title": "Sports & Entertainment",
-      "file": "category2.json"
+      "name": "Design",
+      "title": "Design",
+      "file": "category4.json"
     },
     {
       "name": "Fashion",
@@ -236,99 +32,52 @@
       "file": "category3.json"
     },
     {
-      "name": "Food & Wine",
-      "title": "Food & Wine",
-      "file": "category1.json"
+      "name": "Sports & Entertainment",
+      "title": "Sports & Entertainment",
+      "file": "category2.json"
+    }
+  ],
+  "rooftop-slider": [
+    {
+      "file": "rooftop-slider4.json"
+    },
+    {
+      "file": "rooftop-slider1.json"
+    },
+    {
+      "file": "rooftop-slider2.json"
+    },
+    {
+      "file": "rooftop-slider3.json"
+    }
+  ],
+  "welcome-property-slider": [
+    {
+      "file": "welcome-property-slider2.json"
+    },
+    {
+      "file": "welcome-property-slider1.json"
+    },
+    {
+      "file": "welcome-property-slider4.json"
+    },
+    {
+      "file": "welcome-property-slider3.json"
     }
   ],
   "ristorante-slider": [
     {
-      "file": "ristorante-slider1.json"
+      "file": "ristorante-slider2.json"
     },
     {
-      "file": "ristorante-slider2.json"
+      "file": "ristorante-slider1.json"
     }
   ],
   "blog": [
     {
-      "name": "Peruse these Manhattan Art Galleries",
-      "title": "Peruse these Manhattan Art Galleries",
-      "file": "blog21.json"
-    },
-    {
-      "name": "NYC Outdoor Summer Movie Screenings",
-      "title": "NYC Outdoor Summer Movie Screenings",
-      "file": "blog17.json"
-    },
-    {
-      "name": "Our Favorite NYC Summer Art Exhibits",
-      "title": "Our Favorite NYC Summer Art Exhibits",
-      "file": "blog16.json"
-    },
-    {
-      "name": "The Most Exquisite Burgers in Manhattan",
-      "title": "The Most Exquisite Burgers in Manhattan",
-      "file": "blog20.json"
-    },
-    {
-      "name": "Explore Koreatown in Manhattan",
-      "title": "Explore Koreatown in Manhattan",
-      "file": "blog7.json"
-    },
-    {
-      "name": "5 Manhattan Boutiques We Love",
-      "title": "5 Manhattan Boutiques We Love",
-      "file": "blog11.json"
-    },
-    {
-      "name": "Best Brunch Spots in New York City",
-      "title": "Best Brunch Spots in New York City",
-      "file": "blog26.json"
-    },
-    {
-      "name": "5 Best Restaurants with Outdoor Dining in Manhattan",
-      "title": "5 Best Restaurants with Outdoor Dining in Manhattan",
-      "file": "blog10.json"
-    },
-    {
-      "name": "Best Manhattan Wine Bars",
-      "title": "Best Manhattan Wine Bars",
-      "file": "blog6.json"
-    },
-    {
-      "name": "Host Your Special Event in the Royalton Park Ave Ballroom",
-      "title": "Host Your Special Event in the Royalton Park Ave Ballroom",
-      "file": "blog13.json"
-    },
-    {
-      "name": "Fourth of July in the Big Apple",
-      "title": "Fourth of July in the Big Apple",
-      "file": "blog25.json"
-    },
-    {
-      "name": "Must-See Events at NYCxDESIGN",
-      "title": "Must-See Events at NYCxDESIGN",
-      "file": "blog9.json"
-    },
-    {
-      "name": "Upcoming Broadway Shows You Don't Want to Miss",
-      "title": "Upcoming Broadway Shows You Don't Want to Miss",
-      "file": "blog8.json"
-    },
-    {
-      "name": "Frosé for Days",
-      "title": "Frosé for Days",
-      "file": "blog24.json"
-    },
-    {
-      "name": "Seasonal Style Series: What to Wear in NY this Spring",
-      "title": "Seasonal Style Series: What to Wear in NY this Spring",
-      "file": "blog4.json"
-    },
-    {
-      "name": "Check Out These Cool NYC Home Decor Shops",
-      "title": "Check Out These Cool NYC Home Decor Shops",
-      "file": "blog12.json"
+      "name": "Navigating SummerStage 2018",
+      "title": "Navigating SummerStage 2018",
+      "file": "blog15.json"
     },
     {
       "name": "New York City’s Best Pizza Joints",
@@ -336,14 +85,39 @@
       "file": "blog19.json"
     },
     {
+      "name": "Upcoming Broadway Shows You Don't Want to Miss",
+      "title": "Upcoming Broadway Shows You Don't Want to Miss",
+      "file": "blog8.json"
+    },
+    {
+      "name": "Fourth of July in the Big Apple",
+      "title": "Fourth of July in the Big Apple",
+      "file": "blog25.json"
+    },
+    {
       "name": "Cool Off With These 5 Indoor Activities in NYC",
       "title": "Cool Off With These 5 Indoor Activities in NYC",
       "file": "blog23.json"
     },
     {
-      "name": "Navigating SummerStage 2018",
-      "title": "Navigating SummerStage 2018",
-      "file": "blog15.json"
+      "name": "Frosé for Days",
+      "title": "Frosé for Days",
+      "file": "blog24.json"
+    },
+    {
+      "name": "Catch a Yankees Game at these 5 Manhattan Taprooms",
+      "title": "Catch a Yankees Game at these 5 Manhattan Taprooms",
+      "file": "blog27.json"
+    },
+    {
+      "name": "Best Manhattan Wine Bars",
+      "title": "Best Manhattan Wine Bars",
+      "file": "blog6.json"
+    },
+    {
+      "name": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
+      "title": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
+      "file": "blog18.json"
     },
     {
       "name": "Upcoming Concerts We’re Excited About",
@@ -356,40 +130,109 @@
       "file": "blog14.json"
     },
     {
+      "name": "5 Manhattan Boutiques We Love",
+      "title": "5 Manhattan Boutiques We Love",
+      "file": "blog11.json"
+    },
+    {
+      "name": "The Most Exquisite Burgers in Manhattan",
+      "title": "The Most Exquisite Burgers in Manhattan",
+      "file": "blog20.json"
+    },
+    {
+      "name": "Seasonal Style Series: What to Wear in NY this Spring",
+      "title": "Seasonal Style Series: What to Wear in NY this Spring",
+      "file": "blog4.json"
+    },
+    {
+      "name": "5 Best Restaurants with Outdoor Dining in Manhattan",
+      "title": "5 Best Restaurants with Outdoor Dining in Manhattan",
+      "file": "blog10.json"
+    },
+    {
+      "name": "NYC Outdoor Summer Movie Screenings",
+      "title": "NYC Outdoor Summer Movie Screenings",
+      "file": "blog17.json"
+    },
+    {
+      "name": "Our Favorite NYC Summer Art Exhibits",
+      "title": "Our Favorite NYC Summer Art Exhibits",
+      "file": "blog16.json"
+    },
+    {
+      "name": "Best Brunch Spots in New York City",
+      "title": "Best Brunch Spots in New York City",
+      "file": "blog26.json"
+    },
+    {
+      "name": "Discover the Best Views from these Amazing NYC Rooftops",
+      "title": "Discover the Best Views from these Amazing NYC Rooftops",
+      "file": "blog28.json"
+    },
+    {
+      "name": "Explore Koreatown in Manhattan",
+      "title": "Explore Koreatown in Manhattan",
+      "file": "blog7.json"
+    },
+    {
       "name": "Celebrating Pride in NYC",
       "title": "Celebrating Pride in NYC",
       "file": "blog22.json"
     },
     {
-      "name": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
-      "title": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
-      "file": "blog18.json"
+      "name": "Peruse these Manhattan Art Galleries",
+      "title": "Peruse these Manhattan Art Galleries",
+      "file": "blog21.json"
+    },
+    {
+      "name": "Must-See Events at NYCxDESIGN",
+      "title": "Must-See Events at NYCxDESIGN",
+      "file": "blog9.json"
+    },
+    {
+      "name": "Check Out These Cool NYC Home Decor Shops",
+      "title": "Check Out These Cool NYC Home Decor Shops",
+      "file": "blog12.json"
+    },
+    {
+      "name": "Host Your Special Event in the Royalton Park Ave Ballroom",
+      "title": "Host Your Special Event in the Royalton Park Ave Ballroom",
+      "file": "blog13.json"
     }
   ],
-  "rooftop-slider": [
+  "attractions": [
     {
-      "file": "rooftop-slider4.json"
+      "name": "EMPIRE STATE BUILDING",
+      "title": "EMPIRE STATE BUILDING",
+      "file": "attractions6.json"
     },
     {
-      "file": "rooftop-slider2.json"
+      "name": "METROPOLITAN MUSEUM OF ART",
+      "title": "METROPOLITAN MUSEUM OF ART",
+      "file": "attractions4.json"
     },
     {
-      "file": "rooftop-slider3.json"
+      "name": "TIMES SQUARE",
+      "title": "TIMES SQUARE",
+      "file": "attractions2.json"
     },
     {
-      "file": "rooftop-slider1.json"
+      "name": "BRYANT PARK",
+      "title": "BRYANT PARK",
+      "file": "attractions3.json"
+    },
+    {
+      "name": "THEATER DISTRICT",
+      "title": "THEATER DISTRICT",
+      "file": "attractions1.json"
+    },
+    {
+      "name": "ROCKEFELLER CENTER",
+      "title": "ROCKEFELLER CENTER",
+      "file": "attractions5.json"
     }
   ],
   "explore-nyc-scroller": [
-    {
-      "file": "explore-nyc-scroller6.json"
-    },
-    {
-      "file": "explore-nyc-scroller7.json"
-    },
-    {
-      "file": "explore-nyc-scroller1.json"
-    },
     {
       "file": "explore-nyc-scroller2.json"
     },
@@ -397,10 +240,177 @@
       "file": "explore-nyc-scroller3.json"
     },
     {
-      "file": "explore-nyc-scroller4.json"
+      "file": "explore-nyc-scroller1.json"
+    },
+    {
+      "file": "explore-nyc-scroller6.json"
+    },
+    {
+      "file": "explore-nyc-scroller7.json"
     },
     {
       "file": "explore-nyc-scroller5.json"
+    },
+    {
+      "file": "explore-nyc-scroller4.json"
+    }
+  ],
+  "gallery": [
+    {
+      "file": "gallery8.json"
+    },
+    {
+      "file": "gallery26.json"
+    },
+    {
+      "file": "gallery49.json"
+    },
+    {
+      "file": "gallery37.json"
+    },
+    {
+      "file": "gallery30.json"
+    },
+    {
+      "file": "gallery14.json"
+    },
+    {
+      "file": "gallery27.json"
+    },
+    {
+      "file": "gallery31.json"
+    },
+    {
+      "file": "gallery9.json"
+    },
+    {
+      "file": "gallery17.json"
+    },
+    {
+      "file": "gallery23.json"
+    },
+    {
+      "file": "gallery42.json"
+    },
+    {
+      "file": "gallery6.json"
+    },
+    {
+      "file": "gallery21.json"
+    },
+    {
+      "file": "gallery32.json"
+    },
+    {
+      "file": "gallery3.json"
+    },
+    {
+      "file": "gallery45.json"
+    },
+    {
+      "file": "gallery47.json"
+    },
+    {
+      "file": "gallery22.json"
+    },
+    {
+      "file": "gallery15.json"
+    },
+    {
+      "file": "gallery29.json"
+    },
+    {
+      "file": "gallery4.json"
+    },
+    {
+      "file": "gallery5.json"
+    },
+    {
+      "file": "gallery38.json"
+    },
+    {
+      "file": "gallery19.json"
+    },
+    {
+      "file": "gallery12.json"
+    },
+    {
+      "file": "gallery51.json"
+    },
+    {
+      "file": "gallery36.json"
+    },
+    {
+      "file": "gallery24.json"
+    },
+    {
+      "file": "gallery50.json"
+    },
+    {
+      "file": "gallery16.json"
+    },
+    {
+      "file": "gallery11.json"
+    },
+    {
+      "file": "gallery28.json"
+    },
+    {
+      "file": "gallery10.json"
+    },
+    {
+      "file": "gallery25.json"
+    },
+    {
+      "file": "gallery48.json"
+    },
+    {
+      "file": "gallery34.json"
+    },
+    {
+      "file": "gallery40.json"
+    },
+    {
+      "file": "gallery7.json"
+    },
+    {
+      "file": "gallery46.json"
+    },
+    {
+      "file": "gallery44.json"
+    },
+    {
+      "file": "gallery35.json"
+    },
+    {
+      "file": "gallery41.json"
+    },
+    {
+      "file": "gallery13.json"
+    },
+    {
+      "file": "gallery43.json"
+    },
+    {
+      "file": "gallery18.json"
+    },
+    {
+      "file": "gallery39.json"
+    },
+    {
+      "file": "gallery33.json"
+    },
+    {
+      "file": "gallery20.json"
+    },
+    {
+      "file": "gallery2.json"
+    }
+  ],
+  "homepage-slider": [
+    {
+      "name": "high style, luxury and comfort all in one",
+      "file": "homepage-slider1.json"
     }
   ],
   "_definitions": [
