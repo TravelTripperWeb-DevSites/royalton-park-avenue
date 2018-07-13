@@ -219,6 +219,10 @@
     &:focus {
       outline: none;
     }
+    &:disabled {
+      cursor: not-allowed;
+      opacity: .9;
+    }
 
     .fa {
       color: $black;
