@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Events in Park Avenue South NYC | Royalton Park Avenue"
-meta_description_localized: 
+title: "Ballroom | Events in Park Avenue South NYC | Royalton Park Avenue"
+meta_description_localized:
   en: "Business and events need a location that matches the requirement. Discover the foremost applicable setting and facilities at the Royalton Park Avenue Hotel."
-permalink: /events/
+permalink: /events/ballroom/
 ---
 
 <section class="sub-header">
@@ -15,18 +15,24 @@ permalink: /events/
     </div>
     <div class="sub-header-right">
       <ul class="sub-header-nav">
-        <li class="active">
+        <li>
           <a href="/events/">
-            {% regionblock events_navitem_one, type:header %}
-           <h4 class="text-uppercase">Ballroom</h4>
+            {% regionblock events_navitem_four, type:header %}
+           <h4 class="text-uppercase">Ivy<br>Lounge</h4>
            {% endregionblock %}
          </a>
         </li>
-
         <li>
           <a href="/events/park-lounge/">
             {% regionblock events_navitem_two, type:header %}
            <h4 class="text-uppercase">Park<br>Lounge</h4>
+           {% endregionblock %}
+         </a>
+        </li>
+        <li class="active">
+          <a href="/events/ballroom/">
+            {% regionblock events_navitem_one, type:header %}
+           <h4 class="text-uppercase">Ballroom</h4>
            {% endregionblock %}
          </a>
         </li>
@@ -37,13 +43,7 @@ permalink: /events/
            {% endregionblock %}
          </a>
         </li> -->
-        <li>
-          <a href="/events/ivy-lounge/">
-            {% regionblock events_navitem_four, type:header %}
-           <h4 class="text-uppercase">Ivy<br>Lounge</h4>
-           {% endregionblock %}
-         </a>
-        </li>
+
       </ul>
     </div>
   </div>
@@ -133,7 +133,7 @@ permalink: /events/
       <a href="/">
         {% regionblock ballroom_cta_logo, type:image %}
         <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
-        {% endregionblock %} 
+        {% endregionblock %}
       </a>
     </div>
     <div class="btn-holder">
