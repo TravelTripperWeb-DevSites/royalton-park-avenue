@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Ivy Lounge | Functions Venue in Central New York"
-meta_description_localized: 
+meta_description_localized:
   en: "Ivy Lounge is perfect for cocktail parties and intimate catered dinners, from a casual boardroom meeting and business luncheons and providing a free Wi-Fi."
-permalink: /events/ivy-lounge/
+permalink: /events/
 ---
 
 <section class="sub-header">
@@ -15,14 +15,13 @@ permalink: /events/ivy-lounge/
     </div>
     <div class="sub-header-right">
       <ul class="sub-header-nav">
-        <li>
+        <li class="active">
           <a href="/events/">
-            {% regionblock events_navitem_one, type:header %}
-           <h4 class="text-uppercase">Ballroom</h4>
+            {% regionblock events_navitem_four, type:header %}
+           <h4 class="text-uppercase">Ivy<br>Lounge</h4>
            {% endregionblock %}
          </a>
         </li>
-
         <li>
           <a href="/events/park-lounge/">
             {% regionblock events_navitem_two, type:header %}
@@ -30,17 +29,10 @@ permalink: /events/ivy-lounge/
            {% endregionblock %}
          </a>
         </li>
-        <!--  <li>
-          <a href="/events/red-room/">
-            {% regionblock events_navitem_three, type:header %}
-           <h4 class="text-uppercase">Red Room</h4>
-           {% endregionblock %}
-         </a>
-        </li> -->
-        <li class="active">
-          <a href="/events/ivy-lounge/">
-            {% regionblock events_navitem_four, type:header %}
-           <h4 class="text-uppercase">Ivy<br>Lounge</h4>
+        <li>
+          <a href="/events/ballroom/">
+            {% regionblock events_navitem_one, type:header %}
+           <h4 class="text-uppercase">Ballroom</h4>
            {% endregionblock %}
          </a>
         </li>
@@ -132,7 +124,7 @@ permalink: /events/ivy-lounge/
       <a href="/">
         {% regionblock ivy_lounge_cta_logo, type:image %}
         <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
-        {% endregionblock %} 
+        {% endregionblock %}
       </a>
     </div>
     <div class="btn-holder">
