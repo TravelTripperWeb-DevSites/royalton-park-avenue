@@ -1,5 +1,25 @@
 {
   "title": "Eataly",
   "description": "<p>Eataly is a vibrant Italian Marketplace that features several sit down restaurants, food and beverage counters, a bakery, retail items and a cooking school.</p>",
-  "order": 3
+  "order": 3,
+  "banner_image": {
+    "name": "eataly",
+    "file_name": "eataly.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070611/eataly.png",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-17-070611",
+    "file_type": "image/jpeg",
+    "width": 1200,
+    "height": 800,
+    "file_size": 2029228,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070611/large_eataly.png",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070611/medium_eataly.png",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070611/small_eataly.png",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070611/xsmall_eataly.png",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070611/thumb_eataly.png",
+    "path": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070611/eataly.png",
+    "alt": "Eataly",
+    "caption": ""
+  }
 }
