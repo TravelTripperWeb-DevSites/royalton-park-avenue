@@ -91,6 +91,11 @@
                 text-decoration: none;
             }
         }
+    &.college-btn {
+      @include media-breakpoint-up(xl) {
+        font-size: $type-size-2;
+      }
+        }
     }
 }
 
