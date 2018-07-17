@@ -1,5 +1,25 @@
 {
   "title": "Madison Square Garden",
   "description": "<p>Madison Square Garden is &ldquo;The World&rsquo;s Most Famous Arena&rdquo; where you can enjoy the best sporting and entertainment events in NYC. Located between 7th and 8th Avenues from 31st to 33rd Streets, it is situated atop <a title=\"Pennsylvania Station\" href=\"https://en.wikipedia.org/wiki/Pennsylvania_Station_(New_York_City)\" target=\"_blank\" rel=\"noopener noreferrer\">Pennsylvania Station</a>.</p>",
-  "order": 6
+  "order": 6,
+  "banner_image": {
+    "name": "madison-square-garden",
+    "file_name": "madison-square-garden.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070703/madison-square-garden.png",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-17-070703",
+    "file_type": "image/jpeg",
+    "width": 1200,
+    "height": 800,
+    "file_size": 1842460,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070703/large_madison-square-garden.png",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070703/medium_madison-square-garden.png",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070703/small_madison-square-garden.png",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070703/xsmall_madison-square-garden.png",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070703/thumb_madison-square-garden.png",
+    "path": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070703/madison-square-garden.png",
+    "alt": "Madison square garden",
+    "caption": ""
+  }
 }
