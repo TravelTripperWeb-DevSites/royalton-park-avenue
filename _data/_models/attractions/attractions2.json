@@ -1,5 +1,26 @@
 {
   "title": "Flatiron Building",
   "description": "<p>The Flatiron building is possibly one of the most photographed buildings in the world. Located at 175 Fifth Avenue, it&rsquo;s a short walk from the hotel.</p>",
-  "order": 2
+  "order": 2,
+  "banner_image": {
+    "name": "flatiron",
+    "file_name": "flatiron.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070822/flatiron.png",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-17-070822",
+    "file_type": "image/jpeg",
+    "width": 1200,
+    "height": 800,
+    "file_size": 503168,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070822/large_flatiron.png",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070822/medium_flatiron.png",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070822/small_flatiron.png",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070822/xsmall_flatiron.png",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070822/thumb_flatiron.png",
+    "git_file_name": "_assets/image_data/flatiron.json",
+    "path": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-17-070822/flatiron.png",
+    "alt": "Flatiron",
+    "caption": ""
+  }
 }
