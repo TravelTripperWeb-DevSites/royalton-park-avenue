@@ -264,6 +264,14 @@
     .wrapper {
         @extend .row;
         @extend .no-gutters;
+        .tab-content {
+          width: 100%;
+          text-align: center;
+          p {
+            max-width: 35.63rem;
+    margin: 2rem auto;
+          }
+        }
         .details-5 {
             @extend .col-md-6;
             @extend .col-lg-6;
@@ -321,6 +329,7 @@
             }
         }
     }
+
 }
 
 .photos-slider,
