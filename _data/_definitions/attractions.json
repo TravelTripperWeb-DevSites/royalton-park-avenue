@@ -9,7 +9,7 @@
   "banner_image": {
     "required": true,
     "type": "image",
-    "instructions": "This is the banner or 'hero' on Attaction listed on locaiton page and on Attraction details page."
+    "instructions": "This is the banner or 'hero' on Attaction listed on locaiton page"
   },
   "order":{
   	"type": "integer"
