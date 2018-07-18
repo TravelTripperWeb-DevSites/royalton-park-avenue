@@ -1,72 +1,22 @@
 <section class="collage-instagram">
     <div class="row">
-      <div class="col-md-2">
-        <img src="/assets/images/college/whitney-111.jpg"  alt="whitney-111">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/asellina-breakfast.jpg"  alt="asellina-breakfast">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/car.jpg"  alt="car">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/coffee-empire-state-building.jpg"  alt="coffee-empire-state-building">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/cowboy-hat.jpg"  alt="cowboy-hat">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/empire-state.jpg"  alt="empire-state">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <img src="/assets/images/college/guy-rooftop.jpg"  alt="guy-rooftop">
-      </div>
-      <!-- @royaltonparkavenue box Starts -->
-      {% comment %}
-       <div class="col-md-4">
-        <div class="text">
-          <h3>@royaltonparkavenue</h3>
-          <h6>#feelroyal</h6>
+      {% for collage in site.data._models.collage | limit:18 %}
+        <div class="col-md-2 col-sm-2">
+          <img src="{{ collage.image.url_large }}"  alt="{{ colage.title }}">
         </div>
-      </div>
-      {% endcomment %}
-      <!-- @royaltonparkavenue box Ends -->
-      <div class="col-md-2">
-        <img src="/assets/images/college/taketobeach.jpg"  alt="Take me to Beach">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/room-window.jpg"  alt="Pink Curtains">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/newspaper-bed.jpg"  alt="newspaper-bed">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/park-avenue-2.jpg"  alt="park-avenue-2">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/petar-pool.jpg"  alt="petar-pool">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <img src="/assets/images/college/pool-red-swimsuit.jpg"  alt="pool-red-swimsuit">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/prosciutto.jpg"  alt="prosciutto">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/rooftop-balcony-couple.jpg"  alt="rooftop-balcony-couple">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/spring-email-blast.jpg"  alt="spring-email-blast">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/tower.jpg"  alt="tower">
-      </div>
-      <div class="col-md-2">
-        <img src="/assets/images/college/valentines-day.jpg"  alt="valentines-day">
+      {% endfor %}
+      <div class="collage-instagram-inner">
+        <div class="logo-holder">
+          <a href="/">
+            <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+          </a>
+        </div>
+        <div class="btn-holder">
+          <a href="https://www.instagram.com/royaltonparkavenue/" title="Instagram" target="_blank" class="btn-outline text-lowercase">#feelroyal</a>
+        </div>
+        <div class="cta-text">
+          <a href="https://www.instagram.com/royaltonparkavenue/" title="Instagram" target="_blank">@royaltonparkavenue</a>
+        </div>
       </div>
     </div>
 </section>
