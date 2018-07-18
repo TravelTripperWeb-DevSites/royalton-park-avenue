@@ -104,46 +104,49 @@ label: Location
          <li class="nav-item"><a data-toggle="tab" class="nav-link {% if forloop.first%}active{% endif%}" data-target="#{{attraction.title | replace: ' ', '_'}}" href="" role="tab">{{attraction.title}}</a></li>
        {% endfor %}
       </ul>
-      <!-- Tab panes -->
-      <div class="tab-content pb-4">
-         {% for attraction in attractions %}
-          <div class="tab-pane fade show {% if forloop.first%}active{% endif%}" id="{{attraction.title | replace: ' ', '_'}}" role="tabpanel">
-            {{attraction.description}}
-          </div>
-         {% endfor %}
 
-      </div>
 
     </div>
   </div>
 </section>
 
 <section class="welcome-royalton">
+
   <div class="wrapper">
-    <div class="photos-slider d-flex justify-content-between">
+    <!-- Tab panes -->
+    <div class="tab-content">
 
-      <div id="photosSlider" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active" style="background-image: url('/assets/images/location/midtown.jpg');">
+       {% for attraction in attractions %}
+        <div class="tab-pane fade show attractions-des {% if forloop.first%}active{% endif%}" id="{{attraction.title | replace: ' ', '_'}}" role="tabpanel">
+          {{ attraction.description }}
+          <div class="image-block" style="background-image: url('{{ attraction.banner_image.url_large }}');">
           </div>
+          <div class="photo-r-caption-inner">
+            <p class="caption-90">{{ attraction.title }}</p>
+          </div>
+          <!-- <div class="photos-slider d-flex justify-content-between">
+
+           <div class="carousel slide" data-ride="carousel">
+             <div class="carousel-inner" role="listbox">
+               <div class="carousel-item" style="background-image: url('{{ attraction.banner_image.url_large }}');">
+               </div>
+             </div>
+           </div>
+
+           <div class="photo-r-caption">
+             <p class="caption-90">{{ attraction.title }}</p>
+           </div>
+
+         </div> -->
         </div>
-        <!-- <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev">
-                 <span class="eligant-icons control-arrow" aria-hidden="true">#</span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next">
-                  <span class="eligant-icons control-arrow" aria-hidden="true">$</span>
-                  <span class="sr-only">Next</span>
-                </a> -->
-      </div>
 
-      <div class="photo-r-caption">
-        {% regionblock location_midtown_img_cap, type:text %}
-        <p class="caption-90">Midtown, New York City</p>
-        {% endregionblock %}
-      </div>
 
-    </div>
+
+
+
+    {% endfor %}
+
+ </div>
   </div>
 </section>
 

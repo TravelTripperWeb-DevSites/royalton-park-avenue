@@ -5,16 +5,16 @@
 	.wrapper{
 		@extend .row;
 		@extend .no-gutters;
-  
-		.detail-5{ 
+
+		.detail-5{
 			@extend .col-md-5;
 		}
-		.detail-7{ 
-			@extend .col-md-7; 
+		.detail-7{
+			@extend .col-md-7;
 		}
-		.detail-6{ 
+		.detail-6{
 			@extend .col-md-6;
-		} 
+		}
 		.img-holder{
 			@include media-breakpoint-up (xl) {
 				padding-left: 8.7rem;
@@ -84,4 +84,32 @@
 			margin: 2rem auto;
 		}
 	}
+}
+
+.image-block {
+	height: 500px;
+	width: 90%;
+	border-bottom: 8px solid #60533a;
+	background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.photo-r-caption-inner {
+		width: 10%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		.caption-90 {
+				@include transform-origin(left top);
+				bottom: -35px;
+				left: 0.3rem;
+				min-width: 20rem;
+				@include media-breakpoint-up (md) {
+						left: 1rem;
+						bottom: -100px;
+				}
+		}
+}
+.attractions-des {
+	position: relative;
 }
