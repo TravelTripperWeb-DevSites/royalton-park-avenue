@@ -1,10 +1,15 @@
-{ 
-  "title":{ 
-  	"required": true  
-  }, 
+{
+  "title":{
+  	"required": true
+  },
   "description":{
     "type":"richtext",
     "required": true
+  },
+  "banner_image": {
+    "required": true,
+    "type": "image",
+    "instructions": "This is the banner or 'hero' on Attaction listed on locaiton page"
   },
   "order":{
   	"type": "integer"

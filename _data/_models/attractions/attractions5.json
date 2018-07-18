@@ -1,5 +1,25 @@
 {
-  "title": "ROCKEFELLER CENTER",
-  "description": "<p>An Art Deco masterpiece, this complex remains one of the most iconic sights in New York City. Built by philanthropist John D. Rockefeller, Jr. in the 1930s, today this 19-building complex is best known for 30 Rock, Radio City Music Hall, and its world-famous ice skating rink.</p>",
-  "order": 5
+  "title": "Madison Square Garden",
+  "description": "<p>Madison Square Garden is \"The World&rsquo;s Most Famous Arena\" where you can enjoy the best sporting and entertainment events in NYC.&nbsp; Located between 7th and 8th Avenues from 31st to 33rd Streets, it is situated atop Pennsylvania Station.</p>",
+  "order": 6,
+  "banner_image": {
+    "name": "madison-square-garden",
+    "file_name": "madison-square-garden.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/madison-square-garden.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-18-015423",
+    "file_type": "image/jpeg",
+    "width": 1200,
+    "height": 800,
+    "file_size": 147888,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/large_madison-square-garden.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/medium_madison-square-garden.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/small_madison-square-garden.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/xsmall_madison-square-garden.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/thumb_madison-square-garden.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/madison-square-garden.jpg",
+    "alt": "Madison square garden",
+    "caption": ""
+  }
 }

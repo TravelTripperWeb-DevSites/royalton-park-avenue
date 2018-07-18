@@ -1,5 +1,25 @@
 {
-  "title": "METROPOLITAN MUSEUM OF ART",
-  "description": "<p>The largest art museum in the United States, the Metropolitan Museum of Art is home to thousands of works of art, from the classical to the contemporary, each spanning numerous cultures and civilizations for a collection that remains unmatched.</p>",
-  "order": 4
+  "title": "Union Square",
+  "description": "<p>There is so much to see and do in Union Square. Stroll through the park, play a game of chess or stop by the year-round Greenmarket.</p>",
+  "order": 4,
+  "banner_image": {
+    "name": "union-square",
+    "file_name": "union-square.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015459/union-square.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-07-18-015459",
+    "file_type": "image/jpeg",
+    "width": 1200,
+    "height": 800,
+    "file_size": 182627,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015459/large_union-square.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015459/medium_union-square.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015459/small_union-square.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015459/xsmall_union-square.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015459/thumb_union-square.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015459/union-square.jpg",
+    "alt": "Union Square",
+    "caption": ""
+  }
 }
