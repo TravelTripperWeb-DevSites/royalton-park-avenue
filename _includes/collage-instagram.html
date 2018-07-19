@@ -2,7 +2,7 @@
     <div class="row">
       {% for collage in site.data._models.collage | limit:18 %}
         <div class="col-md-2 col-sm-2">
-          <img src="{{ collage.image.url_large }}"  alt="{{ colage.title }}">
+          <img src="{{ collage.image.url_large }}"  alt="{{ collage.title }}">
         </div>
       {% endfor %}
       <div class="collage-instagram-inner">
