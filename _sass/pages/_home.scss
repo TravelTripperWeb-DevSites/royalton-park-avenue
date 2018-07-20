@@ -91,6 +91,11 @@
                 text-decoration: none;
             }
         }
+    &.college-btn {
+      @include media-breakpoint-up(xl) {
+        font-size: $type-size-2;
+      }
+        }
     }
 }
 
@@ -1006,4 +1011,118 @@
 
 .ttweb-booking-widget {
     color: #000000;
+}
+
+.collage-instagram {
+  position: relative;
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: rgba(0,0,0,.5);
+  }
+  .row {
+    margin: 0;
+
+    .col-md-2,
+    .col-md-4 {
+      padding: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .collage-instagram-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    .logo-holder {
+      width: 300px;
+      margin: 0 auto;
+      @include media-breakpoint-down(md) {
+        width: 200px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .cta-text {
+      font-family: $header-font-family;
+      font-size: 3.2rem;
+      color: $white;
+      @include media-breakpoint-down(lg) {
+        font-size: $type-size-4;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: $type-size-3;
+      }
+
+      @media (min-width: 1680px) {
+        font-size: $type-size-2;
+      }
+
+      a {
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .btn-holder {
+      position: relative;
+      margin: 0;
+      padding: 50px 0;
+      @include media-breakpoint-up(xl) {
+        padding: 100px 0;
+      }
+
+      &:before {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        bottom: auto;
+        left: 0;
+        width: 3px;
+        height: 30px;
+        margin: 0 auto;
+        content: '';
+        background-color: $white;
+        @include media-breakpoint-up(xl) {
+          height: 70px;
+        }
+      }
+
+      &:after {
+        position: absolute;
+        top: auto;
+        right: 0;
+        bottom: 5px;
+        left: 0;
+        width: 3px;
+        height: 30px;
+        margin: 0 auto;
+        content: '';
+        background-color: $white;
+        @include media-breakpoint-up(xl) {
+          height: 70px;
+        }
+      }
+    }
+  }
 }

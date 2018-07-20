@@ -1,0 +1,11 @@
+{
+  "title":
+  {
+  	"required": true
+  },
+  "image":
+		{
+      "type":"image",
+      "required":true
+    }
+}
