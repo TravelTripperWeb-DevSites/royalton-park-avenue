@@ -1,0 +1,136 @@
+---
+title_localized:
+  en: Sweepstakes | Royalton Hotel
+label_localized:
+  en:
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/fallsweeps/"
+meta_description_localized:
+  en:
+meta_keywords_localized:
+  en:
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+{% assign menuitems = site.data.navigation.main %}
+
+<section class="sub-header">
+  <div class="sub-header-row">
+    <div class="sub-header-left">
+      <h1>#FeelRoyal Sweepstakes</h1>
+    </div>
+  </div>
+</section>
+<div class="page-banner" style="background-image: url('/assets/images/sweepstakes-banner.jpg');">
+</div>
+
+<section class="error-content privacy-content sweepstakes-content">
+  <div class="container">
+    <div>
+        <p>It’s your chance to win the ultimate NYC getaway for two: a two-night stay in our Penthouse suite, $500 travel credit, spa treatments at Exhale, dinner at Asellina, plus a VIP poolside experience at our rooftop pool deck.</p>
+        <p>Enter Royalton Park Avenue’s #FeelRoyal Sweepstakes in  just two easy steps:</p>
+
+        <ol>
+          <li>Follow the Royalton Park Avenue on Instagram or Facebook</li>
+          <li>Submit your entry on the below form</li>
+        </ol>
+      </div>
+    </div>
+</section>
+
+<section class="rfp-wrap">
+  <div class="container">
+    <div class="contact-form">
+      <div class="form-wrap">
+        <form class="jotform-form" action="https://submit.jotform.me/submit/72783118884468/" method="post" name="form_72783118884468" id="72783118884468" accept-charset="utf-8" autocomplete="off">
+          <input type="hidden" name="formID" value="72783118884468" />
+
+          <div class="row m-0">
+            <div class="col-sm-6 no-padding">
+              <div class="form-group right-space">
+                <input type="text" class="form-control" title="Prefix" aria-label="Prefix" id="rfp-2" name="q5_phoneNumber" placeholder="Prefix" required>
+              </div>
+            </div>
+            <div class="col-sm-6 no-padding">
+              <div class="form-group left-space">
+                <input type="text" class="form-control" title="First name" aria-label="First name" id="rfp-2" name="q5_phoneNumber" placeholder="First name" required>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-sm-6 no-padding">
+              <div class="form-group right-space">
+                <input type="text" class="form-control" title="Last name" id="rfp-4" aria-label="Last name" name="q6_startDat{{ page.url | absolute_url }}e" placeholder="Last name" required>
+              </div>
+            </div>
+            <div class="col-sm-6 no-padding">
+              <div class="form-group left-space">
+                <input type="email" class="form-control" title="Email" aria-label="Email" id="rfp-3" name="q4_emailAddress" placeholder="Email" required>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-sm-6 no-padding">
+              <div class="form-group right-space">
+                <input type="text" class="form-control" title="City" aria-label="City" id="rfp-2" name="q14_numberOf" placeholder="City" required>
+              </div>
+            </div>
+            <div class="col-sm-6 no-padding">
+              <div class="form-group left-space">
+                <input type="text" class="form-control" title="ST" aria-label="ST" id="rfp-3" name="q15_budget" placeholder="ST" required>
+              </div>
+            </div>
+          </div>
+          <button type="submit" id="rfp-btn" title="Submit contact form" class="btn btn-default button-blue">Submit</button>
+          <script>
+            JotForm.showJotFormPowered = "0";
+          </script>
+          <input type="hidden" id="contact-smaple" name="simple_spc" value="72783118884468" />
+          <script type="text/javascript">
+            document.getElementById("si" + "mple" + "_spc").value = "72783118884468-72783118884468";
+          </script>
+        </form>
+        <script type="text/javascript">
+          JotForm.ownerView = true;
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="error-content privacy-content">
+  <div class="container">
+    <div>
+        <p>Entrants are required to complete these steps to be eligible for the sweepstakes. The winner will be selected at random among all eligible entries received and announced on or about September 25, 2018.</p>
+        <p>The grand prize will include the following:</p>
+        <ul>
+          <li>Two-night stay in the Penthouse Suite at Royalton Park Avenue</li>
+          <li>$500 in travel credit</li>
+          <li>Two spa treatments at Exhale Spa</li>
+          <li>Dinner at Asellina for two</li>
+          <li>Poolside loungers for two and F&B credit at Rooftop at Royalton Park Avenue</li>
+        </ul>
+
+        <h4>Sweepstakes Details:</h4>
+        <ul>
+          <li>Sweepstakes period term: Sept 10-Sept 24</li>
+          <li>Date of selection and date of winner notification: Sept 25</li>
+          <li>Email address for questions/comments <a href="mailto:social@chandeliercreative.com"  title="Contact">social@chandeliercreative.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="btn-holder sweepstakes-btn">
+      <a class="btn-outline-black" rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?s=100&p[title]={{ page.title }}&p[url]= {{site.url}}{{ page.url | absolute_url }}&p[summary]={{ 'I just entered Royalton Park Avenue’s FeelRoyal Sweepstakes to win the ultimate NYC getaway. You can too at' }}&p[images][0]={{ site.data.social.og_image }}"
+        onClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" title="Facebook">Share on FB</a>
+      <a class="btn-outline-black" rel="nofollow" href="https://twitter.com/intent/tweet?{% if site.data.social.twitter.username %}via={{ site.data.social.twitter.username }}&{% endif %}text={{ 'I just entered Royalton Park Avenue’s %23FeelRoyal Sweepstakes to win the ultimate NYC getaway. You can too at' }} {{site.url}}{{ page.url | absolute_url }}" onClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;"
+        title="Twitter">Share on Twitter</a>
+    </div>
+</section>
