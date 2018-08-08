@@ -23,7 +23,9 @@ include_in_nav_localized:
 <section class="sub-header">
   <div class="sub-header-row">
     <div class="sub-header-left">
+      {% regionblock sweepstakes_header, type:header %}
       <h1>#FeelRoyal Sweepstakes</h1>
+      {% endregionblock %}
     </div>
   </div>
 </section>
@@ -33,13 +35,15 @@ include_in_nav_localized:
 <section class="error-content privacy-content sweepstakes-content">
   <div class="container">
     <div>
+      {% regionblock sweepstakes_text1, type:text %}
         <p>It’s your chance to win the ultimate NYC getaway for two: a two-night stay in our Penthouse suite, $500 travel credit, spa treatments at Exhale, dinner at Asellina, plus a VIP poolside experience at our rooftop pool deck.</p>
         <p>Enter Royalton Park Avenue’s #FeelRoyal Sweepstakes in  just two easy steps:</p>
 
         <ol>
-          <li>Follow the Royalton Park Avenue on Instagram or Facebook</li>
+          <li>Follow the Royalton Park Avenue on <a href="https://www.instagram.com/royaltonparkavenue/" title="Instagram" target="_blank">Instagram</a> or <a href="https://www.facebook.com/RoyaltonParkAvenue/" title="Facebook" target="_blank">Facebook</a></li>
           <li>Submit your entry on the below form</li>
         </ol>
+      {% endregionblock %}
       </div>
     </div>
 </section>
@@ -111,6 +115,7 @@ include_in_nav_localized:
 <section class="error-content privacy-content">
   <div class="container">
     <div>
+      {% regionblock sweepstakes_text2, type:text %}
         <p>Entrants are required to complete these steps to be eligible for the sweepstakes. The winner will be selected at random among all eligible entries received and announced on or about September 25, 2018.</p>
         <p>The grand prize will include the following:</p>
         <ul>
@@ -127,6 +132,7 @@ include_in_nav_localized:
           <li>Date of selection and date of winner notification: Sept 25</li>
           <li>Email address for questions/comments <a href="mailto:social@chandeliercreative.com"  title="Contact">social@chandeliercreative.com</a></li>
         </ul>
+        {% endregionblock %}
       </div>
     </div>
 
