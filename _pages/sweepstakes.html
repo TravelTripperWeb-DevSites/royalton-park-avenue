@@ -48,57 +48,60 @@ include_in_nav_localized:
   <div class="container">
     <div class="contact-form">
       <div class="form-wrap">
-        <form class="jotform-form" action="https://submit.jotform.me/submit/72783118884468/" method="post" name="form_72783118884468" id="72783118884468" accept-charset="utf-8" autocomplete="off">
-          <input type="hidden" name="formID" value="72783118884468" />
+        <form class="jotform-form" action="https://submit.jotform.me/submit/82192842504456/" method="post" name="form_82192842504456" id="82192842504456" accept-charset="utf-8" autocomplete="off">
+          <input type="hidden" name="formID" value="82192842504456" />
 
           <div class="row m-0">
             <div class="col-sm-6 no-padding">
               <div class="form-group right-space">
-                <input type="text" class="form-control" title="Prefix" aria-label="Prefix" id="rfp-2" name="q5_phoneNumber" placeholder="Prefix" required>
+                <select class="form-control" name="q11_typeA" id="input_11" aria-label="Prefix">
+                  <option value="">Prefix</option>
+                  <option value="Mr.">Mr.</option>
+                  <option value="Ms.">Ms</option>
+                  <option value="Mrs.">Mrs.</option>
+                </select>
               </div>
             </div>
             <div class="col-sm-6 no-padding">
               <div class="form-group left-space">
-                <input type="text" class="form-control" title="First name" aria-label="First name" id="rfp-2" name="q5_phoneNumber" placeholder="First name" required>
+                <input type="text" class="form-control" title="First name" aria-label="First name" id="input_12" name="q12_firstName" placeholder="First name" required>
               </div>
             </div>
           </div>
           <div class="row m-0">
             <div class="col-sm-6 no-padding">
               <div class="form-group right-space">
-                <input type="text" class="form-control" title="Last name" id="rfp-4" aria-label="Last name" name="q6_startDat{{ page.url | absolute_url }}e" placeholder="Last name" required>
+                <input type="text" class="form-control" title="Last name" id="input_13" aria-label="Last name" name="q13_lastName" placeholder="Last name" required>
               </div>
             </div>
             <div class="col-sm-6 no-padding">
               <div class="form-group left-space">
-                <input type="email" class="form-control" title="Email" aria-label="Email" id="rfp-3" name="q4_emailAddress" placeholder="Email" required>
+                <input type="email" class="form-control" title="Email" aria-label="Email" id="input_14" name="q14_email" placeholder="Email" required>
               </div>
             </div>
           </div>
           <div class="row m-0">
             <div class="col-sm-6 no-padding">
               <div class="form-group right-space">
-                <input type="text" class="form-control" title="City" aria-label="City" id="rfp-2" name="q14_numberOf" placeholder="City" required>
+                <input type="text" class="form-control" title="City" aria-label="City" id="input_16" name="q16_city" placeholder="City" required>
               </div>
             </div>
             <div class="col-sm-6 no-padding">
               <div class="form-group left-space">
-                <input type="text" class="form-control" title="ST" aria-label="ST" id="rfp-3" name="q15_budget" placeholder="ST" required>
+                <input type="text" class="form-control" title="ST" aria-label="ST" id="input_15" name="q15_st" placeholder="ST" required>
               </div>
             </div>
           </div>
-          <button type="submit" id="rfp-btn" title="Submit contact form" class="btn btn-default button-blue">Submit</button>
-          <script>
-            JotForm.showJotFormPowered = "0";
-          </script>
-          <input type="hidden" id="contact-smaple" name="simple_spc" value="72783118884468" />
-          <script type="text/javascript">
-            document.getElementById("si" + "mple" + "_spc").value = "72783118884468-72783118884468";
-          </script>
+          <div class="row m-0">
+            <div class="col-sm-12 no-padding text-left">
+              <div class="form-group form-check agree">
+                <input type="checkbox" class="form-check-input" id="agree" name="q10_iAgree[]" value="agree" required>
+                <label class="form-check-label" for="agree">I agree to the <a href="/terms-of-use/" target="_blank">Terms of Service</a> and <a href="/privacy-policy/" target="_blank">Privacy Policy</a>.</label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" id="sweepstakes-btn" title="Submit contact form" class="btn btn-default button-blue">Submit</button>
         </form>
-        <script type="text/javascript">
-          JotForm.ownerView = true;
-        </script>
       </div>
     </div>
   </div>
