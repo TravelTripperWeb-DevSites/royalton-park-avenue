@@ -20,23 +20,18 @@ include_in_nav_localized:
 
 {% assign menuitems = site.data.navigation.main %}
 
-<section class="sub-header">
-  <div class="sub-header-row">
-    <div class="sub-header-left">
-      {% regionblock sweepstakes_header, type:header %}
-      <h1>#FeelRoyal Sweepstakes</h1>
-      {% endregionblock %}
-    </div>
-  </div>
-</section>
 <div class="page-banner" style="background-image: url('/assets/images/sweepstakes-banner.jpg');">
+	<div class="banner-overlay"></div>
+	   {% regionblock sweepstakes_banner_header, type:header %}
+     <h1>#FeelRoyal<br/>Sweepstakes</h1>
+     {% endregionblock %}
 </div>
 
 <section class="error-content privacy-content sweepstakes-content">
   <div class="container">
     <div>
       {% regionblock sweepstakes_text1, type:text %}
-        <p>It’s your chance to win the ultimate NYC getaway for two: a two-night stay in our Penthouse suite, $500 travel credit, spa treatments at Exhale, dinner at Asellina, plus a VIP poolside experience at our rooftop pool deck.</p>
+        <p>It’s your chance to win the ultimate NYC getaway for two: a two-night stay in our <a href="/room/#duplex-penthouse-suite" title="Penthouse suite">Penthouse suite</a>, $500 travel credit, spa treatments at <a href="/exhale-fitness-spa/" title="Exhale">Exhale</a>, dinner at <a href="/ristorante-asellina/" title="Asellina">Asellina</a>, plus a VIP poolside experience at our rooftop pool deck.</p>
         <p>Enter Royalton Park Avenue’s #FeelRoyal Sweepstakes in  just two easy steps:</p>
 
         <ol>
@@ -92,7 +87,7 @@ include_in_nav_localized:
             </div>
             <div class="col-sm-6 no-padding">
               <div class="form-group left-space">
-                <input type="text" class="form-control" title="ST" aria-label="ST" id="input_15" name="q15_st" placeholder="ST" required>
+                <input type="text" class="form-control" title="Street" aria-label="Street" id="input_15" name="q15_street" placeholder="Street" required>
               </div>
             </div>
           </div>
