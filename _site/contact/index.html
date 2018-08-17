@@ -81,6 +81,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="stylesheet" type="text/css" href="https://plugins.traveltripper.io/v2/css/booking-widget.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="">
 
 <!--[if IE]>
   <link rel="stylesheet" href="/assets/css/bootstrap-ie8.css">
@@ -391,8 +392,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="footer-content no-left-padding">
           <a href="http://highgate.com/" target="_blank"><img src="/assets/images/highgate-logo-white.png" class="footer-logo img-fluid" alt="Highgate Hotels"></a>
           <div class="other-logos">
-            <a href="  https://preferredhotels.com/destinations?advanced=royalton&&guests=1&search=rezconsole" target="_blank" rel="nofollow"><img src="/assets/images/lvx-preferred-royalton-park-avenue.png" alt="lvx-Prefer"></a>
-            <a href=" https://preferredhotels.com/destinations/new-york-ny/royalton-hotel" target="_blank" rel="nofollow"><img src="/assets/images/iprefer-new.png" alt="iPrefer"></a>
+            <a href="https://preferredhotels.com/destinations/new-york-ny/royalton-park-avenue" target="_blank" rel="nofollow"><img src="/assets/images/lvx-preferred-royalton-park-avenue.png" alt="lvx-Prefer"></a>
+            <a href="https://iprefer.com/enroll?hotel=NYCRP" target="_blank" rel="nofollow"><img src="/assets/images/iprefer-new.png" alt="iPrefer"></a>
           </div>
         </div>
       </div>
@@ -450,7 +451,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="footer-container">
     <div class="copyrights-row">
       <div class="copright-text">&copy; 2018 Royalton Park Avenue</div>
-      <div class="copright-text"><a href="/privacy-policy/" title="privacy Policy">Privacy Policy</a> | <a href="/terms-of-use/" title="Terms of Use">Terms of Use</a></div>
+      <div class="copright-text"><a href="/privacy-policy/" title="privacy Policy">Privacy Policy</a> | <a href="/terms-of-use/" title="Terms of Use">Terms of Use</a> | <a href="/accessibility/" title="Accessibility Statement">Accessibility Statement</a></div>
       <div class="credentials"><a href="https://www.traveltripper.com/" target="_blank"><img src="/assets/images/traveltripper-logo.png" class="img-fluid" alt="Travel Trpper"></a></div>
     </div>
   </div>
@@ -467,7 +468,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="/assets/js/main.min.js"></script>
 
 <!--New Booking Widget-->
-
+<script>window.cookieConsentConfig = {location: false}</script>
 <script src="https://plugins.traveltripper.io/v2/rt3api.js"></script>
 <script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script>
 <script>
@@ -487,15 +488,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
 </script>
 
-
-    <script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyAjyrna6Ms6rMkiKTj_CMXphqYsgb_i9E8"></script>
-
-
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- Only load Leaflet on specfic pages -->
+
+
+
+
+
 
   </body>
 </html>
