@@ -16,6 +16,7 @@
         transform: translateY(-48%) !important;
         .modal-content {
            border-radius: 0px;
+           background-color: #191a1c;
         }
         .modal-body {
             padding: 40px;
@@ -25,9 +26,13 @@
                 position: absolute;
                 right: 17px;
                 top: 10px;
+                background-color: #60533a;
+                color: #fff;
+                padding: 2px;
             }
             h3 {
                 font-size: 20px;
+                font-family: $caption-font-family;
                 text-shadow: none;
                 color: #fff;
                 text-transform: uppercase;
@@ -35,12 +40,14 @@
                 margin-bottom: 20px;
             }
             .signup {
-              background: #000;
+              background-color: #191a1c;
                 p{
-                  font-size: 20px;
+                  font-family: $fugue-mono;
                   text-shadow: none;
-                  color: #fff;
-                  text-transform: uppercase;
+                  font-size: .8125rem;
+                  line-height: 1.5rem;
+                  color: #cfcfcf;
+                  text-transform: none;
                   letter-spacing: .5px;
                   margin-bottom: 20px;
                 }
