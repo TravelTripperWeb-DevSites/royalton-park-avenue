@@ -36,7 +36,7 @@ include_in_nav_localized:
 
         <ol>
           <li>Follow the Royalton Park Avenue on <a href="https://www.instagram.com/royaltonparkavenue/" title="Instagram" target="_blank">Instagram</a> or <a href="https://www.facebook.com/RoyaltonParkAvenue/" title="Facebook" target="_blank">Facebook</a></li>
-          <li>Submit your entry on the below form</li>
+          <li>Submit your entry on the form below by 09/24/2018</li>
         </ol>
       {% endregionblock %}
       </div>
@@ -99,12 +99,27 @@ include_in_nav_localized:
               </div>
             </div>
           </div>
-          <button type="submit" id="sweepstakes-btn" title="Submit contact form" class="btn btn-default button-blue">Submit</button>
+          <button type="submit" id="sweepstakes-btn" title="Submit contact form" class="btn btn-default button-blue" data-toggle="modal" name="submit" data-target="#offer-promo-popup">Submit</button>
         </form>
       </div>
     </div>
   </div>
 </section>
+
+<div id="offer-promo-popup" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <a type="button" class="close" id="mclose" data-dismiss="modal">&times;</a>
+                <div class="signup">
+                    <h3>You're Entry Has Been Submitted</h3>
+                    <p>Don't forget to follow us on Twitter, Facebook, and Instagram to be eligible for the grand prize</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <section class="error-content privacy-content">

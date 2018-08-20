@@ -9,3 +9,42 @@
 .sweepstakes-btn{
   text-align: center;
 }
+
+#offer-promo-popup {
+    .modal-dialog {
+        top: 48%;
+        transform: translateY(-48%) !important;
+        .modal-content {
+           border-radius: 0px;
+        }
+        .modal-body {
+            padding: 40px;
+            border: 0px;
+            text-align: center;
+            .close {
+                position: absolute;
+                right: 17px;
+                top: 10px;
+            }
+            h3 {
+                font-size: 20px;
+                text-shadow: none;
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: .5px;
+                margin-bottom: 20px;
+            }
+            .signup {
+              background: #000;
+                p{
+                  font-size: 20px;
+                  text-shadow: none;
+                  color: #fff;
+                  text-transform: uppercase;
+                  letter-spacing: .5px;
+                  margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
