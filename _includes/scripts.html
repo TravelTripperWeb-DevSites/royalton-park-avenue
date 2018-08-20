@@ -60,7 +60,7 @@ $(document).ready(function () {
   {% assign map = true %}
 {% endif %}
 
-{% if page.url contains 'location' %}
+{% if page.url contains 'location' or page.url contains 'about' %}
  {% assign map = true %}
 {% endif %}
 
