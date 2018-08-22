@@ -191,6 +191,7 @@ svg:not(:root) {
     padding: 0;
     background: $grey-color;
     height: 5.5rem;
+    z-index: 99;
     @include media-breakpoint-up (md) {
         height: 8.375rem;
     }
@@ -251,7 +252,7 @@ svg:not(:root) {
             //padding-left: 11.3rem;
         }
         ul {
-            display: inherit;
+            // display: inherit;
             padding-bottom: 2rem;
             @include media-breakpoint-down (md) {
                 overflow-y: scroll;

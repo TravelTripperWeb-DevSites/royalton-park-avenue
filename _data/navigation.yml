@@ -2,6 +2,13 @@
 main:
 - title: About
   url: "/about/"
+  dropdown:
+      - title: Blog
+        url: "/blog/"
+      - title: Exhale
+        url: "/exhale-fitness-spa/"
+      - title: Flywheel
+        url: "/fitness/"
 - title: Offers
   url: "/offers/"
 - title: Rooms & Suites
@@ -16,11 +23,5 @@ main:
   url: "/location/"
 - title: Gallery
   url: "/gallery/"
-- title: Exhale
-  url: "/exhale-fitness-spa/"
-- title: Flywheel
-  url: "/fitness/"
-- title: Blog
-  url: "/blog/"
 - title: Contact
   url: "/contact/"
