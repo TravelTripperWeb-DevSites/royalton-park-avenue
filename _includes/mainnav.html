@@ -15,7 +15,7 @@
      </a>
 
   <div class="collapse navbar-collapse" id="collapsingNavbar">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mx-auto">
       {% for item in menuitems %}
       <li class="nav-item{% if page.url == item.url %} active{% endif %}{% if item.dropdown %} dropdown{% endif %}">
         <a class="nav-link" href="{{item.url | absolute_url}}" {% if item.dropdown %} aria-haspopup="true" aria-expanded="false" {% endif %}>{{ item.title }} {% if page.url==item.url %}<span class="sr-only">(current)</span>{% endif %}</a>
