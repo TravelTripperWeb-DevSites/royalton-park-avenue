@@ -6,28 +6,27 @@ Navigation Elements
 }
 
 ul {
-	&.dropdown-menu {
-		min-width: 7rem;
-		color: $white;
-		text-align: center;
-		background-color: $grey-color;
-		@include media-breakpoint-down (md) {
-			display: block !important;
-			padding-bottom: 0 !important;
-			overflow-y: hidden !important;
-			font-size: 9.2px;
-			color: $white;
-			text-align: center;
-			background-color: $grey-color;
-			border: none;
+  &.dropdown-menu {
+    min-width: 7rem;
+    color: $white;
+    text-align: center;
+    background-color: $grey-color;
+    @include media-breakpoint-down (md) {
+      padding-bottom: 0 !important;
+      overflow-y: hidden !important;
+      font-size: 9.2px;
+      color: $white;
+      text-align: center;
+      background-color: $grey-color;
+      border: none;
 		}
 
-		li {
-			a {
-				padding: 0.9rem 0.96rem !important;
+    li {
+      a {
+        padding: 0.9rem 0.96rem !important;
 
-				&:before {
-					display: none;
+        &:before {
+          display: none;
 				}
 			}
 		}
