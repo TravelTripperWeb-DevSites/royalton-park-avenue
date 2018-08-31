@@ -1,0 +1,114 @@
+---
+title_localized:
+  en: Food and Drinks | Royalton Park Avenue Hotel
+label_localized:
+  en:
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/pool/"
+meta_description_localized:
+  en: The Royalton Park Avenu Hotel offers various options for eating and drinking. Menus consist of a delicious brunch complete with Nutella french toast.
+meta_keywords_localized:
+  en:
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+<section class="sub-header">
+  <div class="sub-header-row">
+    <div class="sub-header-left">
+      {% regionblock eat_drink_banner, type:header %}
+      <h1>Pool</h1>
+      {% endregionblock %}
+    </div>
+    
+  </div>
+</section>
+
+<section class="top-page-cta bg-cover" style="background-image:url(/assets/images/pool/rooftop-pool.jpg); background-attachment:fixed;">
+
+		<!-- <div class="btn-holder"><a href="#" target="_blank" class="btn-outline" title="Make a reservation"> Reserve a table</a></div> -->
+    {% regionblock eat_drink_rooftop_title, type:header %}
+  <div class="cta-text">Pool</div>
+  {% endregionblock %}
+</section>
+<section class="dining-bar-main">
+	<div class="wrapper">
+           <div class="eat-drink  top-space bottom-padding">
+              
+	              <div class="left-description">
+	                  <!--div class="counter pb-4 text-right">01</div-->
+                    {% regionblock eat_drink_rooftop_subheading, type:header %}
+	                  <h4>Rooftop Pool at Royalton Park Avenue</h4>
+                    {% endregionblock %}
+                    {% regionblock eat_drink_rooftop_content, type:text %}
+                    <p>The Pool at Royalton Rooftop is located on the 20th floor. Our sprawling 1000 square foot pool deck features a 40 foot indoor/outdoor pool and ivy wall. It is a luxury urban oasis in the sky situated right in the center of Manhattan with unbeatable views of the iconic Empire State Building.</p>
+
+ 
+
+                    <p>Indulge in light bites and seasonal cocktails in between dips in our heated, year-round swimming pool and relax on our plush chaise lounge chairs.</p>
+                    
+                     
+                    
+                    <p>Our lifeguard attended pool is open daily 7AM until 7PM during spring and summer, and 7AM until 6PM during fall and winter. All guests must present their room key for access, children need to be accompanied by an adult, and proper attire is required.</p>
+                    
+                     
+                    
+                    <p>Complimentary towels are provided, please no smoking.</p>                {% endregionblock %}
+                  
+		            
+	              </div>
+	           
+          </div>
+          <div class="about-bar">
+           {% assign rooftops = site.data._models.pool-slider | sort: 'order' %}
+            <div class="photos-slider left-padding">
+                <div id="photosSlider" class="carousel slide" data-ride="carousel">
+             	    <div class="carousel-inner" role="listbox">
+                  {% for rooftop in rooftops %}
+                    <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{rooftop.image.url_large}}');">
+                    </div>
+                  {% endfor %}
+
+             	    </div>
+             	    <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev">
+             	     <span class="eligant-icons control-arrow" aria-hidden="true">#</span>
+             	      <span class="sr-only">Previous</span>
+             	    </a>
+             	    <a class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next">
+             	      <span class="eligant-icons control-arrow" aria-hidden="true">$</span>
+             	      <span class="sr-only">Next</span>
+             	    </a>
+             	  </div>
+            </div>
+               
+          </div>
+	</div>
+</section>
+
+
+<section class="cta bg-cover" style="background-image:url(/assets/images/restaurant/plunge-rooftop-bar-lounge/plunge-rooftop-bar-lounge-cta.jpg); background-attachment:fixed;">
+        <div class="bg-overlay"></div>
+		<div class="logo-holder">
+      <a href="/">
+        {% regionblock eat_drink_cta_logo, type:image %}
+        <img src="/assets/images/logo.png" alt="Royalton Park Avenue">
+        {% endregionblock %}
+      </a>
+    </div>
+    <div class="btn-holder">
+      {% regionblock eat_drink_cta_btn_1, type:text %}
+      <a href="{{site.reztripUrl}}" class="btn-outline">Be a part of it</a>
+      {% endregionblock %}
+    </div>
+      <div class="cta-text">
+        {% regionblock eat_drink_cta_btn_2, type:text %}
+        <a href="https://royaltonparkavenue.reztrip.com">Book Now</a>
+        {% endregionblock %}
+      </div>
+
+</section>

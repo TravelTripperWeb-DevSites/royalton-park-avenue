@@ -432,6 +432,24 @@
     "git_file_name": "_assets/image_data/spring-email-blast.json"
   },
   {
+    "name": "ny-street-fashion",
+    "file_name": "ny-street-fashion.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18490/media/2018-08-24-024259/ny-street-fashion.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-08-24-024259",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 667,
+    "file_size": 556984,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18490/media/2018-08-24-024259/large_ny-street-fashion.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18490/media/2018-08-24-024259/medium_ny-street-fashion.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18490/media/2018-08-24-024259/small_ny-street-fashion.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18490/media/2018-08-24-024259/xsmall_ny-street-fashion.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18490/media/2018-08-24-024259/thumb_ny-street-fashion.jpg",
+    "git_file_name": "_assets/image_data/ny-street-fashion.json"
+  },
+  {
     "name": "park-avenue-2",
     "file_name": "park-avenue-2.jpg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-022530/park-avenue-2.jpg",
@@ -804,6 +822,24 @@
     "git_file_name": "_assets/image_data/union-square.json"
   },
   {
+    "name": "time-warner-center-columbus-shops",
+    "file_name": "time-warner-center-columbus-shops.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-005513/time-warner-center-columbus-shops.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-08-22-005513",
+    "file_type": "image/jpeg",
+    "width": 756,
+    "height": 1000,
+    "file_size": 1079497,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-005513/large_time-warner-center-columbus-shops.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-005513/medium_time-warner-center-columbus-shops.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-005513/small_time-warner-center-columbus-shops.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-005513/xsmall_time-warner-center-columbus-shops.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-005513/thumb_time-warner-center-columbus-shops.jpg",
+    "git_file_name": "_assets/image_data/time-warner-center-columbus-shops.json"
+  },
+  {
     "name": "deck",
     "file_name": "deck.jpg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-27-025433/deck.jpg",
@@ -977,6 +1013,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/xsmall_gvh_park_ave_events_0013.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075305/thumb_gvh_park_ave_events_0013.jpg",
     "git_file_name": "_assets/image_data/gvh_park_ave_events_0013.json"
+  },
+  {
+    "name": "manhattan-world-trade-center-mall",
+    "file_name": "manhattan-world-trade-center-mall.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-004931/manhattan-world-trade-center-mall.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-08-22-004931",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 667,
+    "file_size": 496280,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-004931/large_manhattan-world-trade-center-mall.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-004931/medium_manhattan-world-trade-center-mall.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-004931/small_manhattan-world-trade-center-mall.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-004931/xsmall_manhattan-world-trade-center-mall.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18419/media/2018-08-22-004931/thumb_manhattan-world-trade-center-mall.jpg",
+    "git_file_name": "_assets/image_data/manhattan-world-trade-center-mall.json"
   },
   {
     "name": "guy-rooftop",
@@ -2537,6 +2591,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083744/xsmall_sundeck-eat-and-drink.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17149/media/2018-07-02-083744/thumb_sundeck-eat-and-drink.jpg",
     "git_file_name": "_assets/image_data/sundeck-eat-and-drink.json"
+  },
+  {
+    "name": "coney-island-swing-ride",
+    "file_name": "coney-island-swing-ride.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18189/media/2018-08-11-171650/coney-island-swing-ride.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-08-11-171650",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 667,
+    "file_size": 865617,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18189/media/2018-08-11-171650/large_coney-island-swing-ride.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18189/media/2018-08-11-171650/medium_coney-island-swing-ride.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18189/media/2018-08-11-171650/small_coney-island-swing-ride.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18189/media/2018-08-11-171650/xsmall_coney-island-swing-ride.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18189/media/2018-08-11-171650/thumb_coney-island-swing-ride.jpg",
+    "git_file_name": "_assets/image_data/coney-island-swing-ride.json"
   },
   {
     "name": "summerstage-nyc",
