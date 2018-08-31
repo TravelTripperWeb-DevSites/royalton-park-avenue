@@ -423,6 +423,16 @@
       "file": "blog9.json"
     },
     {
+      "name": "Stylish Manhattan Shopping Plazas",
+      "title": "Stylish Manhattan Shopping Plazas",
+      "file": "blog33.json"
+    },
+    {
+      "name": "Plan Your Summer Day Trip to Coney Island",
+      "title": "Plan Your Summer Day Trip to Coney Island",
+      "file": "blog32.json"
+    },
+    {
       "name": "Upcoming Broadway Shows You Don't Want to Miss",
       "title": "Upcoming Broadway Shows You Don't Want to Miss",
       "file": "blog8.json"
@@ -473,6 +483,11 @@
       "file": "blog14.json"
     },
     {
+      "name": "Seasonal Style Series: What to Wear in NY this Summer",
+      "title": "Seasonal Style Series: What to Wear in NY this Summer",
+      "file": "blog34.json"
+    },
+    {
       "name": "Celebrating Pride in NYC",
       "title": "Celebrating Pride in NYC",
       "file": "blog22.json"
@@ -481,6 +496,20 @@
       "name": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
       "title": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
       "file": "blog18.json"
+    }
+  ],
+  "pool-slider": [
+    {
+      "file": "pool-slider1.json"
+    },
+    {
+      "file": "pool-slider2.json"
+    },
+    {
+      "file": "pool-slider3.json"
+    },
+    {
+      "file": "pool-slider4.json"
     }
   ],
   "rooftop-slider": [
