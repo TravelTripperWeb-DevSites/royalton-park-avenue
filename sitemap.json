@@ -299,7 +299,7 @@
     "pool": {
       "__PAGES__": [
         {
-          "label": "Food and Drinks | Royalton Park Avenue Hotel",
+          "label": "Pool | Royalton Park Avenue Hotel",
           "published": true,
           "locales": {
             "en": "/pool/"
@@ -888,5 +888,5 @@
     "verification",
     "_galleries"
   ],
-  "__SHA__": "a9d0e9c09043986a349baf78db6634fe2132d05f"
+  "__SHA__": "e16548db89334391cdd4cfb6a3f60df2f15d4c0d"
 }
