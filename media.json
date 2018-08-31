@@ -654,6 +654,24 @@
     "git_file_name": "_assets/image_data/gvh_park_room_0031.json"
   },
   {
+    "name": "pool skirt",
+    "file_name": "pool skirt.jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124834/pool_skirt.jpeg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-08-31-124834",
+    "file_type": "image/jpeg",
+    "width": 1200,
+    "height": 1600,
+    "file_size": 422645,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124834/large_pool_skirt.jpeg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124834/medium_pool_skirt.jpeg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124834/small_pool_skirt.jpeg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124834/xsmall_pool_skirt.jpeg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124834/thumb_pool_skirt.jpeg",
+    "git_file_name": "_assets/image_data/pool-skirt.json"
+  },
+  {
     "name": "Untitled-3",
     "file_name": "Untitled-3.jpg",
     "file_type": "image/jpeg",
@@ -1350,6 +1368,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075300/xsmall_grand-deluxe_hr.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075300/thumb_grand-deluxe_hr.jpg",
     "git_file_name": "_assets/image_data/grand-deluxe_hr.json"
+  },
+  {
+    "name": "La perla (002)",
+    "file_name": "La perla (002).jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-125007/La_perla__002_.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-08-31-125007",
+    "file_type": "image/jpeg",
+    "width": 1125,
+    "height": 1346,
+    "file_size": 632165,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-125007/large_La_perla__002_.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-125007/medium_La_perla__002_.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-125007/small_La_perla__002_.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-125007/xsmall_La_perla__002_.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-125007/thumb_La_perla__002_.jpg",
+    "git_file_name": "_assets/image_data/La-perla--002-.json"
   },
   {
     "name": "sundeck",
@@ -2683,6 +2719,24 @@
     "git_file_name": "_assets/image_data/gvh_park_gym_0011.json"
   },
   {
+    "name": "Take me to the Beach",
+    "file_name": "Take me to the Beach.png",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124727/Take_me_to_the_Beach.png",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-08-31-124727",
+    "file_type": "image/png",
+    "width": 600,
+    "height": 800,
+    "file_size": 676562,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124727/large_Take_me_to_the_Beach.png",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124727/medium_Take_me_to_the_Beach.png",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124727/small_Take_me_to_the_Beach.png",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124727/xsmall_Take_me_to_the_Beach.png",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124727/thumb_Take_me_to_the_Beach.png",
+    "git_file_name": "_assets/image_data/Take-me-to-the-Beach.json"
+  },
+  {
     "name": "02",
     "file_name": "02.jpg",
     "file_type": "image/jpeg",
@@ -3029,6 +3083,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075808/xsmall_park-ivy-lounge-fireplace1.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075808/thumb_park-ivy-lounge-fireplace1.jpg",
     "git_file_name": "_assets/image_data/park-ivy-lounge-fireplace1.json"
+  },
+  {
+    "name": "pool girl",
+    "file_name": "pool girl.jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124924/pool_girl.jpeg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-08-31-124924",
+    "file_type": "image/jpeg",
+    "width": 1365,
+    "height": 2048,
+    "file_size": 394010,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124924/large_pool_girl.jpeg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124924/medium_pool_girl.jpeg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124924/small_pool_girl.jpeg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124924/xsmall_pool_girl.jpeg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18668/media/2018-08-31-124924/thumb_pool_girl.jpeg",
+    "git_file_name": "_assets/image_data/pool-girl.json"
   },
   {
     "name": "tower",

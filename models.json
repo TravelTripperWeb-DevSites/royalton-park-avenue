@@ -499,7 +499,18 @@
     }
   ],
   "pool-slider": [
-
+    {
+      "file": "pool-slider1.json"
+    },
+    {
+      "file": "pool-slider2.json"
+    },
+    {
+      "file": "pool-slider3.json"
+    },
+    {
+      "file": "pool-slider4.json"
+    }
   ],
   "rooftop-slider": [
     {
