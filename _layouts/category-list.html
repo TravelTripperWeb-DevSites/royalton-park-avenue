@@ -10,6 +10,9 @@ layout: default
 <section class="blog-container">
     <div class="blog-row">
         <div class="blog-col">
+            <h2>{{ page.title }}</h2>
+            <p>{{ page.description }}</p>
+            <hr>
             {% for post in site.data._models.blog %}
                 {%if post.category.url_friendly_name == page.url_friendly_name %}
                     <div class="post">
@@ -43,4 +46,3 @@ layout: default
         </div>
     </div>
 </section>
-
