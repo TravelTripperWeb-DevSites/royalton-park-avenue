@@ -6,6 +6,17 @@ Navigation Elements
 }
 
 ul {
+	.dropdown-icon {
+		position: absolute;
+		right: 30px;
+    top: 14px;
+    font-size: 24px;
+		cursor: pointer;
+		z-index: 1;
+		&.active {
+			transform: rotate(90deg);
+		}
+	}
   &.dropdown-menu {
     min-width: 7rem;
     color: $white;

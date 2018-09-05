@@ -101,7 +101,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
 
   <body ng-app="rezTrip" rt3-hotel-info="hotelInfo" rt3-rooms-browser="browser" ng-cloak>
-    
+    <div class="loading"> </div>
     
 
       
@@ -114,75 +114,83 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-<nav class="navbar navbar-expand-lg navbar-dark home-nav navbar-inverse" role="navigaton" aria-label="Primary">
-    <button class="navbar-toggler navbar-toggler-left collapsed" type="button" title="Hamburger Menu" name="Hamburger Menu" aria-label="Hamburger Menu" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarNav" aria-expanded="false">
+<nav class="navbar navbar-expand-lg navbar-dark  navbar-inverse" role="navigaton" aria-label="Primary">
+  <button class="navbar-toggler navbar-toggler-left collapsed" type="button" title="Hamburger Menu" name="Hamburger Menu" aria-label="Hamburger Menu" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarNav" aria-expanded="false">
            <span class="close-toggle"> </span>
-           <span class="navbar-toggler-icon"></span> 
+           <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <a class="navbar-brand" href="/" title="Back to home">
+
+  <a class="navbar-brand" href="/" title="Back to home">
      
      <img src="/assets/images/logo.png" alt="Royalton Park Avenue" class="img-fluid">
      
      </a>
 
-    <div class="collapse navbar-collapse" id="collapsingNavbar">
-	<ul class="navbar-nav mr-auto">
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/about/">About </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/offers/">Offers </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/rooms-and-suites/">Rooms & Suites </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/pool/">Pool </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/eat-and-drink/">Eat & Drink </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/events/">Events </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/location/">Location </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/gallery/">Gallery </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/exhale-fitness-spa/">Exhale </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/fitness/">Flywheel </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/blog/">Blog </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/contact/">Contact </a>
-	    </li>
-	    
-	</ul>
-    </div>
+  <div class="collapse navbar-collapse" id="collapsingNavbar">
+    <ul class="navbar-nav mx-auto">
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="/about/"  aria-haspopup="true" aria-expanded="false" >About </a>
+        
+        <ul class="dropdown-menu" role="menu">
+          
+          <li><a class="nav-link" href="/blog/" title="Blog">Blog </a></li>
+          
+          <li><a class="nav-link" href="/exhale-fitness-spa/" title="Exhale">Exhale </a></li>
+          
+          <li><a class="nav-link" href="/fitness/" title="Flywheel">Flywheel </a></li>
+          
+        </ul>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/offers/" >Offers </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/rooms-and-suites/" >Rooms & Suites </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/pool/" >Pool </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/eat-and-drink/" >Eat & Drink </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/events/" >Events </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/location/" >Location </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/gallery/" >Gallery </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/contact/" >Contact </a>
+        
+      </li>
+      
+    </ul>
+  </div>
+  <div class="nav-book-now-btn">
     <a class="btn-black" role="button" href="javascript:void(0)" title="Book Now" show-booking-widget> Book Now</a>
+  </div>
 </nav>
- 
- 
+
 
 	    <!--Main Carousel here-->
 
@@ -468,59 +476,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="row">
       
         <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-023231/large_pool-red-swimsuit.jpg"  alt="Pool Red SwinSuite">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
           <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-023140/large_petar-pool.jpg"  alt="Petar Pool">
         </div>
       
         <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-021103/large_empire-state.jpg"  alt="Empire State Building">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-020753/large_cowboy-hat.jpg"  alt="Cowboy Hat">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-022530/large_park-avenue-2.jpg"  alt="Park Avenue">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-023534/large_prosciutto.jpg"  alt="Prosciutto">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-020502/large_coffee-empire-state-building.jpg"  alt="Coffee Empire State Building">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-024811/large_tower.jpg"  alt="Empire State Building">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
           <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-025413/large_valentines-day.jpg"  alt="Valentines Day">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-020217/large_car.jpg"  alt="Cars">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-020052/large_asellina-breakfast.jpg"  alt="Asellina Breakfast">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-025531/large_whitney-111.jpg"  alt="Whitney">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-024223/large_spring-email-blast.jpg"  alt="Spring">
-        </div>
-      
-        <div class="col-md-2 col-sm-2">
-          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-024529/large_taketobeach.jpg"  alt="Take Me to the Beach">
         </div>
       
         <div class="col-md-2 col-sm-2">
@@ -536,7 +496,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       
         <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-024529/large_taketobeach.jpg"  alt="Take Me to the Beach">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-020052/large_asellina-breakfast.jpg"  alt="Asellina Breakfast">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-021103/large_empire-state.jpg"  alt="Empire State Building">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
           <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-024028/large_room-window.jpg"  alt="Pink Curtains">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-020753/large_cowboy-hat.jpg"  alt="Cowboy Hat">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-025531/large_whitney-111.jpg"  alt="Whitney">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-020502/large_coffee-empire-state-building.jpg"  alt="Coffee Empire State Building">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-024223/large_spring-email-blast.jpg"  alt="Spring">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-022530/large_park-avenue-2.jpg"  alt="Park Avenue">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-024811/large_tower.jpg"  alt="Empire State Building">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-023231/large_pool-red-swimsuit.jpg"  alt="Pool Red SwinSuite">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-023534/large_prosciutto.jpg"  alt="Prosciutto">
+        </div>
+      
+        <div class="col-md-2 col-sm-2">
+          <img src="//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-020217/large_car.jpg"  alt="Cars">
         </div>
       
       <div class="collage-instagram-inner">
@@ -660,7 +668,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 </section>
 
-	     
+
 
     <footer class="footer">
       <!-- start custom footer snippets -->
