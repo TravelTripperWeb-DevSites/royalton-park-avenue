@@ -37,9 +37,9 @@
     })
     .controller('roomDetail', ['$scope', 'rt3Search', 'rt3Browser','$timeout','$filter','$http', function($scope, rt3Search, rt3Browser,$timeout,$filter,$http) {
       window.onhashchange = function() {
-            $(".loading").css("display","block");
+            //$(".loading").css("display","block");
             $timeout(function(){
-              $(".loading").fadeOut('slow');
+            //  $(".loading").fadeOut('slow');
               $(window).scrollTop(0);
             },800);
             $timeout(function() {
@@ -66,7 +66,7 @@
       }
       $scope.reloadPage = function(){window.location.reload();}
       $timeout(function() {
-           $(".loading").fadeOut('slow');
+           //$(".loading").fadeOut('slow');
       }, 1500);
 
     }])
@@ -82,7 +82,7 @@
         }
         $scope.reloadPage = function(){$window.location.reload();}
         setTimeout(function(){
-            $(".loading").fadeOut('slow');
+            //$(".loading").fadeOut('slow');
             $(window).scrollTop(0);
         },800);
 

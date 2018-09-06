@@ -1726,6 +1726,24 @@
     "git_file_name": "_assets/image_data/anders-jilden-250.json"
   },
   {
+    "name": "union-square-nyc",
+    "file_name": "union-square-nyc.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18761/media/2018-09-05-004312/union-square-nyc.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-09-05-004312",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 497,
+    "file_size": 508767,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_18761/media/2018-09-05-004312/large_union-square-nyc.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_18761/media/2018-09-05-004312/medium_union-square-nyc.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_18761/media/2018-09-05-004312/small_union-square-nyc.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_18761/media/2018-09-05-004312/xsmall_union-square-nyc.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_18761/media/2018-09-05-004312/thumb_union-square-nyc.jpg",
+    "git_file_name": "_assets/image_data/union-square-nyc.json"
+  },
+  {
     "name": "whitney1",
     "file_name": "whitney1.jpg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_17015/media/2018-06-26-080320/whitney1.jpg",
@@ -2620,6 +2638,17 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_16023/media/2018-05-21-235724/xsmall_exhale_foto.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_16023/media/2018-05-21-235724/thumb_exhale_foto.jpg",
     "git_file_name": "_assets/image_data/exhale-foto.json"
+  },
+  {
+    "name": "SEPT 2018",
+    "file_name": "SEPT 2018.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_18756/media/2018-09-04-174854/SEPT-2018.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-09-04-174854",
+    "file_size": 1726823,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/SEPT-2018.json"
   },
   {
     "name": "Flywheel",
