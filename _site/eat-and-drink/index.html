@@ -101,7 +101,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
 
   <body ng-app="rezTrip" rt3-hotel-info="hotelInfo" rt3-rooms-browser="browser" ng-cloak>
-    
+    <div class="loading"> </div>
     
 
       
@@ -115,74 +115,82 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
 <nav class="navbar navbar-expand-lg navbar-dark  navbar-inverse" role="navigaton" aria-label="Primary">
-    <button class="navbar-toggler navbar-toggler-left collapsed" type="button" title="Hamburger Menu" name="Hamburger Menu" aria-label="Hamburger Menu" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarNav" aria-expanded="false">
+  <button class="navbar-toggler navbar-toggler-left collapsed" type="button" title="Hamburger Menu" name="Hamburger Menu" aria-label="Hamburger Menu" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarNav" aria-expanded="false">
            <span class="close-toggle"> </span>
-           <span class="navbar-toggler-icon"></span> 
+           <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <a class="navbar-brand" href="/" title="Back to home">
+
+  <a class="navbar-brand" href="/" title="Back to home">
      
      <img src="/assets/images/logo.png" alt="Royalton Park Avenue" class="img-fluid">
      
      </a>
 
-    <div class="collapse navbar-collapse" id="collapsingNavbar">
-	<ul class="navbar-nav mr-auto">
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/about/">About </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/offers/">Offers </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/rooms-and-suites/">Rooms & Suites </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/pool/">Pool </a>
-	    </li>
-	    
-	    <li class="nav-item active">
-		<a class="nav-link" href="/eat-and-drink/">Eat & Drink </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/events/">Events </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/location/">Location </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/gallery/">Gallery </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/exhale-fitness-spa/">Exhale </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/fitness/">Flywheel </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/blog/">Blog </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/contact/">Contact </a>
-	    </li>
-	    
-	</ul>
-    </div>
+  <div class="collapse navbar-collapse" id="collapsingNavbar">
+    <ul class="navbar-nav mx-auto">
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="/about/"  aria-haspopup="true" aria-expanded="false" >About </a>
+        
+        <ul class="dropdown-menu" role="menu">
+          
+          <li><a class="nav-link" href="/blog/" title="Blog">Blog </a></li>
+          
+          <li><a class="nav-link" href="/exhale-fitness-spa/" title="Exhale">Exhale </a></li>
+          
+          <li><a class="nav-link" href="/fitness/" title="Flywheel">Flywheel </a></li>
+          
+        </ul>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/offers/" >Offers </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/rooms-and-suites/" >Rooms & Suites </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/pool/" >Pool </a>
+        
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="/eat-and-drink/" >Eat & Drink </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/events/" >Events </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/location/" >Location </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/gallery/" >Gallery </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/contact/" >Contact </a>
+        
+      </li>
+      
+    </ul>
+  </div>
+  <div class="nav-book-now-btn">
     <a class="btn-black" role="button" href="javascript:void(0)" title="Book Now" show-booking-widget> Book Now</a>
+  </div>
 </nav>
- 
- 
+
 
 	    <section class="sub-header">
   <div class="sub-header-row">
@@ -249,7 +257,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div id='tt-region-eat_drink_rooftop_btn' class='tt-region' data-region='en/_pages/plunge-rooftop-bar.html/eat_drink_rooftop_btn.json' data-region-type='text' data-region-classes='btn-outline-black'><div class='tt-region_ped' data-ped-index='0' data-ped-type='html'><p style="padding-left: 30px;"><a class="btn-outline-black" title="Contact " href="mailto: Parkrooftop@togrp.com">Contact Us</a></p></div></div>
                   </div>
                   <div class="btn-holder">
-                    <div id='tt-region-eat_drink_entertainment_btn' class='tt-region' data-region='en/_pages/plunge-rooftop-bar.html/eat_drink_entertainment_btn.json' data-region-type='text' data-region-classes='btn-outline-black'><div class='tt-region_ped' data-ped-index='0' data-ped-type='html'><p style="padding-left: 30px;"><a class="btn-outline-black" title="Entertainment calendar" href="//cdn.traveltripper.io/site-assets/192_800_17525/media/2018-08-07-172919/AUGUST-2018.pdf" target="_blank" rel="noopener noreferrer">Entertainment calendar</a></p></div></div>
+                    <div id='tt-region-eat_drink_entertainment_btn' class='tt-region' data-region='en/_pages/plunge-rooftop-bar.html/eat_drink_entertainment_btn.json' data-region-type='text' data-region-classes='btn-outline-black'><div class='tt-region_ped' data-ped-index='0' data-ped-type='html'><p style="padding-left: 30px;"><a class="btn-outline-black" title="Entertainment calendar" href="//cdn.traveltripper.io/site-assets/192_800_18756/media/2018-09-04-174854/SEPT-2018.pdf" target="_blank" rel="noopener noreferrer">Entertainment calendar</a></p></div></div>
                   </div>
                   <div class="btn-holder">
                     <div id='tt-region-eat_drink_roof-menu_btn' class='tt-region' data-region='en/_pages/plunge-rooftop-bar.html/eat_drink_roof-menu_btn.json' data-region-type='text' data-region-classes='btn-outline-black'><div class='tt-region_ped' data-ped-index='0' data-ped-type='html'><p style="padding-left: 30px;"><a class="btn-outline-black" title="Entertainment calendar" href="//cdn.traveltripper.io/site-assets/192_800_13806/media/2018-03-22-110941/Rooftop-Menu-2018-3-21.pdf" target="_blank" rel="noopener noreferrer">Rooftop Menu</a></p></div></div>
@@ -339,7 +347,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </section>
 
-	     
+
 
     <footer class="footer">
       <!-- start custom footer snippets -->
@@ -446,6 +454,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          //showRateCalendar: true,
          showOfferCode: true
     });
+</script>
+
+<script>
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+$(document).ready(function () {
+  if (getParameterByName('submit')) {
+        if (getParameterByName('submit') == 'success') {
+            $('.signup').css('display', 'block');
+            $('#offer-promo-popup').modal('show');
+        }
+    }
+});
 </script>
 
 <!-- Bootstrap core JavaScript

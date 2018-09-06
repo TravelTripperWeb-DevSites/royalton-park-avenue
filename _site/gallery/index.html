@@ -101,7 +101,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
 
   <body ng-app="rezTrip" rt3-hotel-info="hotelInfo" rt3-rooms-browser="browser" ng-cloak>
-    
+    <div class="loading"> </div>
     
 
       
@@ -115,74 +115,82 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
 <nav class="navbar navbar-expand-lg navbar-dark  navbar-inverse" role="navigaton" aria-label="Primary">
-    <button class="navbar-toggler navbar-toggler-left collapsed" type="button" title="Hamburger Menu" name="Hamburger Menu" aria-label="Hamburger Menu" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarNav" aria-expanded="false">
+  <button class="navbar-toggler navbar-toggler-left collapsed" type="button" title="Hamburger Menu" name="Hamburger Menu" aria-label="Hamburger Menu" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarNav" aria-expanded="false">
            <span class="close-toggle"> </span>
-           <span class="navbar-toggler-icon"></span> 
+           <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <a class="navbar-brand" href="/" title="Back to home">
+
+  <a class="navbar-brand" href="/" title="Back to home">
      
      <img src="/assets/images/logo.png" alt="Royalton Park Avenue" class="img-fluid">
      
      </a>
 
-    <div class="collapse navbar-collapse" id="collapsingNavbar">
-	<ul class="navbar-nav mr-auto">
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/about/">About </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/offers/">Offers </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/rooms-and-suites/">Rooms & Suites </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/pool/">Pool </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/eat-and-drink/">Eat & Drink </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/events/">Events </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/location/">Location </a>
-	    </li>
-	    
-	    <li class="nav-item active">
-		<a class="nav-link" href="/gallery/">Gallery </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/exhale-fitness-spa/">Exhale </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/fitness/">Flywheel </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/blog/">Blog </a>
-	    </li>
-	    
-	    <li class="nav-item ">
-		<a class="nav-link" href="/contact/">Contact </a>
-	    </li>
-	    
-	</ul>
-    </div>
+  <div class="collapse navbar-collapse" id="collapsingNavbar">
+    <ul class="navbar-nav mx-auto">
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="/about/"  aria-haspopup="true" aria-expanded="false" >About </a>
+        
+        <ul class="dropdown-menu" role="menu">
+          
+          <li><a class="nav-link" href="/blog/" title="Blog">Blog </a></li>
+          
+          <li><a class="nav-link" href="/exhale-fitness-spa/" title="Exhale">Exhale </a></li>
+          
+          <li><a class="nav-link" href="/fitness/" title="Flywheel">Flywheel </a></li>
+          
+        </ul>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/offers/" >Offers </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/rooms-and-suites/" >Rooms & Suites </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/pool/" >Pool </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/eat-and-drink/" >Eat & Drink </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/events/" >Events </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/location/" >Location </a>
+        
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="/gallery/" >Gallery </a>
+        
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/contact/" >Contact </a>
+        
+      </li>
+      
+    </ul>
+  </div>
+  <div class="nav-book-now-btn">
     <a class="btn-black" role="button" href="javascript:void(0)" title="Book Now" show-booking-widget> Book Now</a>
+  </div>
 </nav>
- 
- 
+
 
 	    
 <section class="sub-header">
@@ -202,15 +210,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="sub-nav">
             <li><a href="javascript:void(0);" class="filter active" data-filter="all" data-rel="all">ALL</a></li>
               
-                   <li><a href="javascript:;" class="filter" data-rel="rooms_suites">Rooms & Suites</a></li>
-                    
-                   <li><a href="javascript:;" class="filter" data-rel="exhale">exhale</a></li>
+                   <li><a href="javascript:;" class="filter" data-rel="location">Location</a></li>
                     
                    <li><a href="javascript:;" class="filter" data-rel="eat_drink">Eat & Drink</a></li>
                     
-                   <li><a href="javascript:;" class="filter" data-rel="location">Location</a></li>
-                    
                    <li><a href="javascript:;" class="filter" data-rel="hotel">Hotel</a></li>
+                    
+                   <li><a href="javascript:;" class="filter" data-rel="rooms_suites">Rooms & Suites</a></li>
+                    
+                   <li><a href="javascript:;" class="filter" data-rel="exhale">exhale</a></li>
                    
         </ul>
       </div>
@@ -218,153 +226,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card-columns">
           
           
-          
-                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/large_deluxe-king.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/medium_deluxe-king.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/medium_deluxe-king.jpg" alt="Deluxe King" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>rooms&suites</h4>
-                        <h2>Deluxe King</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075307/large_gvh_park_ave_suite_0051.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075307/medium_gvh_park_ave_suite_0051.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075307/medium_gvh_park_ave_suite_0051.jpg" alt="Royalton Suite" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>rooms&suites</h4>
-                        <h2>Royalton Suite</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075447/large_gvh_park_gans_suite_0021.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075447/medium_gvh_park_gans_suite_0021.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075447/medium_gvh_park_gans_suite_0021.jpg" alt="Park Avenue Suite" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>rooms&suites</h4>
-                        <h2>Park Avenue Suite</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/large_avenue-grand-deluxe-king.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/medium_avenue-grand-deluxe-king.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/medium_avenue-grand-deluxe-king.jpg" alt="Grand Deluxe King" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>rooms&suites</h4>
-                        <h2>Grand Deluxe King</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/large_park-avenue-suite-bedroom.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/medium_park-avenue-suite-bedroom.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/medium_park-avenue-suite-bedroom.jpg" alt="Park Avenue Suite" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>rooms&suites</h4>
-                        <h2>Park Avenue Suite</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/large_gvh_park_superior_0022.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/medium_gvh_park_superior_0022.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/medium_gvh_park_superior_0022.jpg" alt="Park Avenue Suite" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>rooms&suites</h4>
-                        <h2>Park Avenue Suite</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053418/large_royalton-suite-bedroom.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053418/medium_royalton-suite-bedroom.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053418/medium_royalton-suite-bedroom.jpg" alt="Superior King" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>rooms&suites</h4>
-                        <h2>Superior King</h2>
-                      </div>
-                    </div>
-                </div>
-          
-          
-          
-          
-                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/large_exhale-1.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/medium_exhale-1.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/medium_exhale-1.jpg" alt="Spa" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>exhale</h4>
-                        <h2>Spa</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/large_exhale-2.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/medium_exhale-2.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/medium_exhale-2.jpg" alt="Spa" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>exhale</h4>
-                        <h2>Spa</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/large_exhale-3.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/medium_exhale-3.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/medium_exhale-3.jpg" alt="Spa" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>exhale</h4>
-                        <h2>Spa</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/large_PARK_Lobby.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/medium_PARK_Lobby.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/medium_PARK_Lobby.jpg" alt="Spa" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>exhale</h4>
-                        <h2>Spa</h2>
-                      </div>
-                    </div>
-                </div>
-          
-                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/large_exhale-7.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/medium_exhale-7.jpg" >
-                    <img src="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/medium_exhale-7.jpg" alt="Spa" class="img-fluid" />
-                    <div class="overlay">
-                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
-                      <div class="img-title">
-                        <hr>
-                        <h4>exhale</h4>
-                        <h2>Spa</h2>
-                      </div>
-                    </div>
-                </div>
           
           
           
@@ -452,9 +313,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                     </div>
                 </div>
-          
-          
-          
           
           
           
@@ -640,12 +498,162 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
           
           
+          
+          
+                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/large_deluxe-king.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/medium_deluxe-king.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053358/medium_deluxe-king.jpg" alt="Deluxe King" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>rooms&suites</h4>
+                        <h2>Deluxe King</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075307/large_gvh_park_ave_suite_0051.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075307/medium_gvh_park_ave_suite_0051.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075307/medium_gvh_park_ave_suite_0051.jpg" alt="Royalton Suite" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>rooms&suites</h4>
+                        <h2>Royalton Suite</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075447/large_gvh_park_gans_suite_0021.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075447/medium_gvh_park_gans_suite_0021.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075447/medium_gvh_park_gans_suite_0021.jpg" alt="Park Avenue Suite" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>rooms&suites</h4>
+                        <h2>Park Avenue Suite</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/large_avenue-grand-deluxe-king.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/medium_avenue-grand-deluxe-king.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053340/medium_avenue-grand-deluxe-king.jpg" alt="Grand Deluxe King" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>rooms&suites</h4>
+                        <h2>Grand Deluxe King</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/large_park-avenue-suite-bedroom.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/medium_park-avenue-suite-bedroom.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053409/medium_park-avenue-suite-bedroom.jpg" alt="Park Avenue Suite" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>rooms&suites</h4>
+                        <h2>Park Avenue Suite</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/large_gvh_park_superior_0022.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/medium_gvh_park_superior_0022.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_7760/media/2017-10-05-075749/medium_gvh_park_superior_0022.jpg" alt="Park Avenue Suite" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>rooms&suites</h4>
+                        <h2>Park Avenue Suite</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="rooms_suites" data-src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053418/large_royalton-suite-bedroom.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053418/medium_royalton-suite-bedroom.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_11568/media/2018-01-24-053418/medium_royalton-suite-bedroom.jpg" alt="Superior King" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>rooms&suites</h4>
+                        <h2>Superior King</h2>
+                      </div>
+                    </div>
+                </div>
+          
+          
+          
+          
+                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/large_exhale-1.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/medium_exhale-1.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080619/medium_exhale-1.jpg" alt="Spa" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>exhale</h4>
+                        <h2>Spa</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/large_exhale-2.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/medium_exhale-2.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080630/medium_exhale-2.jpg" alt="Spa" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>exhale</h4>
+                        <h2>Spa</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/large_exhale-3.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/medium_exhale-3.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_11845/media/2018-02-08-080641/medium_exhale-3.jpg" alt="Spa" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>exhale</h4>
+                        <h2>Spa</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/large_PARK_Lobby.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/medium_PARK_Lobby.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-042647/medium_PARK_Lobby.jpg" alt="Spa" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>exhale</h4>
+                        <h2>Spa</h2>
+                      </div>
+                    </div>
+                </div>
+          
+                <div class="card item fancybox" data-filter="exhale" data-src="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/large_exhale-7.jpg" data-exthumbimage="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/medium_exhale-7.jpg" >
+                    <img src="//cdn.traveltripper.io/site-assets/192_800_12105/media/2018-02-14-043236/medium_exhale-7.jpg" alt="Spa" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="zoom-in"><img src="/assets/images/plus.png" alt="Zoom In"/></div>
+                      <div class="img-title">
+                        <hr>
+                        <h4>exhale</h4>
+                        <h2>Spa</h2>
+                      </div>
+                    </div>
+                </div>
+          
+          
         </div>
       </div>
     </div>
 </section>
 
-	     
+
 
     <footer class="footer">
       <!-- start custom footer snippets -->
@@ -752,6 +760,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          //showRateCalendar: true,
          showOfferCode: true
     });
+</script>
+
+<script>
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+$(document).ready(function () {
+  if (getParameterByName('submit')) {
+        if (getParameterByName('submit') == 'success') {
+            $('.signup').css('display', 'block');
+            $('#offer-promo-popup').modal('show');
+        }
+    }
+});
 </script>
 
 <!-- Bootstrap core JavaScript
