@@ -1,4 +1,81 @@
 {
+  "sundeck-slider": [
+    {
+      "file": "sundeck-slider2.json"
+    },
+    {
+      "file": "sundeck-slider1.json"
+    },
+    {
+      "file": "sundeck-slider4.json"
+    }
+  ],
+  "category": [
+    {
+      "name": "Food & Wine",
+      "title": "Food & Wine",
+      "file": "category1.json"
+    },
+    {
+      "name": "Activities",
+      "title": "Activities",
+      "file": "category5.json"
+    },
+    {
+      "name": "Design",
+      "title": "Design",
+      "file": "category4.json"
+    },
+    {
+      "name": "Fashion",
+      "title": "Fashion",
+      "file": "category3.json"
+    },
+    {
+      "name": "Sports & Entertainment",
+      "title": "Sports & Entertainment",
+      "file": "category2.json"
+    }
+  ],
+  "rooftop-slider": [
+    {
+      "file": "rooftop-slider4.json"
+    },
+    {
+      "file": "rooftop-slider1.json"
+    },
+    {
+      "file": "rooftop-slider2.json"
+    },
+    {
+      "file": "rooftop-slider3.json"
+    }
+  ],
+  "pool-slider": [
+    {
+      "file": "pool-slider4.json"
+    },
+    {
+      "file": "pool-slider1.json"
+    },
+    {
+      "file": "pool-slider3.json"
+    }
+  ],
+  "welcome-property-slider": [
+    {
+      "file": "welcome-property-slider2.json"
+    },
+    {
+      "file": "welcome-property-slider1.json"
+    },
+    {
+      "file": "welcome-property-slider4.json"
+    },
+    {
+      "file": "welcome-property-slider3.json"
+    }
+  ],
   "ristorante-slider": [
     {
       "file": "ristorante-slider2.json"
@@ -7,152 +84,11 @@
       "file": "ristorante-slider1.json"
     }
   ],
-  "rooftop-slider": [
-    {
-      "file": "rooftop-slider1.json"
-    },
-    {
-      "file": "rooftop-slider3.json"
-    },
-    {
-      "file": "rooftop-slider4.json"
-    },
-    {
-      "file": "rooftop-slider2.json"
-    }
-  ],
-  "sundeck-slider": [
-    {
-      "file": "sundeck-slider4.json"
-    },
-    {
-      "file": "sundeck-slider1.json"
-    },
-    {
-      "file": "sundeck-slider2.json"
-    }
-  ],
-  "pool-slider": [
-    {
-      "file": "pool-slider3.json"
-    },
-    {
-      "file": "pool-slider1.json"
-    },
-    {
-      "file": "pool-slider4.json"
-    }
-  ],
   "blog": [
-    {
-      "name": "5 Best Restaurants with Outdoor Dining in Manhattan",
-      "title": "5 Best Restaurants with Outdoor Dining in Manhattan",
-      "file": "blog10.json"
-    },
-    {
-      "name": "Best Brunch Spots in New York City",
-      "title": "Best Brunch Spots in New York City",
-      "file": "blog26.json"
-    },
-    {
-      "name": "Upcoming Broadway Shows You Don't Want to Miss",
-      "title": "Upcoming Broadway Shows You Don't Want to Miss",
-      "file": "blog8.json"
-    },
-    {
-      "name": "Upcoming Concerts We’re Excited About",
-      "title": "Upcoming Concerts We’re Excited About",
-      "file": "blog2.json"
-    },
-    {
-      "name": "Peruse these Manhattan Art Galleries",
-      "title": "Peruse these Manhattan Art Galleries",
-      "file": "blog21.json"
-    },
-    {
-      "name": "Discover the Best Views from these Amazing NYC Rooftops",
-      "title": "Discover the Best Views from these Amazing NYC Rooftops",
-      "file": "blog28.json"
-    },
-    {
-      "name": "Must-See Events at NYCxDESIGN",
-      "title": "Must-See Events at NYCxDESIGN",
-      "file": "blog9.json"
-    },
-    {
-      "name": "Stylish Manhattan Shopping Plazas",
-      "title": "Stylish Manhattan Shopping Plazas",
-      "file": "blog33.json"
-    },
-    {
-      "name": "Best Manhattan Wine Bars",
-      "title": "Best Manhattan Wine Bars",
-      "file": "blog6.json"
-    },
     {
       "name": "Navigating SummerStage 2018",
       "title": "Navigating SummerStage 2018",
       "file": "blog15.json"
-    },
-    {
-      "name": "Explore Koreatown in Manhattan",
-      "title": "Explore Koreatown in Manhattan",
-      "file": "blog7.json"
-    },
-    {
-      "name": "Our Favorite NYC Summer Art Exhibits",
-      "title": "Our Favorite NYC Summer Art Exhibits",
-      "file": "blog16.json"
-    },
-    {
-      "name": "Union Square: Eat, Shop, Drink",
-      "title": "Union Square: Eat, Shop, Drink",
-      "file": "blog35.json"
-    },
-    {
-      "name": "Host Your Special Event in the Royalton Park Ave Ballroom",
-      "title": "Host Your Special Event in the Royalton Park Ave Ballroom",
-      "file": "blog13.json"
-    },
-    {
-      "name": "5 Manhattan Boutiques We Love",
-      "title": "5 Manhattan Boutiques We Love",
-      "file": "blog11.json"
-    },
-    {
-      "name": "A Day of Wellness in Midtown Manhattan",
-      "title": "A Day of Wellness in Midtown Manhattan",
-      "file": "blog14.json"
-    },
-    {
-      "name": "Catch a Yankees Game at these 5 Manhattan Taprooms",
-      "title": "Catch a Yankees Game at these 5 Manhattan Taprooms",
-      "file": "blog27.json"
-    },
-    {
-      "name": "Visit the Up-and-Coming Seaport District",
-      "title": "Visit the Up-and-Coming Seaport District",
-      "file": "blog29.json"
-    },
-    {
-      "name": "Frosé for Days",
-      "title": "Frosé for Days",
-      "file": "blog24.json"
-    },
-    {
-      "name": "Celebrating Pride in NYC",
-      "title": "Celebrating Pride in NYC",
-      "file": "blog22.json"
-    },
-    {
-      "name": "Seasonal Style Series: What to Wear in NY this Spring",
-      "title": "Seasonal Style Series: What to Wear in NY this Spring",
-      "file": "blog4.json"
-    },
-    {
-      "name": "The Most Exquisite Burgers in Manhattan",
-      "title": "The Most Exquisite Burgers in Manhattan",
-      "file": "blog20.json"
     },
     {
       "name": "New York City’s Best Pizza Joints",
@@ -160,19 +96,9 @@
       "file": "blog19.json"
     },
     {
-      "name": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
-      "title": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
-      "file": "blog18.json"
-    },
-    {
-      "name": "Plan Your Summer Day Trip to Coney Island",
-      "title": "Plan Your Summer Day Trip to Coney Island",
-      "file": "blog32.json"
-    },
-    {
-      "name": "Book Ahead for NY Fashion Week",
-      "title": "Book Ahead for NY Fashion Week",
-      "file": "blog31.json"
+      "name": "Upcoming Broadway Shows You Don't Want to Miss",
+      "title": "Upcoming Broadway Shows You Don't Want to Miss",
+      "file": "blog8.json"
     },
     {
       "name": "Fourth of July in the Big Apple",
@@ -180,14 +106,24 @@
       "file": "blog25.json"
     },
     {
-      "name": "NYC Outdoor Summer Movie Screenings",
-      "title": "NYC Outdoor Summer Movie Screenings",
-      "file": "blog17.json"
+      "name": "Cool Off With These 5 Indoor Activities in NYC",
+      "title": "Cool Off With These 5 Indoor Activities in NYC",
+      "file": "blog23.json"
     },
     {
-      "name": "Check Out These Cool NYC Home Decor Shops",
-      "title": "Check Out These Cool NYC Home Decor Shops",
-      "file": "blog12.json"
+      "name": "Frosé for Days",
+      "title": "Frosé for Days",
+      "file": "blog24.json"
+    },
+    {
+      "name": "Catch a Yankees Game at these 5 Manhattan Taprooms",
+      "title": "Catch a Yankees Game at these 5 Manhattan Taprooms",
+      "file": "blog27.json"
+    },
+    {
+      "name": "Plan Your Summer Day Trip to Coney Island",
+      "title": "Plan Your Summer Day Trip to Coney Island",
+      "file": "blog32.json"
     },
     {
       "name": "Seasonal Style Series: What to Wear in NY this Summer",
@@ -195,25 +131,251 @@
       "file": "blog34.json"
     },
     {
-      "name": "Cool Off With These 5 Indoor Activities in NYC",
-      "title": "Cool Off With These 5 Indoor Activities in NYC",
-      "file": "blog23.json"
+      "name": "Best Manhattan Wine Bars",
+      "title": "Best Manhattan Wine Bars",
+      "file": "blog6.json"
+    },
+    {
+      "name": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
+      "title": "Beat the Heat and Enjoy the Sun on the Royalton Rooftop",
+      "file": "blog18.json"
+    },
+    {
+      "name": "Upcoming Concerts We’re Excited About",
+      "title": "Upcoming Concerts We’re Excited About",
+      "file": "blog2.json"
+    },
+    {
+      "name": "A Day of Wellness in Midtown Manhattan",
+      "title": "A Day of Wellness in Midtown Manhattan",
+      "file": "blog14.json"
+    },
+    {
+      "name": "5 Manhattan Boutiques We Love",
+      "title": "5 Manhattan Boutiques We Love",
+      "file": "blog11.json"
+    },
+    {
+      "name": "The Most Exquisite Burgers in Manhattan",
+      "title": "The Most Exquisite Burgers in Manhattan",
+      "file": "blog20.json"
+    },
+    {
+      "name": "Seasonal Style Series: What to Wear in NY this Spring",
+      "title": "Seasonal Style Series: What to Wear in NY this Spring",
+      "file": "blog4.json"
     },
     {
       "name": "Beginner's Guide to Attending the 2018 US Open",
       "title": "Beginner's Guide to Attending the 2018 US Open",
       "file": "blog30.json"
+    },
+    {
+      "name": "5 Best Restaurants with Outdoor Dining in Manhattan",
+      "title": "5 Best Restaurants with Outdoor Dining in Manhattan",
+      "file": "blog10.json"
+    },
+    {
+      "name": "NYC Outdoor Summer Movie Screenings",
+      "title": "NYC Outdoor Summer Movie Screenings",
+      "file": "blog17.json"
+    },
+    {
+      "name": "Our Favorite NYC Summer Art Exhibits",
+      "title": "Our Favorite NYC Summer Art Exhibits",
+      "file": "blog16.json"
+    },
+    {
+      "name": "Visit the Up-and-Coming Seaport District",
+      "title": "Visit the Up-and-Coming Seaport District",
+      "file": "blog29.json"
+    },
+    {
+      "name": "Best Brunch Spots in New York City",
+      "title": "Best Brunch Spots in New York City",
+      "file": "blog26.json"
+    },
+    {
+      "name": "Discover the Best Views from these Amazing NYC Rooftops",
+      "title": "Discover the Best Views from these Amazing NYC Rooftops",
+      "file": "blog28.json"
+    },
+    {
+      "name": "Book Ahead for NY Fashion Week",
+      "title": "Book Ahead for NY Fashion Week",
+      "file": "blog31.json"
+    },
+    {
+      "name": "Explore Koreatown in Manhattan",
+      "title": "Explore Koreatown in Manhattan",
+      "file": "blog7.json"
+    },
+    {
+      "name": "Celebrating Pride in NYC",
+      "title": "Celebrating Pride in NYC",
+      "file": "blog22.json"
+    },
+    {
+      "name": "Peruse these Manhattan Art Galleries",
+      "title": "Peruse these Manhattan Art Galleries",
+      "file": "blog21.json"
+    },
+    {
+      "name": "Must-See Events at NYCxDESIGN",
+      "title": "Must-See Events at NYCxDESIGN",
+      "file": "blog9.json"
+    },
+    {
+      "name": "Union Square: Eat, Shop, Drink",
+      "title": "Union Square: Eat, Shop, Drink",
+      "file": "blog35.json"
+    },
+    {
+      "name": "Stylish Manhattan Shopping Plazas",
+      "title": "Stylish Manhattan Shopping Plazas",
+      "file": "blog33.json"
+    },
+    {
+      "name": "Check Out These Cool NYC Home Decor Shops",
+      "title": "Check Out These Cool NYC Home Decor Shops",
+      "file": "blog12.json"
+    },
+    {
+      "name": "Host Your Special Event in the Royalton Park Ave Ballroom",
+      "title": "Host Your Special Event in the Royalton Park Ave Ballroom",
+      "file": "blog13.json"
+    }
+  ],
+  "attractions": [
+    {
+      "name": "Empire State Building",
+      "title": "Empire State Building",
+      "file": "attractions6.json"
+    },
+    {
+      "name": "Union Square",
+      "title": "Union Square",
+      "file": "attractions4.json"
+    },
+    {
+      "name": "Flatiron Building",
+      "title": "Flatiron Building",
+      "file": "attractions2.json"
+    },
+    {
+      "name": "Eataly",
+      "title": "Eataly",
+      "file": "attractions3.json"
+    },
+    {
+      "name": "Madison Square Park",
+      "title": "Madison Square Park",
+      "file": "attractions1.json"
+    },
+    {
+      "name": "Madison Square Garden",
+      "title": "Madison Square Garden",
+      "file": "attractions5.json"
+    }
+  ],
+  "collage": [
+    {
+      "name": "Empire State Building",
+      "title": "Empire State Building",
+      "file": "collage5.json"
+    },
+    {
+      "name": "Pool Red SwinSuite",
+      "title": "Pool Red SwinSuite",
+      "file": "collage10.json"
+    },
+    {
+      "name": "Cowboy Hat",
+      "title": "Cowboy Hat",
+      "file": "collage4.json"
+    },
+    {
+      "name": "Spring",
+      "title": "Spring",
+      "file": "collage14.json"
+    },
+    {
+      "name": "Empire State Building",
+      "title": "Empire State Building",
+      "file": "collage16.json"
+    },
+    {
+      "name": "Cars",
+      "title": "Cars",
+      "file": "collage2.json"
+    },
+    {
+      "name": "Prosciutto",
+      "title": "Prosciutto",
+      "file": "collage11.json"
+    },
+    {
+      "name": "Asellina Breakfast",
+      "title": "Asellina Breakfast",
+      "file": "collage1.json"
+    },
+    {
+      "name": "Take Me to the Beach",
+      "title": "Take Me to the Beach",
+      "file": "collage15.json"
+    },
+    {
+      "name": "Rooftop Balcony Couple",
+      "title": "Rooftop Balcony Couple",
+      "file": "collage12.json"
+    },
+    {
+      "name": "Guy Rooftop",
+      "title": "Guy Rooftop",
+      "file": "collage6.json"
+    },
+    {
+      "name": "Valentines Day",
+      "title": "Valentines Day",
+      "file": "collage17.json"
+    },
+    {
+      "name": "Park Avenue",
+      "title": "Park Avenue",
+      "file": "collage8.json"
+    },
+    {
+      "name": "Whitney",
+      "title": "Whitney",
+      "file": "collage18.json"
+    },
+    {
+      "name": "Petar Pool",
+      "title": "Petar Pool",
+      "file": "collage9.json"
+    },
+    {
+      "name": "Coffee Empire State Building",
+      "title": "Coffee Empire State Building",
+      "file": "collage3.json"
+    },
+    {
+      "name": "Newspaper Bed",
+      "title": "Newspaper Bed",
+      "file": "collage7.json"
+    },
+    {
+      "name": "Pink Curtains",
+      "title": "Pink Curtains",
+      "file": "collage13.json"
     }
   ],
   "explore-nyc-scroller": [
     {
-      "file": "explore-nyc-scroller4.json"
+      "file": "explore-nyc-scroller2.json"
     },
     {
       "file": "explore-nyc-scroller3.json"
-    },
-    {
-      "file": "explore-nyc-scroller2.json"
     },
     {
       "file": "explore-nyc-scroller1.json"
@@ -222,102 +384,165 @@
       "file": "explore-nyc-scroller6.json"
     },
     {
+      "file": "explore-nyc-scroller7.json"
+    },
+    {
       "file": "explore-nyc-scroller5.json"
     },
     {
-      "file": "explore-nyc-scroller7.json"
+      "file": "explore-nyc-scroller4.json"
     }
   ],
-  "collage": [
+  "gallery": [
     {
-      "name": "Petar Pool",
-      "title": "Petar Pool",
-      "file": "collage9.json"
+      "file": "gallery8.json"
     },
     {
-      "name": "Valentines Day",
-      "title": "Valentines Day",
-      "file": "collage17.json"
+      "file": "gallery26.json"
     },
     {
-      "name": "Rooftop Balcony Couple",
-      "title": "Rooftop Balcony Couple",
-      "file": "collage12.json"
+      "file": "gallery49.json"
     },
     {
-      "name": "Newspaper Bed",
-      "title": "Newspaper Bed",
-      "file": "collage7.json"
+      "file": "gallery37.json"
     },
     {
-      "name": "Guy Rooftop",
-      "title": "Guy Rooftop",
-      "file": "collage6.json"
+      "file": "gallery30.json"
     },
     {
-      "name": "Take Me to the Beach",
-      "title": "Take Me to the Beach",
-      "file": "collage15.json"
+      "file": "gallery14.json"
     },
     {
-      "name": "Asellina Breakfast",
-      "title": "Asellina Breakfast",
-      "file": "collage1.json"
+      "file": "gallery27.json"
     },
     {
-      "name": "Empire State Building",
-      "title": "Empire State Building",
-      "file": "collage5.json"
+      "file": "gallery31.json"
     },
     {
-      "name": "Pink Curtains",
-      "title": "Pink Curtains",
-      "file": "collage13.json"
+      "file": "gallery9.json"
     },
     {
-      "name": "Cowboy Hat",
-      "title": "Cowboy Hat",
-      "file": "collage4.json"
+      "file": "gallery17.json"
     },
     {
-      "name": "Whitney",
-      "title": "Whitney",
-      "file": "collage18.json"
+      "file": "gallery23.json"
     },
     {
-      "name": "Coffee Empire State Building",
-      "title": "Coffee Empire State Building",
-      "file": "collage3.json"
+      "file": "gallery42.json"
     },
     {
-      "name": "Spring",
-      "title": "Spring",
-      "file": "collage14.json"
+      "file": "gallery6.json"
     },
     {
-      "name": "Park Avenue",
-      "title": "Park Avenue",
-      "file": "collage8.json"
+      "file": "gallery21.json"
     },
     {
-      "name": "Empire State Building",
-      "title": "Empire State Building",
-      "file": "collage16.json"
+      "file": "gallery32.json"
     },
     {
-      "name": "Pool Red SwinSuite",
-      "title": "Pool Red SwinSuite",
-      "file": "collage10.json"
+      "file": "gallery3.json"
     },
     {
-      "name": "Prosciutto",
-      "title": "Prosciutto",
-      "file": "collage11.json"
+      "file": "gallery45.json"
     },
     {
-      "name": "Cars",
-      "title": "Cars",
-      "file": "collage2.json"
+      "file": "gallery47.json"
+    },
+    {
+      "file": "gallery22.json"
+    },
+    {
+      "file": "gallery15.json"
+    },
+    {
+      "file": "gallery29.json"
+    },
+    {
+      "file": "gallery4.json"
+    },
+    {
+      "file": "gallery5.json"
+    },
+    {
+      "file": "gallery38.json"
+    },
+    {
+      "file": "gallery19.json"
+    },
+    {
+      "file": "gallery12.json"
+    },
+    {
+      "file": "gallery51.json"
+    },
+    {
+      "file": "gallery36.json"
+    },
+    {
+      "file": "gallery24.json"
+    },
+    {
+      "file": "gallery50.json"
+    },
+    {
+      "file": "gallery16.json"
+    },
+    {
+      "file": "gallery11.json"
+    },
+    {
+      "file": "gallery28.json"
+    },
+    {
+      "file": "gallery10.json"
+    },
+    {
+      "file": "gallery25.json"
+    },
+    {
+      "file": "gallery48.json"
+    },
+    {
+      "file": "gallery34.json"
+    },
+    {
+      "file": "gallery40.json"
+    },
+    {
+      "file": "gallery7.json"
+    },
+    {
+      "file": "gallery46.json"
+    },
+    {
+      "file": "gallery44.json"
+    },
+    {
+      "file": "gallery35.json"
+    },
+    {
+      "file": "gallery41.json"
+    },
+    {
+      "file": "gallery13.json"
+    },
+    {
+      "file": "gallery43.json"
+    },
+    {
+      "file": "gallery18.json"
+    },
+    {
+      "file": "gallery39.json"
+    },
+    {
+      "file": "gallery33.json"
+    },
+    {
+      "file": "gallery20.json"
+    },
+    {
+      "file": "gallery2.json"
     }
   ],
   "homepage-slider": [
@@ -326,235 +551,7 @@
       "file": "homepage-slider1.json"
     }
   ],
-  "attractions": [
-    {
-      "name": "Madison Square Park",
-      "title": "Madison Square Park",
-      "file": "attractions1.json"
-    },
-    {
-      "name": "Union Square",
-      "title": "Union Square",
-      "file": "attractions4.json"
-    },
-    {
-      "name": "Empire State Building",
-      "title": "Empire State Building",
-      "file": "attractions6.json"
-    },
-    {
-      "name": "Eataly",
-      "title": "Eataly",
-      "file": "attractions3.json"
-    },
-    {
-      "name": "Madison Square Garden",
-      "title": "Madison Square Garden",
-      "file": "attractions5.json"
-    },
-    {
-      "name": "Flatiron Building",
-      "title": "Flatiron Building",
-      "file": "attractions2.json"
-    }
-  ],
-  "gallery": [
-    {
-      "file": "gallery28.json"
-    },
-    {
-      "file": "gallery43.json"
-    },
-    {
-      "file": "gallery30.json"
-    },
-    {
-      "file": "gallery32.json"
-    },
-    {
-      "file": "gallery38.json"
-    },
-    {
-      "file": "gallery12.json"
-    },
-    {
-      "file": "gallery36.json"
-    },
-    {
-      "file": "gallery18.json"
-    },
-    {
-      "file": "gallery11.json"
-    },
-    {
-      "file": "gallery8.json"
-    },
-    {
-      "file": "gallery48.json"
-    },
-    {
-      "file": "gallery42.json"
-    },
-    {
-      "file": "gallery41.json"
-    },
-    {
-      "file": "gallery22.json"
-    },
-    {
-      "file": "gallery39.json"
-    },
-    {
-      "file": "gallery9.json"
-    },
-    {
-      "file": "gallery33.json"
-    },
-    {
-      "file": "gallery17.json"
-    },
-    {
-      "file": "gallery51.json"
-    },
-    {
-      "file": "gallery23.json"
-    },
-    {
-      "file": "gallery21.json"
-    },
-    {
-      "file": "gallery27.json"
-    },
-    {
-      "file": "gallery5.json"
-    },
-    {
-      "file": "gallery34.json"
-    },
-    {
-      "file": "gallery6.json"
-    },
-    {
-      "file": "gallery45.json"
-    },
-    {
-      "file": "gallery19.json"
-    },
-    {
-      "file": "gallery2.json"
-    },
-    {
-      "file": "gallery24.json"
-    },
-    {
-      "file": "gallery7.json"
-    },
-    {
-      "file": "gallery15.json"
-    },
-    {
-      "file": "gallery47.json"
-    },
-    {
-      "file": "gallery49.json"
-    },
-    {
-      "file": "gallery3.json"
-    },
-    {
-      "file": "gallery26.json"
-    },
-    {
-      "file": "gallery50.json"
-    },
-    {
-      "file": "gallery37.json"
-    },
-    {
-      "file": "gallery14.json"
-    },
-    {
-      "file": "gallery16.json"
-    },
-    {
-      "file": "gallery46.json"
-    },
-    {
-      "file": "gallery4.json"
-    },
-    {
-      "file": "gallery40.json"
-    },
-    {
-      "file": "gallery25.json"
-    },
-    {
-      "file": "gallery35.json"
-    },
-    {
-      "file": "gallery31.json"
-    },
-    {
-      "file": "gallery44.json"
-    },
-    {
-      "file": "gallery10.json"
-    },
-    {
-      "file": "gallery13.json"
-    },
-    {
-      "file": "gallery29.json"
-    },
-    {
-      "file": "gallery20.json"
-    }
-  ],
-  "category": [
-    {
-      "name": "Fashion",
-      "title": "Fashion",
-      "file": "category3.json"
-    },
-    {
-      "name": "Activities",
-      "title": "Activities",
-      "file": "category5.json"
-    },
-    {
-      "name": "Food & Wine",
-      "title": "Food & Wine",
-      "file": "category1.json"
-    },
-    {
-      "name": "Design",
-      "title": "Design",
-      "file": "category4.json"
-    },
-    {
-      "name": "Sports & Entertainment",
-      "title": "Sports & Entertainment",
-      "file": "category2.json"
-    }
-  ],
-  "welcome-property-slider": [
-    {
-      "file": "welcome-property-slider4.json"
-    },
-    {
-      "file": "welcome-property-slider1.json"
-    },
-    {
-      "file": "welcome-property-slider2.json"
-    },
-    {
-      "file": "welcome-property-slider3.json"
-    }
-  ],
   "_definitions": [
-    {
-      "file": "gallery.json"
-    },
     {
       "name": {
         "required": true
@@ -563,6 +560,9 @@
         "required": true
       },
       "file": "events.json"
+    },
+    {
+      "file": "gallery.json"
     }
   ]
 }

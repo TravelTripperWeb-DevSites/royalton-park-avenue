@@ -1,6 +1,12 @@
 $(document).ready(function() {
-  /*Gallery start*/
+  // Blog categories
+   $(".toggle-arrow").click(function(){
+     $(this).toggleClass('rotate');
+     $(".categories").stop().slideToggle();
+   });
 
+
+  /*Gallery start*/
 
   $(".filter").on("click", function() {
     var $this = $(this);

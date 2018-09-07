@@ -1,4 +1,4 @@
-<div class="right-col">
+<div class="right-col order-md-12">
     <div class="widget-box">
         <h3 class="mb-3">Search</h3>
         <form class="search-form" action="/blog/search/" method="get">
@@ -7,7 +7,7 @@
         </form>
     </div>
     <hr>
-    <div class="widget-box">
+    <div class="widget-box d-lg-block  d-none">
         <h3 class="my-3">Recent Posts</h3>
         <ul class="recent-posts">
             {% for recentpost in site.data._models.blog | limit: 5 %}
@@ -25,9 +25,9 @@
             {% endfor %}
         </ul>
     </div>
-    <hr>
+    <hr class="d-lg-block  d-none">
     <div class="widget-box">
-        <h3 class="mb-3">Categories</h3>
+        <h3 class="mb-3">Categories <span class="toggle-arrow"><i class="fa fa-angle-down"></i></span></h3>
         <ul class="categories">
             {% assign categories = site.data._models.category | sort:'order'%}
             {% for categorylist in categories %}
@@ -44,4 +44,5 @@
             {%endfor%}
         </ul>
     </div>
+      <hr class="d-lg-none  d-block">
 </div>
