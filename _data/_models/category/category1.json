@@ -1,6 +1,7 @@
 {
   "order": "2",
   "title": "Food & Wine",
+  "description":"New York isn’t just home to the best pizza in the world. The city’s diversity brings an even more diverse food scene, with fusions between cultures that create unforgettable dining experiences. Find the best wine bars in Manhattan and Michelin-starred restaurants with our food and wine guide.",
   "url_friendly_name": "food-wine",
   "categoryimage": {
     "url": "https://cdn.traveltripper.io/site-assets/32_698_6064/media/2017-08-09-063552/home-9.jpg",

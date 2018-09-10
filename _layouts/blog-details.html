@@ -28,18 +28,7 @@ layout: default
     <div class="blog-row">
         <div class="blog-col">
             <div class="post post-details">
-                <div class="pagination">
-                    {%if prevPostUrl %}
-                    <a class="prev" href="/blog/{{ prevPostUrl }}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Prev </a> |
-                    {%else%}
-                    <a class="prev not-active" href="/blog/{{ prevPostUrl }}"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Prev </a> |
-                    {%endif%}
-                    {%if nextPostUrl %}
-                    <a class="next" href="/blog/{{ nextPostUrl }}/">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    {%else%}
-                    <a class="next not-active" href="/blog/{{ nextPostUrl }}">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    {%endif%}
-                </div>
+
                 <div class="blog-details-img">
                     <img src="{{ blog.blogimage.url }}" class="img-responsive hero-img" alt="{{ blog.title }}">
                 </div>
@@ -59,6 +48,22 @@ layout: default
                 <hr>
                     {% include social-share.html %}
                 <hr>
+                <div class="pagination">
+                    {%if prevPostUrl %}
+                    <a class="prev" href="/blog/{{ prevPostUrl }}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Prev </a> |
+                    {%else%}
+                    <a class="prev not-active" href="/blog/{{ prevPostUrl }}"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Prev </a> |
+                    {%endif%}
+                    {%if nextPostUrl %}
+                    <a class="next" href="/blog/{{ nextPostUrl }}/">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    {%else%}
+                    <a class="next not-active" href="/blog/{{ nextPostUrl }}">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    {%endif%}
+                </div>
+
+                <div class="btn-holder">
+                  <a href="/blog/" class="btn-outline-black">View all blog posts</a>
+                </div>
             </div>
         </div>
         <div class="blog-right-block">
