@@ -467,12 +467,12 @@ function checkForm() {
     });
 
   $(this.form)
-    .find('#subscribe, #rfp-btn, #contact-btn') // Button class names should be unique for every form
+    .find('#subscribe, #rfp-btn, #contact-btn, #sweepstakes-btn') // Button class names should be unique for every form
     .prop('disabled', !isValidForm);
   return isValidForm;
 }
 
-$('#subscribe, #rfp-btn, #contact-btn') // Button class names should be unique for every form
+$('#subscribe, #rfp-btn, #contact-btn, #sweepstakes-btn') // Button class names should be unique for every form
   .closest('form')
   // indirectly bind the handler to form
   .submit(function() {
