@@ -1,6 +1,6 @@
 [
   {
     "_template": "html",
-    "content": "<p>HOURS</p>\n<p>Breakfast: 7:00am-11:00am (Mon-Sun)&nbsp; &nbsp; &nbsp;</p>\n<p>Lunch:&nbsp; 11:30am-2:30pm (Mon-Fri)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brunch: 11:30am-5:00pm (Sat &amp; Sun)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n<p>Dinner: 5:30pm-10:00pm (Sun-Thurs)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5:30pm-11:00pm (Fri &amp; Sat)</p>"
+    "content": "<p>HOURS</p>\n<p>Breakfast: 7:00am-11:00am (Mon-Sun)&nbsp; &nbsp; &nbsp;</p>\n<p>Lunch:&nbsp; 11:30am-5:00pm (Mon-Sun)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n<p>Dinner: 5:30pm-11:00pm (Mon-Sat)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5:30pm-10:00pm (Sun)</p>"
   }
 ]
