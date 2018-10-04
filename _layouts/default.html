@@ -10,7 +10,6 @@
   </head>
 
   <body ng-app="rezTrip" rt3-hotel-info="hotelInfo" rt3-rooms-browser="browser" ng-cloak>
-    <div class="loading"> </div>
     {% if site.data.tracking.analytics.provider and page.analytics != false %}
 
       {% case site.data.tracking.analytics.provider %}
@@ -19,6 +18,7 @@
       {% endcase %}
 
     {% endif %}
+    <div class="loading"> </div>
 
     {% include mainnav.html %}
 
