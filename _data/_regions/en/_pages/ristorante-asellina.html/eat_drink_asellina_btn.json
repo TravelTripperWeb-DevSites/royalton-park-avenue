@@ -1,6 +1,6 @@
 [
   {
     "_template": "html",
-    "content": "<p><a class=\"btn-outline-black\" style=\"background-color: #131416;\" title=\"Contact \" href=\"//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111456/Breakfast.pdf\">Breakfast</a>&nbsp; &nbsp;</p>\n<p><a class=\"btn-outline-black\" style=\"background-color: #131416;\" title=\"Contact \" href=\"//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111457/Lunch.pdf\">lunch</a>&nbsp; &nbsp;</p>\n<p><a class=\"btn-outline-black\" style=\"background-color: #131416;\" title=\"Contact \" href=\"//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111457/Dinner.pdf\">dinner</a></p>"
+    "content": "<p style=\"padding-left: 30px;\"><a class=\"btn-outline-black\" style=\"background-color: #131416;\" title=\"Contact \" href=\"//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111456/Breakfast.pdf\">Breakfast</a>&nbsp; &nbsp;</p>\n<p style=\"padding-left: 30px;\"><a class=\"btn-outline-black\" style=\"background-color: #131416;\" title=\"Contact \" href=\"//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111457/Lunch.pdf\">lunch</a>&nbsp; &nbsp;</p>\n<p style=\"padding-left: 30px;\"><a class=\"btn-outline-black\" style=\"background-color: #131416;\" title=\"Contact \" href=\"//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111457/Dinner.pdf\">dinner</a></p>"
   }
 ]
