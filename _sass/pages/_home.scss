@@ -210,7 +210,7 @@
           z-index: 0;
         }
         @include media-breakpoint-up (lg) {
-          min-height: 660px;
+          min-height: 100vh;
         }
 
         .carousel-caption {
