@@ -7,19 +7,22 @@ meta_description_localized:
 ---
 
 {% include special-banner-bar.html %}
-
 <!--Main Carousel here-->
 {% assign homeheroSliders = site.data._models.homepage-slider | sort: 'order' %}
 <section class="homepageSlider  d-flex justify-content-between">
   <div id="heroSlider" class="homeSlide carousel slide" data-ride="carousel" data-interval="6000" data-pause>
     <div class="carousel-inner" role="listbox">
-     {% for slider in homeheroSliders %}
-        <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slider.image.url_large}}');">
-          <div class="carousel-caption text-left  d-md-block">
-            <h4>{{slider.name}}</h4>
-            <a href="{{slider.link-url}}" class="link-text">{{slider.link-text}}</a> </div>
+      {% for slider in homeheroSliders %}
+      <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{slider.image.url_large}}');">
+        <div class="carousel-caption text-left  d-md-block">
+          <h4>{{slider.name}}</h4>
+          <a href="{{slider.link-url}}" class="link-text">{{slider.link-text}}</a>
         </div>
-     {% endfor %}
+        <div class="slider-caption">
+          {{slider.slide-caption}}
+        </div>
+      </div>
+      {% endfor %}
     </div>
     {% if homeheroSliders.size > 1 %}
     <a class="carousel-control-prev" href="#" data-target="#heroSlider" role="button" data-slide="prev">
@@ -61,7 +64,7 @@ meta_description_localized:
     </div>
   </div> -->
   <!-- <div class="wrapper"> -->
-    <!-- <div class="divider">
+  <!-- <div class="divider">
       <div class="horizontal-row">
         <div class="left-gap"></div>
         <div class="h-separator p-0">
@@ -69,20 +72,19 @@ meta_description_localized:
         </div>
       </div>
     </div> -->
-<!--   </div> -->
+  <!--   </div> -->
   <div class="wrapper top-space">
     <div class="left-caption pb-xs-2">
       {% regionblock home_intro_heading_main, type:header %}
       <h4 class="text-uppercase">Welcome to<br>Royalton PArk<br>Avenue Hotel</h4>
       {% endregionblock %}
       {% regionblock home_intro_btn_one, type:text %}
-        <a href="{{site.pagelink.contact}}" class="link-text">Contact us</a>
-        {% endregionblock %}
+      <a href="{{site.pagelink.contact}}" class="link-text">Contact us</a>
+      {% endregionblock %}
     </div>
     <div class="details-5">
       {% regionblock home_intro_content, type:text %}
       <p>The Royalton Park Avenue Hotel offers downtown edge with an uptown sensibility. Boasting 249 luxury rooms and remarkable suites, most with lofty ceilings, Juliet balconies, and five fixture bathrooms – the property perched on the corner of 29th Street and Park Avenue couldn’t be more centrally located.</p>
-      <p class="gold-para">The rooftop pool will be closed 02/05 until 03/31, as we are preparing for Summer.</p>
       {% endregionblock %}
     </div>
     <div class="btn-col-3 bottom-padding align-self-center">
@@ -97,15 +99,17 @@ meta_description_localized:
       <div id="photosSlider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
           {% for propertyimage in property-sliders %}
-              <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{propertyimage.image.url_large}}');"> </div>
+          <div class="carousel-item {% if forloop.first %}active{% endif %}" style="background-image: url('{{propertyimage.image.url_large}}');"> </div>
           {% endfor %}
 
         </div>
-        <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#" data-target="#photosSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a> </div>
+        <a class="carousel-control-prev" href="#" data-target="#photosSlider" role="button" data-slide="prev"> <span class="eligant-icons control-arrow" aria-hidden="true">#</span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next"
+          href="#" data-target="#photosSlider" role="button" data-slide="next"> <span class="eligant-icons control-arrow" aria-hidden="true">$</span> <span class="sr-only">Next</span> </a>
+      </div>
 
-       <div class="photo-r-caption">
-		 <p class="caption-90">Chic sophistication in the heart of NYC</p>
-	   </div>
+      <div class="photo-r-caption">
+        <p class="caption-90">Chic sophistication in the heart of NYC</p>
+      </div>
     </div>
   </div>
 </section>
@@ -127,7 +131,7 @@ meta_description_localized:
         <h4 class="text-uppercase">high style, luxury <br>
           and comfort all in <br>
           one</h4>
-          {% endregionblock %}
+        {% endregionblock %}
       </div>
     </div>
     <div class="wrapper  top-space">
@@ -145,8 +149,9 @@ meta_description_localized:
           </div>-->
 
           <!--Static data below-->
-          <div class="item" ng-repeat ="room in browser.roomsList">
-            <div class="img-holder" ng-style="{'background-image': 'url([[room.photos[0].large]])'}"> <a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank" class="book-link">[[room.todayRate]]</a> </div>
+          <div class="item" ng-repeat="room in browser.roomsList">
+            <div class="img-holder" ng-style="{'background-image': 'url([[room.photos[0].large]])'}"> <a ng-href="{{site.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank" class="book-link">[[room.todayRate]]</a>
+            </div>
             <div class="caption">
               <h4 ng-bind-html="room.name | renderHTMLCorrectly"></h4>
               <a ng-href="/room/#[[room.name | formatNameForLink]]">View This [[room.name | roomOrSuite]]</a>
@@ -169,23 +174,23 @@ meta_description_localized:
 <!--Testimonials here-->
 
 <div id="testimonialSlider" class="testimonialSlider top-space carousel slide" data-ride="carousel">
-	<div class="carousel-inner" role="listbox">
-	  <div class="carousel-item active" style="background-image: url('/assets/images/home/trip-advisor-room.jpg');">
-		<div class="carousel-caption text-right d-none d-md-block">
-		  <!--<h3>01</h3>-->
-      {% regionblock home_cityscape, type:header %}
-		  <h4>Cityscape views and open air</h4>
-      {% endregionblock %}
-		</div>
-		<div class="org-overlay">
-      {% regionblock home_offers_guests_title, type:header %}
-		  <h3>What our guests say</h3>
-      {% endregionblock %}
-		  <!-- <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
-		  <p><i class="fa fa-tripadvisor" aria-hidden="true"></i></p>
-		</div>
-	  </div>
-	  <!-- <a class="carousel-control-prev" href="#" data-target="#testimonialSlider" role="button" data-slide="prev">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active" style="background-image: url('/assets/images/home/trip-advisor-room.jpg');">
+      <div class="carousel-caption text-right d-none d-md-block">
+        <!--<h3>01</h3>-->
+        {% regionblock home_cityscape, type:header %}
+        <h4>Cityscape views and open air</h4>
+        {% endregionblock %}
+      </div>
+      <div class="org-overlay">
+        {% regionblock home_offers_guests_title, type:header %}
+        <h3>What our guests say</h3>
+        {% endregionblock %}
+        <!-- <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+        <p><i class="fa fa-tripadvisor" aria-hidden="true"></i></p>
+      </div>
+    </div>
+    <!-- <a class="carousel-control-prev" href="#" data-target="#testimonialSlider" role="button" data-slide="prev">
 			<span class="eligant-icons control-arrow" aria-hidden="true">#</span>
 			<span class="sr-only">Previous</span>
 		  </a>
@@ -193,7 +198,7 @@ meta_description_localized:
 			<span class="eligant-icons control-arrow" aria-hidden="true">$</span>
 			<span class="sr-only">Next</span>
 		  </a> -->
-	</div>
+  </div>
 </div>
 
 <!--Offers section here-->
@@ -218,7 +223,7 @@ meta_description_localized:
   <div class="wrapper">
     <div class="exclusive-offers-nav"> <span class="eligant-icons control-arrow owl-arrow-prev" aria-hidden="true">#</span> <span class="eligant-icons control-arrow owl-arrow-next" aria-hidden="true">$</span> </div>
   </div>
-  <div class="wrapper border-left border-right" rt3-special-rates= "offers">
+  <div class="wrapper border-left border-right" rt3-special-rates="offers">
     <div class="container">
       <div id="exclusive-offers-carousel" class="owl-carousel owl-theme">
         <!--Reztrip implementation below-->
@@ -230,13 +235,13 @@ meta_description_localized:
             <a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]"  class="link-text" title="View This Offer">View This Offer</a>
           </div>
         </div>-->
-       <!--Static Implementation below-->
+        <!--Static Implementation below-->
         <div class="item" ng-style="{'background-image': 'url([[offer.lead_photo_url.large || '/assets/images/dummy.jpg']] )'}" ng-repeat="offer in offers.special_rates ">
           <div class="grey-overlay"> <a ng-href="[[offer.promo_url]]" class="link-text" target="_blank" title="Check Offer Rate">Check Rate</a>
             <div class="offer-cta">
               <div class="btn-holder"><a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]" class="btn-outline" title="[[offer.rate_plan_name | renderHTMLCorrectly]]" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly">Get it All</a></div>
             </div>
-            <a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]"  class="link-text" title="View This Offer">View This Offer</a>
+            <a ng-href="/offer/#[[offer.rate_plan_name | formatNameForLink]]" class="link-text" title="View This Offer">View This Offer</a>
           </div>
         </div>
       </div>
@@ -331,7 +336,7 @@ meta_description_localized:
   <div class="container-inner">
     <div class="row no-gutters">
       {% regionblock home_location_heading, type:header %}
-        <h2>Location</h2>
+      <h2>Location</h2>
       {% endregionblock %}
       <div class="col-md-6 no-padding">
         <div class="content-left">
@@ -353,16 +358,16 @@ meta_description_localized:
           {% endregionblock %}
           {% regionblock home_location_address, type:text %}
           <p>
-              <i class="fa fa-map-marker"></i>
-                420 Park Avenue South (at 29th Street),
-                <br>
-                New York, NY 10016<br>
+            <i class="fa fa-map-marker"></i>
+            420 Park Avenue South (at 29th Street),
+            <br>
+            New York, NY 10016<br>
           </p>
           {% endregionblock %}
           {% regionblock home_location_contact_number, type:text %}
           <p>
-  		        <i class="fa fa-phone"></i>
-              <a href="tel:12123172900">+1 212 317 2900</a>
+            <i class="fa fa-phone"></i>
+            <a href="tel:12123172900">+1 212 317 2900</a>
           </p>
           {% endregionblock %}
         </div>
@@ -381,7 +386,7 @@ meta_description_localized:
     <div class="col-md-7 no-padding">
       <div id="home-attractions" class="owl-carousel owl-theme">
         {% for pic in nycpics %}
-           <div class="item"><img src="{{pic.image.url_small}}" alt="{{pic.image.alt}}"></div>
+        <div class="item"><img src="{{pic.image.url_small}}" alt="{{pic.image.alt}}"></div>
         {% endfor %}
       </div>
     </div>
@@ -394,15 +399,16 @@ meta_description_localized:
           <h4>The Greatest City in the World</h4>
           {% endregionblock %}
           {% regionblock home_attractions_content, type:text %}
-          <p>A bastion of creativity, New York City is unlike any other place in the world. An international hub of people, ideas, and culture, you could spends years in New York City and never see it in its entirely. New York never loses its interest. Come see it in all its glory, in the heart of Manhattan, at the Royalton Hotel.</p>
+          <p>A bastion of creativity, New York City is unlike any other place in the world. An international hub of people, ideas, and culture, you could spends years in New York City and never see it in its entirely. New York never loses its
+            interest. Come see it in all its glory, in the heart of Manhattan, at the Royalton Hotel.</p>
           {% endregionblock %}
         </div>
       </div>
       <div class="col-md-5 no-padding">
         <div class="script-wrap">
-        {% regionblock home_attractions_img, type:image %}
+          {% regionblock home_attractions_img, type:image %}
           <img src="/assets/images/script.png" alt="Royalton Park Avenue">
-        {% endregionblock %}
+          {% endregionblock %}
         </div>
       </div>
     </div>

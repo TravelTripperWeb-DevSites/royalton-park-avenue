@@ -4,13 +4,16 @@
   },
   "image":{
   	"type": "image",
-  	"required": true  
+  	"required": true
   },
   "link-text":{
   	"required": true
   },
   "link-url":{
   	"required": true
+  },
+  "slide-caption":{
+    "type": "richtext" 
   },
   "order":{
   	"type": "integer"
