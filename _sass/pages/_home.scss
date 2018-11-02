@@ -195,10 +195,13 @@
 
       .carousel-item {
         min-height: 500px;
+        background-repeat: no-repeat;
+        background-position: center top;
         background-size: cover;
-        background-position: center top -30px;
         border-bottom: 8px solid $secondary-color;
-
+        @include media-breakpoint-up (lg) {
+          background-position: center top -30px;
+        }
         &:before {
           content: '';
           position: absolute;
@@ -216,7 +219,9 @@
         .carousel-caption {
           z-index: 3;
           left: 6%;
-
+          @media screen and (max-width: 650px) {
+            bottom: 110px;
+          }
           h3 {
             font-family: $header-font-family;
             font-size: $type-size-2;
@@ -243,6 +248,28 @@
             margin-left: 1rem;
             font-size: $type-size-9;
             color: $white;
+          }
+        }
+        .slider-caption {
+          position: absolute;
+          right: 6%;
+          bottom: 20px;
+          max-width: 320px;
+          padding-top: 20px;
+          p {
+            font-size: .9rem;
+            color: $white;
+            a {
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+          @media screen and (max-width: 650px) {
+            right: auto;
+            bottom: 0;
+            left: 6%;
+            max-width: 16.5rem;
+            margin-left: 1rem;
           }
         }
       }
