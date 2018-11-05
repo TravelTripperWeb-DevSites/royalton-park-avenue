@@ -72,6 +72,17 @@
     "git_file_name": "_assets/image_data/fire-place.json"
   },
   {
+    "name": "Rooftop Food-5.5x8.5@Royalton-PROOF",
+    "file_name": "Rooftop Food-5.5x8.5@Royalton-PROOF.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20864/media/2018-11-02-160927/Rooftop-Food-5.5x8.5-Royalton-PROOF.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-02-160927",
+    "file_size": 284397,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/Rooftop-Food-5.5x8.5-Royalton-PROOF.json"
+  },
+  {
     "name": "indoor-activities-nyc-rpa",
     "file_name": "indoor-activities-nyc-rpa.jpg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_16891/media/2018-06-20-180514/indoor-activities-nyc-rpa.jpg",
@@ -378,6 +389,17 @@
     "git_file_name": "_assets/image_data/ristorante-asellina-01.json"
   },
   {
+    "name": "NOVEMBER 2018",
+    "file_name": "NOVEMBER 2018.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20860/media/2018-11-02-145007/NOVEMBER-2018.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-02-145007",
+    "file_size": 1722158,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/NOVEMBER-2018.json"
+  },
+  {
     "name": "exhale-4",
     "file_name": "exhale-4.jpg",
     "file_type": "image/jpeg",
@@ -661,6 +683,24 @@
     "git_file_name": "_assets/image_data/gvh_park_ave_events_002.json"
   },
   {
+    "name": "union-square-market-holidays-nyc",
+    "file_name": "union-square-market-holidays-nyc.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-05-130635/union-square-market-holidays-nyc.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-05-130635",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 667,
+    "file_size": 997767,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-05-130635/large_union-square-market-holidays-nyc.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-05-130635/medium_union-square-market-holidays-nyc.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-05-130635/small_union-square-market-holidays-nyc.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-05-130635/xsmall_union-square-market-holidays-nyc.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-05-130635/thumb_union-square-market-holidays-nyc.jpg",
+    "git_file_name": "_assets/image_data/union-square-market-holidays-nyc.json"
+  },
+  {
     "name": "MAY 2018",
     "file_name": "MAY 2018.pdf",
     "url": "//cdn.traveltripper.io/site-assets/192_800_15133/media/2018-05-01-104942/MAY-2018.pdf",
@@ -773,6 +813,24 @@
     "git_file_name": "_assets/image_data/breakfast-inclusive.json"
   },
   {
+    "name": "nyc-jazz-sax",
+    "file_name": "nyc-jazz-sax.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20218/media/2018-10-22-173606/nyc-jazz-sax.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-22-173606",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 667,
+    "file_size": 754753,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_20218/media/2018-10-22-173606/large_nyc-jazz-sax.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_20218/media/2018-10-22-173606/medium_nyc-jazz-sax.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_20218/media/2018-10-22-173606/small_nyc-jazz-sax.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_20218/media/2018-10-22-173606/xsmall_nyc-jazz-sax.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_20218/media/2018-10-22-173606/thumb_nyc-jazz-sax.jpg",
+    "git_file_name": "_assets/image_data/nyc-jazz-sax.json"
+  },
+  {
     "name": "rpa-nyc-outdoor-movies",
     "file_name": "rpa-nyc-outdoor-movies.jpg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_16253/media/2018-05-30-112449/rpa-nyc-outdoor-movies.jpg",
@@ -807,6 +865,17 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-045619/xsmall_06.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-045619/thumb_06.jpg",
     "git_file_name": "_assets/image_data/06.json"
+  },
+  {
+    "name": "OCT2018",
+    "file_name": "OCT2018.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_19740/media/2018-10-09-132932/OCT2018.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-09-132932",
+    "file_size": 1732658,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/OCT2018.json"
   },
   {
     "name": "plunge-rooftop-bar-lounge-2",
@@ -1049,6 +1118,24 @@
     "git_file_name": "_assets/image_data/ristorante-asellina-1.json"
   },
   {
+    "name": "nyc-marathon-pre-race",
+    "file_name": "nyc-marathon-pre-race.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_19635/media/2018-10-04-154644/nyc-marathon-pre-race.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-04-154644",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 668,
+    "file_size": 920149,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_19635/media/2018-10-04-154644/large_nyc-marathon-pre-race.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_19635/media/2018-10-04-154644/medium_nyc-marathon-pre-race.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_19635/media/2018-10-04-154644/small_nyc-marathon-pre-race.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_19635/media/2018-10-04-154644/xsmall_nyc-marathon-pre-race.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_19635/media/2018-10-04-154644/thumb_nyc-marathon-pre-race.jpg",
+    "git_file_name": "_assets/image_data/nyc-marathon-pre-race.json"
+  },
+  {
     "name": "APRIL 2018",
     "file_name": "APRIL 2018.pdf",
     "file_type": "application/pdf",
@@ -1078,6 +1165,17 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-024424/xsmall_city.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10515/media/2017-12-26-024424/thumb_city.jpg",
     "git_file_name": "_assets/image_data/city.json"
+  },
+  {
+    "name": "Lunch",
+    "file_name": "Lunch.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111457/Lunch.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-19-111457",
+    "file_size": 1055475,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/Lunch.json"
   },
   {
     "name": "park-avenue-suite-bedroom",
@@ -1186,6 +1284,17 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_16171/media/2018-05-25-135845/xsmall_nyc-summer-art-exhibits.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_16171/media/2018-05-25-135845/thumb_nyc-summer-art-exhibits.jpg",
     "git_file_name": "_assets/image_data/nyc-summer-art-exhibits.json"
+  },
+  {
+    "name": "Breakfast",
+    "file_name": "Breakfast.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111456/Breakfast.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-19-111456",
+    "file_size": 1098684,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/Breakfast.json"
   },
   {
     "name": "shark-candy",
@@ -1399,6 +1508,24 @@
     "git_file_name": "_assets/image_data/Rooftop Menu 2018-3-21.json"
   },
   {
+    "name": "Bar Area Hi Res",
+    "file_name": "Bar Area Hi Res.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_19538/media/2018-10-02-120407/Bar_Area_Hi_Res.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-02-120407",
+    "file_type": "image/jpeg",
+    "width": 620,
+    "height": 557,
+    "file_size": 393847,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_19538/media/2018-10-02-120407/large_Bar_Area_Hi_Res.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_19538/media/2018-10-02-120407/medium_Bar_Area_Hi_Res.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_19538/media/2018-10-02-120407/small_Bar_Area_Hi_Res.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_19538/media/2018-10-02-120407/xsmall_Bar_Area_Hi_Res.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_19538/media/2018-10-02-120407/thumb_Bar_Area_Hi_Res.jpg",
+    "git_file_name": "_assets/image_data/Bar-Area-Hi-Res.json"
+  },
+  {
     "name": "terrace-pool",
     "file_name": "terrace-pool.jpg",
     "file_type": "image/jpeg",
@@ -1451,6 +1578,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_10962/media/2018-01-11-061941/xsmall_park-lounge-cta.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_10962/media/2018-01-11-061941/thumb_park-lounge-cta.jpg",
     "git_file_name": "_assets/image_data/park-lounge-cta.json"
+  },
+  {
+    "name": "wine-grape-long-island-country",
+    "file_name": "wine-grape-long-island-country.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_19676/media/2018-10-07-204756/wine-grape-long-island-country.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-07-204756",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 667,
+    "file_size": 708490,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_19676/media/2018-10-07-204756/large_wine-grape-long-island-country.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_19676/media/2018-10-07-204756/medium_wine-grape-long-island-country.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_19676/media/2018-10-07-204756/small_wine-grape-long-island-country.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_19676/media/2018-10-07-204756/xsmall_wine-grape-long-island-country.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_19676/media/2018-10-07-204756/thumb_wine-grape-long-island-country.jpg",
+    "git_file_name": "_assets/image_data/wine-grape-long-island-country.json"
   },
   {
     "name": "exhale-2",
@@ -1797,6 +1942,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_19063/media/2018-09-18-231955/xsmall_beer-garden.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_19063/media/2018-09-18-231955/thumb_beer-garden.jpg",
     "git_file_name": "_assets/image_data/beer-garden.json"
+  },
+  {
+    "name": "royalton-park-avenue-fall",
+    "file_name": "royalton-park-avenue-fall.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20187/media/2018-10-22-090203/royalton-park-avenue-fall.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-22-090203",
+    "file_type": "image/jpeg",
+    "width": 1500,
+    "height": 900,
+    "file_size": 251726,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_20187/media/2018-10-22-090203/large_royalton-park-avenue-fall.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_20187/media/2018-10-22-090203/medium_royalton-park-avenue-fall.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_20187/media/2018-10-22-090203/small_royalton-park-avenue-fall.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_20187/media/2018-10-22-090203/xsmall_royalton-park-avenue-fall.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_20187/media/2018-10-22-090203/thumb_royalton-park-avenue-fall.jpg",
+    "git_file_name": "_assets/image_data/royalton-park-avenue-fall.json"
   },
   {
     "name": "gvh_park_gym_0021",
@@ -2170,6 +2333,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_14289/media/2018-04-05-082630/xsmall_pool.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_14289/media/2018-04-05-082630/thumb_pool.jpg",
     "git_file_name": "_assets/image_data/pool.json"
+  },
+  {
+    "name": "moma-art-museum-nyc",
+    "file_name": "moma-art-museum-nyc.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20000/media/2018-10-15-195356/moma-art-museum-nyc.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-15-195356",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 665,
+    "file_size": 723353,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_20000/media/2018-10-15-195356/large_moma-art-museum-nyc.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_20000/media/2018-10-15-195356/medium_moma-art-museum-nyc.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_20000/media/2018-10-15-195356/small_moma-art-museum-nyc.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_20000/media/2018-10-15-195356/xsmall_moma-art-museum-nyc.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_20000/media/2018-10-15-195356/thumb_moma-art-museum-nyc.jpg",
+    "git_file_name": "_assets/image_data/moma-art-museum-nyc.json"
   },
   {
     "name": "large_terrace-pool",
@@ -2980,6 +3161,17 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/xsmall_madison-square-garden.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015423/thumb_madison-square-garden.jpg",
     "git_file_name": "_assets/image_data/madison-square-garden.json"
+  },
+  {
+    "name": "Dinner",
+    "file_name": "Dinner.pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20146/media/2018-10-19-111457/Dinner.pdf",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-10-19-111457",
+    "file_size": 1074813,
+    "file_type": "application/pdf",
+    "git_file_name": "_assets/image_data/Dinner.json"
   },
   {
     "name": "FEB 2018",
