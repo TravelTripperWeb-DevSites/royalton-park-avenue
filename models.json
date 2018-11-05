@@ -139,7 +139,7 @@
   ],
   "homepage-slider": [
     {
-      "name": "high style, luxury and comfort all in one",
+      "name": "High style, luxury and comfort all in one",
       "file": "homepage-slider1.json"
     }
   ],
@@ -358,6 +358,16 @@
       "file": "blog17.json"
     },
     {
+      "name": "5 Ways to Enjoy NYC Leading up to the Marathon",
+      "title": "5 Ways to Enjoy NYC Leading up to the Marathon",
+      "file": "blog40.json"
+    },
+    {
+      "name": "Visit these Long Island Wineries",
+      "title": "Visit these Long Island Wineries",
+      "file": "blog41.json"
+    },
+    {
       "name": "Our Favorite NYC Summer Art Exhibits",
       "title": "Our Favorite NYC Summer Art Exhibits",
       "file": "blog16.json"
@@ -411,6 +421,11 @@
       "name": "Best Manhattan Wine Bars",
       "title": "Best Manhattan Wine Bars",
       "file": "blog6.json"
+    },
+    {
+      "name": "Shop Manhattan’s Eclectic Holiday Market Scene",
+      "title": "Shop Manhattan’s Eclectic Holiday Market Scene",
+      "file": "blog44.json"
     },
     {
       "name": "Host Your Special Event in the Royalton Park Ave Ballroom",
@@ -483,6 +498,11 @@
       "file": "blog35.json"
     },
     {
+      "name": "Manhattan's Top 5 Art Museums",
+      "title": "Manhattan's Top 5 Art Museums",
+      "file": "blog42.json"
+    },
+    {
       "name": "Navigating SummerStage 2018",
       "title": "Navigating SummerStage 2018",
       "file": "blog15.json"
@@ -506,6 +526,11 @@
       "name": "A Day of Wellness in Midtown Manhattan",
       "title": "A Day of Wellness in Midtown Manhattan",
       "file": "blog14.json"
+    },
+    {
+      "name": "Manhattan’s Coolest Jazz Clubs",
+      "title": "Manhattan’s Coolest Jazz Clubs",
+      "file": "blog43.json"
     },
     {
       "name": "Seasonal Style Series: What to Wear in NY this Summer",
