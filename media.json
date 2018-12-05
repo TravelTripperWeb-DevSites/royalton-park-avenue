@@ -373,17 +373,6 @@
     "git_file_name": "_assets/image_data/1200x1200-3.json"
   },
   {
-    "name": "Rooftop Food-5.5x8.5@Royalton-2018-11-09-PROOF",
-    "file_name": "Rooftop Food-5.5x8.5@Royalton-2018-11-09-PROOF.pdf",
-    "url": "//cdn.traveltripper.io/site-assets/192_800_21146/media/2018-11-15-034639/Rooftop-Food-5.5x8.5-Royalton-2018-11-09-PROOF.pdf",
-    "tags": "",
-    "description": "",
-    "date_added": "2018-11-15-034639",
-    "file_size": 284827,
-    "file_type": "application/pdf",
-    "git_file_name": "_assets/image_data/Rooftop-Food-5.5x8.5-Royalton-2018-11-09-PROOF.json"
-  },
-  {
     "name": "gvh_park_ave_events_002",
     "file_name": "gvh_park_ave_events_002.jpg",
     "file_type": "image/jpeg",
@@ -1969,17 +1958,6 @@
     "git_file_name": "_assets/image_data/plunge-rooftop-bar-lounge-1.json"
   },
   {
-    "name": "ROYALTON LUNCH PRIX FIXE 11.08.18",
-    "file_name": "ROYALTON LUNCH PRIX FIXE 11.08.18.pdf",
-    "url": "//cdn.traveltripper.io/site-assets/192_800_21146/media/2018-11-15-043712/ROYALTON-LUNCH-PRIX-FIXE-11.08.18.pdf",
-    "tags": "",
-    "description": "",
-    "date_added": "2018-11-15-043712",
-    "file_size": 442934,
-    "file_type": "application/pdf",
-    "git_file_name": "_assets/image_data/ROYALTON-LUNCH-PRIX-FIXE-11.08.18.json"
-  },
-  {
     "name": "empire-state",
     "file_name": "empire-state.jpg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_17349/media/2018-07-19-021103/empire-state.jpg",
@@ -2106,28 +2084,6 @@
     "git_file_name": "_assets/image_data/ristorante-asellina-01.json"
   },
   {
-    "name": "ROYALTON BRUNCH 11.05.18",
-    "file_name": "ROYALTON BRUNCH 11.05.18.pdf",
-    "url": "//cdn.traveltripper.io/site-assets/192_800_21146/media/2018-11-15-043711/ROYALTON-BRUNCH-11.05.18.pdf",
-    "tags": "",
-    "description": "",
-    "date_added": "2018-11-15-043711",
-    "file_size": 421506,
-    "file_type": "application/pdf",
-    "git_file_name": "_assets/image_data/ROYALTON-BRUNCH-11.05.18.json"
-  },
-  {
-    "name": "ROYALTON DINNER PRIX FIXE 11.08.18",
-    "file_name": "ROYALTON DINNER PRIX FIXE 11.08.18.pdf",
-    "url": "//cdn.traveltripper.io/site-assets/192_800_21146/media/2018-11-15-043712/ROYALTON-DINNER-PRIX-FIXE-11.08.18.pdf",
-    "tags": "",
-    "description": "",
-    "date_added": "2018-11-15-043712",
-    "file_size": 433547,
-    "file_type": "application/pdf",
-    "git_file_name": "_assets/image_data/ROYALTON-DINNER-PRIX-FIXE-11.08.18.json"
-  },
-  {
     "name": "flatiron",
     "file_name": "flatiron.jpg",
     "url": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015537/flatiron.jpg",
@@ -2144,6 +2100,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015537/xsmall_flatiron.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_17452/media/2018-07-18-015537/thumb_flatiron.jpg",
     "git_file_name": "_assets/image_data/flatiron.json"
+  },
+  {
+    "name": "winter-gloves-iphone-tip",
+    "file_name": "winter-gloves-iphone-tip.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_21250/media/2018-11-19-105939/winter-gloves-iphone-tip.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-19-105939",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 731,
+    "file_size": 580507,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_21250/media/2018-11-19-105939/large_winter-gloves-iphone-tip.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_21250/media/2018-11-19-105939/medium_winter-gloves-iphone-tip.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_21250/media/2018-11-19-105939/small_winter-gloves-iphone-tip.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_21250/media/2018-11-19-105939/xsmall_winter-gloves-iphone-tip.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_21250/media/2018-11-19-105939/thumb_winter-gloves-iphone-tip.jpg",
+    "git_file_name": "_assets/image_data/winter-gloves-iphone-tip.json"
   },
   {
     "name": "prosciutto",
@@ -3167,6 +3141,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_19251/media/2018-09-25-163529/xsmall_corn-maze-ny-autumn-fall.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_19251/media/2018-09-25-163529/thumb_corn-maze-ny-autumn-fall.jpg",
     "git_file_name": "_assets/image_data/corn-maze-ny-autumn-fall.json"
+  },
+  {
+    "name": "christmas-small-plate-nyc",
+    "file_name": "christmas-small-plate-nyc.jpg",
+    "url": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-26-114939/christmas-small-plate-nyc.jpg",
+    "tags": "",
+    "description": "",
+    "date_added": "2018-11-26-114939",
+    "file_type": "image/jpeg",
+    "width": 1000,
+    "height": 697,
+    "file_size": 380921,
+    "url_large": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-26-114939/large_christmas-small-plate-nyc.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-26-114939/medium_christmas-small-plate-nyc.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-26-114939/small_christmas-small-plate-nyc.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-26-114939/xsmall_christmas-small-plate-nyc.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_800_20897/media/2018-11-26-114939/thumb_christmas-small-plate-nyc.jpg",
+    "git_file_name": "_assets/image_data/christmas-small-plate-nyc.json"
   },
   {
     "name": "SuperiorDouble1-1500x900",
