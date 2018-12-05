@@ -1,6 +1,6 @@
 [
   {
     "_template": "html",
-    "content": "<p><a class=\"btn-outline-black\" style=\"background-color: #8a7c60; border-color: #8a7c60; outline: 0px;\" title=\"Contact \" href=\"mailto: royaltonparkinfo@royaltonpark.com\">CONTACT US</a></p>"
+    "content": "<p>Brasserie phone <a href=\"tel:212.602.3200\" title=\"212.602.3200\">212.602.3200</a> <br> info <a href=\"mailto::royaltonparkinfo@royaltonpark.com\" title=\"royaltonparkinfo@royaltonpark.com\"> email:royaltonparkinfo@royaltonpark.com </a></p>"
   }
 ]
