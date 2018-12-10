@@ -234,8 +234,9 @@ select.form-control-lg {
 
 .form-check-input {
   position: absolute;
+  min-width: 10px !important;
   margin-top: $form-check-input-margin-y;
-  margin-left: -$form-check-input-gutter;
+  // margin-left: -$form-check-input-gutter;
 }
 
 // Radios and checkboxes on same line

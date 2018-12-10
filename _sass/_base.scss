@@ -489,6 +489,7 @@ svg:not(:root) {
 .btn-outline-black {
   @extend .btn-outline;
   color: $white;
+  cursor: pointer;
   background-color: transparent;
   border-color: $white;
 
