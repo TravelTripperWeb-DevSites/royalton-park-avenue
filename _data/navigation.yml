@@ -9,6 +9,8 @@ main:
         url: "/exhale-fitness-spa/"
       - title: Flywheel
         url: "/fitness/"
+      - title: Contact
+        url: "/contact/"
 - title: Offers
   url: "/offers/"
 - title: Rooms & Suites
@@ -25,5 +27,3 @@ main:
   url: "/location/"
 - title: Gallery
   url: "/gallery/"
-- title: Contact
-  url: "/contact/"
