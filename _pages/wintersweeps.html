@@ -1,0 +1,159 @@
+---
+title_localized:
+  en: Sweepstakes | Royalton Hotel
+label_localized:
+  en:
+layout_localized:
+  en: default
+permalink_localized:
+  en: "/wintersweeps/"
+meta_description_localized:
+  en:
+meta_keywords_localized:
+  en:
+published_localized:
+  en: true
+include_in_nav_localized:
+  en: true
+
+---
+
+{% assign menuitems = site.data.navigation.main %}
+
+<div class="page-banner" style="background-image: url('/assets/images/sweepstakes-banner.jpg');">
+	<div class="banner-overlay"></div>
+	   {% regionblock wintersweeps_banner_header, type:header %}
+     <h1>#FeelRoyal<br/>Winter Sweepstakes</h1>
+     {% endregionblock %}
+</div>
+
+<section class="error-content privacy-content sweepstakes-content">
+  <div class="container">
+    <div>
+      {% regionblock wintersweeps_text1, type:text %}
+        <p> It’s your chance to win the ultimate winter getaway to NYC for two, featuring a two-night stay in the Penthouse Suite at Royalton Park Avenue, a $500 Gift Card, a $150 Food & Beverage Credit, a private in-room training session (1 hour session), and two in-room massages by Soothe Services.</p>
+        <p>Enter Royalton Park Avenue’s #FeelRoyal Winter Sweepstakes in just two easy steps:</p>
+
+        <ol>
+          <li>Follow the Royalton Park Avenue on <a href="https://www.instagram.com/royaltonparkavenue/" title="Instagram" target="_blank">Instagram</a> or <a href="https://www.facebook.com/RoyaltonParkAvenue/" title="Facebook" target="_blank">Facebook</a></li>
+          <li>Submit your entry on the form below by 11:00pm on 01/12/2019</li>
+        </ol>
+
+        <p>Want to double your chances of winning? We invite you to join in <a href="https://highgate.com/hcf" title="Highgate Charitable Foundation's" target="_blank">Highgate Charitable Foundation's</a> mission to support Save the Children during this season of giving. In addition to the above steps, simply donate $5 to Save the Children via this <a href="https://bit.ly/2prCahz" title="link" target="_blank">link</a> and forward your confirmation e-mail to <a href="mailto:sales@royaltonparkavenue.com" title="sales@royaltonparkavenue.com">sales@royaltonparkavenue.com</a>. Each $5 donation = one extra entry into the sweepstakes.</p>
+      {% endregionblock %}
+      </div>
+    </div>
+</section>
+
+<section class="rfp-wrap">
+  <div class="container">
+    <div class="contact-form">
+      <div class="form-wrap">
+        <form class="jotform-form" action="https://submit.jotform.me/submit/83501040157445/" method="post" name="form_83501040157445" id="83501040157445" accept-charset="utf-8" autocomplete="off">
+          <input type="hidden" name="formID" value="83501040157445" />
+
+          <div class="row m-0">
+            <div class="col-sm-6 no-padding">
+              <div class="form-group right-space">
+                <select class="form-control" name="q11_typeA" id="input_11" aria-label="Prefix" required>
+                  <option value="">Prefix</option>
+                  <option value="Mr.">Mr.</option>
+                  <option value="Ms.">Ms</option>
+                  <option value="Mrs.">Mrs.</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-6 no-padding">
+              <div class="form-group left-space">
+                <input type="text" class="form-control" title="First name" aria-label="First name" id="input_12" name="q12_firstName" placeholder="First name" required>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-sm-6 no-padding">
+              <div class="form-group right-space">
+                <input type="text" class="form-control" title="Last name" id="input_13" aria-label="Last name" name="q13_lastName" placeholder="Last name" required>
+              </div>
+            </div>
+            <div class="col-sm-6 no-padding">
+              <div class="form-group left-space">
+                <input type="email" class="form-control" title="Email" aria-label="Email" id="input_14" name="q14_email" placeholder="Email" required>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-sm-6 no-padding">
+              <div class="form-group right-space">
+                <input type="text" class="form-control" title="City" aria-label="City" id="input_16" name="q16_city" placeholder="City" required>
+              </div>
+            </div>
+            <div class="col-sm-6 no-padding">
+              <div class="form-group left-space">
+                <input type="text" class="form-control" title="State" aria-label="State" id="input_15" name="q15_state" placeholder="State" required>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-sm-12 no-padding text-left">
+              <div class="form-group form-check agree">
+                <input type="checkbox" class="form-check-input" id="agree" name="q10_iAgree[]" value="agree" required>
+                <label class="form-check-label" for="agree">I agree to the <a href="/terms-of-use/" target="_blank">Terms of Service</a> and <a href="/privacy-policy/" target="_blank">Privacy Policy</a>.</label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" id="sweepstakes-btn" title="Submit contact form" class="btn btn-default button-blue" data-toggle="modal" name="submit" data-target="#offer-promo-popup">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="offer-promo-popup" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <a type="button" class="close" id="mclose" data-dismiss="modal">&times;</a>
+                <div class="signup">
+                    <h3>You're Entry Has Been Submitted</h3>
+                    <p>Don't forget to follow us on <a href="https://www.facebook.com/RoyaltonParkAvenue/" target="_blank" rel="nofollow" title="Facebook">Facebook</a> and <a href="https://www.instagram.com/royaltonparkavenue/" target="_blank" rel="nofollow" title="Instagram">Instagram</a> to be eligible for the grand prize</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="error-content privacy-content">
+  <div class="container">
+    <div>
+      {% regionblock wintersweeps_text2, type:text %}
+        <p>Entrants are required to complete these steps to be eligible for the sweepstakes. The winner will be selected at random among all eligible entries received and announced on or about September 25, 2018.</p>
+        <p>The grand prize will include the following:</p>
+        <ul>
+          <li> Two-night stay in the Penthouse Suite at Royalton Park Avenue</li>
+          <li>$500 Gift Card</li>
+          <li>$150 Food & Beverage Credit</li>
+          <li>Private trainer for in-room (1 hour session)</li>
+          <li>In-room massage by Soothe Services</li>
+        </ul>
+
+        <h4>Sweepstakes Details:</h4>
+        <ul>
+          <li>Sweepstakes period term: January 1–January 11, 2019</li>
+          <li>Date of selection and date of winner notification: Jan 12</li>
+          <li>Email address for questions/comments <a href="mailto:social@chandeliercreative.com"  title="Contact">social@chandeliercreative.com</a></li>
+        </ul>
+        <p>*Restrictions may apply</p>
+        {% endregionblock %}
+      </div>
+    </div>
+
+    <div class="btn-holder sweepstakes-btn">
+      <a class="btn-outline-black" rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?s=100&p[title]={{ page.title }}&p[url]= {{site.url}}{{ page.url | absolute_url }}&p[summary]={{ 'I just entered Royalton Park Avenue’s FeelRoyal Sweepstakes to win the ultimate NYC getaway. You can too at' }}&p[images][0]={{ site.data.social.og_image }}"
+        onClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" title="Facebook">Share on FB</a>
+      <a class="btn-outline-black" rel="nofollow" href="https://twitter.com/intent/tweet?{% if site.data.social.twitter.username %}via={{ site.data.social.twitter.username }}&{% endif %}text={{ 'I just entered Royalton Park Avenue’s %23FeelRoyal Sweepstakes to win the ultimate NYC getaway. You can too at' }} {{site.url}}{{ page.url | absolute_url }}" onClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;"
+        title="Twitter">Share on Twitter</a>
+      <a class="btn-outline-black" rel="nofollow" href="https://www.instagram.com/royaltonparkavenue/" title="Instagram" target="_blank">Share On IG</a>
+    </div>
+</section>
