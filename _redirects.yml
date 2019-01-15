@@ -1,4 +1,7 @@
 ---
+- 15-special-offer-promotion/: offers/
+- weekend-getaway/: offers/
+- breakfast-inclusive/: offers/
 - events/ivy-lounge/: events/
 - fallsweeps/?submit=success: wintersweeps/?submit=success
 - special-offer-promotion/: offers/
