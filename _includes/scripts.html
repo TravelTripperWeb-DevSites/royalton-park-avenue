@@ -8,23 +8,42 @@
 
 <!--New Booking Widget-->
 <script>window.cookieConsentConfig = {location: false}</script>
-<script src="https://plugins.traveltripper.io/v2/rt3api.js"></script>
-<script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script>
+<script src="https://plugins.traveltripper.io/v3.2.0/rt3api.min.js"></script>
 <script>
 
-    TTWeb.Config.configure({
+    var ttwebHotel = new TTWebHotel({
       hotelId: 'NYCRPA', //'orwhatever your values are',
       portalId: 'royaltonparkavenue',
       defaultTimezone: 'America/New_York', // timezone of site
       ipAddress: sessionStorage.ip_add,
-      defaultCurrency: 'USD'
-    });
+      defaultCurrency: 'USD',
+   })
 
+   ttwebHotel.ready(function(){
+     
+     
+     var noRatesGroup = "HideRates";
+     var ratesGroup = "ShowRates"
 
-    $("[show-booking-widget]").bookingWidget({
-         //showRateCalendar: true,
-         showOfferCode: true
-    });
+     var assignment = ttwebHotel.AbTest.assignUser("ShowRatesInCalendar", ratesGroup, noRatesGroup)
+     
+     var showRateCalendar = assignment == ratesGroup;
+     
+     
+     var globalSearch = ttwebHotel.BookingSearch({}, ttwebHotel.UserData.globalSearchName);
+     
+     var bookingWidget = TTRender.renderBookingWidget(ttwebHotel, {
+       search: globalSearch,
+       showOfferCode: true,
+       showSpecials: true,
+       loadCalendarRatesInAdvance: showRateCalendar,
+       showRateCalendar: showRateCalendar,         
+     })
+     var trigger = $("[show-booking-widget]")
+     trigger.click(function() {
+       bookingWidget.show()
+     });
+   })
 </script>
 
 <script>
