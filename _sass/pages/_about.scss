@@ -23,7 +23,7 @@
 	}
 }
 
-.rotate-left-banner{ 
+.rotate-left-banner{
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
@@ -39,13 +39,20 @@
         	color: $white;
         	position: absolute;
         }
-        .banner-detail{
+
+				.two-banners {
+					@include media-breakpoint-down(sm) {
+						flex-direction: column;
+					}
+				}
+
+        .banner-detail {
         	vertical-align: middle;
         	background-color: rgba($body-color, 0.85);
-        	max-width: 32rem;  
+        	max-width: 32rem;
         	padding: ($spacer*3) ($spacer*5);
         	text-align: center;
-        	p{ 
+        	p{
         		letter-spacing: 0.02rem;
         		a{
         			text-decoration: underline;
@@ -63,21 +70,42 @@
         			content: '';
         			width: 3rem;
         			height: 3px;
-        			position: absolute; 
-        			background-color: $white; 
+        			position: absolute;
+        			background-color: $white;
         		    left: calc(50% - 1.5rem);
         			bottom: 1rem;
         		}
         	}
         }
+
+  .banner-white {
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    h2 {
+      color: $black;
+      &:after {
+        background-color: $black;
+			}
+		}
+    p {
+      margin-bottom: .7rem;
+      color: $black;
+		}
+    @include media-breakpoint-down(sm) {
+      margin: 5px 0 0 !important;
+		}
+    a {
+      color: $black;
+		}
+	}
 }
 
 .cta-overlay{
-	@extend .cta; 
+	@extend .cta;
     @include media-breakpoint-up (md) {
        min-height: 39.38rem;
     }
     .bg-overlay{
         background-color: rgba($body-color,0.4);
     }
-} 
+}
