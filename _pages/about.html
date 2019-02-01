@@ -87,13 +87,20 @@ include_in_nav_localized:
     <p class="title">
     	Fitness
     </p>
-    <div class="banner-detail m-auto">
-    	{% regionblock about_gym_heading, type:header %}
-      <h2>Royalton Gym</h2>
-      {% endregionblock %}
-      {% regionblock about_gym_text, type:text %}
-      <p>Featuring state-of-the-art exercise equipment, the Fitness Center at Royalton is located on the 3rd floor and is accessible via guest room key.</p>
-      {% endregionblock %}
+    <div class="d-flex two-banners align-items-center m-auto">
+      <div class="banner-detail my-auto">
+      	{% regionblock about_gym_heading, type:header %}
+        <h2>Royalton Gym</h2>
+        {% endregionblock %}
+        {% regionblock about_gym_text, type:text %}
+        <p>Featuring state-of-the-art exercise equipment, the Fitness Center at Royalton is located on the 3rd floor and is accessible via guest room key.</p>
+        {% endregionblock %}
+      </div>
+      <div class="banner-detail banner-detail2 my-auto">
+        <h2>Aaptiv Guided Fitness Training</h2>
+        <p>Stay fit and feel your best during your stay with fitness classes led by expert personal trainers.</p>
+        <a href="/aaptiv/" class="link-text">Learn More</a>
+      </div>
     </div>
 </section>
 
