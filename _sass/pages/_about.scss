@@ -23,28 +23,32 @@
 	}
 }
 
-.rotate-left-banner{
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		height: 40.31rem;
-		background-color: $heading-color;
-		position: relative;
-        .title{
-        	@include rotate(90deg);
-        	@include transform-origin(left top);
-        	font-family: $header-font-family;
-        	font-size: $type-size-1 ;
-        	margin-left: 4%;
-        	color: $white;
-        	position: absolute;
-        }
+.rotate-left-banner {
+  position: relative;
+  height: 40.31rem;
+  background-color: $heading-color;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  .title {
+    @include rotate(90deg);
+    @include transform-origin(left top);
+    position: absolute;
+    margin-left: 4%;
+    font-family: $header-font-family;
+    font-size: $type-size-1 ;
+    color: $white;
+  }
 
-				.two-banners {
-					@include media-breakpoint-down(sm) {
-						flex-direction: column;
-					}
-				}
+  .two-banners {
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+
+      h2 {
+        font-size: 1.125rem;
+			}
+		}
+	}
 
         .banner-detail {
         	vertical-align: middle;
@@ -78,27 +82,14 @@
         	}
         }
 
-  .banner-white {
+  .banner-detail2 {
     margin-left: 10px;
-    background-color: rgba(255, 255, 255, .5);
-    h2 {
-      color: $black;
-      @include media-breakpoint-down(sm) {
-        font-size: 1.125rem;
-			}
-      &:after {
-        background-color: $black;
-			}
+    padding: 2.4rem 5rem;
+    @include media-breakpoint-down(sm) {
+      margin: 5px auto 0 !important;
 		}
     p {
-      margin-bottom: .3rem;
-      color: $black;
-		}
-    @include media-breakpoint-down(sm) {
-      margin: 5px 0 0 !important;
-		}
-    a {
-      color: $black;
+      margin-bottom: .1rem;
 		}
 	}
 }
